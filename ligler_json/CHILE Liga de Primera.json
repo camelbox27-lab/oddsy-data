@@ -1,0 +1,40 @@
+[
+  {
+    "Ülke": "Şili",
+    "Lig": "CHILE Liga de Primera",
+    "Sezon": "2024-2025",
+    "Tarih": "2025-07-19 00:00:00",
+    "Ev Sahibi": "Colo Colo",
+    "Deplasman": "La Serena",
+    "İlk Yarı Skor": null,
+    "Maç Sonucu Skor": null,
+    "İY/MS": null,
+    "Bet365 Açılış 1": 1.4,
+    "Bet365 Açılış 0": 4.5,
+    "Bet365 Açılış 2": 7.0,
+    "Bet365 Kapanış 1": 1.36,
+    "Bet365 Kapanış 0": 4.5,
+    "Bet365 Kapanış 2": 8.5,
+    "IY Sonuç": NaN,
+    "MS Sonuç": NaN
+  },
+  {
+    "Ülke": "Şili",
+    "Lig": "CHILE Liga de Primera",
+    "Sezon": "2024-2025",
+    "Tarih": "2025-07-19 00:00:00",
+    "Ev Sahibi": "U. Espanola",
+    "Deplasman": "U. Calera",
+    "İlk Yarı Skor": null,
+    "Maç Sonucu Skor": null,
+    "İY/MS": null,
+    "Bet365 Açılış 1": 2.45,
+    "Bet365 Açılış 0": 3.25,
+    "Bet365 Açılış 2": 2.7,
+    "Bet365 Kapanış 1": 2.45,
+    "Bet365 Kapanış 0": 3.25,
+    "Bet365 Kapanış 2": 2.88,
+    "IY Sonuç": NaN,
+    "MS Sonuç": NaN
+  }
+]
