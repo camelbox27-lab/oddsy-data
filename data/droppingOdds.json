@@ -121,6 +121,26 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Weston Workers",
+    "awayTeam": "Newcastle Olympic",
+    "saat": "11:00",
+    "tournament": "Northern NSW NPL",
+    "category": "Australia",
+    "dropPercentage": 22,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.62,
+      "X": 4.33,
+      "2": 3.9
+    },
+    "initialOdds": {
+      "1": 1.45,
+      "X": 4.5,
+      "2": 5.0
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
     "homeTeam": "Llaneros FC",
     "awayTeam": "Independiente Medellín",
     "saat": "02:20",
@@ -377,26 +397,6 @@
       "1": 1.53,
       "X": 3.9,
       "2": 5.25
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "USL Dunkerque",
-    "awayTeam": "Bastia",
-    "saat": "22:00",
-    "tournament": "Ligue 2",
-    "category": "France",
-    "dropPercentage": 9.9930763904916,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 1.85,
-      "X": 3.2,
-      "2": 3.9
-    },
-    "initialOdds": {
-      "1": 1.8,
-      "X": 3.1,
-      "2": 4.33
     }
   }
 ]
