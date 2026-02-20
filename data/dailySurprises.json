@@ -1,54 +1,5 @@
 [
   {
-    "home_team": "Shabab Al Ahli",
-    "away_team": "Al Hilal (Riyad",
-    "saat": "19:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.07
-  },
-  {
-    "home_team": "Atalanta",
-    "away_team": "Cremonese",
-    "saat": "20:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.5
-  },
-  {
-    "home_team": "Famalicao",
-    "away_team": "Avs",
-    "saat": "21:45",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.68
-  },
-  {
-    "home_team": "Celtic",
-    "away_team": "Dundee Utd",
-    "saat": "",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.17
-  },
-  {
-    "home_team": "Az Alkmaar",
-    "away_team": "Volendam",
-    "saat": "",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.42
-  },
-  {
-    "home_team": "Psv Eindhoven",
-    "away_team": "Excelsior",
-    "saat": "",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 3.39
-  },
-  {
-    "home_team": "Karabağ",
-    "away_team": "Newcastle",
-    "saat": "20:45",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.3
-  },
-  {
     "home_team": "Nordsjaelland",
     "away_team": "Vejle",
     "saat": "21:00",
