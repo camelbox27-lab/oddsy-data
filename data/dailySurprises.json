@@ -1,16 +1,23 @@
 [
   {
-    "home_team": "Nordsjaelland",
-    "away_team": "Vejle",
-    "saat": "21:00",
+    "home_team": "Venezia",
+    "away_team": "Pescara",
+    "saat": "17:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.98
+    "ms_5_5_ust": 6.48
   },
   {
-    "home_team": "Helmond",
-    "away_team": "Den Haag",
-    "saat": "22:00",
+    "home_team": "Winterthur",
+    "away_team": "Thun",
+    "saat": "20:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.72
+    "ms_5_5_ust": 6.13
+  },
+  {
+    "home_team": "Club Brugge",
+    "away_team": "OH Leuven",
+    "saat": "20:15",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 7.12
   }
 ]

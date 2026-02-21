@@ -1,51 +1,93 @@
 [
   {
-    "home_team": "Adelaide Utd",
-    "away_team": "Perth Glory",
-    "saat": "11:35",
+    "home_team": "Elversberg",
+    "away_team": "Braunschweig",
+    "saat": "15:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.27
+    "2_5_ust": 1.47
   },
   {
-    "home_team": "Nordsjaelland",
-    "away_team": "Vejle",
-    "saat": "21:00",
+    "home_team": "Reims",
+    "away_team": "Amiens",
+    "saat": "16:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.35
+    "2_5_ust": 1.54
   },
   {
-    "home_team": "Cambuur",
-    "away_team": "Waalwijk",
-    "saat": "22:00",
+    "home_team": "Middlesbrough",
+    "away_team": "Oxford Utd",
+    "saat": "18:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.5
+  },
+  {
+    "home_team": "Southampton",
+    "away_team": "Charlton",
+    "saat": "18:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.58
+  },
+  {
+    "home_team": "Konyaspor",
+    "away_team": "Galatasaray",
+    "saat": "20:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.39
+  },
+  {
+    "home_team": "Lecce",
+    "away_team": "Inter",
+    "saat": "20:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.85
+  },
+  {
+    "home_team": "Winterthur",
+    "away_team": "Thun",
+    "saat": "20:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.29
   },
   {
-    "home_team": "De Graafschap",
-    "away_team": "Jong Utrecht",
-    "saat": "22:00",
+    "home_team": "Club Brugge",
+    "away_team": "OH Leuven",
+    "saat": "20:15",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.21
+    "2_5_ust": 1.36
   },
   {
-    "home_team": "Emmen",
-    "away_team": "Jong PSV",
-    "saat": "22:00",
+    "home_team": "Osasuna",
+    "away_team": "Real Madrid",
+    "saat": "20:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.19
+    "2_5_ust": 1.46
   },
   {
-    "home_team": "FC Dordrecht",
-    "away_team": "Jong Ajax",
-    "saat": "22:00",
+    "home_team": "Ajax",
+    "away_team": "NEC Nijmegen",
+    "saat": "23:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.31
+    "2_5_ust": 1.26
   },
   {
-    "home_team": "Helmond",
-    "away_team": "Den Haag",
-    "saat": "22:00",
+    "home_team": "Atl. Madrid",
+    "away_team": "Espanyol",
+    "saat": "23:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.28
+    "2_5_ust": 1.64
+  },
+  {
+    "home_team": "Venezia",
+    "away_team": "Pescara",
+    "saat": "17:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.98
+  },
+  {
+    "home_team": "Moreirense",
+    "away_team": "Sporting CP",
+    "saat": "21:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 2.34
   }
 ]

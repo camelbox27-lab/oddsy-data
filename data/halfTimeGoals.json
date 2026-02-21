@@ -1,107 +1,192 @@
 [
   {
-    "home_team": "Adelaide Utd",
-    "away_team": "Perth Glory",
+    "home_team": "Sydney",
+    "away_team": "Brisbane",
+    "saat": "09:00"
+  },
+  {
+    "home_team": "Melbourne City",
+    "away_team": "Melbourne V.",
     "saat": "11:35"
   },
   {
-    "home_team": "Aus. Lustenau",
-    "away_team": "Kapfenberg",
+    "home_team": "Darmstadt 98",
+    "away_team": "F. Düsseldorf",
+    "saat": "15:00"
+  },
+  {
+    "home_team": "Elversberg",
+    "away_team": "Braunschweig",
+    "saat": "15:00"
+  },
+  {
+    "home_team": "Boluspor",
+    "away_team": "İstanbulspor",
+    "saat": "16:00"
+  },
+  {
+    "home_team": "R. Sociedad",
+    "away_team": "Real Oviedo",
+    "saat": "16:00"
+  },
+  {
+    "home_team": "Reims",
+    "away_team": "Amiens",
+    "saat": "16:00"
+  },
+  {
+    "home_team": "Troyes",
+    "away_team": "Pau",
+    "saat": "16:00"
+  },
+  {
+    "home_team": "Palermo",
+    "away_team": "Südtirol",
+    "saat": "17:00"
+  },
+  {
+    "home_team": "Venezia",
+    "away_team": "Pescara",
+    "saat": "17:00"
+  },
+  {
+    "home_team": "Köln",
+    "away_team": "Hoffenheim",
+    "saat": "17:30"
+  },
+  {
+    "home_team": "Aberdeen",
+    "away_team": "Dundee FC",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "Aston Villa",
+    "away_team": "Leeds United",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "Brentford",
+    "away_team": "Brighton",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "Chelsea",
+    "away_team": "Burnley",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "Dundee Utd.",
+    "away_team": "Kilmarnock",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "Middlesbrough",
+    "away_team": "Oxford Utd",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "P. Thistle",
+    "away_team": "Airdrieonian",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "RFC Seraing",
+    "away_team": "Kortrijk",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "Southampton",
+    "away_team": "Charlton",
+    "saat": "18:00"
+  },
+  {
+    "home_team": "FC Eindhoven",
+    "away_team": "Almere City",
+    "saat": "18:30"
+  },
+  {
+    "home_team": "Lens",
+    "away_team": "Monaco",
+    "saat": "19:00"
+  },
+  {
+    "home_team": "Rapid Wien",
+    "away_team": "Wolfsberger AC",
+    "saat": "19:00"
+  },
+  {
+    "home_team": "Konyaspor",
+    "away_team": "Galatasaray",
     "saat": "20:00"
   },
   {
-    "home_team": "Floridsdorfer",
-    "away_team": "Schwarz Weiss",
+    "home_team": "Lecce",
+    "away_team": "Inter",
     "saat": "20:00"
   },
   {
-    "home_team": "Rapid Wien II",
-    "away_team": "A. Salzburg",
+    "home_team": "Servette",
+    "away_team": "St. Gallen",
     "saat": "20:00"
   },
   {
-    "home_team": "Bochum",
-    "away_team": "Nürnberg",
+    "home_team": "Winterthur",
+    "away_team": "Thun",
+    "saat": "20:00"
+  },
+  {
+    "home_team": "Club Brugge",
+    "away_team": "OH Leuven",
+    "saat": "20:15"
+  },
+  {
+    "home_team": "Leipzig",
+    "away_team": "B. Dortmund",
     "saat": "20:30"
   },
   {
-    "home_team": "Greuther Fürth",
-    "away_team": "A. Bielefeld",
+    "home_team": "Osasuna",
+    "away_team": "Real Madrid",
     "saat": "20:30"
   },
   {
-    "home_team": "Union Berlin (K)",
-    "away_team": "Köln (K)",
+    "home_team": "West Ham",
+    "away_team": "Bournemouth",
     "saat": "20:30"
   },
   {
-    "home_team": "Nordsjaelland",
-    "away_team": "Vejle",
+    "home_team": "PSV",
+    "away_team": "Heerenveen",
+    "saat": "20:45"
+  },
+  {
+    "home_team": "Moreirense",
+    "away_team": "Sporting CP",
     "saat": "21:00"
   },
   {
-    "home_team": "Rapperswil",
-    "away_team": "Bellinzona",
-    "saat": "21:30"
+    "home_team": "Toulouse",
+    "away_team": "Paris FC",
+    "saat": "21:00"
   },
   {
-    "home_team": "Cambuur",
-    "away_team": "Waalwijk",
+    "home_team": "NAC Breda",
+    "away_team": "Volendam",
     "saat": "22:00"
   },
   {
-    "home_team": "De Graafschap",
-    "away_team": "Jong Utrecht",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "Emmen",
-    "away_team": "Jong PSV",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "F. Sittard",
-    "away_team": "Excelsior",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "FC Dordrecht",
-    "away_team": "Jong Ajax",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "Helmond",
-    "away_team": "Den Haag",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "VVV Venlo",
-    "away_team": "TOP Oss",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "Willem II",
-    "away_team": "Vitesse",
-    "saat": "22:00"
-  },
-  {
-    "home_team": "Etoile Carouge",
-    "away_team": "Yverdon",
-    "saat": "22:15"
-  },
-  {
-    "home_team": "Nyon",
-    "away_team": "Aarau",
-    "saat": "22:15"
-  },
-  {
-    "home_team": "Frosinone",
-    "away_team": "Empoli",
+    "home_team": "Grasshoppers",
+    "away_team": "Zürih",
     "saat": "22:30"
   },
   {
-    "home_team": "Ath. Bilbao",
-    "away_team": "Elche",
+    "home_team": "Ajax",
+    "away_team": "NEC Nijmegen",
+    "saat": "23:00"
+  },
+  {
+    "home_team": "Atl. Madrid",
+    "away_team": "Espanyol",
     "saat": "23:00"
   }
 ]
