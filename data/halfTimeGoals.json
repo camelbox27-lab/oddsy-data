@@ -1,10 +1,5 @@
 [
   {
-    "home_team": "Sydney",
-    "away_team": "Brisbane",
-    "saat": "09:00"
-  },
-  {
     "home_team": "Melbourne City",
     "away_team": "Melbourne V.",
     "saat": "11:35"
@@ -20,8 +15,28 @@
     "saat": "15:00"
   },
   {
+    "home_team": "Swansea City",
+    "away_team": "Bristol City",
+    "saat": "15:30"
+  },
+  {
+    "home_team": "West Bromwich",
+    "away_team": "Coventry",
+    "saat": "15:30"
+  },
+  {
+    "home_team": "Alanyaspor",
+    "away_team": "Başakşehir",
+    "saat": "16:00"
+  },
+  {
     "home_team": "Boluspor",
     "away_team": "İstanbulspor",
+    "saat": "16:00"
+  },
+  {
+    "home_team": "Hamburger SV (K)",
+    "away_team": "W. Bremen (K)",
     "saat": "16:00"
   },
   {
@@ -165,11 +180,6 @@
     "saat": "21:00"
   },
   {
-    "home_team": "Toulouse",
-    "away_team": "Paris FC",
-    "saat": "21:00"
-  },
-  {
     "home_team": "NAC Breda",
     "away_team": "Volendam",
     "saat": "22:00"
@@ -177,6 +187,11 @@
   {
     "home_team": "Grasshoppers",
     "away_team": "Zürih",
+    "saat": "22:30"
+  },
+  {
+    "home_team": "Schalke 04",
+    "away_team": "Magdeburg",
     "saat": "22:30"
   },
   {
