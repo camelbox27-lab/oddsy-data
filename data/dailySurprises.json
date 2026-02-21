@@ -4,7 +4,7 @@
     "away_team": "Pescara",
     "saat": "17:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.48
+    "ms_5_5_ust": 6.29
   },
   {
     "home_team": "Winterthur",
@@ -12,12 +12,5 @@
     "saat": "20:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 6.32
-  },
-  {
-    "home_team": "Club Brugge",
-    "away_team": "OH Leuven",
-    "saat": "20:15",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.12
   }
 ]

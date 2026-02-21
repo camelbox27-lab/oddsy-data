@@ -4,7 +4,7 @@
     "away_team": "Braunschweig",
     "saat": "15:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.47
+    "2_5_ust": 1.45
   },
   {
     "home_team": "Reims",
@@ -26,6 +26,13 @@
     "saat": "18:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.58
+  },
+  {
+    "home_team": "Lens",
+    "away_team": "Monaco",
+    "saat": "19:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.34
   },
   {
     "home_team": "Konyaspor",
@@ -56,18 +63,25 @@
     "2_5_ust": 1.36
   },
   {
+    "home_team": "Leipzig",
+    "away_team": "B. Dortmund",
+    "saat": "20:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.26
+  },
+  {
     "home_team": "Osasuna",
     "away_team": "Real Madrid",
     "saat": "20:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.44
+    "2_5_ust": 1.43
   },
   {
     "home_team": "NAC Breda",
     "away_team": "Volendam",
     "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.5
+    "2_5_ust": 1.46
   },
   {
     "home_team": "Atl. Madrid",
@@ -81,7 +95,7 @@
     "away_team": "Pescara",
     "saat": "17:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.98
+    "3_5_ust": 1.94
   },
   {
     "home_team": "Moreirense",
