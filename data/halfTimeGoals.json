@@ -1,197 +1,282 @@
 [
   {
-    "home_team": "Melbourne City",
-    "away_team": "Melbourne V.",
-    "saat": "11:35"
+    "event_id": 14671739,
+    "home_team": "Newcastle",
+    "away_team": "Macarthur",
+    "league": "",
+    "saat": "10:00"
   },
   {
-    "home_team": "Darmstadt 98",
-    "away_team": "F. Düsseldorf",
-    "saat": "15:00"
+    "event_id": 14326218,
+    "home_team": "Amstetten",
+    "away_team": "Wels",
+    "league": "",
+    "saat": "12:30"
   },
   {
-    "home_team": "Elversberg",
-    "away_team": "Braunschweig",
-    "saat": "15:00"
+    "event_id": 14138540,
+    "home_team": "Erzurumspor FK",
+    "away_team": "Serik Spor",
+    "league": "",
+    "saat": "13:30"
   },
   {
-    "home_team": "West Bromwich",
-    "away_team": "Coventry",
+    "event_id": 14056652,
+    "home_team": "Roda",
+    "away_team": "Maastricht",
+    "league": "",
+    "saat": "14:15"
+  },
+  {
+    "event_id": 14053616,
+    "home_team": "Twente",
+    "away_team": "Groningen",
+    "league": "",
+    "saat": "14:15"
+  },
+  {
+    "event_id": 14287042,
+    "home_team": "Ternana (K)",
+    "away_team": "Juventus (K)",
+    "league": "",
+    "saat": "14:30"
+  },
+  {
+    "event_id": 14032352,
+    "home_team": "Genk",
+    "away_team": "Standard Liege",
+    "league": "",
     "saat": "15:30"
   },
   {
-    "home_team": "Boluspor",
-    "away_team": "İstanbulspor",
+    "event_id": 14065453,
+    "home_team": "Hannover 96",
+    "away_team": "D. Dresden",
+    "league": "",
+    "saat": "15:30"
+  },
+  {
+    "event_id": 14109814,
+    "home_team": "Gaziantep FK",
+    "away_team": "Trabzonspor",
+    "league": "",
     "saat": "16:00"
   },
   {
-    "home_team": "Hamburger SV (K)",
-    "away_team": "W. Bremen (K)",
+    "event_id": 14422011,
+    "home_team": "Leverkusen (K)",
+    "away_team": "Hoffenheim (K)",
+    "league": "",
     "saat": "16:00"
   },
   {
-    "home_team": "R. Sociedad",
-    "away_team": "Real Oviedo",
+    "event_id": 13984680,
+    "home_team": "Randers",
+    "away_team": "Fredericia",
+    "league": "",
     "saat": "16:00"
   },
   {
-    "home_team": "Reims",
-    "away_team": "Amiens",
+    "event_id": 15362669,
+    "home_team": "Sion",
+    "away_team": "Young Boys",
+    "league": "",
     "saat": "16:00"
   },
   {
-    "home_team": "Troyes",
-    "away_team": "Pau",
+    "event_id": 15204329,
+    "home_team": "Vaduz",
+    "away_team": "N. Xamax",
+    "league": "",
     "saat": "16:00"
   },
   {
-    "home_team": "Palermo",
-    "away_team": "Südtirol",
+    "event_id": 14138534,
+    "home_team": "Çorum FK",
+    "away_team": "Ümraniyespor",
+    "league": "",
+    "saat": "16:00"
+  },
+  {
+    "event_id": 14053628,
+    "home_team": "Go Ahead",
+    "away_team": "Heracles",
+    "league": "",
+    "saat": "16:30"
+  },
+  {
+    "event_id": 14053635,
+    "home_team": "Utrecht",
+    "away_team": "Zwolle",
+    "league": "",
+    "saat": "16:30"
+  },
+  {
+    "event_id": 14024008,
+    "home_team": "Crystal Palace",
+    "away_team": "Wolverhampton",
+    "league": "",
     "saat": "17:00"
   },
   {
-    "home_team": "Venezia",
-    "away_team": "Pescara",
+    "event_id": 14024013,
+    "home_team": "Not. Forest",
+    "away_team": "Liverpool",
+    "league": "",
     "saat": "17:00"
   },
   {
-    "home_team": "Köln",
-    "away_team": "Hoffenheim",
-    "saat": "17:30"
-  },
-  {
-    "home_team": "Aberdeen",
-    "away_team": "Dundee FC",
+    "event_id": 14117825,
+    "home_team": "Beerschot VA",
+    "away_team": "RWDM Brussels",
+    "league": "",
     "saat": "18:00"
   },
   {
-    "home_team": "Aston Villa",
-    "away_team": "Leeds United",
+    "event_id": 14035280,
+    "home_team": "Celtic",
+    "away_team": "Hibernian",
+    "league": "",
     "saat": "18:00"
   },
   {
-    "home_team": "Brentford",
-    "away_team": "Brighton",
+    "event_id": 14035284,
+    "home_team": "Livingston",
+    "away_team": "Rangers",
+    "league": "",
     "saat": "18:00"
   },
   {
-    "home_team": "Chelsea",
-    "away_team": "Burnley",
+    "event_id": 13984682,
+    "home_team": "Silkeborg",
+    "away_team": "Midtjylland",
+    "league": "",
     "saat": "18:00"
   },
   {
-    "home_team": "Dundee Utd.",
-    "away_team": "Kilmarnock",
-    "saat": "18:00"
-  },
-  {
-    "home_team": "Middlesbrough",
-    "away_team": "Oxford Utd",
-    "saat": "18:00"
-  },
-  {
-    "home_team": "P. Thistle",
-    "away_team": "Airdrieonian",
-    "saat": "18:00"
-  },
-  {
-    "home_team": "RFC Seraing",
-    "away_team": "Kortrijk",
-    "saat": "18:00"
-  },
-  {
-    "home_team": "Southampton",
-    "away_team": "Charlton",
-    "saat": "18:00"
-  },
-  {
-    "home_team": "FC Eindhoven",
-    "away_team": "Almere City",
+    "event_id": 15362665,
+    "home_team": "Lugano",
+    "away_team": "Lausanne",
+    "league": "",
     "saat": "18:30"
   },
   {
-    "home_team": "Lens",
-    "away_team": "Monaco",
+    "event_id": 15362666,
+    "home_team": "Luzern",
+    "away_team": "Basel",
+    "league": "",
+    "saat": "18:30"
+  },
+  {
+    "event_id": 14053622,
+    "home_team": "AZ Alkmaar",
+    "away_team": "S. Rotterdam",
+    "league": "",
+    "saat": "18:45"
+  },
+  {
+    "event_id": 14065679,
+    "home_team": "LASK",
+    "away_team": "Salzburg",
+    "league": "",
     "saat": "19:00"
   },
   {
-    "home_team": "Rapid Wien",
-    "away_team": "Wolfsberger AC",
-    "saat": "19:00"
+    "event_id": 14167873,
+    "home_team": "Angers",
+    "away_team": "Lille",
+    "league": "",
+    "saat": "19:15"
   },
   {
-    "home_team": "Konyaspor",
-    "away_team": "Galatasaray",
+    "event_id": 14167867,
+    "home_team": "Nice",
+    "away_team": "Lorient",
+    "league": "",
+    "saat": "19:15"
+  },
+  {
+    "event_id": 14024012,
+    "home_team": "Tottenham",
+    "away_team": "Arsenal",
+    "league": "",
+    "saat": "19:30"
+  },
+  {
+    "event_id": 14109817,
+    "home_team": "Beşiktaş",
+    "away_team": "Göztepe",
+    "league": "",
     "saat": "20:00"
   },
   {
-    "home_team": "Lecce",
-    "away_team": "Inter",
+    "event_id": 14138530,
+    "home_team": "Bodrum FK",
+    "away_team": "Manisa FK",
+    "league": "",
     "saat": "20:00"
   },
   {
-    "home_team": "Servette",
-    "away_team": "St. Gallen",
+    "event_id": 14287047,
+    "home_team": "Fiorentina (K)",
+    "away_team": "Sassuolo (K)",
+    "league": "",
     "saat": "20:00"
   },
   {
-    "home_team": "Winterthur",
-    "away_team": "Thun",
+    "event_id": 13981680,
+    "home_team": "Milan",
+    "away_team": "Parma",
+    "league": "",
     "saat": "20:00"
   },
   {
-    "home_team": "Club Brugge",
-    "away_team": "OH Leuven",
-    "saat": "20:15"
-  },
-  {
-    "home_team": "Leipzig",
-    "away_team": "B. Dortmund",
+    "event_id": 14083577,
+    "home_team": "Celta Vigo",
+    "away_team": "Mallorca",
+    "league": "",
     "saat": "20:30"
   },
   {
-    "home_team": "Osasuna",
-    "away_team": "Real Madrid",
+    "event_id": 14433060,
+    "home_team": "SGS Essen (K)",
+    "away_team": "RB Leipzig (K)",
+    "league": "",
     "saat": "20:30"
   },
   {
-    "home_team": "West Ham",
-    "away_team": "Bournemouth",
-    "saat": "20:30"
+    "event_id": 14062222,
+    "home_team": "Heidenheim",
+    "away_team": "Stuttgart",
+    "league": "",
+    "saat": "21:30"
   },
   {
-    "home_team": "PSV",
-    "away_team": "Heerenveen",
-    "saat": "20:45"
-  },
-  {
-    "home_team": "Moreirense",
-    "away_team": "Sporting CP",
-    "saat": "21:00"
-  },
-  {
-    "home_team": "NAC Breda",
-    "away_team": "Volendam",
+    "event_id": 14053619,
+    "home_team": "Feyenoord",
+    "away_team": "Telstar",
+    "league": "",
     "saat": "22:00"
   },
   {
-    "home_team": "Grasshoppers",
-    "away_team": "Zürih",
-    "saat": "22:30"
+    "event_id": 13981682,
+    "home_team": "Roma",
+    "away_team": "Cremonese",
+    "league": "",
+    "saat": "22:45"
   },
   {
-    "home_team": "Schalke 04",
-    "away_team": "Magdeburg",
-    "saat": "22:30"
+    "event_id": 14064501,
+    "home_team": "Strasbourg",
+    "away_team": "Lyon",
+    "league": "",
+    "saat": "22:45"
   },
   {
-    "home_team": "Ajax",
-    "away_team": "NEC Nijmegen",
-    "saat": "23:00"
-  },
-  {
-    "home_team": "Atl. Madrid",
-    "away_team": "Espanyol",
+    "event_id": 14081796,
+    "home_team": "Villarreal",
+    "away_team": "Valencia",
+    "league": "",
     "saat": "23:00"
   }
 ]
