@@ -1,41 +1,12 @@
 [
   {
-    "event_id": 14056652,
-    "home_team": "Roda",
-    "away_team": "Maastricht",
+    "event_id": 15524575,
+    "home_team": "Emmen",
+    "away_team": "Jong Ajax",
     "league": "",
-    "saat": "14:15",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.88,
-    "status": "lost",
-    "score": "İY: 1-0 | MS: 2-0",
-    "autoUpdated": true,
-    "updatedAt": "00:17:09"
-  },
-  {
-    "event_id": 14035280,
-    "home_team": "Celtic",
-    "away_team": "Hibernian",
-    "league": "",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.88,
-    "status": "lost",
-    "score": "İY: 1-1 | MS: 1-2",
-    "autoUpdated": true,
-    "updatedAt": "00:17:09"
-  },
-  {
-    "event_id": 13984682,
-    "home_team": "Silkeborg",
-    "away_team": "Midtjylland",
-    "league": "",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.97,
-    "status": "lost",
-    "score": "İY: 0-1 | MS: 0-4",
-    "autoUpdated": true,
-    "updatedAt": "00:17:09"
+    "ms_5_5_ust": 5.05,
+    "tarih": "23.02.2026"
   }
 ]
