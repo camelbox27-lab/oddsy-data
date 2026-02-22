@@ -6,7 +6,11 @@
     "league": "",
     "saat": "14:15",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.88
+    "ms_5_5_ust": 4.88,
+    "status": "lost",
+    "score": "İY: 1-0 | MS: 2-0",
+    "autoUpdated": true,
+    "updatedAt": "00:14:32"
   },
   {
     "event_id": 14035280,
@@ -15,7 +19,11 @@
     "league": "",
     "saat": "18:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.88
+    "ms_5_5_ust": 6.88,
+    "status": "lost",
+    "score": "İY: 1-1 | MS: 1-2",
+    "autoUpdated": true,
+    "updatedAt": "00:14:32"
   },
   {
     "event_id": 13984682,
@@ -24,6 +32,10 @@
     "league": "",
     "saat": "18:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.97
+    "ms_5_5_ust": 5.97,
+    "status": "lost",
+    "score": "İY: 0-1 | MS: 0-4",
+    "autoUpdated": true,
+    "updatedAt": "00:14:32"
   }
 ]
