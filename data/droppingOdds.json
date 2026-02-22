@@ -61,37 +61,17 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Asociación Deportiva Tarma",
-    "awayTeam": "Universidad Técnica de Cajamarca",
-    "saat": "19:00",
-    "tournament": "Liga 1, Apertura",
-    "category": "Peru",
-    "dropPercentage": 33.913043478261,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 2.0,
-      "X": 3.25,
-      "2": 3.8
-    },
-    "initialOdds": {
-      "1": 1.6,
-      "X": 3.6,
-      "2": 5.75
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
     "homeTeam": "SK Sturm Graz",
     "awayTeam": "FC Blau Weiss Linz",
     "saat": "16:30",
     "tournament": "Austrian Bundesliga",
     "category": "Austria",
-    "dropPercentage": 31.818181818182,
+    "dropPercentage": 36.363636363636,
     "droppingChoice": "2",
     "currentOdds": {
-      "1": 2.01,
-      "X": 3.3,
-      "2": 3.75
+      "1": 2.05,
+      "X": 3.25,
+      "2": 3.5
     },
     "initialOdds": {
       "1": 1.56,
@@ -117,6 +97,26 @@
       "1": 1.09,
       "X": 7.5,
       "2": 17.0
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Asociación Deportiva Tarma",
+    "awayTeam": "Universidad Técnica de Cajamarca",
+    "saat": "19:00",
+    "tournament": "Liga 1, Apertura",
+    "category": "Peru",
+    "dropPercentage": 28.695652173913,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.85,
+      "X": 3.4,
+      "2": 4.1
+    },
+    "initialOdds": {
+      "1": 1.6,
+      "X": 3.6,
+      "2": 5.75
     }
   },
   {
@@ -177,26 +177,6 @@
       "1": 5.75,
       "X": 4.2,
       "2": 1.55
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "AZ Alkmaar",
-    "awayTeam": "Sparta Rotterdam",
-    "saat": "18:45",
-    "tournament": "VriendenLoterij Eredivisie",
-    "category": "Netherlands",
-    "dropPercentage": 24,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 1.95,
-      "X": 3.7,
-      "2": 3.8
-    },
-    "initialOdds": {
-      "1": 1.62,
-      "X": 4.0,
-      "2": 5.0
     }
   },
   {
@@ -281,6 +261,26 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Fatih Karagümrük",
+    "awayTeam": "Samsunspor",
+    "saat": "20:00",
+    "tournament": "Trendyol Süper Lig",
+    "category": "Turkey",
+    "dropPercentage": 19.047619047619,
+    "droppingChoice": "1",
+    "currentOdds": {
+      "1": 3.4,
+      "X": 3.2,
+      "2": 2.1
+    },
+    "initialOdds": {
+      "1": 4.2,
+      "X": 3.5,
+      "2": 1.76
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
     "homeTeam": "Municipal Pérez Zeledón",
     "awayTeam": "Guadalupe FC",
     "saat": "00:00",
@@ -297,6 +297,26 @@
       "1": 1.8,
       "X": 3.4,
       "2": 4.0
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "AZ Alkmaar",
+    "awayTeam": "Sparta Rotterdam",
+    "saat": "18:45",
+    "tournament": "VriendenLoterij Eredivisie",
+    "category": "Netherlands",
+    "dropPercentage": 18,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.85,
+      "X": 3.8,
+      "2": 4.1
+    },
+    "initialOdds": {
+      "1": 1.62,
+      "X": 4.0,
+      "2": 5.0
     }
   },
   {
@@ -331,32 +351,12 @@
     "currentOdds": {
       "1": 8.0,
       "X": 4.5,
-      "2": 1.35
+      "2": 1.37
     },
     "initialOdds": {
       "1": 9.5,
       "X": 4.5,
       "2": 1.35
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "OFI Crete",
-    "awayTeam": "Panathinaikos FC",
-    "saat": "17:00",
-    "tournament": "Stoiximan Super League",
-    "category": "Greece",
-    "dropPercentage": 15.789473684211,
-    "droppingChoice": "1",
-    "currentOdds": {
-      "1": 4.0,
-      "X": 3.4,
-      "2": 1.96
-    },
-    "initialOdds": {
-      "1": 4.75,
-      "X": 3.75,
-      "2": 1.71
     }
   },
   {
@@ -381,21 +381,21 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Celtic",
-    "awayTeam": "Hibernian",
-    "saat": "18:00",
-    "tournament": "Scottish Premiership",
-    "category": "Scotland",
+    "homeTeam": "Peñarol",
+    "awayTeam": "Deportivo Maldonado",
+    "saat": "02:30",
+    "tournament": "Liga AUF Uruguaya, Apertura",
+    "category": "Uruguay",
     "dropPercentage": 14.285714285714,
     "droppingChoice": "2",
     "currentOdds": {
-      "1": 1.45,
-      "X": 4.5,
+      "1": 1.5,
+      "X": 3.6,
       "2": 6.0
     },
     "initialOdds": {
-      "1": 1.37,
-      "X": 4.5,
+      "1": 1.4,
+      "X": 3.75,
       "2": 7.0
     }
   }
