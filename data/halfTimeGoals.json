@@ -1,90 +1,66 @@
 [
   {
-    "event_id": 14138543,
-    "home_team": "Sivasspor",
-    "away_team": "Sakaryaspor",
+    "event_id": 15452779,
+    "home_team": "Atl. Madrid",
+    "away_team": "Club Brugge",
     "league": "",
-    "saat": "13:30",
-    "tarih": "23.02.2026"
+    "saat": "20:45",
+    "tarih": "24.02.2026"
   },
   {
-    "event_id": 14143637,
-    "home_team": "Pendikspor",
-    "away_team": "Keçiörengücü",
-    "league": "",
-    "saat": "16:00",
-    "tarih": "23.02.2026"
-  },
-  {
-    "event_id": 14138539,
-    "home_team": "Amed SK",
-    "away_team": "Vanspor FK",
-    "league": "",
-    "saat": "20:00",
-    "tarih": "23.02.2026"
-  },
-  {
-    "event_id": 14109811,
-    "home_team": "Fenerbahçe",
-    "away_team": "Kasımpaşa",
-    "league": "",
-    "saat": "20:00",
-    "tarih": "23.02.2026"
-  },
-  {
-    "event_id": 14420782,
-    "home_team": "Frankfurt (K)",
-    "away_team": "Freiburg (K)",
-    "league": "",
-    "saat": "20:00",
-    "tarih": "23.02.2026"
-  },
-  {
-    "event_id": 13981677,
-    "home_team": "Fiorentina",
-    "away_team": "Pisa",
-    "league": "",
-    "saat": "20:30",
-    "tarih": "23.02.2026"
-  },
-  {
-    "event_id": 15524575,
-    "home_team": "Emmen",
-    "away_team": "Jong Ajax",
+    "event_id": 15551939,
+    "home_team": "Cambuur",
+    "away_team": "FC Eindhoven",
     "league": "",
     "saat": "22:00",
-    "tarih": "23.02.2026"
+    "tarih": "24.02.2026"
   },
   {
-    "event_id": 14056654,
-    "home_team": "Jong AZ",
-    "away_team": "Den Bosch",
+    "event_id": 15551942,
+    "home_team": "Willem II",
+    "away_team": "Den Haag",
     "league": "",
     "saat": "22:00",
-    "tarih": "23.02.2026"
+    "tarih": "24.02.2026"
   },
   {
-    "event_id": 13981675,
-    "home_team": "Bologna",
-    "away_team": "Udinese",
+    "event_id": 14059856,
+    "home_team": "Middlesbrough",
+    "away_team": "Leicester City",
     "league": "",
     "saat": "22:45",
-    "tarih": "23.02.2026"
+    "tarih": "24.02.2026"
   },
   {
-    "event_id": 15238290,
-    "home_team": "Everton",
-    "away_team": "Man. United",
+    "event_id": 15573447,
+    "home_team": "Queen's Park",
+    "away_team": "St. Johnstone",
+    "league": "",
+    "saat": "22:45",
+    "tarih": "24.02.2026"
+  },
+  {
+    "event_id": 14059858,
+    "home_team": "Swansea City",
+    "away_team": "Preston",
+    "league": "",
+    "saat": "22:45",
+    "tarih": "24.02.2026"
+  },
+  {
+    "event_id": 15452786,
+    "home_team": "B. Leverkusen",
+    "away_team": "Olympiakos",
     "league": "",
     "saat": "23:00",
-    "tarih": "23.02.2026"
+    "tarih": "24.02.2026"
   },
   {
-    "event_id": 14289002,
-    "home_team": "Famalicao",
-    "away_team": "Casa Pia",
+    "event_id": 15452764,
+    "home_team": "Inter",
+    "away_team": "Bodo/Glimt",
     "league": "",
-    "saat": "23:15",
-    "tarih": "23.02.2026"
+    "saat": "23:00",
+    "tarih": "24.02.2026"
   }
 ]
