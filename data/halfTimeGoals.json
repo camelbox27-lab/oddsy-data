@@ -1,66 +1,50 @@
 [
   {
-    "event_id": 15452779,
-    "home_team": "Atl. Madrid",
-    "away_team": "Club Brugge",
+    "event_id": 15452774,
+    "home_team": "Atalanta",
+    "away_team": "B. Dortmund",
     "league": "",
     "saat": "20:45",
-    "tarih": "24.02.2026"
+    "tarih": "25.02.2026"
   },
   {
-    "event_id": 15551939,
-    "home_team": "Cambuur",
-    "away_team": "FC Eindhoven",
+    "event_id": 15594738,
+    "home_team": "Winterthur",
+    "away_team": "Thun",
     "league": "",
-    "saat": "22:00",
-    "tarih": "24.02.2026"
+    "saat": "21:00",
+    "tarih": "25.02.2026"
   },
   {
-    "event_id": 15551942,
-    "home_team": "Willem II",
-    "away_team": "Den Haag",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "24.02.2026"
-  },
-  {
-    "event_id": 14059856,
-    "home_team": "Middlesbrough",
-    "away_team": "Leicester City",
+    "event_id": 14059861,
+    "home_team": "Norwich",
+    "away_team": "S. Wednesday",
     "league": "",
     "saat": "22:45",
-    "tarih": "24.02.2026"
+    "tarih": "25.02.2026"
   },
   {
-    "event_id": 15573447,
-    "home_team": "Queen's Park",
-    "away_team": "St. Johnstone",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "24.02.2026"
-  },
-  {
-    "event_id": 14059858,
-    "home_team": "Swansea City",
-    "away_team": "Preston",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "24.02.2026"
-  },
-  {
-    "event_id": 15452786,
-    "home_team": "B. Leverkusen",
-    "away_team": "Olympiakos",
+    "event_id": 15452770,
+    "home_team": "Juventus",
+    "away_team": "Galatasaray",
     "league": "",
     "saat": "23:00",
-    "tarih": "24.02.2026"
+    "tarih": "25.02.2026"
   },
   {
-    "event_id": 15452764,
-    "home_team": "Inter",
-    "away_team": "Bodo/Glimt",
+    "event_id": 15452752,
+    "home_team": "Real Madrid",
+    "away_team": "Benfica",
     "league": "",
     "saat": "23:00",
-    "tarih": "24.02.2026"
+    "tarih": "25.02.2026"
+  },
+  {
+    "event_id": 14059855,
+    "home_team": "Stoke City",
+    "away_team": "Oxford Utd",
+    "league": "",
+    "saat": "23:00",
+    "tarih": "25.02.2026"
   }
 ]

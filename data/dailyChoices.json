@@ -1,42 +1,32 @@
 [
   {
-    "event_id": 14059856,
-    "home_team": "Middlesbrough",
-    "away_team": "Leicester City",
+    "event_id": 15452752,
+    "home_team": "Real Madrid",
+    "away_team": "Benfica",
     "league": "",
-    "saat": "22:45",
+    "saat": "23:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.45,
-    "tarih": "24.02.2026"
+    "2_5_ust": 1.28,
+    "tarih": "25.02.2026"
   },
   {
-    "event_id": 15573447,
-    "home_team": "Queen's Park",
-    "away_team": "St. Johnstone",
+    "event_id": 15594738,
+    "home_team": "Winterthur",
+    "away_team": "Thun",
     "league": "",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.43,
-    "tarih": "24.02.2026"
-  },
-  {
-    "event_id": 15551939,
-    "home_team": "Cambuur",
-    "away_team": "FC Eindhoven",
-    "league": "",
-    "saat": "22:00",
+    "saat": "21:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.78,
-    "tarih": "24.02.2026"
+    "3_5_ust": 1.84,
+    "tarih": "25.02.2026"
   },
   {
-    "event_id": 15452764,
-    "home_team": "Inter",
-    "away_team": "Bodo/Glimt",
+    "event_id": 15452770,
+    "home_team": "Juventus",
+    "away_team": "Galatasaray",
     "league": "",
     "saat": "23:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.56,
-    "tarih": "24.02.2026"
+    "3_5_ust": 1.79,
+    "tarih": "25.02.2026"
   }
 ]
