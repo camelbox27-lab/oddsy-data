@@ -1,32 +1,12 @@
 [
   {
-    "event_id": 15594738,
-    "home_team": "Winterthur",
-    "away_team": "Thun",
+    "event_id": 15453079,
+    "home_team": "Stuttgart",
+    "away_team": "Celtic",
     "league": "",
-    "saat": "21:00",
+    "saat": "20:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.7,
-    "tarih": "25.02.2026"
-  },
-  {
-    "event_id": 15452770,
-    "home_team": "Juventus",
-    "away_team": "Galatasaray",
-    "league": "",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.39,
-    "tarih": "25.02.2026"
-  },
-  {
-    "event_id": 15452752,
-    "home_team": "Real Madrid",
-    "away_team": "Benfica",
-    "league": "",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.08,
-    "tarih": "25.02.2026"
+    "ms_5_5_ust": 4.89,
+    "tarih": "26.02.2026"
   }
 ]

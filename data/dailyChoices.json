@@ -1,32 +1,82 @@
 [
   {
-    "event_id": 15452752,
-    "home_team": "Real Madrid",
-    "away_team": "Benfica",
+    "event_id": 15453067,
+    "home_team": "Ferencvaros",
+    "away_team": "Ludogorets",
+    "league": "",
+    "saat": "20:45",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.48,
+    "tarih": "26.02.2026"
+  },
+  {
+    "event_id": 15380216,
+    "home_team": "Fiorentina",
+    "away_team": "J. Bialystok",
+    "league": "",
+    "saat": "20:45",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.49,
+    "tarih": "26.02.2026"
+  },
+  {
+    "event_id": 15453081,
+    "home_team": "Bologna",
+    "away_team": "Brann",
     "league": "",
     "saat": "23:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.28,
-    "tarih": "25.02.2026"
+    "2_5_ust": 1.6,
+    "tarih": "26.02.2026"
   },
   {
-    "event_id": 15594738,
-    "home_team": "Winterthur",
-    "away_team": "Thun",
-    "league": "",
-    "saat": "21:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.84,
-    "tarih": "25.02.2026"
-  },
-  {
-    "event_id": 15452770,
-    "home_team": "Juventus",
-    "away_team": "Galatasaray",
+    "event_id": 15453092,
+    "home_team": "Celta Vigo",
+    "away_team": "PAOK",
     "league": "",
     "saat": "23:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.7,
+    "tarih": "26.02.2026"
+  },
+  {
+    "event_id": 15453093,
+    "home_team": "Not. Forest",
+    "away_team": "Fenerbahçe",
+    "league": "",
+    "saat": "23:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.46,
+    "tarih": "26.02.2026"
+  },
+  {
+    "event_id": 15380215,
+    "home_team": "NK Celje",
+    "away_team": "Drita",
+    "league": "",
+    "saat": "20:45",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.79,
-    "tarih": "25.02.2026"
+    "3_5_ust": 2.13,
+    "tarih": "26.02.2026"
+  },
+  {
+    "event_id": 15380213,
+    "home_team": "Samsunspor",
+    "away_team": "FK Shkendija",
+    "league": "",
+    "saat": "20:45",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 2.43,
+    "tarih": "26.02.2026"
+  },
+  {
+    "event_id": 15453079,
+    "home_team": "Stuttgart",
+    "away_team": "Celtic",
+    "league": "",
+    "saat": "20:45",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.69,
+    "tarih": "26.02.2026"
   }
 ]
