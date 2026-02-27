@@ -7,7 +7,11 @@
     "saat": "20:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.54,
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "lost",
+    "score": "IY: 1-0 | MS: 1-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:24"
   },
   {
     "event_id": 14109824,
@@ -17,7 +21,11 @@
     "saat": "20:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.43,
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 1-1 | MS: 3-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:24"
   },
   {
     "event_id": 14056669,

@@ -5,7 +5,11 @@
     "away_team": "Konyaspor",
     "league": "",
     "saat": "20:00",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "lost",
+    "score": "IY: 0-0 | MS: 2-0",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14326230,
@@ -13,7 +17,11 @@
     "away_team": "A.Klagenfurt",
     "league": "",
     "saat": "20:00",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 1-0 | MS: 1-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14109824,
@@ -21,7 +29,11 @@
     "away_team": "F. Karagümrük",
     "league": "",
     "saat": "20:00",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 1-1 | MS: 3-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14065457,
@@ -29,7 +41,11 @@
     "away_team": "Bochum",
     "league": "",
     "saat": "20:30",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 1-0 | MS: 2-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14317724,
@@ -37,7 +53,11 @@
     "away_team": "Virtus Entella",
     "league": "",
     "saat": "21:00",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "lost",
+    "score": "IY: 0-0 | MS: 2-0",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 15204315,
@@ -45,7 +65,11 @@
     "away_team": "Yverdon",
     "league": "",
     "saat": "21:30",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 0-1 | MS: 0-4",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14288806,
@@ -53,7 +77,11 @@
     "away_team": "Arouca",
     "league": "",
     "saat": "21:45",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 1-0 | MS: 3-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14056658,
@@ -77,7 +105,11 @@
     "away_team": "Willem II",
     "league": "",
     "saat": "22:00",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 0-1 | MS: 0-3",
+    "autoUpdated": true,
+    "updatedAt": "23:52:22"
   },
   {
     "event_id": 14056663,
@@ -141,7 +173,11 @@
     "away_team": "FC Eindhoven",
     "league": "",
     "saat": "22:00",
-    "tarih": "27.02.2026"
+    "tarih": "27.02.2026",
+    "status": "won",
+    "score": "IY: 1-1 | MS: 2-1",
+    "autoUpdated": true,
+    "updatedAt": "23:52:23"
   },
   {
     "event_id": 15204327,
