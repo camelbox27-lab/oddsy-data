@@ -1,60 +1,152 @@
 [
   {
-    "event_id": 14326230,
-    "home_team": "Schwarz Weiss",
-    "away_team": "A.Klagenfurt",
+    "event_id": 14671743,
+    "home_team": "C. Mariners",
+    "away_team": "Newcastle",
     "league": "",
-    "saat": "20:00",
+    "saat": "09:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.54,
-    "tarih": "27.02.2026",
-    "status": "lost",
-    "score": "IY: 1-0 | MS: 1-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:24"
+    "2_5_ust": 1.2,
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14109824,
-    "home_team": "Trabzonspor",
-    "away_team": "F. Karagümrük",
+    "event_id": 13981683,
+    "home_team": "Como",
+    "away_team": "Lecce",
     "league": "",
-    "saat": "20:00",
+    "saat": "17:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.43,
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 1-1 | MS: 3-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:24"
+    "2_5_ust": 1.74,
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14056669,
-    "home_team": "Maastricht",
-    "away_team": "De Graafschap",
+    "event_id": 14317725,
+    "home_team": "Modena",
+    "away_team": "Padova",
     "league": "",
-    "saat": "22:00",
+    "saat": "17:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.66,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062227,
+    "home_team": "B. Leverkusen",
+    "away_team": "Mainz",
+    "league": "",
+    "saat": "17:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.44,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062231,
+    "home_team": "Hoffenheim",
+    "away_team": "St. Pauli",
+    "league": "",
+    "saat": "17:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.52,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062230,
+    "home_team": "Werder Bremen",
+    "away_team": "Heidenheim",
+    "league": "",
+    "saat": "17:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.46,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14035287,
+    "home_team": "Falkirk",
+    "away_team": "Kilmarnock",
+    "league": "",
+    "saat": "18:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.58,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14059870,
+    "home_team": "Ipswich Town",
+    "away_team": "Swansea City",
+    "league": "",
+    "saat": "18:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.57,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14023976,
+    "home_team": "Liverpool",
+    "away_team": "West Ham",
+    "league": "",
+    "saat": "18:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.28,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14023977,
+    "home_team": "Newcastle",
+    "away_team": "Everton",
+    "league": "",
+    "saat": "18:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.51,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062225,
+    "home_team": "B. Dortmund",
+    "away_team": "Bayern Münih",
+    "league": "",
+    "saat": "20:30",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.15,
-    "tarih": "27.02.2026"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14056673,
-    "home_team": "TOP Oss",
-    "away_team": "Cambuur",
+    "event_id": 14167881,
+    "home_team": "Monaco",
+    "away_team": "Angers",
     "league": "",
-    "saat": "22:00",
+    "saat": "21:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.35,
-    "tarih": "27.02.2026"
+    "2_5_ust": 1.46,
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14056656,
-    "home_team": "Den Haag",
-    "away_team": "VVV Venlo",
+    "event_id": 14288809,
+    "home_team": "Nacional",
+    "away_team": "Braga",
     "league": "",
-    "saat": "22:00",
+    "saat": "21:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.55,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 15362679,
+    "home_team": "St. Gallen",
+    "away_team": "Winterthur",
+    "league": "",
+    "saat": "20:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.67,
-    "tarih": "27.02.2026"
+    "3_5_ust": 1.72,
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14053653,
+    "home_team": "NEC Nijmegen",
+    "away_team": "F. Sittard",
+    "league": "",
+    "saat": "23:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.81,
+    "tarih": "28.02.2026"
   }
 ]

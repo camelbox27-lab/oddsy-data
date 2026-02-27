@@ -1,230 +1,386 @@
 [
   {
-    "event_id": 14109821,
-    "home_team": "Başakşehir",
-    "away_team": "Konyaspor",
+    "event_id": 14671741,
+    "home_team": "Auckland",
+    "away_team": "Melbourne City",
     "league": "",
-    "saat": "20:00",
-    "tarih": "27.02.2026",
-    "status": "lost",
-    "score": "IY: 0-0 | MS: 2-0",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "saat": "07:00",
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14326230,
-    "home_team": "Schwarz Weiss",
-    "away_team": "A.Klagenfurt",
+    "event_id": 14671743,
+    "home_team": "C. Mariners",
+    "away_team": "Newcastle",
     "league": "",
-    "saat": "20:00",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 1-0 | MS: 1-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "saat": "09:00",
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14109824,
-    "home_team": "Trabzonspor",
-    "away_team": "F. Karagümrük",
+    "event_id": 14671742,
+    "home_team": "Brisbane",
+    "away_team": "Perth Glory",
     "league": "",
-    "saat": "20:00",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 1-1 | MS: 3-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "saat": "10:00",
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14065457,
-    "home_team": "F. Düsseldorf",
-    "away_team": "Bochum",
+    "event_id": 14671744,
+    "home_team": "Macarthur",
+    "away_team": "WS Wanderers",
+    "league": "",
+    "saat": "11:35",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14138541,
+    "home_team": "Hatayspor",
+    "away_team": "Bodrum FK",
+    "league": "",
+    "saat": "13:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14109827,
+    "home_team": "Kasımpaşa",
+    "away_team": "Ç. Rizespor",
+    "league": "",
+    "saat": "13:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14065463,
+    "home_team": "A. Bielefeld",
+    "away_team": "Hannover 96",
+    "league": "",
+    "saat": "15:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14065455,
+    "home_team": "Holstein Kiel",
+    "away_team": "Elversberg",
+    "league": "",
+    "saat": "15:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14065458,
+    "home_team": "Kaiserslautern",
+    "away_team": "Paderborn",
+    "league": "",
+    "saat": "15:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14023970,
+    "home_team": "Bournemouth",
+    "away_team": "Sunderland",
+    "league": "",
+    "saat": "15:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14059874,
+    "home_team": "Portsmouth",
+    "away_team": "Hull City",
+    "league": "",
+    "saat": "15:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14064839,
+    "home_team": "Guingamp",
+    "away_team": "Rodez",
+    "league": "",
+    "saat": "16:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 13981683,
+    "home_team": "Como",
+    "away_team": "Lecce",
+    "league": "",
+    "saat": "17:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14317725,
+    "home_team": "Modena",
+    "away_team": "Padova",
+    "league": "",
+    "saat": "17:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062227,
+    "home_team": "B. Leverkusen",
+    "away_team": "Mainz",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062231,
+    "home_team": "Hoffenheim",
+    "away_team": "St. Pauli",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062230,
+    "home_team": "Werder Bremen",
+    "away_team": "Heidenheim",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14023975,
+    "home_team": "Burnley",
+    "away_team": "Brentford",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14059869,
+    "home_team": "Coventry",
+    "away_team": "Stoke City",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14035286,
+    "home_team": "Dundee FC",
+    "away_team": "Hibernian",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14035287,
+    "home_team": "Falkirk",
+    "away_team": "Kilmarnock",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14059870,
+    "home_team": "Ipswich Town",
+    "away_team": "Swansea City",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14023976,
+    "home_team": "Liverpool",
+    "away_team": "West Ham",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14035289,
+    "home_team": "Motherwell",
+    "away_team": "Dundee Utd.",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14023977,
+    "home_team": "Newcastle",
+    "away_team": "Everton",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14035446,
+    "home_team": "P. Thistle",
+    "away_team": "Arbroath",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14059875,
+    "home_team": "Preston",
+    "away_team": "Millwall",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14035448,
+    "home_team": "St. Johnstone",
+    "away_team": "Ayr Utd",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14081789,
+    "home_team": "Barcelona",
+    "away_team": "Villarreal",
+    "league": "",
+    "saat": "18:15",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14053659,
+    "home_team": "Heerenveen",
+    "away_team": "S. Rotterdam",
+    "league": "",
+    "saat": "18:30",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14109823,
+    "home_team": "Galatasaray",
+    "away_team": "Alanyaspor",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14109820,
+    "home_team": "Göztepe",
+    "away_team": "Eyüpspor",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 13981694,
+    "home_team": "Hellas Verona",
+    "away_team": "Napoli",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14143638,
+    "home_team": "Keçiörengücü",
+    "away_team": "Amed SK",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 15362679,
+    "home_team": "St. Gallen",
+    "away_team": "Winterthur",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 15204332,
+    "home_team": "Stade Ouchy",
+    "away_team": "Etoile Carouge",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 15362684,
+    "home_team": "Thun",
+    "away_team": "Luzern",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14062225,
+    "home_team": "B. Dortmund",
+    "away_team": "Bayern Münih",
     "league": "",
     "saat": "20:30",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 1-0 | MS: 2-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14317724,
-    "home_team": "Monza",
-    "away_team": "Virtus Entella",
+    "event_id": 14053644,
+    "home_team": "Heracles",
+    "away_team": "PSV",
+    "league": "",
+    "saat": "20:45",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14167881,
+    "home_team": "Monaco",
+    "away_team": "Angers",
     "league": "",
     "saat": "21:00",
-    "tarih": "27.02.2026",
-    "status": "lost",
-    "score": "IY: 0-0 | MS: 2-0",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 15204315,
-    "home_team": "Bellinzona",
-    "away_team": "Yverdon",
+    "event_id": 14288809,
+    "home_team": "Nacional",
+    "away_team": "Braga",
     "league": "",
-    "saat": "21:30",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 0-1 | MS: 0-4",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "saat": "21:00",
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14288806,
-    "home_team": "Porto",
-    "away_team": "Arouca",
+    "event_id": 14336365,
+    "home_team": "Uniao Leiria",
+    "away_team": "Portimonense",
     "league": "",
-    "saat": "21:45",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 1-0 | MS: 3-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
+    "saat": "21:00",
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14056658,
-    "home_team": "Den Bosch",
-    "away_team": "Roda",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056656,
-    "home_team": "Den Haag",
-    "away_team": "VVV Venlo",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056660,
-    "home_team": "Emmen",
-    "away_team": "Willem II",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 0-1 | MS: 0-3",
-    "autoUpdated": true,
-    "updatedAt": "23:52:22"
-  },
-  {
-    "event_id": 14056663,
-    "home_team": "Jong Ajax",
-    "away_team": "Helmond",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056667,
-    "home_team": "Jong PSV",
-    "away_team": "FC Dordrecht",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056665,
-    "home_team": "Jong Utrecht",
-    "away_team": "Almere City",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056669,
-    "home_team": "Maastricht",
-    "away_team": "De Graafschap",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056673,
-    "home_team": "TOP Oss",
-    "away_team": "Cambuur",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14053656,
-    "home_team": "Telstar",
-    "away_team": "NAC Breda",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056675,
-    "home_team": "Vitesse",
-    "away_team": "Jong AZ",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14056671,
-    "home_team": "Waalwijk",
-    "away_team": "FC Eindhoven",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "27.02.2026",
-    "status": "won",
-    "score": "IY: 1-1 | MS: 2-1",
-    "autoUpdated": true,
-    "updatedAt": "23:52:23"
-  },
-  {
-    "event_id": 15204327,
-    "home_team": "Aarau",
-    "away_team": "Rapperswil",
-    "league": "",
-    "saat": "22:15",
-    "tarih": "27.02.2026"
-  },
-  {
-    "event_id": 14062232,
-    "home_team": "Augsburg",
-    "away_team": "Köln",
+    "event_id": 14065462,
+    "home_team": "Greuther Fürth",
+    "away_team": "Schalke 04",
     "league": "",
     "saat": "22:30",
-    "tarih": "27.02.2026"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14326226,
-    "home_team": "St. Pölten",
-    "away_team": "Amstetten",
+    "event_id": 15362683,
+    "home_team": "Servette",
+    "away_team": "Sion",
     "league": "",
     "saat": "22:30",
-    "tarih": "27.02.2026"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14167891,
-    "home_team": "Strasbourg",
-    "away_team": "Lens",
+    "event_id": 14032425,
+    "home_team": "Anderlecht",
+    "away_team": "OH Leuven",
     "league": "",
     "saat": "22:45",
-    "tarih": "27.02.2026"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14023979,
-    "home_team": "Wolverhampton",
-    "away_team": "Aston Villa",
+    "event_id": 13981684,
+    "home_team": "Inter",
+    "away_team": "Genoa",
+    "league": "",
+    "saat": "22:45",
+    "tarih": "28.02.2026"
+  },
+  {
+    "event_id": 14053653,
+    "home_team": "NEC Nijmegen",
+    "away_team": "F. Sittard",
     "league": "",
     "saat": "23:00",
-    "tarih": "27.02.2026"
+    "tarih": "28.02.2026"
   },
   {
-    "event_id": 14288804,
-    "home_team": "Sporting CP",
-    "away_team": "Estoril",
+    "event_id": 14081795,
+    "home_team": "Real Oviedo",
+    "away_team": "Atl. Madrid",
     "league": "",
-    "saat": "23:45",
-    "tarih": "27.02.2026"
+    "saat": "23:00",
+    "tarih": "28.02.2026"
   }
 ]
