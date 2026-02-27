@@ -1,82 +1,52 @@
 [
   {
-    "event_id": 15453067,
-    "home_team": "Ferencvaros",
-    "away_team": "Ludogorets",
+    "event_id": 14326230,
+    "home_team": "Schwarz Weiss",
+    "away_team": "A.Klagenfurt",
     "league": "",
-    "saat": "20:45",
+    "saat": "20:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.48,
-    "tarih": "26.02.2026"
+    "2_5_ust": 1.54,
+    "tarih": "27.02.2026"
   },
   {
-    "event_id": 15380216,
-    "home_team": "Fiorentina",
-    "away_team": "J. Bialystok",
+    "event_id": 14109824,
+    "home_team": "Trabzonspor",
+    "away_team": "F. Karagümrük",
     "league": "",
-    "saat": "20:45",
+    "saat": "20:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.49,
-    "tarih": "26.02.2026"
+    "2_5_ust": 1.43,
+    "tarih": "27.02.2026"
   },
   {
-    "event_id": 15453081,
-    "home_team": "Bologna",
-    "away_team": "Brann",
+    "event_id": 14056669,
+    "home_team": "Maastricht",
+    "away_team": "De Graafschap",
     "league": "",
-    "saat": "23:00",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.6,
-    "tarih": "26.02.2026"
+    "2_5_ust": 1.15,
+    "tarih": "27.02.2026"
   },
   {
-    "event_id": 15453092,
-    "home_team": "Celta Vigo",
-    "away_team": "PAOK",
+    "event_id": 14056673,
+    "home_team": "TOP Oss",
+    "away_team": "Cambuur",
     "league": "",
-    "saat": "23:00",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.7,
-    "tarih": "26.02.2026"
+    "2_5_ust": 1.35,
+    "tarih": "27.02.2026"
   },
   {
-    "event_id": 15453093,
-    "home_team": "Not. Forest",
-    "away_team": "Fenerbahçe",
+    "event_id": 14056656,
+    "home_team": "Den Haag",
+    "away_team": "VVV Venlo",
     "league": "",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.46,
-    "tarih": "26.02.2026"
-  },
-  {
-    "event_id": 15380215,
-    "home_team": "NK Celje",
-    "away_team": "Drita",
-    "league": "",
-    "saat": "20:45",
+    "saat": "22:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 2.13,
-    "tarih": "26.02.2026"
-  },
-  {
-    "event_id": 15380213,
-    "home_team": "Samsunspor",
-    "away_team": "FK Shkendija",
-    "league": "",
-    "saat": "20:45",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.43,
-    "tarih": "26.02.2026"
-  },
-  {
-    "event_id": 15453079,
-    "home_team": "Stuttgart",
-    "away_team": "Celtic",
-    "league": "",
-    "saat": "20:45",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.69,
-    "tarih": "26.02.2026"
+    "3_5_ust": 1.67,
+    "tarih": "27.02.2026"
   }
 ]
