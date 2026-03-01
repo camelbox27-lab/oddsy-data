@@ -1,152 +1,112 @@
 [
   {
-    "event_id": 14671743,
-    "home_team": "C. Mariners",
-    "away_team": "Newcastle",
+    "event_id": 14671745,
+    "home_team": "Wellington P.",
+    "away_team": "Sydney",
     "league": "",
-    "saat": "09:00",
+    "saat": "05:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.2,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.35,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 13981683,
-    "home_team": "Como",
-    "away_team": "Lecce",
+    "event_id": 13981685,
+    "home_team": "Cremonese",
+    "away_team": "Milan",
+    "league": "",
+    "saat": "14:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.65,
+    "tarih": "01.03.2026"
+  },
+  {
+    "event_id": 15204333,
+    "home_team": "Vaduz",
+    "away_team": "Nyon",
+    "league": "",
+    "saat": "16:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.3,
+    "tarih": "01.03.2026"
+  },
+  {
+    "event_id": 14023978,
+    "home_team": "Man. United",
+    "away_team": "Crystal Palace",
     "league": "",
     "saat": "17:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.74,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.42,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14317725,
-    "home_team": "Modena",
-    "away_team": "Padova",
+    "event_id": 15362691,
+    "home_team": "Young Boys",
+    "away_team": "Zürih",
     "league": "",
-    "saat": "17:00",
+    "saat": "18:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.66,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.27,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14062227,
-    "home_team": "B. Leverkusen",
-    "away_team": "Mainz",
+    "event_id": 13984686,
+    "home_team": "Midtjylland",
+    "away_team": "Brondby",
     "league": "",
-    "saat": "17:30",
+    "saat": "19:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.4,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14062231,
-    "home_team": "Hoffenheim",
-    "away_team": "St. Pauli",
+    "event_id": 14065683,
+    "home_team": "Salzburg",
+    "away_team": "Hartberg",
     "league": "",
-    "saat": "17:30",
+    "saat": "19:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.52,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.38,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14062230,
-    "home_team": "Werder Bremen",
-    "away_team": "Heidenheim",
+    "event_id": 14167887,
+    "home_team": "Lille",
+    "away_team": "Nantes",
     "league": "",
-    "saat": "17:30",
+    "saat": "19:15",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.46,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.56,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14035287,
-    "home_team": "Falkirk",
-    "away_team": "Kilmarnock",
+    "event_id": 14023971,
+    "home_team": "Arsenal",
+    "away_team": "Chelsea",
     "league": "",
-    "saat": "18:00",
+    "saat": "19:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.58,
-    "tarih": "28.02.2026"
+    "2_5_ust": 1.5,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14059870,
-    "home_team": "Ipswich Town",
-    "away_team": "Swansea City",
-    "league": "",
-    "saat": "18:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "28.02.2026"
-  },
-  {
-    "event_id": 14023976,
-    "home_team": "Liverpool",
-    "away_team": "West Ham",
-    "league": "",
-    "saat": "18:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.28,
-    "tarih": "28.02.2026"
-  },
-  {
-    "event_id": 14023977,
-    "home_team": "Newcastle",
-    "away_team": "Everton",
-    "league": "",
-    "saat": "18:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.51,
-    "tarih": "28.02.2026"
-  },
-  {
-    "event_id": 14062225,
-    "home_team": "B. Dortmund",
-    "away_team": "Bayern Münih",
-    "league": "",
-    "saat": "20:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.15,
-    "tarih": "28.02.2026"
-  },
-  {
-    "event_id": 14167881,
-    "home_team": "Monaco",
-    "away_team": "Angers",
-    "league": "",
-    "saat": "21:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.46,
-    "tarih": "28.02.2026"
-  },
-  {
-    "event_id": 14288809,
-    "home_team": "Nacional",
-    "away_team": "Braga",
-    "league": "",
-    "saat": "21:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.55,
-    "tarih": "28.02.2026"
-  },
-  {
-    "event_id": 15362679,
-    "home_team": "St. Gallen",
-    "away_team": "Winterthur",
+    "event_id": 14109826,
+    "home_team": "Antalyaspor",
+    "away_team": "Fenerbahçe",
     "league": "",
     "saat": "20:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.72,
-    "tarih": "28.02.2026"
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.51,
+    "tarih": "01.03.2026"
   },
   {
-    "event_id": 14053653,
-    "home_team": "NEC Nijmegen",
-    "away_team": "F. Sittard",
+    "event_id": 14062234,
+    "home_team": "Stuttgart",
+    "away_team": "Wolfsburg",
     "league": "",
-    "saat": "23:00",
+    "saat": "17:30",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.81,
-    "tarih": "28.02.2026"
+    "3_5_ust": 1.79,
+    "tarih": "01.03.2026"
   }
 ]
