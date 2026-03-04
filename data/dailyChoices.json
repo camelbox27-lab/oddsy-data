@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "event_id": 14317733,
+    "home_team": "Frosinone",
+    "away_team": "Pescara",
+    "league": "",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.28,
+    "tarih": "04.03.2026"
+  },
+  {
+    "event_id": 14317739,
+    "home_team": "Palermo",
+    "away_team": "Mantova",
+    "league": "",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.56,
+    "tarih": "04.03.2026"
+  }
+]
