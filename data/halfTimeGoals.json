@@ -1,146 +1,282 @@
 [
   {
-    "event_id": 14671756,
-    "home_team": "Adelaide Utd",
-    "away_team": "Wellington P.",
+    "event_id": 14671750,
+    "home_team": "Sydney",
+    "away_team": "Melbourne V.",
     "league": "",
     "saat": "11:35",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14326254,
-    "home_team": "Amstetten",
-    "away_team": "A. Salzburg",
+    "event_id": 14138554,
+    "home_team": "Erzurumspor FK",
+    "away_team": "Manisa FK",
+    "league": "",
+    "saat": "13:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14065470,
+    "home_team": "Darmstadt 98",
+    "away_team": "Holstein Kiel",
+    "league": "",
+    "saat": "15:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14065471,
+    "home_team": "Nürnberg",
+    "away_team": "F. Düsseldorf",
+    "league": "",
+    "saat": "15:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14065466,
+    "home_team": "Paderborn",
+    "away_team": "Braunschweig",
+    "league": "",
+    "saat": "15:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14081805,
+    "home_team": "Osasuna",
+    "away_team": "Mallorca",
+    "league": "",
+    "saat": "16:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 13981693,
+    "home_team": "Cagliari",
+    "away_team": "Como",
+    "league": "",
+    "saat": "17:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14065186,
+    "home_team": "Heidenheim",
+    "away_team": "Hoffenheim",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14065180,
+    "home_team": "Leipzig",
+    "away_team": "Augsburg",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14065179,
+    "home_team": "Mainz",
+    "away_team": "Stuttgart",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14059880,
+    "home_team": "Bristol City",
+    "away_team": "Coventry",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 15589587,
+    "home_team": "Dundee FC",
+    "away_team": "Motherwell",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14035453,
+    "home_team": "G. Morton",
+    "away_team": "St. Johnstone",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14059883,
+    "home_team": "Ipswich Town",
+    "away_team": "Leicester City",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14059885,
+    "home_team": "Sheffield Utd",
+    "away_team": "West Bromwich",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14081802,
+    "home_team": "Levante",
+    "away_team": "Girona",
+    "league": "",
+    "saat": "18:15",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14056689,
+    "home_team": "Almere City",
+    "away_team": "Den Haag",
+    "league": "",
+    "saat": "18:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14288813,
+    "home_team": "Alverca",
+    "away_team": "AVS",
+    "league": "",
+    "saat": "18:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14053678,
+    "home_team": "Groningen",
+    "away_team": "Ajax",
+    "league": "",
+    "saat": "18:30",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14317751,
+    "home_team": "Venezia",
+    "away_team": "Reggiana",
+    "league": "",
+    "saat": "19:15",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14138563,
+    "home_team": "Amed SK",
+    "away_team": "Serik Spor",
     "league": "",
     "saat": "20:00",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14326241,
-    "home_team": "Floridsdorfer",
-    "away_team": "Sturm II",
+    "event_id": 13981695,
+    "home_team": "Atalanta",
+    "away_team": "Udinese",
     "league": "",
     "saat": "20:00",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14326244,
-    "home_team": "Liefering",
-    "away_team": "Schwarz Weiss",
+    "event_id": 14109838,
+    "home_team": "Beşiktaş",
+    "away_team": "Galatasaray",
     "league": "",
     "saat": "20:00",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14326248,
-    "home_team": "St. Pölten",
-    "away_team": "Rapid Wien II",
+    "event_id": 15362702,
+    "home_team": "Servette",
+    "away_team": "Zürih",
     "league": "",
     "saat": "20:00",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14065464,
-    "home_team": "Elversberg",
-    "away_team": "Magdeburg",
+    "event_id": 15362698,
+    "home_team": "Sion",
+    "away_team": "Winterthur",
+    "league": "",
+    "saat": "20:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14083602,
+    "home_team": "Atl. Madrid",
+    "away_team": "R. Sociedad",
     "league": "",
     "saat": "20:30",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14065475,
-    "home_team": "Schalke 04",
-    "away_team": "A. Bielefeld",
+    "event_id": 14065185,
+    "home_team": "Köln",
+    "away_team": "B. Dortmund",
     "league": "",
     "saat": "20:30",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 15204336,
-    "home_team": "Rapperswil",
-    "away_team": "Vaduz",
-    "league": "",
-    "saat": "21:30",
-    "tarih": "06.03.2026"
-  },
-  {
-    "event_id": 14117844,
-    "home_team": "Beerschot VA",
-    "away_team": "KRC Genk U23",
+    "event_id": 14053691,
+    "home_team": "PSV",
+    "away_team": "AZ Alkmaar",
     "league": "",
     "saat": "22:00",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14056677,
-    "home_team": "FC Dordrecht",
-    "away_team": "Maastricht",
+    "event_id": 14064719,
+    "home_team": "St Etienne",
+    "away_team": "Red Star",
     "league": "",
     "saat": "22:00",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14056679,
-    "home_team": "FC Eindhoven",
-    "away_team": "Jong Ajax",
+    "event_id": 14065468,
+    "home_team": "Bochum",
+    "away_team": "Kaiserslautern",
     "league": "",
-    "saat": "22:00",
-    "tarih": "06.03.2026"
+    "saat": "22:30",
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14056681,
-    "home_team": "Helmond",
-    "away_team": "TOP Oss",
+    "event_id": 15362700,
+    "home_team": "Lugano",
+    "away_team": "Luzern",
     "league": "",
-    "saat": "22:00",
-    "tarih": "06.03.2026"
+    "saat": "22:30",
+    "tarih": "07.03.2026"
   },
   {
-    "event_id": 14053687,
-    "home_team": "Heracles",
-    "away_team": "Utrecht",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "06.03.2026"
-  },
-  {
-    "event_id": 14056683,
-    "home_team": "Roda",
-    "away_team": "Jong PSV",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "06.03.2026"
-  },
-  {
-    "event_id": 14064722,
-    "home_team": "Rodez",
-    "away_team": "Grenoble",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "06.03.2026"
-  },
-  {
-    "event_id": 14056686,
-    "home_team": "VVV Venlo",
-    "away_team": "Waalwijk",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "06.03.2026"
-  },
-  {
-    "event_id": 15204343,
-    "home_team": "Etoile Carouge",
-    "away_team": "Aarau",
-    "league": "",
-    "saat": "22:15",
-    "tarih": "06.03.2026"
-  },
-  {
-    "event_id": 13981702,
-    "home_team": "Napoli",
-    "away_team": "Torino",
+    "event_id": 13981697,
+    "home_team": "Juventus",
+    "away_team": "Pisa",
     "league": "",
     "saat": "22:45",
-    "tarih": "06.03.2026"
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14083597,
+    "home_team": "Ath. Bilbao",
+    "away_team": "Barcelona",
+    "league": "",
+    "saat": "23:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14053669,
+    "home_team": "Excelsior",
+    "away_team": "Heerenveen",
+    "league": "",
+    "saat": "23:00",
+    "tarih": "07.03.2026"
+  },
+  {
+    "event_id": 14288814,
+    "home_team": "Estoril",
+    "away_team": "Casa Pia",
+    "league": "",
+    "saat": "23:30",
+    "tarih": "07.03.2026"
   }
 ]
