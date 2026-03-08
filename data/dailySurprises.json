@@ -1,42 +1,32 @@
 [
   {
-    "event_id": 14065186,
-    "home_team": "Heidenheim",
-    "away_team": "Hoffenheim",
+    "event_id": 14065469,
+    "home_team": "Hannover 96",
+    "away_team": "Greuther Fürth",
     "league": "",
-    "saat": "17:30",
+    "saat": "15:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.93,
-    "tarih": "07.03.2026"
+    "ms_5_5_ust": 6.62,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 14065180,
-    "home_team": "Leipzig",
-    "away_team": "Augsburg",
+    "event_id": 14056696,
+    "home_team": "Cambuur",
+    "away_team": "Jong Utrecht",
     "league": "",
-    "saat": "17:30",
+    "saat": "18:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.7,
-    "tarih": "07.03.2026"
+    "ms_5_5_ust": 5.16,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 15362698,
-    "home_team": "Sion",
-    "away_team": "Winterthur",
-    "league": "",
-    "saat": "20:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.4,
-    "tarih": "07.03.2026"
-  },
-  {
-    "event_id": 14053691,
-    "home_team": "PSV",
-    "away_team": "AZ Alkmaar",
+    "event_id": 14053672,
+    "home_team": "NEC Nijmegen",
+    "away_team": "Volendam",
     "league": "",
     "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.41,
-    "tarih": "07.03.2026"
+    "ms_5_5_ust": 4.66,
+    "tarih": "08.03.2026"
   }
 ]

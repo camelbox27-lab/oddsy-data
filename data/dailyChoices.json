@@ -1,92 +1,82 @@
 [
   {
-    "event_id": 14138554,
-    "home_team": "Erzurumspor FK",
-    "away_team": "Manisa FK",
+    "event_id": 14326246,
+    "home_team": "Admira",
+    "away_team": "A.Klagenfurt",
     "league": "",
-    "saat": "13:30",
+    "saat": "12:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
-    "tarih": "07.03.2026"
+    "2_5_ust": 1.57,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 14065466,
-    "home_team": "Paderborn",
-    "away_team": "Braunschweig",
+    "event_id": 14081803,
+    "home_team": "Villarreal",
+    "away_team": "Elche",
     "league": "",
-    "saat": "15:00",
+    "saat": "16:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "07.03.2026"
+    "2_5_ust": 1.38,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 13981693,
-    "home_team": "Cagliari",
-    "away_team": "Como",
+    "event_id": 14053675,
+    "home_team": "Go Ahead",
+    "away_team": "Twente",
     "league": "",
-    "saat": "17:00",
+    "saat": "16:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.77,
-    "tarih": "07.03.2026"
+    "2_5_ust": 1.38,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 14065186,
-    "home_team": "Heidenheim",
-    "away_team": "Hoffenheim",
+    "event_id": 14056692,
+    "home_team": "Willem II",
+    "away_team": "Den Bosch",
     "league": "",
-    "saat": "17:30",
+    "saat": "16:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.27,
-    "tarih": "07.03.2026"
+    "2_5_ust": 1.26,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 14059883,
-    "home_team": "Ipswich Town",
-    "away_team": "Leicester City",
+    "event_id": 14056696,
+    "home_team": "Cambuur",
+    "away_team": "Jong Utrecht",
     "league": "",
-    "saat": "18:00",
+    "saat": "18:45",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.52,
-    "tarih": "07.03.2026"
+    "2_5_ust": 1.23,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 15362702,
-    "home_team": "Servette",
-    "away_team": "Zürih",
+    "event_id": 14109834,
+    "home_team": "Fenerbahçe",
+    "away_team": "Samsunspor",
     "league": "",
     "saat": "20:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.39,
-    "tarih": "07.03.2026"
+    "2_5_ust": 1.53,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 14065180,
-    "home_team": "Leipzig",
-    "away_team": "Augsburg",
+    "event_id": 14065469,
+    "home_team": "Hannover 96",
+    "away_team": "Greuther Fürth",
     "league": "",
-    "saat": "17:30",
+    "saat": "15:30",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.84,
-    "tarih": "07.03.2026"
+    "3_5_ust": 2.0,
+    "tarih": "08.03.2026"
   },
   {
-    "event_id": 15362698,
-    "home_team": "Sion",
-    "away_team": "Winterthur",
-    "league": "",
-    "saat": "20:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.97,
-    "tarih": "07.03.2026"
-  },
-  {
-    "event_id": 14053691,
-    "home_team": "PSV",
-    "away_team": "AZ Alkmaar",
+    "event_id": 14053672,
+    "home_team": "NEC Nijmegen",
+    "away_team": "Volendam",
     "league": "",
     "saat": "22:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.61,
-    "tarih": "07.03.2026"
+    "3_5_ust": 1.65,
+    "tarih": "08.03.2026"
   }
 ]
