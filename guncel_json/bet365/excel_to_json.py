@@ -122,30 +122,6 @@ if en_guncel_json:
     shutil.copy2(en_guncel_json, "gunlukmaclar.json")
     print(f"\n  {YELLOW}► gunlukmaclar.json{RESET} = {en_guncel_json} kopyası (fallback)")
 
-# ── iddaa_gunlukmaclar.json = oran data içindeki güncel İddaa maçları ─────────
-iddaa_kaynak = os.path.join(os.path.dirname(script_dir), "oran data", "gunlukmaclar.json")
-iddaa_hedef = os.path.join(script_dir, "iddaa_gunlukmaclar.json")
-
-if os.path.exists(iddaa_kaynak):
-    try:
-        with open(iddaa_kaynak, "r", encoding="utf-8") as f:
-            iddaa_veri = json.load(f)
-
-        normalize_edilmis = []
-        for idx, mac in enumerate(iddaa_veri):
-            kayit = dict(mac)
-            ms_kodu = str(mac.get("MS Kodu", "")).strip()
-            kayit["Id"] = int(ms_kodu) if ms_kodu.isdigit() else idx + 1
-            kayit["Ev"] = mac.get("Ev Sahibi") or mac.get("Ev") or ""
-            kayit["Dep"] = mac.get("Konuk Ekip") or mac.get("Dep") or ""
-            normalize_edilmis.append(kayit)
-
-        with open(iddaa_hedef, "w", encoding="utf-8") as f:
-            json.dump(normalize_edilmis, f, ensure_ascii=False, indent=2)
-
-        print(f"  {YELLOW}► iddaa_gunlukmaclar.json{RESET} = oran data/gunlukmaclar.json kopyası")
-    except Exception as e:
-        print(f"  {RED}✗ iddaa_gunlukmaclar.json oluşturulamadı: {e}{RESET}")
 
 # ── GitHub'a push ──────────────────────────────────────────────────────────────
 baris("-")
@@ -153,15 +129,15 @@ print(f"  GITHUB'A YÜKLENİYOR...")
 baris("-")
 
 try:
-    repo_dir = os.path.dirname(script_dir)
+    repo_dir = os.path.dirname(os.path.dirname(script_dir))  # oddsy-data koku
 
     tarih_aralik = (
         f"{donusturulan[0][0].strftime('%d.%m')}"
         + (f"-{donusturulan[-1][0].strftime('%d.%m.%Y')}" if len(donusturulan) > 1 else f".{donusturulan[0][0].strftime('%Y')}")
     )
 
-    # ── git add (tüm guncel_json klasörünü ekle - silinen/değişen her şey dahil)
-    r = subprocess.run(["git", "add", "-A", "guncel_json/"], cwd=repo_dir, capture_output=True, text=True)
+    # ── git add (sadece bet365 klasörü)
+    r = subprocess.run(["git", "add", "-A", "guncel_json/bet365/"], cwd=repo_dir, capture_output=True, text=True)
     if r.returncode != 0:
         print(f"  {RED}[git add HATA]{RESET} {r.stderr.strip()}")
         raise Exception("stop")
