@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "event_id": 14065559,
+    "home_team": "M'gladbach",
+    "away_team": "Hoffenheim",
+    "league": "",
+    "saat": "16:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.69,
+    "tarih": "16.05.2026"
+  },
+  {
+    "event_id": 15260802,
+    "home_team": "Molde",
+    "away_team": "Kristiansund",
+    "league": "",
+    "saat": "17:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.03,
+    "tarih": "16.05.2026"
+  },
+  {
+    "event_id": 15260816,
+    "home_team": "Bodo/Glimt",
+    "away_team": "Tromsö",
+    "league": "",
+    "saat": "19:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.62,
+    "tarih": "16.05.2026"
+  },
+  {
+    "event_id": 14288901,
+    "home_team": "Sporting CP",
+    "away_team": "Gil Vicente",
+    "league": "",
+    "saat": "22:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.1,
+    "tarih": "16.05.2026"
+  }
+]
