@@ -16,7 +16,7 @@
     "league": "",
     "saat": "15:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.42,
+    "2_5_ust": 1.37,
     "tarih": "17.05.2026"
   },
   {
@@ -36,7 +36,7 @@
     "league": "",
     "saat": "15:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.12,
+    "2_5_ust": 1.1,
     "tarih": "17.05.2026"
   },
   {
@@ -190,16 +190,6 @@
     "tarih": "17.05.2026"
   },
   {
-    "event_id": 13980067,
-    "home_team": "Inter",
-    "away_team": "Hellas Verona",
-    "league": "",
-    "saat": "16:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.04,
-    "tarih": "17.05.2026"
-  },
-  {
     "event_id": 14065546,
     "home_team": "Elversberg",
     "away_team": "Preussen M.",
@@ -220,23 +210,13 @@
     "tarih": "17.05.2026"
   },
   {
-    "event_id": 14061909,
-    "home_team": "Nice",
-    "away_team": "Metz",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.92,
-    "tarih": "17.05.2026"
-  },
-  {
     "event_id": 14083666,
     "home_team": "Barcelona",
     "away_team": "Real Betis",
     "league": "",
     "saat": "22:15",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.6,
+    "3_5_ust": 1.59,
     "tarih": "17.05.2026"
   }
 ]
