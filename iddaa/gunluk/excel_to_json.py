@@ -7,7 +7,7 @@ KULLANIM:
   3. JSON otomatik oluşturulur ve GitHub'a push edilir
 
 GITHUB: camelbox27-lab/oddsy-data
-JSON PATH: guncel_json/iddaa/gunlukmaclar.json
+JSON PATH: iddaa/gunluk/gunlukmaclar.json
 """
 
 import os
@@ -27,7 +27,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_DIR   = os.path.dirname(os.path.dirname(SCRIPT_DIR))  # oddsy-data kök
 EXCEL_FILE = os.path.join(SCRIPT_DIR, "gunlukmaclar.xlsx")
 JSON_FILE  = os.path.join(SCRIPT_DIR, "gunlukmaclar.json")
-GIT_PATH   = "guncel_json/iddaa/gunlukmaclar.json"
+GIT_PATH   = "iddaa/gunluk/gunlukmaclar.json"
 
 print("=" * 55)
 print("  ODDSY - IDDAA GUNLUK MAC GUNCELLEME")
