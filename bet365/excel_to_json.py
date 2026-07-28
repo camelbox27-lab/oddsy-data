@@ -13,7 +13,7 @@ KULLANIM:
   3. Site her gün otomatik o günün verisini gösterir
 
 GITHUB REPO: camelbox27-lab/oddsy-data
-Site URL   : https://raw.githubusercontent.com/camelbox27-lab/oddsy-data/main/guncel_json/DDMMYYYY.json
+Site URL   : https://raw.githubusercontent.com/camelbox27-lab/oddsy-data/main/bet365/gunlukmaclar.json
 """
 
 import os
@@ -129,7 +129,7 @@ print(f"  GITHUB'A YÜKLENİYOR...")
 baris("-")
 
 try:
-    repo_dir = os.path.dirname(os.path.dirname(script_dir))  # oddsy-data koku
+    repo_dir = os.path.dirname(script_dir)  # oddsy-data koku
 
     tarih_aralik = (
         f"{donusturulan[0][0].strftime('%d.%m')}"
@@ -137,7 +137,7 @@ try:
     )
 
     # ── git add (sadece bet365 klasörü)
-    r = subprocess.run(["git", "add", "-A", "guncel_json/bet365/"], cwd=repo_dir, capture_output=True, text=True)
+    r = subprocess.run(["git", "add", "-A", "bet365/"], cwd=repo_dir, capture_output=True, text=True)
     if r.returncode != 0:
         print(f"  {RED}[git add HATA]{RESET} {r.stderr.strip()}")
         raise Exception("stop")
