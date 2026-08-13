@@ -68,5 +68,25 @@
     "kategori": "3.5 Üst",
     "3_5_ust": 2.02,
     "tarih": "13.08.2026"
+  },
+  {
+    "event_id": 16585863,
+    "home_team": "Shelbourne",
+    "away_team": "Ajax",
+    "league": "",
+    "saat": "21:45",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.7,
+    "tarih": "13.08.2026"
+  },
+  {
+    "event_id": 16585866,
+    "home_team": "Hajduk Split",
+    "away_team": "Zalgiris",
+    "league": "",
+    "saat": "22:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.99,
+    "tarih": "13.08.2026"
   }
 ]
