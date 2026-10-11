@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "event_id": 16362022,
+    "home_team": "Motherwell",
+    "away_team": "Celtic",
+    "league": "",
+    "saat": "14:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.13,
+    "tarih": "11.10.2026"
+  },
+  {
+    "event_id": 16357103,
+    "home_team": "Grasshoppers",
+    "away_team": "Young Boys",
+    "league": "",
+    "saat": "15:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 3.56,
+    "tarih": "11.10.2026"
+  },
+  {
+    "event_id": 15272537,
+    "home_team": "Hacken",
+    "away_team": "Örgryte",
+    "league": "",
+    "saat": "17:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.85,
+    "tarih": "11.10.2026"
+  },
+  {
+    "event_id": 16357104,
+    "home_team": "St. Gallen",
+    "away_team": "Lausanne",
+    "league": "",
+    "saat": "17:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.08,
+    "tarih": "11.10.2026"
+  }
+]
