@@ -1,0 +1,7 @@
+# Surumler sabitlendi: bet365 JSON ciktisi pandas'in to_json bicimine bagli ve
+# sitenin okudugu mevcut JSON ile byte duzeyinde ayni kalmasi gerekiyor.
+requests==2.34.2
+urllib3==2.8.0
+beautifulsoup4==4.15.0
+openpyxl==3.1.5
+pandas==3.0.5

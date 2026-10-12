@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oddsy Veri Güncelle</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="ikon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f1115">
+<meta name="mobile-web-app-capable" content="yes">
+<style>
+  :root {
+    --zemin: #0f1115;
+    --kart: #171a21;
+    --kart-kenar: #262b36;
+    --yazi: #e8eaed;
+    --yazi-soluk: #9aa3b2;
+    --yesil: #22c55e;
+    --yesil-koyu: #15803d;
+    --mavi: #3b82f6;
+    --mavi-koyu: #1d4ed8;
+    --kirmizi: #ef4444;
+    --sari: #eab308;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { color-scheme: dark; }
+  body {
+    margin: 0;
+    padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
+    background: var(--zemin);
+    color: var(--yazi);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+    max-width: 520px;
+    margin-inline: auto;
+    min-height: 100vh;
+  }
+  h1 { font-size: 20px; margin: 0 0 4px; letter-spacing: -0.3px; }
+  .alt { color: var(--yazi-soluk); font-size: 13px; margin: 0 0 24px; }
+
+  button {
+    font: inherit;
+    border: 0;
+    border-radius: 14px;
+    color: #fff;
+    width: 100%;
+    padding: 22px 16px;
+    font-size: 19px;
+    font-weight: 650;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: transform .08s, filter .15s;
+  }
+  button:active:not(:disabled) { transform: scale(.98); }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+  .btn-iddaa  { background: linear-gradient(160deg, var(--yesil), var(--yesil-koyu)); }
+  .btn-bet365 { background: linear-gradient(160deg, var(--mavi), var(--mavi-koyu)); }
+  .btn-ikisi {
+    background: transparent;
+    border: 1px solid var(--kart-kenar);
+    color: var(--yazi-soluk);
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .butonlar { display: grid; gap: 12px; }
+  .butonlar small { display: block; font-size: 12.5px; font-weight: 400; opacity: .8; margin-top: 3px; }
+
+  .kart {
+    background: var(--kart);
+    border: 1px solid var(--kart-kenar);
+    border-radius: 14px;
+    padding: 16px;
+    margin-top: 20px;
+  }
+  .kart h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: var(--yazi-soluk);
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  #durum { font-size: 14.5px; margin: 0; display: flex; gap: 9px; align-items: flex-start; }
+  #durum .nokta {
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--yazi-soluk); flex: 0 0 auto; margin-top: 7px;
+  }
+  .bekliyor .nokta { background: var(--sari); animation: nabiz 1.2s ease-in-out infinite; }
+  .tamam .nokta    { background: var(--yesil); }
+  .hata .nokta     { background: var(--kirmizi); }
+  @keyframes nabiz { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+
+  #kayit {
+    margin: 10px 0 0; padding: 0; list-style: none;
+    font-size: 12.5px; color: var(--yazi-soluk);
+    border-top: 1px solid var(--kart-kenar); padding-top: 10px;
+  }
+  #kayit:empty { display: none; }
+  #kayit li { padding: 2px 0; font-variant-numeric: tabular-nums; }
+
+  input {
+    font: inherit; font-size: 15px;
+    width: 100%; padding: 12px 14px;
+    background: var(--zemin);
+    border: 1px solid var(--kart-kenar);
+    border-radius: 10px;
+    color: var(--yazi);
+  }
+  input:focus { outline: 2px solid var(--mavi); outline-offset: -1px; }
+  .yardim { font-size: 12.5px; color: var(--yazi-soluk); margin: 10px 0 0; }
+  .yardim a { color: var(--mavi); }
+  details summary {
+    cursor: pointer; font-size: 13px; color: var(--yazi-soluk);
+    padding: 4px 0; list-style: none;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: "⚙  "; }
+  .satir { display: flex; gap: 8px; margin-top: 10px; }
+  .satir button {
+    width: auto; padding: 12px 18px; font-size: 14.5px; font-weight: 600;
+    background: var(--kart-kenar); color: var(--yazi); border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Oddsy Veri Güncelle</h1>
+<p class="alt">Butona bas → sunucu veriyi çeker → Excel + JSON siteye yüklenir.</p>
+
+<div class="butonlar">
+  <button class="btn-iddaa"  data-is="iddaa">İDDAA ÇEK
+    <small>günlük bülten → iddaa/gunluk/gunlukmaclar</small></button>
+  <button class="btn-bet365" data-is="bet365">BET365 ÇEK
+    <small>bugünün maçları → bet365/GGAAYYYY</small></button>
+  <button class="btn-ikisi"  data-is="ikisi">İkisini birden çek</button>
+</div>
+
+<div class="kart">
+  <h2>Durum</h2>
+  <p id="durum"><span class="nokta"></span><span id="durum-yazi">Hazır.</span></p>
+  <ul id="kayit"></ul>
+</div>
+
+<div class="kart">
+  <details id="ayar">
+    <summary>GitHub erişim anahtarı</summary>
+    <div class="satir">
+      <input id="token" type="password" placeholder="github_pat_..." autocomplete="off"
+             spellcheck="false">
+      <button id="kaydet">Kaydet</button>
+    </div>
+    <p class="yardim">
+      Fine-grained token, <b>sadece oddsy-data</b> deposu ve <b>Actions: Read&nbsp;and&nbsp;write</b>
+      izniyle yeterli. Telefonun tarayıcısında saklanır, siteye gönderilmez.<br>
+      <a href="https://github.com/settings/personal-access-tokens/new" target="_blank"
+         rel="noopener">Token oluştur →</a>
+    </p>
+  </details>
+</div>
+
+<script>
+const DEPO     = "camelbox27-lab/oddsy-data";
+const AKIS     = "veri-guncelle.yml";
+const DAL      = "main";
+const API      = "https://api.github.com";
+const ANAHTAR  = "oddsy_token";
+
+const butonlar  = [...document.querySelectorAll("[data-is]")];
+const durumEl   = document.getElementById("durum");
+const yaziEl    = document.getElementById("durum-yazi");
+const kayitEl   = document.getElementById("kayit");
+const tokenEl   = document.getElementById("token");
+const ayarEl    = document.getElementById("ayar");
+
+// ── token saklama (yalnizca bu tarayicida) ──────────────────────────────────
+function tokenOku() {
+  try { return localStorage.getItem(ANAHTAR) || ""; } catch { return ""; }
+}
+function tokenYaz(v) {
+  try { localStorage.setItem(ANAHTAR, v); } catch {}
+}
+
+tokenEl.value = tokenOku();
+if (!tokenEl.value) ayarEl.open = true;
+
+document.getElementById("kaydet").onclick = () => {
+  tokenYaz(tokenEl.value.trim());
+  durum("Anahtar kaydedildi.", "tamam");
+  ayarEl.open = false;
+};
+
+// ── durum gosterimi ─────────────────────────────────────────────────────────
+function durum(metin, sinif = "") {
+  yaziEl.textContent = metin;
+  durumEl.className = sinif;
+}
+function kaydet(metin) {
+  const li = document.createElement("li");
+  const s = new Date().toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" });
+  li.textContent = `${s}  ${metin}`;
+  kayitEl.prepend(li);
+  while (kayitEl.children.length > 6) kayitEl.lastChild.remove();
+}
+function kilitle(acik) {
+  butonlar.forEach(b => b.disabled = acik);
+}
+
+async function istek(yol, secenek = {}) {
+  const token = tokenOku();
+  if (!token) throw new Error("Önce GitHub erişim anahtarını kaydet.");
+  const y = await fetch(API + yol, {
+    ...secenek,
+    headers: {
+      "Accept": "application/vnd.github+json",
+      "Authorization": "Bearer " + token,
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(secenek.body ? { "Content-Type": "application/json" } : {}),
+      ...secenek.headers,
+    },
+  });
+  if (y.status === 401) throw new Error("Anahtar geçersiz veya süresi dolmuş.");
+  if (y.status === 403) throw new Error("Anahtarda Actions yazma izni yok.");
+  if (y.status === 404) throw new Error("Akış bulunamadı — veri-guncelle.yml main dalında mı?");
+  if (!y.ok) throw new Error(`GitHub ${y.status}: ${(await y.text()).slice(0, 120)}`);
+  return y.status === 204 ? null : y.json();
+}
+
+// ── calismayi izle ──────────────────────────────────────────────────────────
+const bekle = ms => new Promise(r => setTimeout(r, ms));
+
+async function calismayiBul(baslangic) {
+  // dispatch bir id dondurmez; bu yuzden tetikleme sonrasi olusan ilk calismayi bulur
+  for (let i = 0; i < 20; i++) {
+    const d = await istek(`/repos/${DEPO}/actions/workflows/${AKIS}/runs?per_page=5`);
+    const c = (d.workflow_runs || []).find(r => new Date(r.created_at).getTime() >= baslangic - 15000);
+    if (c) return c;
+    await bekle(3000);
+  }
+  return null;
+}
+
+async function izle(id) {
+  while (true) {
+    const r = await istek(`/repos/${DEPO}/actions/runs/${id}`);
+    if (r.status === "completed") return r;
+    durum(r.status === "queued" ? "Sıraya alındı, runner bekleniyor..."
+                                : "Veri çekiliyor, bu birkaç dakika sürebilir...", "bekliyor");
+    await bekle(6000);
+  }
+}
+
+async function tetikle(is_) {
+  kilitle(true);
+  const baslangic = Date.now();
+  try {
+    durum("Tetikleniyor...", "bekliyor");
+    await istek(`/repos/${DEPO}/actions/workflows/${AKIS}/dispatches`, {
+      method: "POST",
+      body: JSON.stringify({ ref: DAL, inputs: { hangisi: is_ } }),
+    });
+
+    durum("Tetiklendi, çalışma aranıyor...", "bekliyor");
+    const c = await calismayiBul(baslangic);
+    if (!c) {
+      durum("Tetiklendi ama çalışma bulunamadı. GitHub Actions sekmesine bak.", "hata");
+      kaydet(`${is_}: tetiklendi (izlenemedi)`);
+      return;
+    }
+
+    const son = await izle(c.id);
+    if (son.conclusion === "success") {
+      durum(`${is_.toUpperCase()} tamamlandı — veri siteye yüklendi.`, "tamam");
+      kaydet(`${is_}: başarılı`);
+    } else {
+      durum(`${is_.toUpperCase()} başarısız (${son.conclusion}). Günlüğe bak.`, "hata");
+      kaydet(`${is_}: ${son.conclusion}`);
+    }
+  } catch (e) {
+    durum(e.message, "hata");
+    kaydet(`${is_}: hata`);
+    if (/anahtar/i.test(e.message)) ayarEl.open = true;
+  } finally {
+    kilitle(false);
+  }
+}
+
+butonlar.forEach(b => b.onclick = () => tetikle(b.dataset.is));
+</script>
+</body>
+</html>
