@@ -1,92 +1,32 @@
 [
   {
-    "event_id": 16362022,
-    "home_team": "Motherwell",
-    "away_team": "Celtic",
+    "event_id": 16864321,
+    "home_team": "Pakhtakor",
+    "away_team": "Al-Qadsiah",
     "league": "",
-    "saat": "14:00",
+    "saat": "16:45",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.31,
-    "tarih": "11.10.2026"
+    "2_5_ust": 1.44,
+    "tarih": "12.10.2026"
   },
   {
-    "event_id": 16429249,
-    "home_team": "Hertha Berlin",
-    "away_team": "Greuther Fürth",
+    "event_id": 16864326,
+    "home_team": "Al Jawiya",
+    "away_team": "Al Ain",
     "league": "",
-    "saat": "14:30",
+    "saat": "21:15",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.2,
-    "tarih": "11.10.2026"
+    "2_5_ust": 1.46,
+    "tarih": "12.10.2026"
   },
   {
-    "event_id": 16429242,
-    "home_team": "St. Pauli",
-    "away_team": "Karlsruher",
+    "event_id": 15272543,
+    "home_team": "IF Elfsborg",
+    "away_team": "Halmstads BK",
     "league": "",
-    "saat": "14:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.39,
-    "tarih": "11.10.2026"
-  },
-  {
-    "event_id": 16357103,
-    "home_team": "Grasshoppers",
-    "away_team": "Young Boys",
-    "league": "",
-    "saat": "15:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.09,
-    "tarih": "11.10.2026"
-  },
-  {
-    "event_id": 15272528,
-    "home_team": "Hammarby",
-    "away_team": "Djurgarden",
-    "league": "",
-    "saat": "15:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.37,
-    "tarih": "11.10.2026"
-  },
-  {
-    "event_id": 16421067,
-    "home_team": "R. Sociedad",
-    "away_team": "Deportivo",
-    "league": "",
-    "saat": "17:15",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.74,
-    "tarih": "11.10.2026"
-  },
-  {
-    "event_id": 16357104,
-    "home_team": "St. Gallen",
-    "away_team": "Lausanne",
-    "league": "",
-    "saat": "17:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.23,
-    "tarih": "11.10.2026"
-  },
-  {
-    "event_id": 16421054,
-    "home_team": "Real Betis",
-    "away_team": "Osasuna",
-    "league": "",
-    "saat": "19:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.66,
-    "tarih": "11.10.2026"
-  },
-  {
-    "event_id": 15272537,
-    "home_team": "Hacken",
-    "away_team": "Örgryte",
-    "league": "",
-    "saat": "17:30",
+    "saat": "20:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.71,
-    "tarih": "11.10.2026"
+    "3_5_ust": 2.15,
+    "tarih": "12.10.2026"
   }
 ]
