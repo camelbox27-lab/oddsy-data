@@ -69,6 +69,21 @@
     font-weight: 500;
   }
   .butonlar { display: grid; gap: 12px; }
+  .grup { display: grid; gap: 0; }
+  .btn-iddaa, .btn-bet365 {
+    display: flex; align-items: center; justify-content: center; gap: 12px;
+  }
+  .btn-iddaa img, .btn-bet365 img {
+    width: 40px; height: 40px; border-radius: 9px; background: #fff;
+    object-fit: contain; flex: 0 0 auto;
+  }
+  .bdurum {
+    margin: 0; font-size: 13.5px; line-height: 1.45;
+    color: var(--yazi-soluk); padding: 7px 4px 0;
+  }
+  .bdurum:empty { display: none; }
+  .bdurum.tamam { color: var(--yesil); }
+  .bdurum.hata  { color: var(--kirmizi); }
   .ayirac { border: 0; border-top: 1px solid var(--kart-kenar); margin: 8px 0 2px; }
   .butonlar small { display: block; font-size: 12.5px; font-weight: 400; opacity: .8; margin-top: 3px; }
 
@@ -135,18 +150,40 @@
 <p class="alt">Butona bas → sunucu veriyi çeker → Excel + JSON siteye yüklenir.</p>
 
 <div class="butonlar">
-  <button class="btn-iddaa"  data-is="iddaa">İDDAA ÇEK
-    <small>günlük bülten → iddaa/gunluk/gunlukmaclar</small></button>
-  <button class="btn-bet365" data-is="bet365">BET365 ÇEK
-    <small>bugünün maçları → bet365/GGAAYYYY</small></button>
-  <button class="btn-ikisi"  data-is="ikisi">İkisini birden çek</button>
+  <div class="grup">
+    <button class="btn-iddaa" data-is="iddaa">
+      <img src="iddaa.png" alt="" width="40" height="40">
+      <span>VERİLERİ ÇEK YÜKLE</span>
+    </button>
+    <p class="bdurum" data-durum="iddaa"></p>
+  </div>
+
+  <div class="grup">
+    <button class="btn-bet365" data-is="bet365">
+      <img src="bet365.png" alt="" width="40" height="40">
+      <span>VERİLERİ ÇEK YÜKLE</span>
+    </button>
+    <p class="bdurum" data-durum="bet365"></p>
+  </div>
+
+  <div class="grup">
+    <button class="btn-ikisi" data-is="ikisi">İkisini birden çek</button>
+    <p class="bdurum" data-durum="ikisi"></p>
+  </div>
 
   <hr class="ayirac">
 
-  <button class="btn-menu"   data-is="menu">MENÜ YÜKLE
-    <small>günün bülteni + tahminler → data/</small></button>
-  <button class="btn-istat"  data-is="istatistik">İSTATİSTİK
-    <small>kart &amp; korner → data/kart, data/korner</small></button>
+  <div class="grup">
+    <button class="btn-menu" data-is="menu">MENÜ YÜKLE
+      <small>günün bülteni + tahminler → data/</small></button>
+    <p class="bdurum" data-durum="menu"></p>
+  </div>
+
+  <div class="grup">
+    <button class="btn-istat" data-is="istatistik">İSTATİSTİK
+      <small>kart &amp; korner → data/kart, data/korner</small></button>
+    <p class="bdurum" data-durum="istatistik"></p>
+  </div>
 </div>
 
 <div class="kart">
@@ -208,6 +245,14 @@ function durum(metin, sinif = "") {
   yaziEl.textContent = metin;
   durumEl.className = sinif;
 }
+
+// Basilan butonun hemen altindaki satiri gunceller
+function butonDurum(is_, metin, sinif = "") {
+  const el = document.querySelector(`[data-durum="${is_}"]`);
+  if (!el) return;
+  el.textContent = metin;
+  el.className = "bdurum" + (sinif ? " " + sinif : "");
+}
 function kaydet(metin) {
   const li = document.createElement("li");
   const s = new Date().toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" });
@@ -266,6 +311,7 @@ async function izle(id) {
 async function tetikle(is_) {
   kilitle(true);
   const baslangic = Date.now();
+  butonDurum(is_, "Tetikleniyor...");
   try {
     durum("Tetikleniyor...", "bekliyor");
     await istek(`/repos/${DEPO}/actions/workflows/${AKIS}/dispatches`, {
@@ -277,20 +323,28 @@ async function tetikle(is_) {
     const c = await calismayiBul(baslangic);
     if (!c) {
       durum("Tetiklendi ama çalışma bulunamadı. GitHub Actions sekmesine bak.", "hata");
+      butonDurum(is_, "Tetiklendi ama izlenemedi", "hata");
       kaydet(`${is_}: tetiklendi (izlenemedi)`);
       return;
     }
 
+    butonDurum(is_, "Çalışıyor...");
     const son = await izle(c.id);
+    const saat = new Date().toLocaleTimeString("tr-TR",
+      { hour: "2-digit", minute: "2-digit" });
+
     if (son.conclusion === "success") {
       durum(`${is_.toUpperCase()} tamamlandı — veri siteye yüklendi.`, "tamam");
+      butonDurum(is_, `✅ Siteye veri yüklendi — ${saat}`, "tamam");
       kaydet(`${is_}: başarılı`);
     } else {
       durum(`${is_.toUpperCase()} başarısız (${son.conclusion}). Günlüğe bak.`, "hata");
+      butonDurum(is_, `❌ Başarısız (${son.conclusion}) — ${saat}`, "hata");
       kaydet(`${is_}: ${son.conclusion}`);
     }
   } catch (e) {
     durum(e.message, "hata");
+    butonDurum(is_, `❌ ${e.message}`, "hata");
     kaydet(`${is_}: hata`);
     if (/anahtar/i.test(e.message)) ayarEl.open = true;
   } finally {
