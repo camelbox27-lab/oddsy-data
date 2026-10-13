@@ -12,6 +12,14 @@
 
 beautifulsoup4==4.12.3
 cloudscraper==1.2.71
+
+# Sofascore icin KRITIK. sofa/sofa_session.py bunu try/except ile import edip
+# curl_requests.Session(impersonate="safari") kuruyor; yoksa sessizce duz
+# requests'e dusuyor ve Python TLS parmak izi yuzunden Sofascore 403 basiyor.
+# Gelen 403'un govdesinde "challenge" gecmedigi icin tarayici fallback'i de
+# devreye girmiyor ve pipeline 3. adimda duruyor.
+# bot/requirements.txt'te de eksik.
+curl_cffi==0.16.3
 openpyxl==3.1.2
 pandas==2.1.4
 pytz==2025.2
