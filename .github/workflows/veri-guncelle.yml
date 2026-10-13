@@ -15,6 +15,7 @@ on:
           - ikisi
           - menu
           - istatistik
+          - teshis
 
 # Ayni anda iki calisma main'e push etmeye kalkmasin.
 concurrency:
@@ -131,7 +132,7 @@ jobs:
   # pandas 2.x istiyor, yukaridaki is ise pandas 3.x'e sabitli (bet365 JSON'unun
   # byte uyumu buna bagli). Ayni runner'da ikisi bir arada kurulamaz.
   bot:
-    if: inputs.hangisi == 'menu' || inputs.hangisi == 'istatistik'
+    if: inputs.hangisi == 'menu' || inputs.hangisi == 'istatistik' || inputs.hangisi == 'teshis'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     env:
@@ -156,6 +157,13 @@ jobs:
         # adiyla arar (CI yolu). Depo zaten burasi oldugu icin koke sembolik bag
         # kurulur; .gitignore'da oldugu icin commit'e girmez.
         run: ln -sfn "$GITHUB_WORKSPACE" otomasyon/bot/oddsy-data
+
+      # Gecici teshis: Sofascore 403'unun sebebini olcer (bkz. otomasyon/sofa_teshis.py)
+      - name: Sofascore teshis
+        id: teshis
+        if: inputs.hangisi == 'teshis'
+        continue-on-error: true
+        run: python otomasyon/sofa_teshis.py
 
       # Sofascore dogrulamasi headless Chrome'u reddediyor (bkz. sofa_session.py),
       # runner'da da ekran yok: Chrome sanal ekranda (Xvfb) acilir.
@@ -216,7 +224,8 @@ jobs:
         run: |
           menu="${{ steps.menu.outcome }}"
           ist="${{ steps.istatistik.outcome }}"
-          if [ "$menu" = "success" ] || [ "$ist" = "success" ]; then
+          tes="${{ steps.teshis.outcome }}"
+          if [ "$menu" = "success" ] || [ "$ist" = "success" ] || [ "$tes" = "success" ]; then
             echo "Pipeline basarili."
             exit 0
           fi
