@@ -157,13 +157,24 @@ jobs:
         # kurulur; .gitignore'da oldugu icin commit'e girmez.
         run: ln -sfn "$GITHUB_WORKSPACE" otomasyon/bot/oddsy-data
 
+      # Sofascore dogrulamasi headless Chrome'u reddediyor (bkz. sofa_session.py),
+      # runner'da da ekran yok: Chrome sanal ekranda (Xvfb) acilir.
+      # Playwright channel="chrome" kullandigi icin runner'in kendi Chrome'u yeterli,
+      # ayrica tarayici indirmeye gerek yok.
+      - name: Sanal ekran hazirla
+        if: inputs.hangisi == 'menu'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb
+          google-chrome --version
+
       # --- menu: gunun bulteni + tahminler (kendi push'unu yapar)
       - name: Menu yukle
         id: menu
         if: inputs.hangisi == 'menu'
         continue-on-error: true
         working-directory: otomasyon/bot
-        run: python main.py
+        run: xvfb-run -a --server-args="-screen 0 1920x1080x24" python main.py
 
       # --- istatistik: kart & korner (sadece data/ icine kopyalar, push etmez)
       - name: Istatistik

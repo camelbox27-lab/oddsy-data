@@ -19,3 +19,10 @@ pytz==2025.2
 # Sadece istatistik (kart & korner) icin — adamchoi.co.uk Angular sitesi
 selenium==4.16.0
 webdriver-manager==4.1.2
+
+# Sadece MENU icin — sofa/sofa_session.py, Sofascore dogrulamasini gecmek icin
+# Playwright ile EKRANLI (headless=False) Chrome aciyor. Runner'da ekran
+# olmadigi icin akis bunu Xvfb sanal ekraninda calistirir.
+# bot/requirements.txt 1.40.0'a sabitli; burada 1.50.0 kullaniliyor cunku
+# 1.40.0 (2023 sonu) runner'daki guncel Chrome'u surmekte riskli.
+playwright==1.50.0
