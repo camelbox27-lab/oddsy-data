@@ -19,6 +19,10 @@
     --yesil-koyu: #15803d;
     --mavi: #3b82f6;
     --mavi-koyu: #1d4ed8;
+    --mor: #a855f7;
+    --mor-koyu: #6d28d9;
+    --turuncu: #f97316;
+    --turuncu-koyu: #c2410c;
     --kirmizi: #ef4444;
     --sari: #eab308;
   }
@@ -54,6 +58,8 @@
   button:disabled { opacity: .45; cursor: not-allowed; }
   .btn-iddaa  { background: linear-gradient(160deg, var(--yesil), var(--yesil-koyu)); }
   .btn-bet365 { background: linear-gradient(160deg, var(--mavi), var(--mavi-koyu)); }
+  .btn-menu   { background: linear-gradient(160deg, var(--mor), var(--mor-koyu)); }
+  .btn-istat  { background: linear-gradient(160deg, var(--turuncu), var(--turuncu-koyu)); }
   .btn-ikisi {
     background: transparent;
     border: 1px solid var(--kart-kenar);
@@ -63,6 +69,7 @@
     font-weight: 500;
   }
   .butonlar { display: grid; gap: 12px; }
+  .ayirac { border: 0; border-top: 1px solid var(--kart-kenar); margin: 8px 0 2px; }
   .butonlar small { display: block; font-size: 12.5px; font-weight: 400; opacity: .8; margin-top: 3px; }
 
   .kart {
@@ -133,6 +140,13 @@
   <button class="btn-bet365" data-is="bet365">BET365 ÇEK
     <small>bugünün maçları → bet365/GGAAYYYY</small></button>
   <button class="btn-ikisi"  data-is="ikisi">İkisini birden çek</button>
+
+  <hr class="ayirac">
+
+  <button class="btn-menu"   data-is="menu">MENÜ YÜKLE
+    <small>günün bülteni + tahminler → data/</small></button>
+  <button class="btn-istat"  data-is="istatistik">İSTATİSTİK
+    <small>kart &amp; korner → data/kart, data/korner</small></button>
 </div>
 
 <div class="kart">

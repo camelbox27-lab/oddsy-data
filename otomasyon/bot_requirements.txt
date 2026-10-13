@@ -1,0 +1,21 @@
+# Bot pipeline'larinin (menu + istatistik) CI bagimliliklari.
+#
+# bot/requirements.txt'in tamami kurulmaz: firebase, moviepy, instaloader,
+# playwright gibi bu iki pipeline'da hic kullanilmayan agir paketler iceriyor.
+# Asagidakiler calistirilan scriptlerin import'larindan cikarildi.
+#
+# cloudscraper ve webdriver-manager bot/requirements.txt'te EKSIK ama
+# gerekli (guncel_bulten.py / sofa ve istatistik/scraper.py kullaniyor).
+#
+# Surumler bot/requirements.txt'teki pinlere uyar; hepsinin Python 3.12
+# wheel'i mevcut.
+
+beautifulsoup4==4.12.3
+cloudscraper==1.2.71
+openpyxl==3.1.2
+pandas==2.1.4
+pytz==2025.2
+
+# Sadece istatistik (kart & korner) icin — adamchoi.co.uk Angular sitesi
+selenium==4.16.0
+webdriver-manager==4.1.2

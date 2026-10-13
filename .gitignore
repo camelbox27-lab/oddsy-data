@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# Bot CI calisirken olusan sembolik bag (depo kokune isaret eder)
+otomasyon/bot/oddsy-data
