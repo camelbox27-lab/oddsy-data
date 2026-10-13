@@ -177,11 +177,28 @@ jobs:
           google-chrome --version
 
       # --- menu: gunun bulteni + tahminler (kendi push'unu yapar)
+      #
+      # Sofascore, GitHub'in veri merkezi IP'lerini engelliyor (olculdu: curl_cffi
+      # impersonation + dogru basliklarla bile {"error":{"code":403}}). Cozum, veri
+      # merkezi olmayan bir IP uzerinden cikmak.
+      #
+      # SOFA_PROXY secret'i tanimliysa istekler oradan gecer; curl_cffi (libcurl) ve
+      # requests ikisi de HTTPS_PROXY'ye uydugu icin kodda degisiklik gerekmiyor.
+      # Secret bos ise proxy'siz calisir (ve Sofascore'da yine 403 alir).
+      # GitHub trafigi NO_PROXY ile disarida tutulur: proxy bant genisligi harcamasin
+      # ve push kimlik dogrulamasi bozulmasin.
       - name: Menu yukle
         id: menu
         if: inputs.hangisi == 'menu'
         continue-on-error: true
         working-directory: otomasyon/bot
+        env:
+          HTTPS_PROXY: ${{ secrets.SOFA_PROXY }}
+          https_proxy: ${{ secrets.SOFA_PROXY }}
+          HTTP_PROXY: ${{ secrets.SOFA_PROXY }}
+          http_proxy: ${{ secrets.SOFA_PROXY }}
+          NO_PROXY: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
+          no_proxy: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
         run: xvfb-run -a --server-args="-screen 0 1920x1080x24" python main.py
 
       # --- istatistik: kart & korner (sadece data/ icine kopyalar, push etmez)
