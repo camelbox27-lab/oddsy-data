@@ -159,10 +159,21 @@ jobs:
         run: ln -sfn "$GITHUB_WORKSPACE" otomasyon/bot/oddsy-data
 
       # Gecici teshis: Sofascore 403'unun sebebini olcer (bkz. otomasyon/sofa_teshis.py)
+      # SOFA_PROXY secret'i tanimliysa teshis de ayni proxy'den cikar, boylece
+      # MENU'yu calistirmadan once proxy'nin ise yarayip yaramadigi olculebilir.
+      # Proxy adresi secret'tan gelir; workflow girdisi OLARAK VERILMEZ cunku bu
+      # depo public ve girdiler calisma sayfasinda herkese gorunur.
       - name: Sofascore teshis
         id: teshis
         if: inputs.hangisi == 'teshis'
         continue-on-error: true
+        env:
+          HTTPS_PROXY: ${{ secrets.SOFA_PROXY }}
+          https_proxy: ${{ secrets.SOFA_PROXY }}
+          HTTP_PROXY: ${{ secrets.SOFA_PROXY }}
+          http_proxy: ${{ secrets.SOFA_PROXY }}
+          NO_PROXY: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
+          no_proxy: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
         run: python otomasyon/sofa_teshis.py
 
       # Sofascore dogrulamasi headless Chrome'u reddediyor (bkz. sofa_session.py),
