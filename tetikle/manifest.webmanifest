@@ -1,19 +1,14 @@
 {
-  "name": "Oddsy Veri Guncelle",
-  "short_name": "Oddsy",
-  "description": "iddaa ve bet365 verisini tek dokunusla gunceller",
+  "name": "Wondiyo",
+  "short_name": "Wondiyo",
+  "description": "Tek dokunusla veri ceker ve siteye yukler",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0f1115",
-  "theme_color": "#0f1115",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
   "icons": [
-    {
-      "src": "ikon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    { "src": "ikon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
   ]
 }
