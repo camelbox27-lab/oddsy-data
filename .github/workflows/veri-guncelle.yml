@@ -168,11 +168,8 @@ jobs:
         if: inputs.hangisi == 'teshis'
         continue-on-error: true
         env:
-          HTTPS_PROXY: ${{ secrets.SOFA_PROXY }}
           https_proxy: ${{ secrets.SOFA_PROXY }}
-          HTTP_PROXY: ${{ secrets.SOFA_PROXY }}
           http_proxy: ${{ secrets.SOFA_PROXY }}
-          NO_PROXY: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
           no_proxy: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
         run: python otomasyon/sofa_teshis.py
 
@@ -204,11 +201,8 @@ jobs:
         continue-on-error: true
         working-directory: otomasyon/bot
         env:
-          HTTPS_PROXY: ${{ secrets.SOFA_PROXY }}
           https_proxy: ${{ secrets.SOFA_PROXY }}
-          HTTP_PROXY: ${{ secrets.SOFA_PROXY }}
           http_proxy: ${{ secrets.SOFA_PROXY }}
-          NO_PROXY: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
           no_proxy: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
         run: xvfb-run -a --server-args="-screen 0 1920x1080x24" python main.py
 
