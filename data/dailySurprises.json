@@ -1,22 +1,12 @@
 [
   {
-    "event_id": 16945021,
-    "home_team": "Bournemouth",
-    "away_team": "Sturm Graz",
+    "event_id": 15272540,
+    "home_team": "Brommapojkarna",
+    "away_team": "Djurgarden",
     "league": "",
-    "saat": "22:00",
+    "saat": "20:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.36,
-    "tarih": "15.10.2026"
-  },
-  {
-    "event_id": 16945656,
-    "home_team": "Twente",
-    "away_team": "Thun",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.0,
-    "tarih": "15.10.2026"
+    "ms_5_5_ust": 6.99,
+    "tarih": "16.10.2026"
   }
 ]

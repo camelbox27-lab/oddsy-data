@@ -21,6 +21,26 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Bohemian FC",
+    "awayTeam": "Waterford FC",
+    "saat": "21:45",
+    "tournament": "Premier Division",
+    "category": "Ireland",
+    "dropPercentage": 26.923076923077,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.53,
+      "X": 4.33,
+      "2": 4.75
+    },
+    "initialOdds": {
+      "1": 1.38,
+      "X": 4.75,
+      "2": 6.5
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
     "homeTeam": "Sydney FC",
     "awayTeam": "Western Sydney Wanderers",
     "saat": "12:00",
@@ -61,6 +81,106 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Sport Huancayo",
+    "awayTeam": "Cusco FC",
+    "saat": "21:00",
+    "tournament": "Liga 1, Clausura",
+    "category": "Peru",
+    "dropPercentage": 21.5,
+    "droppingChoice": "1",
+    "currentOdds": {
+      "1": 1.73,
+      "X": 3.8,
+      "2": 4.33
+    },
+    "initialOdds": {
+      "1": 2.2,
+      "X": 3.4,
+      "2": 3.0
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Galway United",
+    "awayTeam": "Shamrock Rovers",
+    "saat": "21:45",
+    "tournament": "Premier Division",
+    "category": "Ireland",
+    "dropPercentage": 18,
+    "droppingChoice": "1",
+    "currentOdds": {
+      "1": 4.1,
+      "X": 3.6,
+      "2": 1.75
+    },
+    "initialOdds": {
+      "1": 5.0,
+      "X": 3.9,
+      "2": 1.57
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Drogheda United",
+    "awayTeam": "Derry City",
+    "saat": "21:45",
+    "tournament": "Premier Division",
+    "category": "Ireland",
+    "dropPercentage": 17.307692307692,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 3.1,
+      "X": 3.25,
+      "2": 2.15
+    },
+    "initialOdds": {
+      "1": 2.55,
+      "X": 3.2,
+      "2": 2.6
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "KVC Westerlo",
+    "awayTeam": "Patro Eisden Maasmechelen",
+    "saat": "21:30",
+    "tournament": "Beker van Belgie",
+    "category": "Belgium",
+    "dropPercentage": 16.666666666667,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.45,
+      "X": 4.33,
+      "2": 5.0
+    },
+    "initialOdds": {
+      "1": 1.33,
+      "X": 5.0,
+      "2": 6.0
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Stade de Reims",
+    "awayTeam": "Dijon",
+    "saat": "21:00",
+    "tournament": "Ligue 2",
+    "category": "France",
+    "dropPercentage": 16,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.73,
+      "X": 3.4,
+      "2": 4.2
+    },
+    "initialOdds": {
+      "1": 1.6,
+      "X": 3.5,
+      "2": 5.0
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
     "homeTeam": "Slezský FC Opava",
     "awayTeam": "Vysočina Jihlava",
     "saat": "19:00",
@@ -81,22 +201,22 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Internacional de Bogotá",
-    "awayTeam": "Llaneros FC",
-    "saat": "02:00",
-    "tournament": "Copa DIMAYOR, Knockout Stage",
-    "category": "Colombia",
-    "dropPercentage": 13.333333333333,
-    "droppingChoice": "2",
+    "homeTeam": "ZED FC",
+    "awayTeam": "Azam FC",
+    "saat": "20:00",
+    "tournament": "CAF Confederations Cup, Qualification",
+    "category": "Africa",
+    "dropPercentage": 13.34,
+    "droppingChoice": "X",
     "currentOdds": {
-      "1": 1.91,
-      "X": 3.4,
-      "2": 3.9
+      "1": 1.33,
+      "X": 4.33,
+      "2": 8.0
     },
     "initialOdds": {
-      "1": 1.73,
-      "X": 3.3,
-      "2": 4.5
+      "1": 1.25,
+      "X": 5.0,
+      "2": 9.0
     }
   },
   {
@@ -121,6 +241,26 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Internacional de Bogotá",
+    "awayTeam": "Llaneros FC",
+    "saat": "02:00",
+    "tournament": "Copa DIMAYOR, Knockout Stage",
+    "category": "Colombia",
+    "dropPercentage": 13.333333333333,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 1.91,
+      "X": 3.4,
+      "2": 3.9
+    },
+    "initialOdds": {
+      "1": 1.73,
+      "X": 3.3,
+      "2": 4.5
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
     "homeTeam": "1. SK Prostějov",
     "awayTeam": "FK VIAGEM Ústí nad Labem",
     "saat": "19:00",
@@ -137,26 +277,6 @@
       "1": 2.55,
       "X": 3.4,
       "2": 2.35
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Manisa FK",
-    "awayTeam": "Esenler Erokspor",
-    "saat": "20:00",
-    "tournament": "1. Lig",
-    "category": "Turkey",
-    "dropPercentage": 12.19512195122,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 3.7,
-      "X": 3.5,
-      "2": 1.8
-    },
-    "initialOdds": {
-      "1": 2.9,
-      "X": 3.3,
-      "2": 2.05
     }
   },
   {
@@ -181,42 +301,82 @@
   },
   {
     "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Sint-Truidense VV",
-    "awayTeam": "FC Iberia 1999",
+    "homeTeam": "Chaves",
+    "awayTeam": "CF Marialvas",
     "saat": "22:00",
-    "tournament": "UEFA Conference League",
-    "category": "Europe",
-    "dropPercentage": 12.023460410557,
+    "tournament": "Taça de Portugal",
+    "category": "Portugal",
+    "dropPercentage": 12.162162162162,
     "droppingChoice": "1",
     "currentOdds": {
-      "1": 1.2,
-      "X": 6.5,
-      "2": 13.0
+      "1": 1.3,
+      "X": 4.75,
+      "2": 7.0
     },
     "initialOdds": {
-      "1": 1.36,
-      "X": 4.75,
-      "2": 6.25
+      "1": 1.48,
+      "X": 4.0,
+      "2": 5.25
     }
   },
   {
     "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Muğlaspor",
-    "awayTeam": "Bursaspor",
-    "saat": "20:00",
-    "tournament": "1. Lig",
-    "category": "Turkey",
-    "dropPercentage": 10.228571428571,
+    "homeTeam": "Ruch Chorzów",
+    "awayTeam": "OKS Odra Opole",
+    "saat": "21:30",
+    "tournament": "1. Liga",
+    "category": "Poland",
+    "dropPercentage": 11.111111111111,
     "droppingChoice": "2",
     "currentOdds": {
-      "1": 5.0,
-      "X": 3.7,
-      "2": 1.57
+      "1": 1.75,
+      "X": 3.4,
+      "2": 4.0
     },
     "initialOdds": {
-      "1": 4.0,
+      "1": 1.65,
+      "X": 3.5,
+      "2": 4.5
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Guingamp",
+    "awayTeam": "Pau FC",
+    "saat": "21:00",
+    "tournament": "Ligue 2",
+    "category": "France",
+    "dropPercentage": 10.810810810811,
+    "droppingChoice": "2",
+    "currentOdds": {
+      "1": 2.0,
+      "X": 3.1,
+      "2": 3.3
+    },
+    "initialOdds": {
+      "1": 1.9,
+      "X": 3.2,
+      "2": 3.7
+    }
+  },
+  {
+    "categoryKey": "oran-dusen-maclar",
+    "homeTeam": "Deportivo Saprissa",
+    "awayTeam": "Sporting FC",
+    "saat": "05:00",
+    "tournament": "Primera División, Apertura",
+    "category": "Costa Rica",
+    "dropPercentage": 10.277777777778,
+    "droppingChoice": "1",
+    "currentOdds": {
+      "1": 1.62,
+      "X": 3.7,
+      "2": 4.5
+    },
+    "initialOdds": {
+      "1": 1.8,
       "X": 3.4,
-      "2": 1.75
+      "2": 3.9
     }
   },
   {
@@ -237,166 +397,6 @@
       "1": 1.53,
       "X": 3.75,
       "2": 5.25
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Warta Poznań",
-    "awayTeam": "Unia Skierniewice",
-    "saat": "19:00",
-    "tournament": "1. Liga",
-    "category": "Poland",
-    "dropPercentage": 9.0909090909091,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 2.05,
-      "X": 3.4,
-      "2": 3.0
-    },
-    "initialOdds": {
-      "1": 1.9,
-      "X": 3.4,
-      "2": 3.3
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "SC Freiburg",
-    "awayTeam": "FK Jablonec",
-    "saat": "22:00",
-    "tournament": "UEFA Conference League",
-    "category": "Europe",
-    "dropPercentage": 9.0769230769231,
-    "droppingChoice": "1",
-    "currentOdds": {
-      "1": 1.18,
-      "X": 6.25,
-      "2": 15.0
-    },
-    "initialOdds": {
-      "1": 1.3,
-      "X": 5.0,
-      "2": 7.5
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Celta Vigo",
-    "awayTeam": "Juventus",
-    "saat": "22:00",
-    "tournament": "UEFA Europa League",
-    "category": "Europe",
-    "dropPercentage": 8.8235294117647,
-    "droppingChoice": "X",
-    "currentOdds": {
-      "1": 3.6,
-      "X": 3.1,
-      "2": 2.2
-    },
-    "initialOdds": {
-      "1": 3.4,
-      "X": 3.4,
-      "2": 2.0
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Atalanta",
-    "awayTeam": "Pafos FC",
-    "saat": "22:00",
-    "tournament": "UEFA Conference League",
-    "category": "Europe",
-    "dropPercentage": 8.4507042253521,
-    "droppingChoice": "1",
-    "currentOdds": {
-      "1": 1.3,
-      "X": 5.5,
-      "2": 9.0
-    },
-    "initialOdds": {
-      "1": 1.42,
-      "X": 4.2,
-      "2": 6.5
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Heart of Midlothian",
-    "awayTeam": "FC Nordsjælland",
-    "saat": "22:00",
-    "tournament": "UEFA Conference League",
-    "category": "Europe",
-    "dropPercentage": 8.3333333333333,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 2.9,
-      "X": 3.75,
-      "2": 2.2
-    },
-    "initialOdds": {
-      "1": 2.55,
-      "X": 3.6,
-      "2": 2.4
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "GNK Dinamo Zagreb",
-    "awayTeam": "RSC Anderlecht",
-    "saat": "22:00",
-    "tournament": "UEFA Europa League",
-    "category": "Europe",
-    "dropPercentage": 7.8947368421053,
-    "droppingChoice": "2",
-    "currentOdds": {
-      "1": 2.0,
-      "X": 3.6,
-      "2": 3.5
-    },
-    "initialOdds": {
-      "1": 1.9,
-      "X": 3.4,
-      "2": 3.8
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Stade Rennais",
-    "awayTeam": "OFI Crete",
-    "saat": "22:00",
-    "tournament": "UEFA Europa League",
-    "category": "Europe",
-    "dropPercentage": 7.6923076923077,
-    "droppingChoice": "1",
-    "currentOdds": {
-      "1": 1.2,
-      "X": 7.0,
-      "2": 15.0
-    },
-    "initialOdds": {
-      "1": 1.3,
-      "X": 5.0,
-      "2": 8.0
-    }
-  },
-  {
-    "categoryKey": "oran-dusen-maclar",
-    "homeTeam": "Sporting Delhi",
-    "awayTeam": "Mohun Bagan Super Giant",
-    "saat": "17:00",
-    "tournament": "Super League",
-    "category": "India",
-    "dropPercentage": 7.1428571428571,
-    "droppingChoice": "1",
-    "currentOdds": {
-      "1": 6.5,
-      "X": 4.1,
-      "2": 1.4
-    },
-    "initialOdds": {
-      "1": 7.0,
-      "X": 4.2,
-      "2": 1.38
     }
   }
 ]
