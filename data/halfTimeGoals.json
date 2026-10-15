@@ -1,154 +1,106 @@
 [
   {
-    "event_id": 16938974,
-    "home_team": "Feyenoord U19",
-    "away_team": "Como U19",
+    "event_id": 16490497,
+    "home_team": "Manisa FK",
+    "away_team": "Esenler Erokspor",
     "league": "",
-    "saat": "14:00",
-    "tarih": "14.10.2026"
+    "saat": "20:00",
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16864067,
-    "home_team": "Al Hedood",
-    "away_team": "Al Peshmerga",
+    "event_id": 16490499,
+    "home_team": "Muğlaspor",
+    "away_team": "Bursaspor",
     "league": "",
-    "saat": "15:00",
-    "tarih": "14.10.2026"
+    "saat": "20:00",
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16864067,
-    "home_team": "Al Hussein",
-    "away_team": "Al-Masafi",
-    "league": "",
-    "saat": "15:00",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16939041,
-    "home_team": "Bratislava U19",
-    "away_team": "Stuttgart U19",
-    "league": "",
-    "saat": "15:00",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16938872,
-    "home_team": "Roma U19",
-    "away_team": "Real Madrid U19",
-    "league": "",
-    "saat": "15:00",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16938869,
-    "home_team": "Real Betis U19",
-    "away_team": "Porto U19",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16864067,
-    "home_team": "Hajer Al-Hasa",
-    "away_team": "Al Orouba",
-    "league": "",
-    "saat": "17:55",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16864067,
-    "home_team": "Al Jandal",
-    "away_team": "Al Akhdoud",
-    "league": "",
-    "saat": "18:30",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16864067,
-    "home_team": "Al Taawon",
-    "away_team": "Al Rayyan",
-    "league": "",
-    "saat": "19:00",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16938974,
-    "home_team": "Feyenoord",
-    "away_team": "Como",
-    "league": "",
-    "saat": "19:45",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16939043,
-    "home_team": "LASK",
-    "away_team": "Liverpool",
-    "league": "",
-    "saat": "19:45",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16864067,
-    "home_team": "Al Faysali",
-    "away_team": "Al Nahda",
-    "league": "",
-    "saat": "21:15",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16391506,
-    "home_team": "Norwich",
-    "away_team": "Southampton",
-    "league": "",
-    "saat": "21:45",
-    "tarih": "14.10.2026"
-  },
-  {
-    "event_id": 16938852,
-    "home_team": "Aston Villa",
-    "away_team": "Fenerbahçe",
+    "event_id": 16945606,
+    "home_team": "Atalanta",
+    "away_team": "Pafos",
     "league": "",
     "saat": "22:00",
-    "tarih": "14.10.2026"
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16938931,
-    "home_team": "Bodo/Glimt",
-    "away_team": "B. Dortmund",
+    "event_id": 16943949,
+    "home_team": "Benfica",
+    "away_team": "Celtic",
     "league": "",
     "saat": "22:00",
-    "tarih": "14.10.2026"
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16391490,
-    "home_team": "Lincoln City",
-    "away_team": "West Ham",
+    "event_id": 16945021,
+    "home_team": "Bournemouth",
+    "away_team": "Sturm Graz",
     "league": "",
     "saat": "22:00",
-    "tarih": "14.10.2026"
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16938869,
-    "home_team": "Real Betis",
-    "away_team": "Porto",
+    "event_id": 16944504,
+    "home_team": "D. Zagreb",
+    "away_team": "Anderlecht",
     "league": "",
     "saat": "22:00",
-    "tarih": "14.10.2026"
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16938872,
-    "home_team": "Roma",
-    "away_team": "Real Madrid",
+    "event_id": 16944997,
+    "home_team": "Ferencvaros",
+    "away_team": "Viktoria Plzen",
     "league": "",
     "saat": "22:00",
-    "tarih": "14.10.2026"
+    "tarih": "15.10.2026"
   },
   {
-    "event_id": 16939041,
-    "home_team": "S. Bratislava",
-    "away_team": "Stuttgart",
+    "event_id": 16945618,
+    "home_team": "Freiburg",
+    "away_team": "Jablonec",
     "league": "",
     "saat": "22:00",
-    "tarih": "14.10.2026"
+    "tarih": "15.10.2026"
+  },
+  {
+    "event_id": 16945534,
+    "home_team": "Hoffenheim",
+    "away_team": "Beşiktaş",
+    "league": "",
+    "saat": "22:00",
+    "tarih": "15.10.2026"
+  },
+  {
+    "event_id": 16945018,
+    "home_team": "J. Bialystok",
+    "away_team": "Ararat-Armenia",
+    "league": "",
+    "saat": "22:00",
+    "tarih": "15.10.2026"
+  },
+  {
+    "event_id": 16945547,
+    "home_team": "NEC Nijmegen",
+    "away_team": "Levski Sofya",
+    "league": "",
+    "saat": "22:00",
+    "tarih": "15.10.2026"
+  },
+  {
+    "event_id": 16945677,
+    "home_team": "St. Truidense",
+    "away_team": "Iberia",
+    "league": "",
+    "saat": "22:00",
+    "tarih": "15.10.2026"
+  },
+  {
+    "event_id": 16945656,
+    "home_team": "Twente",
+    "away_team": "Thun",
+    "league": "",
+    "saat": "22:00",
+    "tarih": "15.10.2026"
   }
 ]
