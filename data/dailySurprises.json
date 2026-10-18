@@ -1,92 +1,42 @@
 [
   {
-    "event_id": 16391562,
-    "home_team": "Middlesbrough",
-    "away_team": "Cardiff",
+    "event_id": 16316844,
+    "home_team": "Cambuur",
+    "away_team": "AZ Alkmaar",
     "league": "",
-    "saat": "14:30",
+    "saat": "15:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.45,
-    "tarih": "17.10.2026"
+    "ms_5_5_ust": 5.17,
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16483702,
-    "home_team": "Gençlerbirliği",
-    "away_team": "Galatasaray",
+    "event_id": 16363883,
+    "home_team": "Brighton",
+    "away_team": "Crystal Palace",
     "league": "",
     "saat": "16:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.06,
-    "tarih": "17.10.2026"
+    "ms_5_5_ust": 7.17,
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16391565,
-    "home_team": "Southampton",
-    "away_team": "Bolton",
+    "event_id": 16316843,
+    "home_team": "Twente",
+    "away_team": "Utrecht",
     "league": "",
-    "saat": "17:00",
+    "saat": "21:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "17.10.2026"
+    "ms_5_5_ust": 4.94,
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16421076,
-    "home_team": "Villarreal",
-    "away_team": "Elche",
-    "league": "",
-    "saat": "17:15",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.7,
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16483697,
-    "home_team": "Fenerbahçe",
-    "away_team": "Alanyaspor",
-    "league": "",
-    "saat": "19:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.74,
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 15260930,
-    "home_team": "Viking",
-    "away_team": "Fredrikstad",
-    "league": "",
-    "saat": "19:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.24,
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16434062,
-    "home_team": "Bayern Münih",
-    "away_team": "Leipzig",
-    "league": "",
-    "saat": "19:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.47,
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16421068,
-    "home_team": "Real Betis",
-    "away_team": "Barcelona",
-    "league": "",
-    "saat": "19:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 3.5,
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16316841,
-    "home_team": "S. Rotterdam",
-    "away_team": "Willem II",
+    "event_id": 16421075,
+    "home_team": "Real Madrid",
+    "away_team": "Sevilla",
     "league": "",
     "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.26,
-    "tarih": "17.10.2026"
+    "ms_5_5_ust": 5.8,
+    "tarih": "18.10.2026"
   }
 ]

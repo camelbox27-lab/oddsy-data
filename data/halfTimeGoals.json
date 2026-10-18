@@ -1,466 +1,386 @@
 [
   {
-    "event_id": 16483698,
-    "home_team": "Erzurumspor FK",
-    "away_team": "Eyüpspor",
+    "event_id": 16412054,
+    "home_team": "Sturm II",
+    "away_team": "Kapfenberg",
+    "league": "",
+    "saat": "11:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16317442,
+    "home_team": "Waalwijk",
+    "away_team": "Volendam",
+    "league": "",
+    "saat": "13:15",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16316842,
+    "home_team": "Zwolle",
+    "away_team": "Go Ahead",
+    "league": "",
+    "saat": "13:15",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16490501,
+    "home_team": "Iğdır FK",
+    "away_team": "Boluspor",
     "league": "",
     "saat": "13:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16429181,
-    "home_team": "Greuther Fürth",
-    "away_team": "Braunschweig",
+    "event_id": 16608251,
+    "home_team": "Juventus (K)",
+    "away_team": "Como 1907 (K)",
     "league": "",
-    "saat": "14:00",
-    "tarih": "17.10.2026"
+    "saat": "13:30",
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16429255,
-    "home_team": "Wolfsburg",
-    "away_team": "Heidenheim",
+    "event_id": 16285049,
+    "home_team": "Udinese",
+    "away_team": "Lecce",
     "league": "",
-    "saat": "14:00",
-    "tarih": "17.10.2026"
+    "saat": "13:30",
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16363884,
-    "home_team": "Everton",
-    "away_team": "Chelsea",
-    "league": "",
-    "saat": "14:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16391562,
-    "home_team": "Middlesbrough",
-    "away_team": "Cardiff",
+    "event_id": 16429261,
+    "home_team": "A. Bielefeld",
+    "away_team": "Osnabrück",
     "league": "",
     "saat": "14:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16391563,
-    "home_team": "Millwall",
-    "away_team": "Lincoln City",
+    "event_id": 16429259,
+    "home_team": "D. Dresden",
+    "away_team": "Magdeburg",
     "league": "",
     "saat": "14:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 17085136,
-    "home_team": "CFFA",
-    "away_team": "Young Africans",
+    "event_id": 16429258,
+    "home_team": "Karlsruher",
+    "away_team": "Darmstadt 98",
+    "league": "",
+    "saat": "14:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 15272546,
+    "home_team": "IK Sirius",
+    "away_team": "IF Elfsborg",
     "league": "",
     "saat": "15:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16421071,
-    "home_team": "Espanyol",
-    "away_team": "Atl. Madrid",
+    "event_id": 16278731,
+    "home_team": "Lyngby",
+    "away_team": "Nordsjaelland",
     "league": "",
     "saat": "15:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16567731,
-    "home_team": "Leverkusen (K)",
-    "away_team": "Frankfurt (K)",
+    "event_id": 16278727,
+    "home_team": "Sonderjyske",
+    "away_team": "Silkeborg",
     "league": "",
     "saat": "15:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16386009,
-    "home_team": "Nantes",
-    "away_team": "Dunkerque",
+    "event_id": 16567728,
+    "home_team": "Union Berlin (K)",
+    "away_team": "Nürnberg (K)",
     "league": "",
     "saat": "15:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 17085139,
-    "home_team": "African Stars",
-    "away_team": "Orlando Pirates",
+    "event_id": 16316844,
+    "home_team": "Cambuur",
+    "away_team": "AZ Alkmaar",
+    "league": "",
+    "saat": "15:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16392137,
+    "home_team": "Salzburg",
+    "away_team": "Altach",
+    "league": "",
+    "saat": "15:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 15260927,
+    "home_team": "Sarpsborg 08",
+    "away_team": "Rosenborg",
+    "league": "",
+    "saat": "15:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16392136,
+    "home_team": "Wolfsberger AC",
+    "away_team": "WSG Tirol",
+    "league": "",
+    "saat": "15:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16363883,
+    "home_team": "Brighton",
+    "away_team": "Crystal Palace",
     "league": "",
     "saat": "16:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16483702,
-    "home_team": "Gençlerbirliği",
-    "away_team": "Galatasaray",
+    "event_id": 16285038,
+    "home_team": "Fiorentina",
+    "away_team": "Como",
     "league": "",
     "saat": "16:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16434066,
-    "home_team": "Elversberg",
-    "away_team": "Augsburg",
+    "event_id": 16490503,
+    "home_team": "Kayserispor",
+    "away_team": "Batman Petrolspor",
+    "league": "",
+    "saat": "16:00",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16363886,
+    "home_team": "Leeds United",
+    "away_team": "Man. United",
+    "league": "",
+    "saat": "16:00",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16608252,
+    "home_team": "Roma (K)",
+    "away_team": "Milan (K)",
+    "league": "",
+    "saat": "16:00",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16434065,
+    "home_team": "B. Leverkusen",
+    "away_team": "Freiburg",
     "league": "",
     "saat": "16:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16434072,
-    "home_team": "Hamburg",
-    "away_team": "Stuttgart",
-    "league": "",
-    "saat": "16:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16434071,
-    "home_team": "Schalke 04",
-    "away_team": "Mainz",
-    "league": "",
-    "saat": "16:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16412059,
-    "home_team": "Schwarz Weiss",
-    "away_team": "Amstetten",
-    "league": "",
-    "saat": "16:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16434068,
-    "home_team": "Union Berlin",
-    "away_team": "B. Dortmund",
-    "league": "",
-    "saat": "16:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16434067,
-    "home_team": "Werder Bremen",
-    "away_team": "Paderborn",
-    "league": "",
-    "saat": "16:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16362029,
-    "home_team": "Aberdeen",
-    "away_team": "St. Mirren",
+    "event_id": 16278719,
+    "home_team": "Odense",
+    "away_team": "Brondby",
     "league": "",
     "saat": "17:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16586680,
-    "home_team": "Alfreton",
-    "away_team": "Warrington",
+    "event_id": 16567729,
+    "home_team": "W. Bremen (K)",
+    "away_team": "Hoffenheim (K)",
     "league": "",
     "saat": "17:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16586681,
-    "home_team": "Ashton Utd",
-    "away_team": "Redcar Ath.",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16586682,
-    "home_team": "Bamber Bridge",
-    "away_team": "Workington",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16363882,
-    "home_team": "Brentford",
-    "away_team": "Liverpool",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16362031,
-    "home_team": "Dundela",
-    "away_team": "Rangers",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16363885,
-    "home_team": "Fulham",
-    "away_team": "Hull City",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16586685,
-    "home_team": "Gainsborough",
-    "away_team": "Hyde",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16362032,
-    "home_team": "Hibernian",
-    "away_team": "Falkirk",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16586686,
-    "home_team": "Ilkeston Town",
-    "away_team": "Avro",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16362033,
-    "home_team": "Kilmarnock",
-    "away_team": "Motherwell",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 15260925,
-    "home_team": "Kristiansund",
-    "away_team": "Aalesund",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16586687,
-    "home_team": "Lancaster",
-    "away_team": "Leek",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16391564,
-    "home_team": "Norwich",
-    "away_team": "Portsmouth",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16391565,
-    "home_team": "Southampton",
-    "away_team": "Bolton",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16362035,
-    "home_team": "St. Johnstone",
-    "away_team": "Dundee Utd.",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16586688,
-    "home_team": "Stockton",
-    "away_team": "Emley",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16391566,
-    "home_team": "Swansea City",
-    "away_team": "West Ham",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16586691,
-    "home_team": "Whitby",
-    "away_team": "Curzon Ashton",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16391569,
-    "home_team": "Wrexham",
-    "away_team": "Preston",
-    "league": "",
-    "saat": "17:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16421076,
-    "home_team": "Villarreal",
-    "away_team": "Elche",
-    "league": "",
-    "saat": "17:15",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16316839,
-    "home_team": "Den Haag",
-    "away_team": "PSV",
+    "event_id": 15272548,
+    "home_team": "Halmstads BK",
+    "away_team": "Hammarby",
     "league": "",
     "saat": "17:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16317447,
-    "home_team": "Emmen",
-    "away_team": "Almere City",
+    "event_id": 15272544,
+    "home_team": "Malmö",
+    "away_team": "Hacken",
     "league": "",
     "saat": "17:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16392135,
-    "home_team": "Aus. Lustenau",
-    "away_team": "LASK",
+    "event_id": 15272542,
+    "home_team": "Örgryte",
+    "away_team": "GAIS",
+    "league": "",
+    "saat": "17:30",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16316845,
+    "home_team": "Groningen",
+    "away_team": "Ajax",
+    "league": "",
+    "saat": "17:45",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16317445,
+    "home_team": "Maastricht",
+    "away_team": "Heracles",
+    "league": "",
+    "saat": "17:45",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 15260922,
+    "home_team": "Molde",
+    "away_team": "IK Start",
     "league": "",
     "saat": "18:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 15272541,
-    "home_team": "AIK Solna",
-    "away_team": "Göteborg",
+    "event_id": 15260926,
+    "home_team": "Sandefjord",
+    "away_team": "Lilleström",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16392133,
+    "home_team": "Sturm Graz",
+    "away_team": "Grazer AK",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 15260928,
+    "home_team": "Valerenga",
+    "away_team": "Brann",
+    "league": "",
+    "saat": "18:00",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16310976,
+    "home_team": "Le Havre",
+    "away_team": "AJ Auxerre",
+    "league": "",
+    "saat": "18:15",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16310979,
+    "home_team": "Lorient",
+    "away_team": "Monaco",
+    "league": "",
+    "saat": "18:15",
+    "tarih": "18.10.2026"
+  },
+  {
+    "event_id": 16434061,
+    "home_team": "M'gladbach",
+    "away_team": "Hoffenheim",
     "league": "",
     "saat": "18:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16412058,
-    "home_team": "Blau Weiss L.",
-    "away_team": "Liefering",
+    "event_id": 16363889,
+    "home_team": "Not. Forest",
+    "away_team": "Arsenal",
     "league": "",
     "saat": "18:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16285039,
-    "home_team": "Bologna",
-    "away_team": "Inter",
+    "event_id": 16483701,
+    "home_team": "Başakşehir",
+    "away_team": "Gaziantep FK",
     "league": "",
     "saat": "19:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16483697,
-    "home_team": "Fenerbahçe",
-    "away_team": "Alanyaspor",
+    "event_id": 16608250,
+    "home_team": "Inter (K)",
+    "away_team": "Parma (K)",
     "league": "",
     "saat": "19:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 15260930,
-    "home_team": "Viking",
-    "away_team": "Fredrikstad",
+    "event_id": 16285040,
+    "home_team": "Milan",
+    "away_team": "Atalanta",
     "league": "",
     "saat": "19:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16434062,
-    "home_team": "Bayern Münih",
-    "away_team": "Leipzig",
+    "event_id": 16421073,
+    "home_team": "Malaga",
+    "away_team": "R. Sociedad",
     "league": "",
     "saat": "19:30",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16363888,
-    "home_team": "Newcastle",
-    "away_team": "Aston Villa",
+    "event_id": 15260929,
+    "home_team": "Tromsö",
+    "away_team": "KFUM Oslo",
     "league": "",
-    "saat": "19:30",
-    "tarih": "17.10.2026"
+    "saat": "20:15",
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16421068,
-    "home_team": "Real Betis",
-    "away_team": "Barcelona",
-    "league": "",
-    "saat": "19:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16392139,
-    "home_team": "SV Ried",
-    "away_team": "Austria Wien",
-    "league": "",
-    "saat": "20:30",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16316840,
-    "home_team": "Telstar",
-    "away_team": "Feyenoord",
+    "event_id": 16316832,
+    "home_team": "NEC Nijmegen",
+    "away_team": "F. Sittard",
     "league": "",
     "saat": "21:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16429257,
-    "home_team": "Hannover 96",
-    "away_team": "St. Pauli",
+    "event_id": 16316843,
+    "home_team": "Twente",
+    "away_team": "Utrecht",
     "league": "",
-    "saat": "21:30",
-    "tarih": "17.10.2026"
+    "saat": "21:00",
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16310978,
-    "home_team": "Lille",
-    "away_team": "Brest",
-    "league": "",
-    "saat": "21:45",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16285043,
-    "home_team": "Roma",
-    "away_team": "Genoa",
+    "event_id": 16285044,
+    "home_team": "Juventus",
+    "away_team": "Lazio",
     "league": "",
     "saat": "21:45",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16310983,
-    "home_team": "Troyes",
-    "away_team": "Lens",
+    "event_id": 16310980,
+    "home_team": "Lyon",
+    "away_team": "Nice",
     "league": "",
     "saat": "21:45",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   },
   {
-    "event_id": 16362031,
-    "home_team": "Dundee FC",
-    "away_team": "Rangers",
+    "event_id": 16421075,
+    "home_team": "Real Madrid",
+    "away_team": "Sevilla",
     "league": "",
     "saat": "22:00",
-    "tarih": "17.10.2026"
-  },
-  {
-    "event_id": 16316841,
-    "home_team": "S. Rotterdam",
-    "away_team": "Willem II",
-    "league": "",
-    "saat": "22:00",
-    "tarih": "17.10.2026"
+    "tarih": "18.10.2026"
   }
 ]
