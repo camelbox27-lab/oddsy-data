@@ -10,6 +10,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+import livedata             # noqa: E402  (tkinter_stub'tan bagimsiz)
 import tkinter_stub
 
 tkinter_stub.kur()          # iddaapro import'undan ONCE calismali
@@ -32,7 +33,11 @@ def cek(gun: dt.date) -> list[dict]:
     if not ozetler:
         return []
 
-    satirlar, atlanan_baslamis, gecersiz = [], 0, 0
+    # Mac sayfalari GitHub IP'sinden 403 donebiliyor; o zaman oran alani bos
+    # kalir. vd.mackolik.com engellenmedigi icin MS oranlari oradan tamamlanir.
+    yedek = livedata.oranlar(gun)
+
+    satirlar, atlanan_baslamis, gecersiz, tamamlanan = [], 0, 0, 0
     with ThreadPoolExecutor(max_workers=PARALEL) as pool:
         isler = [pool.submit(ip.scrape_match_fast, o, match_date=gun, market_keys=None)
                  for o in ozetler]
@@ -42,6 +47,16 @@ def cek(gun: dt.date) -> list[dict]:
             except Exception as e:
                 print(f"[iddaa]   mac hatasi: {e}", flush=True)
                 continue
+
+            # Oran gelmediyse livedata'dan tamamla (yalnizca bos alanlar)
+            if not ip._row_is_valid_gunluk(r, None):
+                ek = yedek.get(str(r.get('ms_kodu') or '').strip())
+                if ek:
+                    for k, v in ek.items():
+                        if v and not r.get(k):
+                            r[k] = v
+                    tamamlanan += 1
+
             if ip._mac_baslamis_mi(r, gun, simdi):
                 atlanan_baslamis += 1
                 continue
@@ -54,7 +69,9 @@ def cek(gun: dt.date) -> list[dict]:
                       flush=True)
 
     print(f"[iddaa] {len(satirlar)} baslamamis mac "
-          f"({atlanan_baslamis} baslamis atlandi, {gecersiz} oransiz atlandi)", flush=True)
+          f"({atlanan_baslamis} baslamis atlandi, {gecersiz} oransiz atlandi"
+          + (f", {tamamlanan} mac livedata'dan tamamlandi" if tamamlanan else "")
+          + ")", flush=True)
     return satirlar
 
 
