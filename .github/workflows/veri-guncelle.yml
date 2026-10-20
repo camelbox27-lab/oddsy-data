@@ -54,10 +54,24 @@ jobs:
         run: echo "gun=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
       # --- iddaa: gunluk bulten -> iddaa/gunluk/gunlukmaclar.xlsx + .json
+      # Mackolik, GitHub'in veri merkezi IP'lerinden gelen mac sayfalarini
+      # 403 ile reddediyor (olculdu: duz requests, ana sayfa isinmasi ve
+      # curl_cffi'nin uc tarayici parmak izi -- hepsi 403). Mac LISTESI veren
+      # JSON API calismaya devam ettigi icin sorun gorunmuyor ama oranlar
+      # cekilemiyor ve gunlukmaclar.json bosa dusuyor.
+      #
+      # SOFA_PROXY secret'i tanimliysa istekler veri merkezi disi bir IP'den
+      # cikar. Bos ise davranis degismez (ve 403 devam eder).
+      # bet365 adimina proxy BAGLANMADI: Flashscore'dan saglikli cekiyor,
+      # bosuna proxy kotasi harcamasin.
       - name: iddaa cek
         id: iddaa
         if: inputs.hangisi == 'iddaa' || inputs.hangisi == 'ikisi'
         continue-on-error: true      # 'ikisi' secildiginde biri patlarsa diger devam etsin
+        env:
+          https_proxy: ${{ secrets.SOFA_PROXY }}
+          http_proxy: ${{ secrets.SOFA_PROXY }}
+          no_proxy: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
         working-directory: otomasyon
         run: |
           python iddaa_cek.py
