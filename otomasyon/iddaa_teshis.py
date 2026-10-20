@@ -1,81 +1,64 @@
-"""vd.mackolik.com/livedata akisinin yapisini dokar.
+"""livedata dizisindeki alan konumlarini KIYASLAYARAK bulur.
 
-Bulgu: /mac/.../iddaa/ HTML ve perform/p0/ajax uclari GitHub IP'sinden 403,
-ama vd.mackolik.com/livedata 200 donuyor ve icinde 'odd' geciyor.
-
-Soru: bu akis IddaaPro'nun ihtiyaci olan marketleri (MS, CS, IY, AU, KG,
-HND, IY/MS, TG, takim gol) iceriyor mu, yoksa sadece MS mi?
+HTML'den cekilmis gercek oranlari bilinen maclarla karsilastirir, boylece
+hangi indeks hangi markete denk geliyor tahminle degil eslestirerek cikar.
 """
-import json
-import re
-import sys
 import datetime as dt
+import json
+import sys
 
 import requests as std
 
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
 
+# HTML'den cekilmis dogrulanmis oranlar (kiyas icin)
+KIYAS = {
+    "3224058": {"mac": "PSG - Barcelona", "MS1": "2.14", "MS0": "3.85", "MS2": "2.17",
+                "AU2.5Alt": "4.28", "CS1X": "1.28", "CS12": "1.23", "CSX2": "1.28",
+                "KGVar": "2.33", "KGYok": "1.60", "IY1": "2.66", "IY0": "2.87", "IY2": "2.67"},
+}
+
 gun = dt.date.today()
 url = f"https://vd.mackolik.com/livedata?date={gun:%d/%m/%Y}"
-print("=" * 70)
-print("  vd.mackolik.com/livedata YAPISI")
-print("=" * 70)
-print(f"\nURL: {url}")
-
 s = std.Session(); s.headers.update({'User-Agent': UA, 'Accept': '*/*'})
-y = s.get(url, timeout=30)
-g = y.text
-print(f"durum: {y.status_code} | tip: {y.headers.get('Content-Type')} | uzunluk: {len(g)}")
+veri = s.get(url, timeout=30).json()
+maclar = veri.get('m', [])
 
-print("\n--- ilk 600 karakter ---")
-print(g[:600])
+print("=" * 70)
+print(f"  ALAN KONUMU ESLESTIRME  ({len(maclar)} mac)")
+print("=" * 70)
 
-# JSON mu?
-veri = None
-try:
-    veri = y.json()
-    print("\n[OK] Dogrudan JSON")
-except Exception:
-    m = re.search(r'\{.*\}|\[.*\]', g, re.S)
-    if m:
-        try:
-            veri = json.loads(m.group(0))
-            print("\n[OK] Govde icinden JSON ayiklandi")
-        except Exception as e:
-            print(f"\n[!] JSON ayiklanamadi: {e}")
+for kod, dogru in KIYAS.items():
+    bulundu = None
+    for m in maclar:
+        if any(str(x) == kod for x in m if not isinstance(x, (list, dict))):
+            bulundu = m
+            break
+    print(f"\n### {dogru['mac']}  (iddaa kodu {kod})")
+    if not bulundu:
+        print("    livedata'da BULUNAMADI")
+        continue
 
-if veri is None:
-    print("\n--- son 400 karakter ---")
-    print(g[-400:])
-    sys.exit("JSON degil; bicimi elle incelemek gerek.")
+    print("    --- dizi (indeks: deger) ---")
+    for i, v in enumerate(bulundu):
+        if isinstance(v, (list, dict)):
+            v = f"<{type(v).__name__}>"
+        print(f"      [{i:2}] {v!r}")
 
-print(f"\n--- ust seviye tip: {type(veri).__name__}")
-if isinstance(veri, dict):
-    print(f"    anahtarlar: {list(veri.keys())[:25]}")
-    # en uzun listeyi mac listesi say
-    aday = max(((k, v) for k, v in veri.items() if isinstance(v, list)),
-               key=lambda kv: len(kv[1]), default=(None, []))
-    ad, maclar = aday
-    print(f"    mac listesi gibi duran anahtar: {ad} ({len(maclar)} oge)")
-elif isinstance(veri, list):
-    maclar = veri
-    print(f"    {len(maclar)} oge")
-else:
-    sys.exit("Beklenmeyen yapi.")
+    print("    --- eslesme ---")
+    for ad, beklenen in dogru.items():
+        if ad == "mac":
+            continue
+        yerler = [i for i, v in enumerate(bulundu)
+                  if not isinstance(v, (list, dict)) and str(v) == beklenen]
+        print(f"      {ad:10} = {beklenen:6} -> indeks {yerler if yerler else 'YOK'}")
 
-if not maclar:
-    sys.exit("Mac listesi bos.")
-
-ornek = maclar[0]
-print(f"\n--- ilk mac ogesinin tipi: {type(ornek).__name__}")
-print(json.dumps(ornek, ensure_ascii=False, indent=1)[:2500])
-
-# Oran gibi duran alanlari ara
-print("\n--- 'odd' gecen alanlar (tum akista) ---")
-bulunan = sorted(set(re.findall(r'"([^"]*odd[^"]*)"', g, re.I)))[:40]
-print("   ", bulunan or "yok")
-
-print("\n--- iddaa kodu gecen alanlar ---")
-print("   ", sorted(set(re.findall(r'"([^"]*(?:iddaa|code|kod)[^"]*)"', g, re.I)))[:30])
+# Ikinci bir mac: konumlar tutarli mi?
+print("\n### Tutarlilik kontrolu (ilk 3 mac, indeks 16-26 araligi)")
+for m in maclar[:3]:
+    ad = f"{m[2]} - {m[4]}" if len(m) > 4 else "?"
+    dilim = [m[i] if i < len(m) and not isinstance(m[i], (list, dict)) else None
+             for i in range(16, 27)]
+    print(f"  {ad[:34]:34} {dilim}")
 print("=" * 70)
