@@ -59,7 +59,10 @@ def oranlar(gun: dt.date, timeout: int = 30) -> dict:
         if not kod or kod == '0':
             continue
         satir = {'ms1': _oran(m[MS1]), 'ms0': _oran(m[MS0]), 'ms2': _oran(m[MS2])}
-        if not any(satir.values()):
+        # UCU BIRDEN dolu degilse hic alinmaz. Konumsal bir dizide eksik tek
+        # alan, o kaydin dizilimi kaymis olabilecegi anlamina gelir; yarim bir
+        # ucluyu yayinlamak yanlis oran gostermek demektir.
+        if not all(satir.values()):
             continue
         saat = str(m[SAAT] or '').strip()
         if saat:
