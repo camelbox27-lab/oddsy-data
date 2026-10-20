@@ -1,42 +1,42 @@
 [
   {
-    "event_id": 16316844,
-    "home_team": "Cambuur",
-    "away_team": "AZ Alkmaar",
+    "event_id": 16938965,
+    "home_team": "Fenerbahçe",
+    "away_team": "Slavia Prag",
     "league": "",
-    "saat": "15:30",
+    "saat": "19:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.17,
-    "tarih": "18.10.2026"
+    "ms_5_5_ust": 6.86,
+    "tarih": "20.10.2026"
   },
   {
-    "event_id": 16363883,
-    "home_team": "Brighton",
-    "away_team": "Crystal Palace",
+    "event_id": 16939015,
+    "home_team": "Sabah",
+    "away_team": "B. Dortmund",
     "league": "",
-    "saat": "16:00",
+    "saat": "19:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.17,
-    "tarih": "18.10.2026"
+    "ms_5_5_ust": 6.27,
+    "tarih": "20.10.2026"
   },
   {
-    "event_id": 16316843,
-    "home_team": "Twente",
-    "away_team": "Utrecht",
-    "league": "",
-    "saat": "21:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.94,
-    "tarih": "18.10.2026"
-  },
-  {
-    "event_id": 16421075,
-    "home_team": "Real Madrid",
-    "away_team": "Sevilla",
+    "event_id": 16938800,
+    "home_team": "Liverpool",
+    "away_team": "Villarreal",
     "league": "",
     "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.8,
-    "tarih": "18.10.2026"
+    "ms_5_5_ust": 5.94,
+    "tarih": "20.10.2026"
+  },
+  {
+    "event_id": 16938855,
+    "home_team": "Porto",
+    "away_team": "PSV",
+    "league": "",
+    "saat": "22:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 7.37,
+    "tarih": "20.10.2026"
   }
 ]
