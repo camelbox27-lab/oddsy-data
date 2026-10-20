@@ -171,7 +171,10 @@ jobs:
           https_proxy: ${{ secrets.SOFA_PROXY }}
           http_proxy: ${{ secrets.SOFA_PROXY }}
           no_proxy: github.com,api.github.com,raw.githubusercontent.com,objects.githubusercontent.com,codeload.github.com
-        run: python otomasyon/sofa_teshis.py
+        run: |
+          python otomasyon/sofa_teshis.py || true
+          echo
+          python otomasyon/iddaa_teshis.py
 
       # Sofascore dogrulamasi headless Chrome'u reddediyor (bkz. sofa_session.py),
       # runner'da da ekran yok: Chrome sanal ekranda (Xvfb) acilir.
