@@ -1,42 +1,32 @@
 [
   {
-    "event_id": 16938853,
-    "home_team": "A. Villa U19",
-    "away_team": "Viking U19",
+    "event_id": 16945548,
+    "home_team": "Ararat-Armenia",
+    "away_team": "AZ Alkmaar",
     "league": "",
-    "saat": "16:00",
+    "saat": "19:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.65,
-    "tarih": "21.10.2026"
+    "ms_5_5_ust": 7.07,
+    "tarih": "22.10.2026"
   },
   {
-    "event_id": 16938770,
-    "home_team": "Real Madrid U19",
-    "away_team": "Leipzig U19",
+    "event_id": 16945692,
+    "home_team": "Jablonec",
+    "away_team": "Brighton",
     "league": "",
-    "saat": "17:00",
+    "saat": "19:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.89,
-    "tarih": "21.10.2026"
+    "ms_5_5_ust": 5.93,
+    "tarih": "22.10.2026"
   },
   {
-    "event_id": 16938853,
-    "home_team": "Aston Villa",
-    "away_team": "Viking",
+    "event_id": 16945707,
+    "home_team": "Nordsjaelland",
+    "away_team": "CSKA Sofya",
     "league": "",
-    "saat": "22:00",
+    "saat": "19:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.03,
-    "tarih": "21.10.2026"
-  },
-  {
-    "event_id": 16938770,
-    "home_team": "Real Madrid",
-    "away_team": "Leipzig",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 2.98,
-    "tarih": "21.10.2026"
+    "ms_5_5_ust": 7.07,
+    "tarih": "22.10.2026"
   }
 ]
