@@ -1,92 +1,32 @@
 [
   {
-    "event_id": 16945678,
-    "home_team": "K. Almaty",
-    "away_team": "Panathinaikos",
+    "event_id": 16317458,
+    "home_team": "NAC Breda",
+    "away_team": "Heracles",
     "league": "",
-    "saat": "17:30",
+    "saat": "21:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.6,
-    "tarih": "22.10.2026"
+    "2_5_ust": 1.26,
+    "tarih": "23.10.2026"
   },
   {
-    "event_id": 16945548,
-    "home_team": "Ararat-Armenia",
-    "away_team": "AZ Alkmaar",
+    "event_id": 16317456,
+    "home_team": "Volendam",
+    "away_team": "Jong Utrecht",
     "league": "",
-    "saat": "19:45",
+    "saat": "21:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.35,
-    "tarih": "22.10.2026"
+    "2_5_ust": 1.22,
+    "tarih": "23.10.2026"
   },
   {
-    "event_id": 16944506,
-    "home_team": "D. Zagreb",
-    "away_team": "NEC Nijmegen",
+    "event_id": 16434073,
+    "home_team": "Stuttgart",
+    "away_team": "M'gladbach",
     "league": "",
-    "saat": "19:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.37,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16945707,
-    "home_team": "Nordsjaelland",
-    "away_team": "CSKA Sofya",
-    "league": "",
-    "saat": "19:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.36,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16945627,
-    "home_team": "Pafos",
-    "away_team": "Riga",
-    "league": "",
-    "saat": "19:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.74,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16945562,
-    "home_team": "Lilleström",
-    "away_team": "R. Sociedad",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.6,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16944476,
-    "home_team": "Olympiakos",
-    "away_team": "Sparta Prag",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.75,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16944999,
-    "home_team": "Ferencvaros",
-    "away_team": "Torreense",
-    "league": "",
-    "saat": "19:45",
+    "saat": "21:30",
     "kategori": "3.5 Üst",
-    "3_5_ust": 2.41,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16945692,
-    "home_team": "Jablonec",
-    "away_team": "Brighton",
-    "league": "",
-    "saat": "19:45",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.86,
-    "tarih": "22.10.2026"
+    "3_5_ust": 1.74,
+    "tarih": "23.10.2026"
   }
 ]

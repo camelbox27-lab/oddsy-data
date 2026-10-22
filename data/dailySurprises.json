@@ -1,32 +1,22 @@
 [
   {
-    "event_id": 16945548,
-    "home_team": "Ararat-Armenia",
-    "away_team": "AZ Alkmaar",
+    "event_id": 16317456,
+    "home_team": "Volendam",
+    "away_team": "Jong Utrecht",
     "league": "",
-    "saat": "19:45",
+    "saat": "21:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.07,
-    "tarih": "22.10.2026"
+    "ms_5_5_ust": 4.84,
+    "tarih": "23.10.2026"
   },
   {
-    "event_id": 16945692,
-    "home_team": "Jablonec",
-    "away_team": "Brighton",
+    "event_id": 16434073,
+    "home_team": "Stuttgart",
+    "away_team": "M'gladbach",
     "league": "",
-    "saat": "19:45",
+    "saat": "21:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.93,
-    "tarih": "22.10.2026"
-  },
-  {
-    "event_id": 16945707,
-    "home_team": "Nordsjaelland",
-    "away_team": "CSKA Sofya",
-    "league": "",
-    "saat": "19:45",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.07,
-    "tarih": "22.10.2026"
+    "ms_5_5_ust": 3.97,
+    "tarih": "23.10.2026"
   }
 ]
