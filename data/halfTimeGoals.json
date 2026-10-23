@@ -1,13 +1,5 @@
 [
   {
-    "event_id": 16541616,
-    "home_team": "Brisbane",
-    "away_team": "Perth Glory",
-    "league": "",
-    "saat": "12:00",
-    "tarih": "23.10.2026"
-  },
-  {
     "event_id": 16412066,
     "home_team": "Amstetten",
     "away_team": "Rapid Wien II",
@@ -131,14 +123,6 @@
     "event_id": 16317455,
     "home_team": "Jong AZ",
     "away_team": "Helmond",
-    "league": "",
-    "saat": "21:00",
-    "tarih": "23.10.2026"
-  },
-  {
-    "event_id": 17077844,
-    "home_team": "Mamel Sundow",
-    "away_team": "Wiliete",
     "league": "",
     "saat": "21:00",
     "tarih": "23.10.2026"
