@@ -206,13 +206,9 @@ jobs:
           python otomasyon/bulten_uret.py
           cd otomasyon/bot && python main.py
 
-      # droppingOdds.json'u SofaScore besliyor; mobilde uretilemiyor ve
-      # filter_bot onu bos liste ile ezer. Sitedeki veri silinmesin diye
-      # son push edilmis hali geri alinir.
-      - name: droppingOdds'u koru
-        if: inputs.hangisi == 'menu'
-        run: git checkout -- data/droppingOdds.json || true
-
+      # NOT: droppingOdds.json'u main.py icinden korur (filter_bot.py MOBIL
+      # bayragi ile mevcut dosyayi okur, bos listeyle ezmez). Burada bir sey
+      # yapmak ise yaramaz: main.py push'u kendisi yapiyor.
       # --- istatistik: kart & korner (sadece data/ icine kopyalar, push etmez)
       - name: Istatistik
         id: istatistik
