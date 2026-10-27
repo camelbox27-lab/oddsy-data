@@ -1,0 +1,71 @@
+name: Günlük bülteni arşivle
+
+# Bülten dosyaları her gün üzerine yazılıyor. Maç sayfalarının kalıcı olması için
+# her güncellemede o günün anlık görüntüsü arşive kopyalanır ve siteyi yeniden
+# derlemesi için Vercel tetiklenir.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'bet365/gunlukmaclar.json'
+      - 'iddaa/gunluk/gunlukmaclar.json'
+  schedule:
+    # Sabah bülten yüklendikten sonra ve akşam kapanış oranları oturduktan sonra (TR saati)
+    - cron: '17 6 * * *'
+    - cron: '47 18 * * *'
+  workflow_dispatch:
+
+# Aynı anda iki arşivleme çalışıp birbirinin push'unu bozmasın
+concurrency:
+  group: bulten-arsivle
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  arsivle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Bülteni arşive kopyala
+        run: python3 scripts/arsivle.py
+
+      - name: Değişiklik varsa işle
+        id: islem
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bet365/arsiv iddaa/arsiv
+          if git diff --cached --quiet; then
+            echo "degisti=false" >> "$GITHUB_OUTPUT"
+            echo "Arşivde değişiklik yok."
+            exit 0
+          fi
+          git commit -m "veri: gunluk bulten arsivlendi ($(TZ=Europe/Istanbul date '+%d.%m.%Y %H:%M'))"
+          # Bu sırada başka bir commit gelmiş olabilir
+          for deneme in 1 2 3 4; do
+            git pull --rebase --quiet origin main && git push origin HEAD:main && break
+            echo "Push başarısız, tekrar deneniyor ($deneme)..."
+            sleep $((2 ** deneme))
+          done
+          echo "degisti=true" >> "$GITHUB_OUTPUT"
+
+      - name: Siteyi yeniden derlemesi için Vercel'i tetikle
+        if: steps.islem.outputs.degisti == 'true'
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK_URL tanımlı değil, tetikleme atlandı."
+            exit 0
+          fi
+          curl -fsS -X POST "$HOOK" > /dev/null
+          echo "Vercel yeniden derlemesi tetiklendi."
