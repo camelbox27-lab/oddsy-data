@@ -1,52 +1,142 @@
 [
   {
-    "event_id": "AVlsMHl1",
-    "home_team": "Mohun Bagan",
-    "away_team": "Chennaiyin",
+    "event_id": "MD6TnXOH",
+    "home_team": "First Vienna FC 1894",
+    "away_team": "SK Rapid",
     "league": "",
-    "saat": "17:00",
+    "saat": "20:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 11.0,
-    "tarih": "26.10.2026"
+    "ms_5_5_ust": 8.0,
+    "tarih": "27.10.2026"
   },
   {
-    "event_id": "zw6aIWNF",
-    "home_team": "Beşiktaş Istanbul",
-    "away_team": "Istanbul Başakşehir",
+    "event_id": "raFp8WgJ",
+    "home_team": "Cuarte",
+    "away_team": "FC Girona",
     "league": "",
-    "saat": "19:00",
+    "saat": "20:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.0,
-    "tarih": "26.10.2026"
+    "ms_5_5_ust": 8.0,
+    "tarih": "27.10.2026"
   },
   {
-    "event_id": "2XVkMoTr",
-    "home_team": "FC Kopenhagen",
-    "away_team": "Odense BK",
+    "event_id": "xQYiR8sI",
+    "home_team": "AFC Wimbledon",
+    "away_team": "FC Arsenal U21",
+    "league": "",
+    "saat": "21:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.5,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "vJO0cFIE",
+    "home_team": "Slavia Prag",
+    "away_team": "1. FC Brünn",
     "league": "",
     "saat": "21:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 8.0,
-    "tarih": "26.10.2026"
+    "tarih": "27.10.2026"
   },
   {
-    "event_id": "KWz34DEG",
-    "home_team": "CD Santa Clara",
-    "away_team": "Benfica Lissabon",
+    "event_id": "hfMKoYHb",
+    "home_team": "AB Gladsaxe",
+    "away_team": "Brøndby IF",
     "league": "",
-    "saat": "21:45",
+    "saat": "21:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 11.0,
-    "tarih": "26.10.2026"
+    "ms_5_5_ust": 8.0,
+    "tarih": "27.10.2026"
   },
   {
-    "event_id": "zyZq2xcL",
-    "home_team": "PSG",
-    "away_team": "Olympique Lyon",
+    "event_id": "EH6SwC7s",
+    "home_team": "Blackpool FC",
+    "away_team": "Aston Villa U21",
     "league": "",
-    "saat": "22:30",
+    "saat": "22:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.5,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "EmyTsFw3",
+    "home_team": "Barendrecht",
+    "away_team": "RKC Waalwijk",
+    "league": "",
+    "saat": "22:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 7.0,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "OODTjWff",
+    "home_team": "Borussia Mönchengladbach",
+    "away_team": "Karlsruher SC",
+    "league": "",
+    "saat": "22:45",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.5,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "pvrekJJk",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Werder Bremen",
+    "league": "",
+    "saat": "22:45",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "tSS2dDlU",
+    "home_team": "SV Elversberg",
+    "away_team": "SV Darmstadt",
+    "league": "",
+    "saat": "22:45",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "OQOqMISp",
+    "home_team": "Leicester City",
+    "away_team": "Wigan Athletic",
+    "league": "",
+    "saat": "22:45",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "UNVlhk7M",
+    "home_team": "AS Rom",
+    "away_team": "Cagliari Calcio",
+    "league": "",
+    "saat": "22:45",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 9.0,
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "rR15xapQ",
+    "home_team": "HFC",
+    "away_team": "Go Ahead Eagles",
+    "league": "",
+    "saat": "23:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 5.0,
-    "tarih": "26.10.2026"
+    "tarih": "27.10.2026"
+  },
+  {
+    "event_id": "8YCoKi54",
+    "home_team": "Atl. Paso",
+    "away_team": "FC Córdoba",
+    "league": "",
+    "saat": "23:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 10.0,
+    "tarih": "27.10.2026"
   }
 ]
