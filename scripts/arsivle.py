@@ -50,6 +50,21 @@ def main() -> None:
         hedef = hedef_dizin / f'{bugun}.json'
         shutil.copy2(kaynak, hedef)
         print(f'  -> {hedef.relative_to(ROOT)}')
+        indeks_yaz(hedef_dizin)
+
+
+def indeks_yaz(dizin: Path) -> None:
+    """Arşivdeki günleri listeler.
+
+    Siteyi derleyen taraf hangi günlerin mevcut olduğunu GitHub API'sine
+    sormadan buradan öğrenir.
+    """
+    gunler = sorted(p.stem for p in dizin.glob('*.json') if p.name != 'index.json')
+    indeks = dizin / 'index.json'
+    with indeks.open('w', encoding='utf-8') as f:
+        json.dump({'gunler': gunler, 'guncellendi': datetime.now(TR).isoformat()}, f,
+                  ensure_ascii=False, indent=2)
+    print(f'  -> {indeks.relative_to(ROOT)} ({len(gunler)} gün)')
 
 
 if __name__ == '__main__':
