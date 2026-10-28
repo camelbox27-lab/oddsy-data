@@ -97,6 +97,18 @@ def _mesajlar(kayitlar, tarih):
     return parcalar
 
 
+def _gonder(token, chat_id, metin):
+    veri = urllib.parse.urlencode({
+        "chat_id": chat_id,
+        "text": metin,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": "true",
+    }).encode()
+    istek = urllib.request.Request(API.format(token=token), data=veri)
+    with urllib.request.urlopen(istek, timeout=30) as c:
+        return json.loads(c.read().decode())
+
+
 def _chat_adaylari(token):
     """getUpdates ile botun gordugu sohbetleri listeler (sadece kurulum icin)."""
     # my_chat_member (bot kanala/gruba eklendi) varsayilan olarak GELMEZ,
