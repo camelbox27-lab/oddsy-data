@@ -1,626 +1,722 @@
 [
   {
-    "event_id": "W0NjMlSb",
-    "home_team": "Etimesgut",
-    "away_team": "Gaziantep",
-    "league": "",
-    "saat": "13:30",
-    "tarih": "27.10.2026"
+    "event_id": "vaY6yYee",
+    "home_team": "Prostejov",
+    "away_team": "FC Hradec Králové",
+    "league": "TSCHECHIEN MOL Cup",
+    "saat": "14:30",
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "YRIDviqJ",
-    "home_team": "Pazarspor",
-    "away_team": "Aliaga",
-    "league": "",
-    "saat": "13:30",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "ENy3BXDt",
-    "home_team": "Adana Adaletgucu",
-    "away_team": "MKE Ankaragücü",
-    "league": "",
+    "event_id": "ABOjRzAe",
+    "home_team": "Adana",
+    "away_team": "Kutahyaspor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
     "saat": "15:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "0ICNzlsh",
-    "home_team": "Elazığspor",
-    "away_team": "Erciyes 38",
-    "league": "",
+    "event_id": "0tajpeFs",
+    "home_team": "Balıkesirspor",
+    "away_team": "Arnavutköy FSK",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
     "saat": "15:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "OzKrOAcn",
-    "home_team": "Orduspor 1967",
-    "away_team": "Vanspor FK",
-    "league": "",
+    "event_id": "Gvr3oFOQ",
+    "home_team": "Karabuk Idmanyurdu",
+    "away_team": "Iskenderunspor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
     "saat": "15:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "4UaweCTa",
-    "home_team": "Sariyer",
-    "away_team": "Ayvalıkgücü",
-    "league": "",
+    "event_id": "ObdgiUSO",
+    "home_team": "Karagümrük",
+    "away_team": "Soma Spor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
     "saat": "15:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "hrzawfRr",
-    "home_team": "Slovan Liberec",
-    "away_team": "FK Teplice",
-    "league": "",
+    "event_id": "CATYugnl",
+    "home_team": "Şanlıurfaspor",
+    "away_team": "Gölcükspor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
+    "saat": "15:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "8OPyDpko",
+    "home_team": "Ümraniyespor",
+    "away_team": "Küçükçekmece",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
+    "saat": "15:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "z1dh0XWi",
+    "home_team": "Brabrand IF",
+    "away_team": "AC Horsens",
+    "league": "DÄNEMARK Betano Pokalen",
+    "saat": "15:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "nFS64cFb",
+    "home_team": "FC Vysočina Jihlava",
+    "away_team": "Viktoria Pilsen",
+    "league": "TSCHECHIEN MOL Cup",
+    "saat": "16:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "0IM4rYFk",
+    "home_team": "AC Prato",
+    "away_team": "Ternana Calcio",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "E5EbhVPF",
+    "home_team": "Modica",
+    "away_team": "Licata",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "2Nt4DcYj",
+    "home_team": "Real Normanna",
+    "away_team": "L'Aquila Calcio",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "YyzfPWeT",
+    "home_team": "Piacenza Calcio",
+    "away_team": "Sasso Marconi",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "4KQPJAJj",
+    "home_team": "Teramo Calcio",
+    "away_team": "Latte Dolce",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "x6UQwWAM",
+    "home_team": "Valenzana",
+    "away_team": "AS Biellese",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "IehkKeJD",
+    "home_team": "Goa",
+    "away_team": "SC Delhi",
+    "league": "INDIEN ISL",
+    "saat": "17:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "6LM6qbCT",
+    "home_team": "Radnicki 1923",
+    "away_team": "Zeleznicar Pancevo",
+    "league": "SERBIEN Super Liga",
+    "saat": "17:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "fsXI23V8",
+    "home_team": "Sakaryaspor",
+    "away_team": "Bursa Yildirimspor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
+    "saat": "18:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "lWSq6Ts4",
+    "home_team": "Omonia Aradippou",
+    "away_team": "Digenis Akritas",
+    "league": "ZYPERN Pokal Zypern",
+    "saat": "18:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "pUICmfmn",
+    "home_team": "Esbjerg fB",
+    "away_team": "FC Nordsjælland",
+    "league": "DÄNEMARK Betano Pokalen",
     "saat": "19:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "KAwkB0t9",
-    "home_team": "HSV",
-    "away_team": "Eintracht Frankfurt",
-    "league": "",
+    "event_id": "M7mQPifn",
+    "home_team": "AD Tarma",
+    "away_team": "Moquegua",
+    "league": "PERU Liga 1 - Clausura",
+    "saat": "19:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "0rCdzFjD",
+    "home_team": "Radnički Niš",
+    "away_team": "Partizan Belgrad",
+    "league": "SERBIEN Super Liga",
+    "saat": "19:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "dCORCYYA",
+    "home_team": "SC Paderborn",
+    "away_team": "VfB Stuttgart",
+    "league": "DEUTSCHLAND DFB Pokal",
     "saat": "20:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "zRaFxtzp",
-    "home_team": "SG Sonnenhof Großaspach",
-    "away_team": "FC Augsburg",
-    "league": "",
+    "event_id": "GYMBGGZo",
+    "home_team": "SC Freiburg",
+    "away_team": "VfL Wolfsburg",
+    "league": "DEUTSCHLAND DFB Pokal",
     "saat": "20:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "h4o3mcl2",
-    "home_team": "VfL Bochum",
-    "away_team": "FSV Mainz 05",
-    "league": "",
+    "event_id": "l8dPfudS",
+    "home_team": "Dynamo Dresden",
+    "away_team": "Schalke 04",
+    "league": "DEUTSCHLAND DFB Pokal",
     "saat": "20:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "hzMQjoFE",
-    "home_team": "Dinamo Zagreb",
-    "away_team": "HNK Rijeka",
-    "league": "",
+    "event_id": "06Q6r78c",
+    "home_team": "Grorud IL",
+    "away_team": "Brann Bergen",
+    "league": "NORWEGEN NM Pokal",
     "saat": "20:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "K2ko5Evn",
-    "home_team": "Austria Wien",
-    "away_team": "TSV Hartberg",
-    "league": "",
+    "event_id": "GxeS2Wic",
+    "home_team": "Egersunds IK",
+    "away_team": "Bryne FK",
+    "league": "NORWEGEN NM Pokal",
     "saat": "20:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "MD6TnXOH",
-    "home_team": "First Vienna FC 1894",
-    "away_team": "SK Rapid",
-    "league": "",
+    "event_id": "6sfNBRzS",
+    "home_team": "Kristiansund BK",
+    "away_team": "Aalesunds FK",
+    "league": "NORWEGEN NM Pokal",
     "saat": "20:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "QgHKnTUq",
-    "home_team": "Sassuolo Calcio",
-    "away_team": "Lazio Rom",
-    "league": "",
+    "event_id": "2ggz1AM9",
+    "home_team": "Molde FK",
+    "away_team": "Strømsgodset IF",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "2HqqD8uR",
+    "home_team": "Odds BK",
+    "away_team": "Sandefjord Fotball",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "SCAW2lxi",
+    "home_team": "Pors",
+    "away_team": "Kongsvinger IL",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "6krEgSEq",
+    "home_team": "Ranheim Fotball",
+    "away_team": "Fredrikstad FK",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "AJdraliM",
+    "home_team": "Rosenborg Trondheim",
+    "away_team": "HamKam",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "CEssPgHO",
+    "home_team": "Sarpsborg 08",
+    "away_team": "Vålerenga IF",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "lSn6hyet",
+    "home_team": "SW Bregenz",
+    "away_team": "RB Salzburg",
+    "league": "ÖSTERREICH ÖFB Cup",
+    "saat": "20:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "MwxmYTFj",
+    "home_team": "AC Mailand",
+    "away_team": "FC Bologna",
+    "league": "ITALIEN Serie A",
     "saat": "20:30",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "YFCdYX9O",
-    "home_team": "Hertha Wels",
-    "away_team": "Wolfsberger AC",
-    "league": "",
+    "event_id": "QRMD8Ai3",
+    "home_team": "FC Venedig",
+    "away_team": "Inter Mailand",
+    "league": "ITALIEN Serie A",
     "saat": "20:30",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "raFp8WgJ",
-    "home_team": "Cuarte",
-    "away_team": "FC Girona",
-    "league": "",
+    "event_id": "dClTrG3L",
+    "home_team": "Sparta Prag",
+    "away_team": "Baník Ostrau",
+    "league": "TSCHECHIEN MOL Cup",
     "saat": "20:30",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "4ELbKSdB",
-    "home_team": "Alanyaspor",
-    "away_team": "12 Bingol",
-    "league": "",
+    "event_id": "d4dVdYbm",
+    "home_team": "52 Orduspor",
+    "away_team": "Trabzon FK",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
     "saat": "20:30",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "I3xXuYjI",
-    "home_team": "Excelsior 31",
-    "away_team": "ADO Den Haag",
-    "league": "",
+    "event_id": "K4Gdj9sR",
+    "home_team": "Bayern München F",
+    "away_team": "Real Madrid F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
     "saat": "20:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "xQYiR8sI",
-    "home_team": "AFC Wimbledon",
-    "away_team": "FC Arsenal U21",
-    "league": "",
+    "event_id": "Obte8s3C",
+    "home_team": "FC Chelsea F",
+    "away_team": "AS Rom F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
+    "saat": "20:45",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "ETpZLXGq",
+    "home_team": "Sparta Rotterdam",
+    "away_team": "Fortuna Sittard",
+    "league": "NIEDERLANDE KNVB Beker",
+    "saat": "20:45",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "Q3h7F9y3",
+    "home_team": "Tromsø IL",
+    "away_team": "FK Haugesund",
+    "league": "NORWEGEN NM Pokal",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "p4NQEosQ",
-    "home_team": "Benevento Calcio",
-    "away_team": "US Catanzaro",
-    "league": "",
+    "event_id": "vuwB4Cuf",
+    "home_team": "Halmstads BK",
+    "away_team": "Malmö FF",
+    "league": "SCHWEDEN Allsvenskan",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "EahcaH3E",
-    "home_team": "AIK Stockholm",
-    "away_team": "IF Elfsborg",
-    "league": "",
+    "event_id": "tAxxhZel",
+    "home_team": "IFK Göteborg",
+    "away_team": "Djurgårdens IF",
+    "league": "SCHWEDEN Allsvenskan",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "UunEAw67",
-    "home_team": "Landskrona BoIS",
-    "away_team": "Varbergs BoIS",
-    "league": "",
+    "event_id": "Kz6plieD",
+    "home_team": "IF Brommapojkarna",
+    "away_team": "BK Häcken",
+    "league": "SCHWEDEN Allsvenskan",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "82GKZx4b",
-    "home_team": "Calamocha",
-    "away_team": "CE Europa",
-    "league": "",
+    "event_id": "Wx31QD9m",
+    "home_team": "Pamplona",
+    "away_team": "SD Eibar",
+    "league": "SPANIEN Copa del Rey",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "zZBxAhP6",
-    "home_team": "Sestao",
-    "away_team": "Espanyol Barcelona",
-    "league": "",
+    "event_id": "b9veJHJH",
+    "home_team": "Peña",
+    "away_team": "SD Huesca",
+    "league": "SPANIEN Copa del Rey",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "vJO0cFIE",
-    "home_team": "Slavia Prag",
-    "away_team": "1. FC Brünn",
-    "league": "",
+    "event_id": "6DCE068E",
+    "home_team": "Poblense",
+    "away_team": "Ceuta",
+    "league": "SPANIEN Copa del Rey",
     "saat": "21:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "hfMKoYHb",
-    "home_team": "AB Gladsaxe",
-    "away_team": "Brøndby IF",
-    "league": "",
-    "saat": "21:30",
-    "tarih": "27.10.2026"
+    "event_id": "jqymLwk5",
+    "home_team": "Utebo FC",
+    "away_team": "Sabadell",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "21:00",
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "0dJCtoHr",
-    "home_team": "Castellonense",
-    "away_team": "UD Almería",
-    "league": "",
-    "saat": "21:45",
-    "tarih": "27.10.2026"
+    "event_id": "IyxFIzmJ",
+    "home_team": "FC Cajamarca",
+    "away_team": "Cajamarca",
+    "league": "PERU Liga 1 - Clausura",
+    "saat": "21:15",
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "EH6SwC7s",
-    "home_team": "Blackpool FC",
-    "away_team": "Aston Villa U21",
-    "league": "",
+    "event_id": "r796xUvo",
+    "home_team": "FC Roskilde",
+    "away_team": "Aarhus GF",
+    "league": "DÄNEMARK Betano Pokalen",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "pfGT2JtA",
-    "home_team": "Port Vale",
-    "away_team": "Manchester City U21",
-    "league": "",
+    "event_id": "40OEYA0k",
+    "home_team": "Genemuiden",
+    "away_team": "Dordrecht",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "dG8FgF3d",
-    "home_team": "Shrewsbury Town",
-    "away_team": "FC Everton U21",
-    "league": "",
+    "event_id": "MglsKBod",
+    "home_team": "Maastricht",
+    "away_team": "Excelsior Rotterdam",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "EmyTsFw3",
-    "home_team": "Barendrecht",
-    "away_team": "RKC Waalwijk",
-    "league": "",
+    "event_id": "OMzHqGig",
+    "home_team": "PEC Zwolle",
+    "away_team": "Oss",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "04Zztg8F",
-    "home_team": "Helmond",
-    "away_team": "Willem II Tilburg",
-    "league": "",
+    "event_id": "E9hyXx8m",
+    "home_team": "Quick Boys",
+    "away_team": "Eemdijk",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "8UxqvXxS",
-    "home_team": "Kloetinge",
-    "away_team": "SC Cambuur-Leeuwarden",
-    "league": "",
+    "event_id": "r92nrOXo",
+    "home_team": "VVSB",
+    "away_team": "EVV",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "jHzuvCLU",
-    "home_team": "Rijnsburgse Boys",
-    "away_team": "Den Bosch",
-    "league": "",
+    "event_id": "zHKgt22b",
+    "home_team": "VVV-Venlo",
+    "away_team": "Vitesse Arnheim",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "0pcaRYyP",
-    "home_team": "Roda Kerkrade",
-    "away_team": "De Graafschap",
-    "league": "",
+    "event_id": "vNb7Dnmd",
+    "home_team": "Amorebieta",
+    "away_team": "UD Logrones",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "lQBfolpe",
-    "home_team": "Telstar",
-    "away_team": "Almere City",
-    "league": "",
+    "event_id": "lK2hbAro",
+    "home_team": "Badajoz",
+    "away_team": "CD Teneriffa",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "t08nmAFr",
-    "home_team": "Eindhoven",
-    "away_team": "FC Volendam",
-    "league": "",
+    "event_id": "v7KSx3G7",
+    "home_team": "CD Alcoyano",
+    "away_team": "RCD Mallorca",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "voPlfkTi",
-    "home_team": "Atl. Tordesillas",
-    "away_team": "CD Mirandés",
-    "league": "",
+    "event_id": "EwdP7NFs",
+    "home_team": "Mijas Las Lagunas",
+    "away_team": "Real Jaén",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "Kf5XAmSj",
-    "home_team": "Ciudad de Lucena",
-    "away_team": "Rayo Majadahonda",
-    "league": "",
+    "event_id": "v91aN8bU",
+    "home_team": "Covadonga",
+    "away_team": "Real Valladolid",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "G8oXy8DN",
-    "home_team": "Llanera",
-    "away_team": "SD Ponferradina",
-    "league": "",
+    "event_id": "b7F67ELb",
+    "home_team": "Trival Valderas",
+    "away_team": "CD Leganés",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "pODE5hjB",
-    "home_team": "RSD Alcalá",
-    "away_team": "UD Las Palmas",
-    "league": "",
+    "event_id": "A91hgO0l",
+    "home_team": "Puertollano C.F.",
+    "away_team": "Albacete Balompié",
+    "league": "SPANIEN Copa del Rey",
     "saat": "22:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "lCE1G94T",
-    "home_team": "Don Benito",
-    "away_team": "CD Extremadura",
-    "league": "",
+    "event_id": "vLaHlpR9",
+    "home_team": "Manchester City",
+    "away_team": "Brighton & Hove Albion",
+    "league": "ENGLAND EFL Cup",
     "saat": "22:30",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "0xDCyaZo",
-    "home_team": "Manresa",
-    "away_team": "Sant Andreu",
-    "league": "",
+    "event_id": "l08Llgf5",
+    "home_team": "LASK",
+    "away_team": "SV Ried",
+    "league": "ÖSTERREICH ÖFB Cup",
     "saat": "22:30",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "rBgHd1RF",
-    "home_team": "1. FC Köln",
-    "away_team": "1. FC Union Berlin",
-    "league": "",
+    "event_id": "ryFai2V0",
+    "home_team": "Cieza",
+    "away_team": "FC Granada",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "22:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "re5gDqhK",
+    "home_team": "Deportiva Minera",
+    "away_team": "FC Cartagena",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "22:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "nFt0F8Iq",
+    "home_team": "Reus FCR",
+    "away_team": "FC Barakaldo",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "22:30",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "Y1PfbZJH",
+    "home_team": "Hannover 96",
+    "away_team": "1. FC Kaiserslautern",
+    "league": "DEUTSCHLAND DFB Pokal",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "OODTjWff",
-    "home_team": "Borussia Mönchengladbach",
-    "away_team": "Karlsruher SC",
-    "league": "",
+    "event_id": "hONv2HKh",
+    "home_team": "Holstein Kiel",
+    "away_team": "TSG Hoffenheim",
+    "league": "DEUTSCHLAND DFB Pokal",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "pvrekJJk",
-    "home_team": "Borussia Dortmund",
-    "away_team": "Werder Bremen",
-    "league": "",
+    "event_id": "0lRn0ek5",
+    "home_team": "Bayer Leverkusen",
+    "away_team": "1. FC Nürnberg",
+    "league": "DEUTSCHLAND DFB Pokal",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "tSS2dDlU",
-    "home_team": "SV Elversberg",
-    "away_team": "SV Darmstadt",
-    "league": "",
+    "event_id": "CARkXwhR",
+    "home_team": "Forest Green Rovers",
+    "away_team": "Eastleigh FC",
+    "league": "ENGLAND National League",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "OQOqMISp",
-    "home_team": "Leicester City",
-    "away_team": "Wigan Athletic",
-    "league": "",
+    "event_id": "vcTsZaNE",
+    "home_team": "Carlisle United",
+    "away_team": "Harrogate Town",
+    "league": "ENGLAND National League",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "x8LwmnX0",
-    "home_team": "Luton Town",
-    "away_team": "Doncaster Rovers",
-    "league": "",
+    "event_id": "rgILRHFl",
+    "home_team": "Sutton United",
+    "away_team": "Aldershot Town",
+    "league": "ENGLAND National League",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "jXGVqMKi",
-    "home_team": "Milton Keynes Dons",
-    "away_team": "Bromley FC",
-    "league": "",
+    "event_id": "YP7yzmR0",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Aston Villa",
+    "league": "ENGLAND EFL Cup",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "ALJooQ1D",
-    "home_team": "Oxford United",
-    "away_team": "Stockport County",
-    "league": "",
+    "event_id": "rDKkqi4E",
+    "home_team": "AFC Sunderland",
+    "away_team": "FC Brentford",
+    "league": "ENGLAND EFL Cup",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "z5tccWNt",
-    "home_team": "FC Barnet",
-    "away_team": "York City",
-    "league": "",
+    "event_id": "YqbVeUmK",
+    "home_team": "FC Fulham",
+    "away_team": "Crystal Palace",
+    "league": "ENGLAND EFL Cup",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "CQ5U7NOF",
-    "home_team": "AFC Fylde",
-    "away_team": "Hartlepool United",
-    "league": "",
+    "event_id": "EXOYeX7c",
+    "home_team": "AC Monza",
+    "away_team": "SSC Neapel",
+    "league": "ITALIEN Serie A",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "pv4x61gS",
-    "home_team": "Altrincham FC",
-    "away_team": "Kidderminster Harriers",
-    "league": "",
+    "event_id": "plJ7iJlK",
+    "home_team": "Dundee FC",
+    "away_team": "FC Kilmarnock",
+    "league": "SCHOTTLAND Premier League",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "2cqAK08L",
-    "home_team": "FC Tamworth",
-    "away_team": "Scunthorpe United",
-    "league": "",
+    "event_id": "IsRLTFdD",
+    "home_team": "Celtic Glasgow",
+    "away_team": "Dundee United",
+    "league": "SCHOTTLAND Premier League",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "OnbGbJo2",
-    "home_team": "Halifax Town",
-    "away_team": "AFC Barrow",
-    "league": "",
+    "event_id": "EoIppysf",
+    "home_team": "St. Johnstone",
+    "away_team": "Motherwell FC",
+    "league": "SCHOTTLAND Premier League",
     "saat": "22:45",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "GMf80uHk",
-    "home_team": "Boston United",
-    "away_team": "FC Gateshead",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "YuztFvWr",
-    "home_team": "Wealdstone FC",
-    "away_team": "Solihull Moors",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "naYDQHNk",
-    "home_team": "Bedford",
-    "away_team": "Hednesford Town",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "KCWLOeh2",
-    "home_team": "Buxton FC",
-    "away_team": "Harborough",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "nJO7nap9",
-    "home_team": "Chester FC",
-    "away_team": "Marine FC",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "WSieQ8T6",
-    "home_team": "FC Morecambe",
-    "away_team": "FC Darlington",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "O2lmSUbf",
-    "home_team": "Hereford FC",
-    "away_team": "AFC Telford United",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "Ain7lE1c",
-    "home_team": "Oxford City",
-    "away_team": "Merthyr Town",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "jFJQOG9a",
-    "home_team": "Spennymoor",
-    "away_team": "South Shields FC",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "OSHYMfvC",
-    "home_team": "Worksop Town FC",
-    "away_team": "King's Lynn",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "6gYmDI0e",
-    "home_team": "FC Woking",
-    "away_team": "Boreham Wood",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "EJydBdV7",
-    "home_team": "Worthing FC",
-    "away_team": "Southend United",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "tjBqYQeD",
-    "home_team": "Bradford City",
-    "away_team": "Peterborough United",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "UNVlhk7M",
-    "home_team": "AS Rom",
-    "away_team": "Cagliari Calcio",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "bLURp7ad",
-    "home_team": "FC Turin",
-    "away_team": "Como 1907",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "tE1DnrrI",
-    "home_team": "Ross County",
-    "away_team": "Hamilton",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "hzM1uEMa",
-    "home_team": "Penicuik",
-    "away_team": "Clyde",
-    "league": "",
-    "saat": "22:45",
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "rR15xapQ",
-    "home_team": "HFC",
-    "away_team": "Go Ahead Eagles",
-    "league": "",
+    "event_id": "jwOcsVYQ",
+    "home_team": "FC Liverpool",
+    "away_team": "FC Chelsea",
+    "league": "ENGLAND EFL Cup",
     "saat": "23:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "8YCoKi54",
-    "home_team": "Atl. Paso",
-    "away_team": "FC Córdoba",
-    "league": "",
+    "event_id": "8nYX3sUG",
+    "home_team": "FC Arsenal F",
+    "away_team": "Benfica Lissabon F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
     "saat": "23:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "0E0m2JqJ",
-    "home_team": "Huelva",
-    "away_team": "Rayo Vallecano",
-    "league": "",
+    "event_id": "xrbD755U",
+    "home_team": "FAR Rabat",
+    "away_team": "Tanger",
+    "league": "MAROKKO Botola Pro",
     "saat": "23:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "WMx3HelU",
-    "home_team": "Tudelano",
-    "away_team": "Real Saragossa",
-    "league": "",
+    "event_id": "j9x9oxNt",
+    "home_team": "Excelsior Maassluis",
+    "away_team": "SC Heerenveen",
+    "league": "NIEDERLANDE KNVB Beker",
     "saat": "23:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "CvX2Woyo",
-    "home_team": "Arosa SC",
-    "away_team": "FC Pontevedra",
-    "league": "",
+    "event_id": "tK4wncCs",
+    "home_team": "Heart of Midlothian",
+    "away_team": "Glasgow Rangers",
+    "league": "SCHOTTLAND Premier League",
     "saat": "23:00",
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "YTkpRja5",
+    "home_team": "Salamanca",
+    "away_team": "Celta Vigo",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "23:00",
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "GQfvMDzh",
+    "home_team": "Xerez CD",
+    "away_team": "FC Cádiz",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "23:00",
+    "tarih": "28.10.2026"
   }
 ]

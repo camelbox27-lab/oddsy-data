@@ -1,142 +1,162 @@
 [
   {
-    "event_id": "MD6TnXOH",
-    "home_team": "First Vienna FC 1894",
-    "away_team": "SK Rapid",
-    "league": "",
+    "event_id": "ObdgiUSO",
+    "home_team": "Karagümrük",
+    "away_team": "Soma Spor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
+    "saat": "15:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "CATYugnl",
+    "home_team": "Şanlıurfaspor",
+    "away_team": "Gölcükspor",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
+    "saat": "15:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "8OPyDpko",
+    "home_team": "Ümraniyespor",
+    "away_team": "Küçükçekmece",
+    "league": "TÜRKEI Pokal Türkei - Qualifikation",
+    "saat": "15:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 8.0,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "pUICmfmn",
+    "home_team": "Esbjerg fB",
+    "away_team": "FC Nordsjælland",
+    "league": "DÄNEMARK Betano Pokalen",
+    "saat": "19:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "2ggz1AM9",
+    "home_team": "Molde FK",
+    "away_team": "Strømsgodset IF",
+    "league": "NORWEGEN NM Pokal",
     "saat": "20:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "27.10.2026"
+    "ms_5_5_ust": 3.75,
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "raFp8WgJ",
-    "home_team": "Cuarte",
-    "away_team": "FC Girona",
-    "league": "",
-    "saat": "20:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "xQYiR8sI",
-    "home_team": "AFC Wimbledon",
-    "away_team": "FC Arsenal U21",
-    "league": "",
-    "saat": "21:00",
+    "event_id": "AJdraliM",
+    "home_team": "Rosenborg Trondheim",
+    "away_team": "HamKam",
+    "league": "NORWEGEN NM Pokal",
+    "saat": "20:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 5.5,
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "vJO0cFIE",
-    "home_team": "Slavia Prag",
-    "away_team": "1. FC Brünn",
-    "league": "",
-    "saat": "21:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "hfMKoYHb",
-    "home_team": "AB Gladsaxe",
-    "away_team": "Brøndby IF",
-    "league": "",
-    "saat": "21:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "EH6SwC7s",
-    "home_team": "Blackpool FC",
-    "away_team": "Aston Villa U21",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.5,
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "EmyTsFw3",
-    "home_team": "Barendrecht",
-    "away_team": "RKC Waalwijk",
-    "league": "",
-    "saat": "22:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "27.10.2026"
-  },
-  {
-    "event_id": "OODTjWff",
-    "home_team": "Borussia Mönchengladbach",
-    "away_team": "Karlsruher SC",
-    "league": "",
-    "saat": "22:45",
+    "event_id": "K4Gdj9sR",
+    "home_team": "Bayern München F",
+    "away_team": "Real Madrid F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
+    "saat": "20:45",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 5.5,
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "pvrekJJk",
-    "home_team": "Borussia Dortmund",
-    "away_team": "Werder Bremen",
-    "league": "",
-    "saat": "22:45",
+    "event_id": "Kz6plieD",
+    "home_team": "IF Brommapojkarna",
+    "away_team": "BK Häcken",
+    "league": "SCHWEDEN Allsvenskan",
+    "saat": "21:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 6.5,
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "tSS2dDlU",
-    "home_team": "SV Elversberg",
-    "away_team": "SV Darmstadt",
-    "league": "",
-    "saat": "22:45",
+    "event_id": "MglsKBod",
+    "home_team": "Maastricht",
+    "away_team": "Excelsior Rotterdam",
+    "league": "NIEDERLANDE KNVB Beker",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
-    "tarih": "27.10.2026"
+    "ms_5_5_ust": 6.0,
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "OQOqMISp",
-    "home_team": "Leicester City",
-    "away_team": "Wigan Athletic",
-    "league": "",
-    "saat": "22:45",
+    "event_id": "OMzHqGig",
+    "home_team": "PEC Zwolle",
+    "away_team": "Oss",
+    "league": "NIEDERLANDE KNVB Beker",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
-    "tarih": "27.10.2026"
+    "ms_5_5_ust": 8.0,
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "UNVlhk7M",
-    "home_team": "AS Rom",
-    "away_team": "Cagliari Calcio",
-    "league": "",
-    "saat": "22:45",
+    "event_id": "r92nrOXo",
+    "home_team": "VVSB",
+    "away_team": "EVV",
+    "league": "NIEDERLANDE KNVB Beker",
+    "saat": "22:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.5,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "b7F67ELb",
+    "home_team": "Trival Valderas",
+    "away_team": "CD Leganés",
+    "league": "SPANIEN Copa del Rey",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 9.0,
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "rR15xapQ",
-    "home_team": "HFC",
-    "away_team": "Go Ahead Eagles",
-    "league": "",
-    "saat": "23:00",
+    "event_id": "l08Llgf5",
+    "home_team": "LASK",
+    "away_team": "SV Ried",
+    "league": "ÖSTERREICH ÖFB Cup",
+    "saat": "22:30",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 5.0,
-    "tarih": "27.10.2026"
+    "tarih": "28.10.2026"
   },
   {
-    "event_id": "8YCoKi54",
-    "home_team": "Atl. Paso",
-    "away_team": "FC Córdoba",
-    "league": "",
+    "event_id": "hONv2HKh",
+    "home_team": "Holstein Kiel",
+    "away_team": "TSG Hoffenheim",
+    "league": "DEUTSCHLAND DFB Pokal",
+    "saat": "22:45",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.0,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "8nYX3sUG",
+    "home_team": "FC Arsenal F",
+    "away_team": "Benfica Lissabon F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
     "saat": "23:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 10.0,
-    "tarih": "27.10.2026"
+    "ms_5_5_ust": 4.5,
+    "tarih": "28.10.2026"
+  },
+  {
+    "event_id": "j9x9oxNt",
+    "home_team": "Excelsior Maassluis",
+    "away_team": "SC Heerenveen",
+    "league": "NIEDERLANDE KNVB Beker",
+    "saat": "23:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.5,
+    "tarih": "28.10.2026"
   }
 ]
