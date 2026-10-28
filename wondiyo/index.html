@@ -213,6 +213,7 @@
 </div>
 
 <script>
+const SURUM   = "28.10-2";   // sayfanin hangi surumu yuklendigini gormek icin
 const DEPO    = "camelbox27-lab/oddsy-data";
 const AKIS    = "veri-guncelle.yml";
 const DAL     = "main";
@@ -359,7 +360,12 @@ async function tetikle(is_) {
 }
 
 butonlar.forEach(b => b.onclick = () => tetikle(b.dataset.is));
-yaz("hazır — bir butona bas");
+yaz("hazır (s. " + SURUM + ") — bir butona bas");
+
+/* Sayfayi her acista taze cek; eski kopya telefonda takili kalmasin. */
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
 </script>
 </body>
 </html>
