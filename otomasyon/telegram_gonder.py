@@ -152,6 +152,11 @@ def main():
                 # Token/chat_id hatasi tekrar denemekle duzelmez
                 if e.code in (400, 401, 403, 404):
                     print(f"HATA {e.code}: {govde}", flush=True)
+                    # "chat not found" / yetki hatasi: dogru chat id'yi kendimiz bulalim
+                    if "chat not found" in govde or "chat_id" in govde or e.code in (403, 404):
+                        print(f"Girilen TELEGRAM_CHAT_ID calismadi. Botun gordugu "
+                              f"sohbetler araniyor...", flush=True)
+                        _chat_adaylari(token)
                     return 1
                 print(f"  gecici hata {e.code}, tekrar deneniyor...", flush=True)
             except Exception as e:
