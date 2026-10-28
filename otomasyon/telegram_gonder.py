@@ -20,6 +20,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import tr_isim                       # noqa: E402
+
 KOK = Path(__file__).resolve().parent.parent
 KAYNAK_DOSYA = KOK / "data" / "halfTimeGoals.json"
 
@@ -28,62 +31,70 @@ SINIR = 3800          # Telegram siniri 4096; basliga ve paya yer birakiyoruz
 DIGER_LIG = "Diger"
 
 
+def _kacir(metin):
+    """Telegram HTML yalnizca < > & tanir; kesme/tirnak kacirilmamali."""
+    return html.escape(str(metin or ""), quote=False)
+
+
 def _mesajlar(kayitlar, tarih):
-    """Lig lig grupla, saate gore sirala, 4096 karakteri asmayacak parcalar uret."""
+    """Lig lig grupla, saate gore sirala, 4096 karakteri asmayan parcalar uret.
+
+    Lig ve takim adlari Almanca geliyor (kaynak Flashscore AT); burada
+    yalnizca GOSTERIM icin Turkce'ye cevrilir, veri dosyasi degismez.
+    """
+    def saat_anahtari(k):
+        s = (k.get("saat") or "").strip()
+        return (s == "", s)          # saati bos olanlar en sona
+
     # Lig alani merged dosyasindan gelir. PC yolunda (match_merger_bot.py) bu
     # alan hic uretilmiyor; o durumda gruplama yapmadan duz liste veriyoruz.
     ligli = any((k.get("league") or "").strip() for k in kayitlar)
     ligler = {}
     for k in kayitlar:
-        ad = (k.get("league") or "").strip() or DIGER_LIG
-        ligler.setdefault(ad if ligli else "", []).append(k)
-
-    def saat_anahtari(k):
-        s = (k.get("saat") or "").strip()
-        return (s == "", s)          # saati bos olanlar en sona
+        if ligli:
+            bayrak, ad = tr_isim.lig(k.get("league"))
+            anahtar = (f"{bayrak} {ad}".strip() if ad else DIGER_LIG)
+        else:
+            anahtar = ""
+        ligler.setdefault(anahtar, []).append(k)
 
     # Ligleri kendi ilk maclarinin saatine gore sirala
-    sirali = sorted(ligler.items(), key=lambda it: saat_anahtari(min(it[1], key=saat_anahtari)))
+    sirali = sorted(ligler.items(),
+                    key=lambda it: saat_anahtari(min(it[1], key=saat_anahtari)))
 
     baslik = (
-        f"<b>⚽ İlk Yarı Gol Listesi</b>\n"
-        f"\U0001f4c5 {html.escape(tarih)} · {len(kayitlar)} maç"
+        f"<b>\u26bd İLK YARI GOL LİSTESİ</b>\n"
+        f"<i>{_kacir(tr_isim.tarih(tarih))} · {len(kayitlar)} maç</i>"
     )
 
-    # Tum satirlari duz bir listeye ac, sonra sinira gore parcalara bol.
-    satirlar = [baslik]
-    for lig, maclar in sirali:
-        if lig:
-            satirlar.append(f"\n<b>\U0001f3c6 {html.escape(lig)}</b>")
+    # (lig_basligi, satir) ciftleri; lig ikiye bolunurse baslik tekrar yazilir.
+    ogeler = [(None, baslik)]
+    for lig_adi, maclar in sirali:
+        ustbilgi = f"<b>{_kacir(lig_adi)}</b>" if lig_adi else None
+        if ustbilgi:
+            ogeler.append((None, "\n" + ustbilgi))
         for m in sorted(maclar, key=saat_anahtari):
-            saat = html.escape((m.get("saat") or "--:--").strip())
-            ev = html.escape((m.get("home_team") or "?").strip())
-            dep = html.escape((m.get("away_team") or "?").strip())
-            satirlar.append(f"<code>{saat}</code>  {ev} - {dep}")
+            saat = _kacir((m.get("saat") or "--:--").strip())
+            ev = _kacir(tr_isim.takim(m.get("home_team")) or "?")
+            dep = _kacir(tr_isim.takim(m.get("away_team")) or "?")
+            ogeler.append((ustbilgi, f"<code>{saat}</code>  {ev} \u2013 {dep}"))
 
-    parcalar, simdiki = [], ""
-    for satir in satirlar:
+    parcalar, simdiki, acik = [], "", None
+    for ustbilgi, satir in ogeler:
         aday = satir if not simdiki else simdiki + "\n" + satir
         if len(aday) > SINIR and simdiki:
             parcalar.append(simdiki)
-            simdiki = satir.lstrip("\n")
+            # Yarida kalan ligin basligini yeni parcanin basina tasi
+            if ustbilgi:
+                simdiki = f"{ustbilgi} <i>(devam)</i>\n{satir}"
+            else:
+                simdiki = satir.lstrip("\n")
         else:
             simdiki = aday
+        acik = ustbilgi
     if simdiki:
         parcalar.append(simdiki)
     return parcalar
-
-
-def _gonder(token, chat_id, metin):
-    veri = urllib.parse.urlencode({
-        "chat_id": chat_id,
-        "text": metin,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": "true",
-    }).encode()
-    istek = urllib.request.Request(API.format(token=token), data=veri)
-    with urllib.request.urlopen(istek, timeout=30) as c:
-        return json.loads(c.read().decode())
 
 
 def _chat_adaylari(token):
