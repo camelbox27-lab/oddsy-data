@@ -88,7 +88,12 @@ def _gonder(token, chat_id, metin):
 
 def _chat_adaylari(token):
     """getUpdates ile botun gordugu sohbetleri listeler (sadece kurulum icin)."""
-    url = f"https://api.telegram.org/bot{token}/getUpdates"
+    # my_chat_member (bot kanala/gruba eklendi) varsayilan olarak GELMEZ,
+    # allowed_updates ile acikca istemek gerekir.
+    izin = urllib.parse.quote(json.dumps(
+        ["message", "channel_post", "edited_channel_post", "my_chat_member"]))
+    url = (f"https://api.telegram.org/bot{token}/getUpdates"
+           f"?allowed_updates={izin}&limit=100")
     try:
         with urllib.request.urlopen(url, timeout=30) as c:
             d = json.loads(c.read().decode())
