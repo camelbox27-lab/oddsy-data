@@ -102,6 +102,7 @@ def uret(gun: dt.date) -> int:
             'date_time': str(tarih) if tarih else '',
             'home_team': s[kolon['Ev']],
             'away_team': s[kolon['Dep']],
+            'league':    s[kolon['Lig']] or '',
             'saat':      saat,
         }
         kayit.update({alan: al(s, sut) for alan, sut in ESLEME.items()})

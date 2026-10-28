@@ -16,6 +16,7 @@ on:
           - menu
           - istatistik
           - teshis
+          - telegram
 
 # Ayni anda iki calisma main'e push etmeye kalkmasin.
 concurrency:
@@ -256,3 +257,25 @@ jobs:
           fi
           echo "Pipeline basarisiz (menu=$menu istatistik=$ist)."
           exit 1
+
+  # telegram — siteye yuklenmis Ilk Yari Gol listesini Wondiyo grubuna gonderir.
+  # Veri uretmez, sadece data/halfTimeGoals.json'i okur; push yapmaz.
+  # Sadece stdlib kullandigi icin pip kurulumu yok, saniyeler icinde biter.
+  telegram:
+    if: inputs.hangisi == 'telegram'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/Istanbul
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Ilk Yari Gol listesini Telegram'a gonder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 otomasyon/telegram_gonder.py

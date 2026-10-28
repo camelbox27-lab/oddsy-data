@@ -74,6 +74,12 @@
     justify-content: center;
   }
   .btn-bulten span { flex: 0 1 auto; text-align: center; }
+  .btn-telegram {
+    background: linear-gradient(145deg, #30a3dc, #1b7cb0);
+    justify-content: center; gap: 10px;
+  }
+  .btn-telegram span { flex: 0 1 auto; text-align: center; }
+  .btn-telegram svg { width: 23px; height: 23px; flex: 0 0 auto; }
   .ayirac { border: 0; border-top: 1px solid var(--kenar); margin: 5px 0 1px; }
   .btn-ikisi {
     background: transparent; border: 1px solid var(--kenar); color: var(--soluk);
@@ -174,6 +180,11 @@
 
   <button class="ana btn-bulten" data-is="menu">
     <span>BÜLTEN YÜKLE</span>
+  </button>
+
+  <button class="ana btn-telegram" data-is="telegram">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6l-3.06 14.43c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.78 8.7-7.86c.38-.34-.08-.53-.59-.19L6.26 13.1 1.6 11.64c-1.01-.32-1.03-1.01.21-1.5L20.63 2.9c.84-.31 1.58.2 1.31 1.7z"/></svg>
+    <span>TELEGRAM'A GÖNDER</span>
   </button>
 </div>
 
@@ -330,7 +341,9 @@ async function tetikle(is_) {
 
     const son = await izle(c.id);
     if (son.conclusion === "success") {
-      yaz("✓ TAMAMLANDI — veri siteye yüklendi", "ok");
+      yaz(is_ === "telegram"
+            ? "✓ TAMAMLANDI — liste Telegram'a gönderildi"
+            : "✓ TAMAMLANDI — veri siteye yüklendi", "ok");
       durum("tamamlandı", "tamam");
     } else {
       yaz("✗ BAŞARISIZ (" + son.conclusion + ")", "err");
