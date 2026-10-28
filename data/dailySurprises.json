@@ -1,42 +1,12 @@
 [
   {
-    "event_id": "ObdgiUSO",
-    "home_team": "Karagümrük",
-    "away_team": "Soma Spor",
-    "league": "TÜRKEI Pokal Türkei - Qualifikation",
-    "saat": "15:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "CATYugnl",
-    "home_team": "Şanlıurfaspor",
-    "away_team": "Gölcükspor",
-    "league": "TÜRKEI Pokal Türkei - Qualifikation",
-    "saat": "15:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "8OPyDpko",
-    "home_team": "Ümraniyespor",
-    "away_team": "Küçükçekmece",
-    "league": "TÜRKEI Pokal Türkei - Qualifikation",
-    "saat": "15:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "28.10.2026"
-  },
-  {
     "event_id": "pUICmfmn",
     "home_team": "Esbjerg fB",
     "away_team": "FC Nordsjælland",
     "league": "DÄNEMARK Betano Pokalen",
     "saat": "19:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
+    "ms_5_5_ust": 7.0,
     "tarih": "28.10.2026"
   },
   {
@@ -50,11 +20,11 @@
     "tarih": "28.10.2026"
   },
   {
-    "event_id": "AJdraliM",
-    "home_team": "Rosenborg Trondheim",
-    "away_team": "HamKam",
-    "league": "NORWEGEN NM Pokal",
-    "saat": "20:00",
+    "event_id": "QRMD8Ai3",
+    "home_team": "FC Venedig",
+    "away_team": "Inter Mailand",
+    "league": "ITALIEN Serie A",
+    "saat": "20:30",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 5.5,
     "tarih": "28.10.2026"
@@ -110,23 +80,13 @@
     "tarih": "28.10.2026"
   },
   {
-    "event_id": "b7F67ELb",
-    "home_team": "Trival Valderas",
-    "away_team": "CD Leganés",
-    "league": "SPANIEN Copa del Rey",
-    "saat": "22:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 9.0,
-    "tarih": "28.10.2026"
-  },
-  {
     "event_id": "l08Llgf5",
     "home_team": "LASK",
     "away_team": "SV Ried",
     "league": "ÖSTERREICH ÖFB Cup",
     "saat": "22:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.0,
+    "ms_5_5_ust": 4.5,
     "tarih": "28.10.2026"
   },
   {
@@ -156,7 +116,7 @@
     "league": "NIEDERLANDE KNVB Beker",
     "saat": "23:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
+    "ms_5_5_ust": 5.0,
     "tarih": "28.10.2026"
   }
 ]

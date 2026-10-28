@@ -1,15 +1,5 @@
 [
   {
-    "event_id": "vaY6yYee",
-    "home_team": "Prostejov",
-    "away_team": "FC Hradec Králové",
-    "league": "TSCHECHIEN MOL Cup",
-    "saat": "14:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
-    "tarih": "28.10.2026"
-  },
-  {
     "event_id": "Gvr3oFOQ",
     "home_team": "Karabuk Idmanyurdu",
     "away_team": "Iskenderunspor",
@@ -26,7 +16,7 @@
     "league": "DÄNEMARK Betano Pokalen",
     "saat": "15:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
+    "2_5_ust": 1.57,
     "tarih": "28.10.2026"
   },
   {
@@ -36,17 +26,7 @@
     "league": "TSCHECHIEN MOL Cup",
     "saat": "16:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "2Nt4DcYj",
-    "home_team": "Real Normanna",
-    "away_team": "L'Aquila Calcio",
-    "league": "ITALIEN Coppa Italia Serie D",
-    "saat": "16:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
+    "2_5_ust": 1.6,
     "tarih": "28.10.2026"
   },
   {
@@ -60,13 +40,23 @@
     "tarih": "28.10.2026"
   },
   {
+    "event_id": "2Nt4DcYj",
+    "home_team": "Real Normanna",
+    "away_team": "L'Aquila Calcio",
+    "league": "ITALIEN Coppa Italia Serie D",
+    "saat": "16:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.62,
+    "tarih": "28.10.2026"
+  },
+  {
     "event_id": "fsXI23V8",
     "home_team": "Sakaryaspor",
     "away_team": "Bursa Yildirimspor",
     "league": "TÜRKEI Pokal Türkei - Qualifikation",
     "saat": "18:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.67,
+    "2_5_ust": 1.62,
     "tarih": "28.10.2026"
   },
   {
@@ -86,7 +76,7 @@
     "league": "PERU Liga 1 - Clausura",
     "saat": "19:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.7,
+    "2_5_ust": 1.73,
     "tarih": "28.10.2026"
   },
   {
@@ -120,6 +110,16 @@
     "tarih": "28.10.2026"
   },
   {
+    "event_id": "vuwB4Cuf",
+    "home_team": "Halmstads BK",
+    "away_team": "Malmö FF",
+    "league": "SCHWEDEN Allsvenskan",
+    "saat": "21:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.57,
+    "tarih": "28.10.2026"
+  },
+  {
     "event_id": "Kz6plieD",
     "home_team": "IF Brommapojkarna",
     "away_team": "BK Häcken",
@@ -136,7 +136,7 @@
     "league": "NIEDERLANDE KNVB Beker",
     "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
+    "2_5_ust": 1.4,
     "tarih": "28.10.2026"
   },
   {
@@ -150,13 +150,13 @@
     "tarih": "28.10.2026"
   },
   {
-    "event_id": "ryFai2V0",
-    "home_team": "Cieza",
-    "away_team": "FC Granada",
-    "league": "SPANIEN Copa del Rey",
+    "event_id": "vLaHlpR9",
+    "home_team": "Manchester City",
+    "away_team": "Brighton & Hove Albion",
+    "league": "ENGLAND EFL Cup",
     "saat": "22:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.7,
+    "2_5_ust": 1.44,
     "tarih": "28.10.2026"
   },
   {
@@ -180,46 +180,6 @@
     "tarih": "28.10.2026"
   },
   {
-    "event_id": "jwOcsVYQ",
-    "home_team": "FC Liverpool",
-    "away_team": "FC Chelsea",
-    "league": "ENGLAND EFL Cup",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "ObdgiUSO",
-    "home_team": "Karagümrük",
-    "away_team": "Soma Spor",
-    "league": "TÜRKEI Pokal Türkei - Qualifikation",
-    "saat": "15:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.1,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "CATYugnl",
-    "home_team": "Şanlıurfaspor",
-    "away_team": "Gölcükspor",
-    "league": "TÜRKEI Pokal Türkei - Qualifikation",
-    "saat": "15:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.1,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "8OPyDpko",
-    "home_team": "Ümraniyespor",
-    "away_team": "Küçükçekmece",
-    "league": "TÜRKEI Pokal Türkei - Qualifikation",
-    "saat": "15:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.38,
-    "tarih": "28.10.2026"
-  },
-  {
     "event_id": "pUICmfmn",
     "home_team": "Esbjerg fB",
     "away_team": "FC Nordsjælland",
@@ -240,13 +200,13 @@
     "tarih": "28.10.2026"
   },
   {
-    "event_id": "AJdraliM",
-    "home_team": "Rosenborg Trondheim",
-    "away_team": "HamKam",
-    "league": "NORWEGEN NM Pokal",
-    "saat": "20:00",
+    "event_id": "QRMD8Ai3",
+    "home_team": "FC Venedig",
+    "away_team": "Inter Mailand",
+    "league": "ITALIEN Serie A",
+    "saat": "20:30",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.83,
+    "3_5_ust": 1.91,
     "tarih": "28.10.2026"
   },
   {
@@ -257,16 +217,6 @@
     "saat": "22:00",
     "kategori": "3.5 Üst",
     "3_5_ust": 2.25,
-    "tarih": "28.10.2026"
-  },
-  {
-    "event_id": "b7F67ELb",
-    "home_team": "Trival Valderas",
-    "away_team": "CD Leganés",
-    "league": "SPANIEN Copa del Rey",
-    "saat": "22:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.38,
     "tarih": "28.10.2026"
   },
   {
