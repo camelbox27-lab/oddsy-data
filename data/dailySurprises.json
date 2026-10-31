@@ -1,72 +1,192 @@
 [
   {
-    "event_id": "63Banmmp",
-    "home_team": "Tanjong Pagar",
-    "away_team": "FC Jurong",
-    "league": "SINGAPUR Premier League",
-    "saat": "14:30",
+    "event_id": "tG2jJE9U",
+    "home_team": "Mito HollyHock",
+    "away_team": "Sanfrecce Hiroshima",
+    "league": "JAPAN J1 League",
+    "saat": "08:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 10.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "SUREDkVF",
+    "home_team": "FC Fredericia",
+    "away_team": "AB Gladsaxe",
+    "league": "DÄNEMARK 1. Division",
+    "saat": "15:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "2154Q56k",
+    "home_team": "MSV Duisburg",
+    "away_team": "VfB Stuttgart II",
+    "league": "DEUTSCHLAND 3. Liga",
+    "saat": "16:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "jgONzSG6",
+    "home_team": "Beitar Jerusalem",
+    "away_team": "Kiryat Shmona",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "16:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "6gvM2yKH",
+    "home_team": "UD Levante",
+    "away_team": "Atlético Madrid",
+    "league": "SPANIEN La Liga",
+    "saat": "16:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 7.0,
-    "tarih": "30.10.2026"
+    "tarih": "31.10.2026"
   },
   {
-    "event_id": "ncRVhYJ7",
-    "home_team": "AC Le Havre",
-    "away_team": "PSG",
-    "league": "FRANKREICH Ligue 1",
+    "event_id": "d4WJuL6D",
+    "home_team": "Hajduk Split",
+    "away_team": "HNK Gorica",
+    "league": "KROATIEN HNL",
+    "saat": "17:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 10.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "URHzi8dn",
+    "home_team": "FC Middlesbrough",
+    "away_team": "Charlton Athletic",
+    "league": "ENGLAND Championship",
+    "saat": "18:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.5,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "rNXhVVOs",
+    "home_team": "Stockport County",
+    "away_team": "AFC Wimbledon",
+    "league": "ENGLAND League One",
+    "saat": "18:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "KzB0veaf",
+    "home_team": "Boreham Wood",
+    "away_team": "Hartlepool United",
+    "league": "ENGLAND National League",
+    "saat": "18:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "pf8jK6Zp",
+    "home_team": "Partick Thistle",
+    "away_team": "Morton",
+    "league": "SCHOTTLAND Division 1",
+    "saat": "18:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 6.5,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "rNeQL5U7",
+    "home_team": "Fenerbahçe Istanbul",
+    "away_team": "Göztepe Izmir",
+    "league": "TÜRKEI Süper Lig",
+    "saat": "19:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 7.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "00PYlPqR",
+    "home_team": "Rudes",
+    "away_team": "Dinamo Zagreb",
+    "league": "KROATIEN HNL",
+    "saat": "20:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 5.5,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "2D8VgWVN",
+    "home_team": "Charlotte",
+    "away_team": "Orlando City",
+    "league": "USA MLS",
+    "saat": "20:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "E1Ev602s",
+    "home_team": "Bayern München",
+    "away_team": "Borussia Dortmund",
+    "league": "DEUTSCHLAND Bundesliga",
+    "saat": "20:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "I9qglBY0",
+    "home_team": "Glasgow Rangers",
+    "away_team": "FC Aberdeen",
+    "league": "SCHOTTLAND League Cup - Playoffs",
+    "saat": "20:30",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 10.0,
+    "tarih": "31.10.2026"
+  },
+  {
+    "event_id": "bqf1lAgo",
+    "home_team": "Columbus Crew",
+    "away_team": "DC United",
+    "league": "USA MLS",
     "saat": "21:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.0,
-    "tarih": "30.10.2026"
+    "ms_5_5_ust": 6.0,
+    "tarih": "31.10.2026"
   },
   {
-    "event_id": "bVd89Yqh",
-    "home_team": "FK Bodø/Glimt",
-    "away_team": "Viking FK",
-    "league": "NORWEGEN Eliteserien",
+    "event_id": "Kr4474ID",
+    "home_team": "New York City",
+    "away_team": "CF Montreal",
+    "league": "USA MLS",
     "saat": "21:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.5,
-    "tarih": "30.10.2026"
-  },
-  {
-    "event_id": "6cpk9DVr",
-    "home_team": "Rapid Bukarest",
-    "away_team": "Csikszereda M. Ciuc",
-    "league": "RUMÄNIEN Superliga",
-    "saat": "21:30",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 8.0,
-    "tarih": "30.10.2026"
+    "tarih": "31.10.2026"
   },
   {
-    "event_id": "vFvqclom",
-    "home_team": "SV Zulte Waregem",
-    "away_team": "FC Brügge",
+    "event_id": "WjAugcjT",
+    "home_team": "Beveren",
+    "away_team": "Union Saint-Gilloise",
     "league": "BELGIEN Jupiler League",
     "saat": "22:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
-    "tarih": "30.10.2026"
+    "ms_5_5_ust": 8.0,
+    "tarih": "31.10.2026"
   },
   {
-    "event_id": "xdLoJd4b",
-    "home_team": "FC Villarreal",
-    "away_team": "Espanyol Barcelona",
-    "league": "SPANIEN La Liga",
+    "event_id": "pnr7dyWg",
+    "home_team": "Ajax Amsterdam",
+    "away_team": "AZ Alkmaar",
+    "league": "NIEDERLANDE Eredivisie",
     "saat": "23:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "30.10.2026"
-  },
-  {
-    "event_id": "vJ4EBULq",
-    "home_team": "Casa Pia AC",
-    "away_team": "Sporting CP",
-    "league": "PORTUGAL Liga Portugal",
-    "saat": "23:15",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 9.0,
-    "tarih": "30.10.2026"
+    "ms_5_5_ust": 5.5,
+    "tarih": "31.10.2026"
   }
 ]
