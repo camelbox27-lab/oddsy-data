@@ -133,9 +133,13 @@
      "skor": "0-0"
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 42,
-   "iki_gol_dk": 48
+   "iki_gol_dk": 48,
+   "iy": [
+    2,
+    0
+   ]
   },
   "4G637XY0": {
    "bahis": {},
@@ -233,7 +237,7 @@
      "skor": "0-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 34,
    "iy": [
     1,
@@ -261,7 +265,7 @@
      "skor": "0-3"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 7,
    "iki_gol_dk": 7,
    "iy": [
@@ -611,12 +615,16 @@
   },
   "dj3e9g4l": {
    "bahis": {},
-   "son": "1y",
-   "ilk_gol_dk": 42
+   "son": "da",
+   "ilk_gol_dk": 42,
+   "iy": [
+    1,
+    0
+   ]
   },
   "0CVdRQJE": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -685,14 +693,25 @@
    ]
   },
   "reTQJXOM": {
-   "bahis": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 111,
+     "durum": "acik",
+     "dk": null,
+     "skor": "3-0"
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 12,
-   "iki_gol_dk": 24
+   "iki_gol_dk": 24,
+   "iy": [
+    3,
+    0
+   ]
   },
   "MqmVnxEt": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "SARuD5rI": {
    "bahis": {},
@@ -765,7 +784,7 @@
   },
   "MRCm6Kfc": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 32,
    "iy": [
     0,
@@ -850,7 +869,7 @@
      "skor": "2-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 7,
    "iki_gol_dk": 13,
    "iy": [
@@ -1192,7 +1211,7 @@
   },
   "vD92LmN0": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 11,
    "iki_gol_dk": 29,
    "iy": [
@@ -1230,19 +1249,19 @@
   "xAG2RRdf": "bitti",
   "vRfnz2YG": "bitti",
   "K02SNhJs": "bitti",
-  "dj3e9g4l": "1y",
+  "dj3e9g4l": "da",
   "6BcU8I3m": "1y",
   "0n0mim1m": "once",
   "r581JR5L": "bitti",
   "KpUg5Y9T": "once",
   "j50YaAxn": "bitti",
   "OIbtbl7b": "bitti",
-  "MRCm6Kfc": "da",
-  "4jr3b8yi": "da",
+  "MRCm6Kfc": "2y",
+  "4jr3b8yi": "2y",
   "UiGe4bP9": "once",
   "0zoULIJO": "da",
   "8t8exv45": "2y",
-  "lbOyI9Ij": "da",
+  "lbOyI9Ij": "2y",
   "lzkTdFU6": "bitti",
   "O6QuJ5o9": "2y",
   "2mtCGew9": "2y",
