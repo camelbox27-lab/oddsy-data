@@ -23,7 +23,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import tr_isim                       # noqa: E402
 import sonuclandir                   # noqa: E402
-import kupon as kupon_modulu         # noqa: E402
 
 KOK = Path(__file__).resolve().parent.parent
 KAYNAK_DOSYA = KOK / "data" / "halfTimeGoals.json"
@@ -137,25 +136,6 @@ def _sonuc_mesaji(r):
     return _parcala(["\n".join(bas)] + satirlar)
 
 
-def _kupon_mesaji(k):
-    satirlar = [
-        "<b>\U0001f3ab GÜNÜN KUPONU</b>",
-        f"<i>{_kacir(tr_isim.tarih(k['tarih']))}</i>",
-        "",
-    ]
-    for m in k["maclar"]:
-        satirlar.append(
-            f"<code>{_kacir(m['saat'])}</code>  <b>{_kacir(m['ev'])} \u2013 "
-            f"{_kacir(m['dep'])}</b>")
-        satirlar.append(f"        maç sonucu 2.5 üst &gt; "
-                        f"<b>{m['ust25']:.2f}</b>")
-    satirlar += ["", f"💰 <b>TOPLAM ORAN: {k['toplam']:.2f}</b>"]
-    if not k.get("hedefte", True):
-        satirlar.append("<i>(bugünkü adaylarla 4.00-10.00 aralığına "
-                        "ulaşılamadı, en yakını seçildi)</i>")
-    return _parcala(satirlar)
-
-
 def _gonder(token, chat_id, metin):
     veri = urllib.parse.urlencode({
         "chat_id": chat_id,
@@ -210,22 +190,6 @@ def main():
         _chat_adaylari(token)
         return 1
 
-    sadece_kupon = os.environ.get("SADECE_KUPON") == "1"
-
-    if sadece_kupon:
-        # KUPON butonu: dunun sonucu ve gunun listesi tekrar gonderilmez.
-        try:
-            k = kupon_modulu.kupon(dt.date.today())
-        except Exception as e:
-            print(f"HATA: kupon olusturulamadi: {e}", flush=True)
-            return 1
-        if not k or not k["maclar"]:
-            print("HATA: kupon olusturulamadi (uygun mac yok).", flush=True)
-            return 1
-        print(f"Kupon: {len(k['maclar'])} mac, toplam {k['toplam']:.2f}",
-              flush=True)
-        return _hepsini_gonder(token, chat_id, _kupon_mesaji(k))
-
     if not KAYNAK_DOSYA.exists():
         print(f"HATA: {KAYNAK_DOSYA.name} yok. Once BULTEN YUKLE calistir.", flush=True)
         return 1
@@ -256,16 +220,6 @@ def main():
 
     # 2) Bugunun Ilk Yari Gol listesi
     parcalar += _mesajlar(kayitlar, tarih or bugun)
-
-    # 3) Gunun kuponu (en sonda)
-    try:
-        k = kupon_modulu.kupon(dt.date.today())
-        if k and k["maclar"]:
-            parcalar += _kupon_mesaji(k)
-        else:
-            print("Kupon olusturulamadi (uygun mac yok).", flush=True)
-    except Exception as e:
-        print(f"UYARI: kupon olusturulamadi: {e}", flush=True)
 
     print(f"{len(kayitlar)} mac, {len(parcalar)} mesaj gonderilecek.", flush=True)
 

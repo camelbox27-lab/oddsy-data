@@ -1,0 +1,93 @@
+name: Tahmin
+run-name: "Tahmin · ${{ inputs.hangisi }}"
+
+# Tahmin uygulamasindaki (tahmin/) butonlar bu akisi workflow_dispatch ile
+# tetikler. Mesajlar Wondiyo kanalina degil, ayri tahmin grubuna gider
+# (TELEGRAM_CHAT_ID_2).
+on:
+  workflow_dispatch:
+    inputs:
+      hangisi:
+        description: "Hangisi?"
+        required: true
+        default: oncesi
+        type: choice
+        options:
+          - oncesi
+          - canli
+      gun:
+        description: "Tarama gunu GG.AA.YYYY (yalnizca tarama kendini yeniden tetiklediginde)"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write    # bet365 verisi + canli-kayit dali
+  actions: write     # canli tarama 6 saat dolunca kendini yeniden tetikler
+
+jobs:
+  oncesi:
+    if: inputs.hangisi == 'oncesi'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: tahmin-oncesi
+      cancel-in-progress: false
+    env:
+      TZ: Europe/Istanbul
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Paketler
+        run: pip install --quiet requests
+
+      - name: bet365 verisini hazirla
+        run: bash otomasyon/bet365_hazirla.sh
+
+      - name: Mac oncesi tercihleri gonder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+        run: python otomasyon/tahmin_oncesi.py
+
+  canli:
+    if: inputs.hangisi == 'canli'
+    runs-on: ubuntu-latest
+    # GitHub'in ust siniri 6 saat; tarama 340 dk sonra kendini yeniden
+    # tetikleyip cikar, kalan pay kayit yazmak icin.
+    timeout-minutes: 355
+    concurrency:
+      group: tahmin-canli
+      cancel-in-progress: false
+    env:
+      TZ: Europe/Istanbul
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Paketler
+        run: pip install --quiet requests
+
+      # Yeniden tetiklenen (gece yarisini gecmis) taramada veri zaten hazir.
+      - name: bet365 verisini hazirla
+        if: inputs.gun == ''
+        run: bash otomasyon/bet365_hazirla.sh
+
+      - name: Canli tarama
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+          GITHUB_TOKEN: ${{ github.token }}
+          TARAMA_GUN: ${{ inputs.gun }}
+        run: python otomasyon/canli_tarama.py
