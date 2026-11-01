@@ -10,8 +10,15 @@
    ]
   },
   "IoeIb1Mi": {
-   "bahis": {},
-   "son": "once"
+   "bahis": {
+    "iy05": {
+     "id": 133,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
+   "son": "1y"
   },
   "nTcxlhdJ": {
    "bahis": {},
@@ -853,7 +860,7 @@
   },
   "UiGe4bP9": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "thBNuDAc": {
    "bahis": {
@@ -1311,7 +1318,7 @@
  },
  "liste_son": {
   "CSxieSFa": "bitti",
-  "IoeIb1Mi": "once",
+  "IoeIb1Mi": "1y",
   "nTcxlhdJ": "bitti",
   "WKczZfK6": "once",
   "YyRY3ljA": "1y",
@@ -1334,7 +1341,7 @@
   "OIbtbl7b": "bitti",
   "MRCm6Kfc": "bitti",
   "4jr3b8yi": "bitti",
-  "UiGe4bP9": "once",
+  "UiGe4bP9": "1y",
   "0zoULIJO": "bitti",
   "8t8exv45": "bitti",
   "lbOyI9Ij": "bitti",
@@ -1442,6 +1449,8 @@
   ],
   "AXoK8X1S": [],
   "YyRY3ljA": [],
-  "0n0mim1m": []
+  "0n0mim1m": [],
+  "IoeIb1Mi": [],
+  "UiGe4bP9": []
  }
 }
