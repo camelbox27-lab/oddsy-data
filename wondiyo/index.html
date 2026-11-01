@@ -80,6 +80,10 @@
   }
   .btn-telegram span { flex: 0 1 auto; text-align: center; }
   .btn-telegram svg { width: 23px; height: 23px; flex: 0 0 auto; }
+  .btn-kupon {
+    background: transparent; border: 1px solid #2f7fae; color: #7cc6ee;
+    padding: 13px; font-size: 14.5px; font-weight: 600;
+  }
   .ayirac { border: 0; border-top: 1px solid var(--kenar); margin: 5px 0 1px; }
   .btn-ikisi {
     background: transparent; border: 1px solid var(--kenar); color: var(--soluk);
@@ -186,6 +190,7 @@
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6l-3.06 14.43c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.78 8.7-7.86c.38-.34-.08-.53-.59-.19L6.26 13.1 1.6 11.64c-1.01-.32-1.03-1.01.21-1.5L20.63 2.9c.84-.31 1.58.2 1.31 1.7z"/></svg>
     <span>TELEGRAM'A GÖNDER</span>
   </button>
+  <button class="btn-kupon" data-is="kupon">Sadece günün kuponunu gönder</button>
 </div>
 
 <div class="konsol-kutu" id="kutu">
@@ -213,7 +218,7 @@
 </div>
 
 <script>
-const SURUM   = "28.10-2";   // sayfanin hangi surumu yuklendigini gormek icin
+const SURUM   = "01.11-1";   // sayfanin hangi surumu yuklendigini gormek icin
 const DEPO    = "camelbox27-lab/oddsy-data";
 const AKIS    = "veri-guncelle.yml";
 const DAL     = "main";
@@ -342,9 +347,9 @@ async function tetikle(is_) {
 
     const son = await izle(c.id);
     if (son.conclusion === "success") {
-      yaz(is_ === "telegram"
-            ? "✓ TAMAMLANDI — liste Telegram'a gönderildi"
-            : "✓ TAMAMLANDI — veri siteye yüklendi", "ok");
+      yaz(is_ === "telegram" ? "✓ TAMAMLANDI — liste Telegram'a gönderildi"
+        : is_ === "kupon"      ? "✓ TAMAMLANDI — kupon Telegram'a gönderildi"
+        :                        "✓ TAMAMLANDI — veri siteye yüklendi", "ok");
       durum("tamamlandı", "tamam");
     } else {
       yaz("✗ BAŞARISIZ (" + son.conclusion + ")", "err");

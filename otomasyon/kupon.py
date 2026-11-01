@@ -16,11 +16,19 @@ Almanca; Iddaa tarafi Turkce. Adlar normalize edilip benzerlik oraniyla
 eslestiriliyor, ayni baslama saati ek puan sayiliyor. Eslesmeyen mac
 kupona alinmaz -- yanlis mac yazmaktansa az mac yazmak yeglenir.
 
-SECIM: adaylar arasindan rastgele 4 mac. Rastgelelik GUNE gore sabit:
-ayni gun butona tekrar basildiginda ayni kupon cikar.
+SECIM: toplam oran HEDEF araliginda (4.00 - 10.00) kalacak sekilde 4 mac.
+Bu araliga dusen butun 4'lu kombinasyonlar cikarilir, aralarindan rastgele
+biri secilir. Rastgelelik GUNE gore sabit: ayni gun butona tekrar
+basildiginda ayni kupon cikar.
+
+Adaylarin 2.5 ust oranlari genelde dusuktur (beraberlik orani 4.10-5.25
+olan maclarda belirgin bir favori vardir, gol beklentisi yuksektir), bu
+yuzden bazi gunlerde 4.00'e ulasilamayabilir. O durumda carpimi en yuksek
+dortlu secilir ve mesajda hedefe ulasilamadigi belirtilir.
 """
 import datetime as dt
 import json
+import itertools
 import random
 import re
 import sys
@@ -37,6 +45,8 @@ IDDAA = KOK / "iddaa" / "gunluk" / "gunlukmaclar.json"
 
 BERABERLIK = [4.10, 4.33, 4.50, 4.75, 5.00, 5.25]
 MAC_SAYISI = 4
+HEDEF_ALT, HEDEF_UST = 4.00, 10.00
+EN_FAZLA_ADAY = 28     # C(28,4)=20475; kombinasyon sayisi makul kalsin
 ESIK = 0.72            # takim adi benzerligi alt siniri
 
 _ONEK = re.compile(r'\b(fc|sk|ac|as|sc|cd|fk|if|bk|il|afc|cf|ca|sv|vfl|vfb|'
@@ -184,16 +194,60 @@ def kupon(gun: dt.date):
     if not uygun:
         return None
 
-    # Gune gore sabit rastgelelik: ayni gun ayni kupon
-    rastgele = random.Random(f"{gun:%Y-%m-%d}")
-    secim = rastgele.sample(uygun, min(MAC_SAYISI, len(uygun)))
-    secim.sort(key=lambda m: m["saat"])
-
-    toplam = 1.0
-    for m in secim:
-        toplam *= m["ust25"]
+    secim, toplam, hedefte = _dortlu_sec(uygun, gun)
+    secim = sorted(secim, key=lambda m: m["saat"])
     return {"tarih": f"{gun:%d.%m.%Y}", "maclar": secim,
-            "toplam": round(toplam, 2), "aday_sayisi": len(uygun)}
+            "toplam": round(toplam, 2), "aday_sayisi": len(uygun),
+            "hedefte": hedefte}
+
+
+def _carpim(dortlu):
+    t = 1.0
+    for m in dortlu:
+        t *= m["ust25"]
+    return t
+
+
+def _dortlu_sec(uygun, gun):
+    """(secim, toplam_oran, hedef_araliginda_mi)"""
+    rastgele = random.Random(f"{gun:%Y-%m-%d}")
+
+    if len(uygun) <= MAC_SAYISI:
+        return uygun, _carpim(uygun), HEDEF_ALT <= _carpim(uygun) <= HEDEF_UST
+
+    # Kombinasyon sayisini sinirlamak gerekirse, orani hedefe en uygun
+    # olanlari tut. "En yuksek oranlilar" demek yanlis olurdu: oranlarin
+    # hepsi yuksekse carpim hedefin USTUNE tasar, o zaman dusuk oranlilara
+    # ihtiyac olur. Dort macin ortalama hedefi, araligin ortasinin 4. koku.
+    hedef_tek = ((HEDEF_ALT * HEDEF_UST) ** 0.5) ** (1 / MAC_SAYISI)
+    havuz = sorted(uygun, key=lambda m: abs(m["ust25"] - hedef_tek))[:EN_FAZLA_ADAY]
+
+    def uzaklik(t):
+        if t < HEDEF_ALT:
+            return HEDEF_ALT - t
+        if t > HEDEF_UST:
+            return t - HEDEF_UST
+        return 0.0
+
+    hedefteki = []
+    en_iyi, en_iyi_uzaklik, en_iyi_carpim = None, float("inf"), 0.0
+    for c in itertools.combinations(havuz, MAC_SAYISI):
+        t = _carpim(c)
+        if HEDEF_ALT <= t <= HEDEF_UST:
+            hedefteki.append(c)
+        u = uzaklik(t)
+        if u < en_iyi_uzaklik:
+            en_iyi, en_iyi_uzaklik, en_iyi_carpim = c, u, t
+
+    if hedefteki:
+        secim = rastgele.choice(hedefteki)
+        print(f"[kupon] hedef araliga dusen {len(hedefteki)} kombinasyon, "
+              f"biri secildi", flush=True)
+        return list(secim), _carpim(secim), True
+
+    print(f"[kupon] UYARI: {HEDEF_ALT}-{HEDEF_UST} araligina ulasilamadi; "
+          f"hedefe en yakin carpim {en_iyi_carpim:.2f}", flush=True)
+    return list(en_iyi), en_iyi_carpim, False
 
 
 def main():
@@ -208,7 +262,8 @@ def main():
     for m in k["maclar"]:
         print(f"  {m['saat']}  {m['ev']} - {m['dep']}  "
               f"maç sonucu 2.5 üst > {m['ust25']:.2f}")
-    print(f"  TOPLAM ORAN: {k['toplam']:.2f}")
+    print(f"  TOPLAM ORAN: {k['toplam']:.2f}"
+          + ("" if k["hedefte"] else f"  (hedef {HEDEF_ALT}-{HEDEF_UST} disi)"))
     return 0
 
 

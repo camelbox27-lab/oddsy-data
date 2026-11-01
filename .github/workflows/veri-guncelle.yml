@@ -17,6 +17,7 @@ on:
           - istatistik
           - teshis
           - telegram
+          - kupon
 
 # Ayni anda iki calisma main'e push etmeye kalkmasin.
 concurrency:
@@ -269,7 +270,7 @@ jobs:
   # Veri uretmez, sadece data/halfTimeGoals.json'i okur; push yapmaz.
   # Sadece stdlib kullandigi icin pip kurulumu yok, saniyeler icinde biter.
   telegram:
-    if: inputs.hangisi == 'telegram'
+    if: inputs.hangisi == 'telegram' || inputs.hangisi == 'kupon'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
@@ -295,4 +296,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # KUPON butonu yalnizca kuponu gonderir; dunun sonucu ve gunun
+          # listesi tekrar yazilmaz.
+          SADECE_KUPON: ${{ inputs.hangisi == 'kupon' && '1' || '0' }}
         run: python otomasyon/telegram_gonder.py

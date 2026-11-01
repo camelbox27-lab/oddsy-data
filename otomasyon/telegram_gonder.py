@@ -151,6 +151,9 @@ def _kupon_mesaji(k):
         satirlar.append(f"        maç sonucu 2.5 üst &gt; "
                         f"<b>{m['ust25']:.2f}</b>")
     satirlar += ["", f"💰 <b>TOPLAM ORAN: {k['toplam']:.2f}</b>"]
+    if not k.get("hedefte", True):
+        satirlar.append("<i>(bugünkü adaylarla 4.00-10.00 aralığına "
+                        "ulaşılamadı, en yakını seçildi)</i>")
     return _parcala(satirlar)
 
 
@@ -208,6 +211,22 @@ def main():
         _chat_adaylari(token)
         return 1
 
+    sadece_kupon = os.environ.get("SADECE_KUPON") == "1"
+
+    if sadece_kupon:
+        # KUPON butonu: dunun sonucu ve gunun listesi tekrar gonderilmez.
+        try:
+            k = kupon_modulu.kupon(dt.date.today())
+        except Exception as e:
+            print(f"HATA: kupon olusturulamadi: {e}", flush=True)
+            return 1
+        if not k or not k["maclar"]:
+            print("HATA: kupon olusturulamadi (uygun mac yok).", flush=True)
+            return 1
+        print(f"Kupon: {len(k['maclar'])} mac, toplam {k['toplam']:.2f}",
+              flush=True)
+        return _hepsini_gonder(token, chat_id, _kupon_mesaji(k))
+
     if not KAYNAK_DOSYA.exists():
         print(f"HATA: {KAYNAK_DOSYA.name} yok. Once BULTEN YUKLE calistir.", flush=True)
         return 1
@@ -224,7 +243,6 @@ def main():
         print(f"UYARI: listedeki tarih {tarih}, bugun {bugun}.", flush=True)
 
     parcalar = []
-
     # 1) Dunun listesinin sonucu. Veri cekmeyi gerektirdigi icin hata
     #    verebilir; vermesi bugunun listesinin gonderilmesini engellemesin.
     dun = dt.date.today() - dt.timedelta(days=1)
@@ -252,6 +270,10 @@ def main():
 
     print(f"{len(kayitlar)} mac, {len(parcalar)} mesaj gonderilecek.", flush=True)
 
+    return _hepsini_gonder(token, chat_id, parcalar)
+
+
+def _hepsini_gonder(token, chat_id, parcalar):
     for i, parca in enumerate(parcalar, 1):
         for deneme in range(3):
             try:
