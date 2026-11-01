@@ -64,7 +64,7 @@
      "skor": "1-1"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 14,
    "iki_gol_dk": 17,
    "iy": [
@@ -738,7 +738,8 @@
   "MqmVnxEt": {
    "bahis": {},
    "son": "1y",
-   "ilk_gol_dk": 10
+   "ilk_gol_dk": 10,
+   "iki_gol_dk": 38
   },
   "SARuD5rI": {
    "bahis": {},
@@ -781,7 +782,7 @@
      "skor": "1-1"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 2,
    "iki_gol_dk": 17,
    "iy": [
@@ -1279,7 +1280,7 @@
   "fP9IqtR6": "bitti",
   "GE82mORs": "1y",
   "jmZJ9tUs": "bitti",
-  "fuGf2I16": "da",
+  "fuGf2I16": "2y",
   "f9NBOqy2": "once",
   "CvsNzh1K": "bitti",
   "xAG2RRdf": "bitti",
@@ -1393,7 +1394,9 @@
    "ust25"
   ],
   "dj3e9g4l": [],
-  "fuGf2I16": [],
+  "fuGf2I16": [
+   "ust25"
+  ],
   "GE82mORs": [],
   "6BcU8I3m": [],
   "AXoK8X1S": []
