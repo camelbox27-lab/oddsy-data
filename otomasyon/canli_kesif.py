@@ -34,26 +34,40 @@ def flashscore():
         print(f"  alinamadi: {e}")
         return
     print(f"  bugun {len(maclar)} mac")
-    durum = collections.Counter((m.get("AB"), m.get("AC")) for m in maclar)
-    print("  (AB, AC) dagilimi, en sik 12:")
-    for (ab, ac), n in durum.most_common(12):
-        etiket = ""
-        if ab == "1" and ac == "1":
-            etiket = "baslamamis"
-        elif ab == "3" and ac in fk.BITEN_DURUMLAR:
-            etiket = "bitmis"
-        print(f"    AB={ab!r:6} AC={ac!r:6}  x{n:<4} {etiket}")
+
+    durum = collections.Counter(m.get("AB") for m in maclar)
+    print(f"  AB dagilimi: {dict(durum)}   (1=baslamamis, 3=bitmis beklenir)")
 
     canli = [m for m in maclar
              if not fk.mac_baslamadi_mi(m) and not fk.mac_bitti_mi(m)]
-    print(f"\n  canli/ara/devam eden gorunen: {len(canli)}")
+    bitmis = [m for m in maclar if fk.mac_bitti_mi(m)]
+    print(f"  canli gorunen: {len(canli)} | bitmis: {len(bitmis)}")
+
+    # Skor/dakika adayi alanlar: tum maclarda hangi anahtarlar var
+    anahtarlar = collections.Counter()
+    for m in maclar:
+        for a, v in m.items():
+            if not a.startswith("_") and v not in (None, ""):
+                anahtarlar[a] += 1
+    print(f"  dolu anahtarlar (anahtar: kac macta): "
+          f"{dict(sorted(anahtarlar.items()))}")
+
+    def tek_satir(m, etiket):
+        # Tek satirda bas: log kuyrugu kesse bile ortadan bolunmesin
+        alanlar = " ".join(f"{a}={v}" for a, v in sorted(m.items())
+                           if not a.startswith("_") and v not in (None, "")
+                           and len(str(v)) < 30)
+        print(f"\n  [{etiket}] {m.get('AE')} - {m.get('AF')} :: {alanlar}")
+
     for m in canli[:3]:
-        print(f"\n  --- {m.get('AE')} - {m.get('AF')}  (AB={m.get('AB')} "
-              f"AC={m.get('AC')})")
-        for a, v in sorted(m.items()):
-            if a.startswith("_") or v in (None, ""):
-                continue
-            print(f"      {a:6} = {str(v)[:60]}")
+        tek_satir(m, "CANLI")
+    if not canli:
+        print("\n  (su an canli mac yok)")
+    for m in bitmis[:1]:
+        tek_satir(m, "BITMIS")
+    baslamamis = [m for m in maclar if fk.mac_baslamadi_mi(m)]
+    for m in baslamamis[:1]:
+        tek_satir(m, "BASLAMAMIS")
 
 
 def mackolik():
