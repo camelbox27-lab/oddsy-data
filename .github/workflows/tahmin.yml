@@ -54,6 +54,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+          GITHUB_TOKEN: ${{ github.token }}   # liste arsivi (canli-kayit dali)
         run: python otomasyon/tahmin_oncesi.py
 
   canli:

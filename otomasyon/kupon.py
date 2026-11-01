@@ -121,6 +121,7 @@ def adaylar(gun: dt.date):
         if z is None or z.date() != gun:
             continue
         k = {
+            "kod": str(r.get("MatchCode") or "").strip(),
             "ev": r.get("Ev") or "",
             "dep": r.get("Dep") or "",
             "saat": z.strftime("%H:%M"),
@@ -185,6 +186,7 @@ def kupon(gun: dt.date):
         if ust is None:
             continue
         uygun.append({
+            "kod": m.get("kod", ""),
             "ev": m["iddaa"].get("Ev Sahibi") or m["ev"],
             "dep": m["iddaa"].get("Konuk Ekip") or m["dep"],
             "saat": m["saat"],

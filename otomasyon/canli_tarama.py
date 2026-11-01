@@ -130,13 +130,14 @@ def adaylar(gun):
 class Kayit:
     """canli-kayit dalinda tutulan gunluk kayit. GITHUB_TOKEN yoksa yerel."""
 
-    def __init__(self, gun):
-        self.yol = f"kayit/{gun:%d.%m.%Y}.json"
+    def __init__(self, gun, klasor="kayit"):
+        self.yol = f"{klasor}/{gun:%d.%m.%Y}.json"
         self.token = os.environ.get("GITHUB_TOKEN", "")
         self.repo = os.environ.get("GITHUB_REPOSITORY", "")
         self.sha = None
         self.veri = {"tarih": f"{gun:%d.%m.%Y}", "maclar": {}}
-        self.yerel = Path(os.environ.get("KAYIT_YEREL", "/tmp/canli_kayit.json"))
+        # GITHUB_TOKEN yoksa (yerel deneme) kayit diske yazilir; gun basina ayri dosya
+        self.yerel = Path(os.environ.get("KAYIT_DIZIN", "/tmp")) / self.yol.replace("/", "_")
 
     def _api(self, yontem, yol, govde=None):
         istek = urllib.request.Request(
