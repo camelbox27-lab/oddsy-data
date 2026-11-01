@@ -232,7 +232,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "17:00": 21
+ },
  "liste_son": {
   "CSxieSFa": "once",
   "IoeIb1Mi": "once",
