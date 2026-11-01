@@ -594,7 +594,7 @@
   },
   "2Z0BmyEj": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -602,7 +602,8 @@
   },
   "lE58rmWb": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 24
   },
   "pCRxX2s1": {
    "bahis": {},
@@ -1547,7 +1548,9 @@
   "0n0mim1m": [
    "ust25"
   ],
-  "IoeIb1Mi": [],
+  "IoeIb1Mi": [
+   "ust25"
+  ],
   "UiGe4bP9": [],
   "f9NBOqy2": [],
   "KpUg5Y9T": [],
