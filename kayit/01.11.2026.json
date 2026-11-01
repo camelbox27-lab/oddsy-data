@@ -37,12 +37,13 @@
    "bahis": {
     "iy05": {
      "id": 34,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 14
   },
   "fuGf2I16": {
    "bahis": {},
@@ -381,7 +382,8 @@
   },
   "K02SNhJs": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 43
   },
   "dj3e9g4l": {
    "bahis": {},
@@ -418,7 +420,8 @@
   "0dspmZmo": {
    "bahis": {},
    "son": "1y",
-   "ilk_gol_dk": 36
+   "ilk_gol_dk": 36,
+   "iki_gol_dk": 42
   },
   "v7Sw9GA4": {
    "bahis": {},
@@ -479,7 +482,7 @@
   },
   "KpoH7CE4": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 31,
    "iki_gol_dk": 31,
    "iy": [
