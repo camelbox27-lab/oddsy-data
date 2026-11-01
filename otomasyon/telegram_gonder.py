@@ -140,8 +140,7 @@ def _sonuc_mesaji(r):
 def _kupon_mesaji(k):
     satirlar = [
         "<b>\U0001f3ab GÜNÜN KUPONU</b>",
-        f"<i>{_kacir(tr_isim.tarih(k['tarih']))} · "
-        f"{k['aday_sayisi']} aday içinden {len(k['maclar'])} maç</i>",
+        f"<i>{_kacir(tr_isim.tarih(k['tarih']))}</i>",
         "",
     ]
     for m in k["maclar"]:
