@@ -3,7 +3,7 @@
    buton/duzeltme eklendiginde telefondaki kopya eskide kalmasin.
    Internet yoksa son basarili kopya gosterilir.
    GitHub API istekleri (baska origin) hic dokunulmadan gecer. */
-const KOVA = "wondiyo-tahmin";
+const KOVA = "wondiyo-canli";
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
