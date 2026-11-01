@@ -620,7 +620,7 @@
   },
   "lE58rmWb": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 24,
    "iki_gol_dk": 34,
    "iy": [
@@ -1220,10 +1220,21 @@
    ]
   },
   "Mody8Bv0": {
-   "bahis": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 161,
+     "durum": "acik",
+     "dk": null,
+     "skor": "2-1"
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 16,
-   "iki_gol_dk": 32
+   "iki_gol_dk": 32,
+   "iy": [
+    2,
+    1
+   ]
   },
   "WUC5rEaT": {
    "bahis": {},
