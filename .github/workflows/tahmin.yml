@@ -1,10 +1,16 @@
 name: Tahmin
-run-name: "Tahmin · ${{ inputs.hangisi }}"
+run-name: "${{ github.event_name == 'schedule' && 'Tahmin · gunluk (oncesi + canli)' || format('Tahmin · {0}', inputs.hangisi) }}"
 
 # Tahmin uygulamasindaki (tahmin/) butonlar bu akisi workflow_dispatch ile
 # tetikler. Mesajlar Wondiyo kanalina degil, ayri tahmin grubuna gider
 # (TELEGRAM_CHAT_ID_2).
 on:
+  # Her sabah 07:07 (TR): once mac oncesi tercihler (dunun sonucu + gunun
+  # listesi), ardindan canli tarama gun boyu kendiliginden calisir.
+  # Saatin dakikasi bilerek :00 degil; GitHub'in zamanlayicisi tam saatlerde
+  # yogun oldugu icin gecikiyor.
+  schedule:
+    - cron: "7 4 * * *"
   workflow_dispatch:
     inputs:
       hangisi:
@@ -27,7 +33,7 @@ permissions:
 
 jobs:
   oncesi:
-    if: inputs.hangisi == 'oncesi'
+    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     concurrency:
@@ -58,7 +64,10 @@ jobs:
         run: python otomasyon/tahmin_oncesi.py
 
   canli:
-    if: inputs.hangisi == 'canli'
+    # Gunluk calismada mac oncesi isi bitince baslar (bet365 verisi ve
+    # liste arsivi hazir olsun); elle tetiklenince dogrudan baslar.
+    needs: oncesi
+    if: ${{ !cancelled() && (github.event_name == 'schedule' || inputs.hangisi == 'canli') }}
     runs-on: ubuntu-latest
     # GitHub'in ust siniri 6 saat; tarama 340 dk sonra kendini yeniden
     # tetikleyip cikar, kalan pay kayit yazmak icin.
@@ -82,7 +91,7 @@ jobs:
 
       # Yeniden tetiklenen (gece yarisini gecmis) taramada veri zaten hazir.
       - name: bet365 verisini hazirla
-        if: inputs.gun == ''
+        if: ${{ !inputs.gun }}
         run: bash otomasyon/bet365_hazirla.sh
 
       - name: Canli tarama

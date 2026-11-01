@@ -18,6 +18,11 @@ KURALLAR (hepsi ayni maca ayri ayri uygulanabilir):
                     ikinci yarinin 60. dakikasina kadar.
   Zaten kazanmis bir bahis gonderilmez (or. 2. dk'da 1-0 ise İY 0.5 Üst).
 
+MAÇ ÖNCESİ LİSTESİ (MAÇ ÖNCESİ TERCİHLER'in arsivledigi liste):
+  Her baslama saatinden 5 dk once o saatin maclari hatirlatilir; listedeki
+  bahis tuttugu an KAZANDI olarak hatirlatmaya yanit duser. Kaybedenler
+  ertesi sabahki "dunun tercihleri" ozetinde.
+
 SONUCLANDIRMA (tahmin mesajina yanit olarak):
   İY bahisleri: esik asildigi an KAZANDI; ilk yari esik altinda biterse
                 KAYBETTI.
@@ -245,30 +250,104 @@ def ms_toplam(m, iy):
 
 
 # ------------------------------------------------------------ mesajlar
-def _baslik(a):
-    bayrak, lig = tr_isim.lig(a["lig"])
+# ------------------------------------------------------------ mesajlar
+# Telegram'da mesajlar iç içe görünmesin diye: başlık, boş satır, maç,
+# lig, boş satır, tahmin/skor. Sonuç mesajları da maçın adını taşır.
+def _mac(a, skor=None):
     ev = tg.kacir(tr_isim.takim(a["ev"]))
     dep = tg.kacir(tr_isim.takim(a["dep"]))
-    return f"{bayrak} {tg.kacir(lig)}".strip(), f"<b>{ev} – {dep}</b>"
+    if skor is None:
+        return f"⚽ <b>{ev} – {dep}</b>"
+    return f"⚽ {ev} <b>{skor[0]}–{skor[1]}</b> {dep}"
+
+
+def _lig(a):
+    bayrak, lig = tr_isim.lig(a.get("lig"))
+    return f"{bayrak} <i>{tg.kacir(lig)}</i>".strip() if lig else ""
 
 
 def tahmin_mesaji(a, bahis, dk, skor, iy=None):
-    lig, mac = _baslik(a)
-    ad = BAHIS[bahis][0]
-    satirlar = [f"⚡ <b>CANLI · {tg.kacir(ad.upper())}</b>", lig, mac]
+    satirlar = ["🔴 <b>CANLI TAHMİN</b>", "", _mac(a)]
+    if _lig(a):
+        satirlar.append(_lig(a))
+    satirlar += ["", f"🎯 <b>{tg.kacir(BAHIS[bahis][0].upper())}</b>"]
     if iy is not None:
-        satirlar.append(f"⏸ İlk yarı: {iy[0]}–{iy[1]}")
+        satirlar.append(f"⏸ İlk yarı {iy[0]}–{iy[1]}")
     else:
-        satirlar.append(f"⏱ {dk}'  ·  {skor[0]}–{skor[1]}")
+        satirlar.append(f"⏱ {dk}'  ·  Skor {skor[0]}–{skor[1]}")
     return "\n".join(satirlar)
 
 
-def sonuc_mesaji(bahis, durum, ayrinti):
-    ad = BAHIS[bahis][0]
+def sonuc_mesaji(a, ad, durum, skor, an, liste=False):
     ikon = {"kazandi": "✅ <b>KAZANDI</b>",
             "kaybetti": "❌ <b>KAYBETTİ</b>",
             "iptal": "⚪ <b>İPTAL</b>"}[durum]
-    return f"{ikon} · {tg.kacir(ad)}\n{ayrinti}"
+    satirlar = [f"{ikon}  ·  {tg.kacir(ad)}"]
+    if liste:
+        satirlar.append("<i>📋 maç öncesi listesinden</i>")
+    satirlar += ["", f"{_mac(a, skor)}  ·  {an}"]
+    return "\n".join(satirlar)
+
+
+def _an(m, f, simdi):
+    if f in ("1y", "2y"):
+        return f"{dakika(m, f, simdi)}'"
+    return {"da": "Devre arası", "bitti": "Maç sonu"}.get(f, "")
+
+
+# ------------------------------------------------------- maç öncesi listesi
+# MAÇ ÖNCESİ TERCİHLER'in arşivlediği liste (oncesi/GG.AA.YYYY.json):
+#  - her başlama saatinden 5 dk önce o saatin maçları hatırlatılır,
+#  - listedeki bahis tuttuğu an KAZANDI olarak hatırlatmaya yanıt düşer.
+# Kaybedenler canlı gönderilmez; ertesi sabahki "dünün tercihleri" özetinde.
+LISTE_BAHIS = {
+    # anahtar: (başlık, kısa ad, skor türü, eşik)
+    "ust25": ("MAÇ SONUCU 2.5 ÜST", "2.5 Üst", "ms", 3),
+    "ust35": ("MAÇ SONUCU 3.5 ÜST", "3.5 Üst", "ms", 4),
+    "iy15":  ("İLK YARI 1.5 ÜST", "İY 1.5 Üst", "iy", 2),
+}
+HATIRLAT = dt.timedelta(minutes=5)     # başlamadan bu kadar önce
+GEC_HATIRLAT = dt.timedelta(minutes=10)  # tarama geç başlarsa bu kadar sonrasına kadar
+LISTE_YENILE = 600                       # sn; liste gün içinde güncellenebilir
+
+
+def liste_yukle(gun):
+    k = Kayit(gun, "oncesi")
+    try:
+        k.oku()
+    except Exception as e:
+        print(f"[liste] okunamadi: {e}", flush=True)
+        return {}
+    v = k.veri
+    if "ust25" not in v:
+        return {}
+    liste = {}
+    for anahtar, bahisler in (("ust25", ["ust25"]), ("ust35", ["ust35", "iy15"])):
+        for m in v.get(anahtar, []):
+            kod = m.get("kod")
+            if not kod or not m.get("saat"):
+                continue
+            e = liste.setdefault(kod, {"ev": m["ev"], "dep": m["dep"],
+                                       "lig": m.get("lig", ""), "saat": m["saat"],
+                                       "bahisler": []})
+            for b in bahisler:
+                if b not in e["bahisler"]:
+                    e["bahisler"].append(b)
+    for e in liste.values():
+        h, d = (int(x) for x in e["saat"].split(":"))
+        e["baslama"] = dt.datetime.combine(gun, dt.time(h, d))
+    return liste
+
+
+def hatirlatma_mesaji(saat, maclar):
+    satirlar = [f"⏰ <b>{saat} MAÇLARI</b>", "<i>5 dakika sonra başlıyor</i>"]
+    for anahtar, (baslik, _, _, _) in LISTE_BAHIS.items():
+        bu = [e for _, e in maclar if anahtar in e["bahisler"]]
+        if not bu:
+            continue
+        satirlar += ["", f"🎯 <b>{baslik}</b>"]
+        satirlar += [_mac(e).replace("<b>", "").replace("</b>", "") for e in bu]
+    return "\n".join(satirlar)
 
 
 # ------------------------------------------------------------ tarayici
@@ -276,6 +355,7 @@ class Tarayici:
     def __init__(self, gun, token, chat, kayit, adaylar_):
         self.gun, self.token, self.chat = gun, token, chat
         self.kayit, self.adaylar = kayit, adaylar_
+        self.liste = {}
         self.degisti = False
 
     def _st(self, kod):
@@ -284,6 +364,7 @@ class Tarayici:
     def _gonder(self, metin, yanit=None):
         return tg.gonder(self.token, self.chat, metin, yanit)
 
+    # ---- canlı tahminler
     def ac(self, kod, bahis, dk, skor, iy=None):
         st = self._st(kod)
         if bahis in st["bahis"]:
@@ -297,11 +378,12 @@ class Tarayici:
               f"({'DA' if dk is None else str(dk) + chr(39)}, {skor[0]}-{skor[1]})",
               flush=True)
 
-    def kapat(self, kod, bahis, durum, ayrinti):
+    def kapat(self, kod, bahis, durum, skor, an):
         b = self._st(kod)["bahis"].get(bahis)
         if not b or b["durum"] != "acik":
             return
-        self._gonder(sonuc_mesaji(bahis, durum, ayrinti), yanit=b.get("id"))
+        self._gonder(sonuc_mesaji(self.adaylar[kod], BAHIS[bahis][0], durum, skor, an),
+                     yanit=b.get("id"))
         b["durum"] = durum
         self.degisti = True
         print(f"  <- {BAHIS[bahis][0]:11s} {durum.upper()}  "
@@ -321,7 +403,7 @@ class Tarayici:
 
         if f == "iptal":
             for b in list(st["bahis"]):
-                self.kapat(kod, b, "iptal", "Maç tamamlanmadı.")
+                self.kapat(kod, b, "iptal", (ag, ah), "Maç tamamlanmadı")
             return
 
         if f == "1y":
@@ -337,8 +419,7 @@ class Tarayici:
             # grupta KAZANDI mesaji bir sonraki tahminden once dussun.
             for b in ("iy05", "iy15", "iy25"):
                 if toplam >= BAHIS[b][2]:
-                    self.kapat(kod, b, "kazandi",
-                               f"⏱ {dk}'  ·  {ag}–{ah}")
+                    self.kapat(kod, b, "kazandi", (ag, ah), f"{dk}'")
 
             # Kural 1-3: yalnizca ilk yarida
             if toplam == 0 and R1_BAS <= dk <= R1_SON:
@@ -359,8 +440,7 @@ class Tarayici:
         if iy is not None:
             for b in ("iy05", "iy15", "iy25"):
                 durum = "kazandi" if sum(iy) >= BAHIS[b][2] else "kaybetti"
-                self.kapat(kod, b, durum,
-                           f"İlk yarı: {iy[0]}–{iy[1]}")
+                self.kapat(kod, b, durum, iy, "İlk yarı sonu")
 
         ms = ms_toplam(m, iy)
         # Kural 4: ilk yari skoru listede ve 5. gol henuz gelmemis
@@ -368,9 +448,60 @@ class Tarayici:
         if r4_vakit and iy in R4_SKORLAR and ms < 5:
             self.ac(kod, "ms45", None, (ag, ah), iy=iy)
         if ms >= 5:
-            self.kapat(kod, "ms45", "kazandi", f"Skor: {ag}–{ah}")
+            self.kapat(kod, "ms45", "kazandi", (ag, ah), _an(m, f, simdi))
         elif f == "bitti":
-            self.kapat(kod, "ms45", "kaybetti", f"Maç sonucu: {ag}–{ah}")
+            self.kapat(kod, "ms45", "kaybetti", (ag, ah), "Maç sonu")
+
+    # ---- maç öncesi listesi
+    def hatirlat(self, simdi_dt):
+        slotlar = self.kayit.veri.setdefault("liste_slot", {})
+        gruplar = {}
+        for kod, e in self.liste.items():
+            gruplar.setdefault(e["saat"], []).append((kod, e))
+        for saat, maclar in sorted(gruplar.items()):
+            if saat in slotlar:
+                continue
+            bas = maclar[0][1]["baslama"]
+            if bas - HATIRLAT <= simdi_dt <= bas + GEC_HATIRLAT:
+                slotlar[saat] = self._gonder(hatirlatma_mesaji(saat, maclar))
+                self.degisti = True
+                print(f"  ⏰ {saat} hatirlatmasi ({len(maclar)} mac)", flush=True)
+
+    def liste_isle(self, kod, m, simdi):
+        e = self.liste[kod]
+        f = faz(m)
+        sonlar = self.kayit.veri.setdefault("liste_son", {})
+        if sonlar.get(kod) != f:
+            sonlar[kod] = f
+            self.degisti = True
+        if f in ("once", "?", "iptal"):
+            return
+        ag, ah = _int(m.get("AG")), _int(m.get("AH"))
+        if f in ("1y", "da"):
+            iy, ms = (ag, ah), ag + ah
+        else:
+            iy = iy_skoru(m, f)
+            ms = ms_toplam(m, iy)
+        kazanan = self.kayit.veri.setdefault("liste_kazanan", {}).setdefault(kod, [])
+        for b in e["bahisler"]:
+            if b in kazanan:
+                continue
+            _, kisa, tur, esik = LISTE_BAHIS[b]
+            if tur == "iy":
+                tuttu = iy is not None and sum(iy) >= esik
+                skor = iy
+                an = _an(m, f, simdi) if f in ("1y", "da") else "İlk yarı sonu"
+            else:
+                tuttu = ms >= esik
+                skor, an = (ag, ah), _an(m, f, simdi)
+            if not tuttu:
+                continue
+            yanit = self.kayit.veri.get("liste_slot", {}).get(e["saat"])
+            self._gonder(sonuc_mesaji(e, kisa, "kazandi", skor, an, liste=True),
+                         yanit=yanit)
+            kazanan.append(b)
+            self.degisti = True
+            print(f"  ✅ liste {kisa:10s} {e['ev']} - {e['dep']}", flush=True)
 
 
 def akis(kaynak, gun):
@@ -417,28 +548,46 @@ def main():
         return 1
     print(f"[tarama] {gun:%d.%m.%Y}: {len(aday)} aday mac "
           f"(beraberlik {', '.join(f'{b:.2f}' for b in BERABERLIK)})", flush=True)
-    if not aday:
-        return 0
 
     kayit = Kayit(gun)
     kayit.oku()
     t = Tarayici(gun, token, chat, kayit, aday)
+    t.liste = liste_yukle(gun)
+    liste_zamani = time.time()
+    print(f"[liste] mac oncesi listesinde {len(t.liste)} mac", flush=True)
+    if not aday and not t.liste:
+        return 0
     kaynak = fk.FlashscoreKaynak()
     basla = time.time()
 
     try:
         while True:
             simdi = time.time()
+            if simdi - liste_zamani > LISTE_YENILE:
+                yeni = liste_yukle(gun)
+                if yeni:
+                    t.liste = yeni
+                liste_zamani = simdi
             try:
                 feed = akis(kaynak, gun)
             except Exception as e:
                 print(f"[tarama] akis alinamadi: {e}", flush=True)
                 feed = {}
 
+            simdi_dt = dt.datetime.now()
+            try:
+                t.hatirlat(simdi_dt)
+            except tg.ChatBulunamadi:
+                raise
+            except Exception as e:
+                print(f"[tarama] hatirlatma gonderilemedi: {e}", flush=True)
+
             for kod, m in feed.items():
-                if kod in aday:
+                for kume, islev in ((aday, t.isle), (t.liste, t.liste_isle)):
+                    if kod not in kume:
+                        continue
                     try:
-                        t.isle(kod, m, simdi)
+                        islev(kod, m, simdi)
                     except tg.ChatBulunamadi:
                         raise
                     except Exception as e:
@@ -448,22 +597,25 @@ def main():
                 kayit.yaz()
                 t.degisti = False
 
-            # Bitmemis aday kaldi mi?
-            simdi_dt = dt.datetime.now()
+            # Bitmemis mac kaldi mi? (canli adaylar + mac oncesi listesi)
             kalan, yakin = [], False
-            for kod, a in aday.items():
-                son = kayit.veri["maclar"].get(kod, {}).get("son")
+            izlenen = [(a["baslama"], kayit.veri["maclar"].get(kod, {}).get("son"))
+                       for kod, a in aday.items()]
+            izlenen += [(e["baslama"], kayit.veri.get("liste_son", {}).get(kod))
+                        for kod, e in t.liste.items()]
+            for baslama, son in izlenen:
                 if son in ("bitti", "iptal"):
                     continue
-                if simdi_dt > a["baslama"] + dt.timedelta(minutes=VAZGEC_DK):
+                if simdi_dt > baslama + dt.timedelta(minutes=VAZGEC_DK):
                     continue
-                kalan.append(a["baslama"])
+                kalan.append(baslama)
+                # 5 dk kala hatirlatma da kacmasin diye 6 dk once yakin say
                 if son in ("1y", "da", "2y") or \
-                        a["baslama"] - simdi_dt <= dt.timedelta(minutes=5):
+                        baslama - simdi_dt <= dt.timedelta(minutes=6):
                     yakin = True
 
             if not kalan:
-                print("[tarama] butun aday maclar bitti.", flush=True)
+                print("[tarama] butun maclar bitti.", flush=True)
                 break
             if time.time() - basla > BUTCE:
                 yeniden_tetikle(gun)
@@ -474,7 +626,7 @@ def main():
             else:
                 ilk = min(kalan)
                 bekle = max(YOKLAMA, min(
-                    int((ilk - simdi_dt).total_seconds()) - 180, 600))
+                    int((ilk - simdi_dt).total_seconds()) - 360, 600))
             time.sleep(bekle)
     except tg.ChatBulunamadi as e:
         print(f"HATA: {e}\nGirilen TELEGRAM_CHAT_ID_2 calismadi. Adaylar:")
