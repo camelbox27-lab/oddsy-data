@@ -348,7 +348,8 @@
   },
   "fP9IqtR6": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 10
   },
   "GE82mORs": {
    "bahis": {},
@@ -442,7 +443,7 @@
   },
   "8YC7cpq2": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -580,7 +581,7 @@
    "bahis": {
     "ms45": {
      "id": 29,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "3-0"
     }
