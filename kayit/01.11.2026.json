@@ -691,9 +691,17 @@
    "ilk_gol_dk": 5
   },
   "SMnMNvkC": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 81,
+     "durum": "acik",
+     "dk": 17,
+     "skor": "2-0"
+    }
+   },
    "son": "1y",
-   "ilk_gol_dk": 11
+   "ilk_gol_dk": 11,
+   "iki_gol_dk": 17
   },
   "0zoULIJO": {
    "bahis": {},
