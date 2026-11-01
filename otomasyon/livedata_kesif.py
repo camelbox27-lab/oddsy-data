@@ -91,25 +91,61 @@ def main():
         print("Eslesen mac yok; iddaa bulteni baska bir gune ait olabilir.")
         return 1
 
-    # Her market icin konum kesisimi
+    # Her market icin konum PUANLAMASI.
+    # Kesin esitlik aramak yanlisti: livedata canli orani, iddaa dosyasi ise
+    # daha eski bir anlik goruntu veriyor, aradaki %1-3'luk kayma yuzunden
+    # MS1 bile bulunamiyordu. Simdi yuzde farkla tolerans uygulaniyor.
+    TOLERANS = 0.04          # %4
+
+    def yakin(a, b):
+        return a is not None and b is not None and abs(a - b) <= b * TOLERANS
+
+    uzunluk = max(len(akis[k]) for k in ortak)
+    print(f"{'market':9s} {'konum':>6s} {'tam':>5s} {'yakin':>6s} {'toplam':>7s}")
+    bulgu = {}
     for alan, ad in MARKETLER.items():
-        kesisim = None
-        kullanilan = 0
-        for kod in ortak:
-            beklenen = _sayi(dogrulama[kod].get(alan))
-            if beklenen is None:
-                continue
-            dizi = akis[kod]
-            konumlar = {i for i, v in enumerate(dizi) if _sayi(v) == beklenen}
-            kesisim = konumlar if kesisim is None else (kesisim & konumlar)
-            kullanilan += 1
-        if not kullanilan:
-            print(f"  {ad:8s}: dogrulama verisi yok")
-        elif kesisim:
-            isaret = "KESIN" if len(kesisim) == 1 else "belirsiz"
-            print(f"  {ad:8s}: konum {sorted(kesisim)}  ({kullanilan} macla, {isaret})")
-        else:
-            print(f"  {ad:8s}: tutarli konum YOK ({kullanilan} mac denendi)")
+        beklenenler = {k: _sayi(dogrulama[k].get(alan)) for k in ortak}
+        beklenenler = {k: v for k, v in beklenenler.items() if v is not None}
+        if not beklenenler:
+            print(f"{ad:9s}      -     -      -       0   (dogrulama verisi yok)")
+            continue
+        puanlar = []
+        for i in range(uzunluk):
+            tam = yak = 0
+            for k, bek in beklenenler.items():
+                v = _sayi(akis[k][i]) if i < len(akis[k]) else None
+                if v is None:
+                    continue
+                if v == bek:
+                    tam += 1; yak += 1
+                elif yakin(v, bek):
+                    yak += 1
+            if yak:
+                puanlar.append((yak, tam, i))
+        puanlar.sort(reverse=True)
+        if not puanlar:
+            print(f"{ad:9s}      -     0      0 {len(beklenenler):7d}")
+            continue
+        yak, tam, i = puanlar[0]
+        bulgu[ad] = (i, yak, tam, len(beklenenler))
+        print(f"{ad:9s} {i:6d} {tam:5d} {yak:6d} {len(beklenenler):7d}")
+        for yak2, tam2, i2 in puanlar[1:3]:
+            print(f"{'':9s} {i2:6d} {tam2:5d} {yak2:6d}   (ikincil)")
+
+    print("\nDEGERLENDIRME: bir konum ancak TUM dogrulama maclarinda yakin")
+    print("cikarsa kullanilabilir; aksi halde o market alinmaz.")
+    for ad, (i, yak, tam, toplam) in bulgu.items():
+        karar = "KULLANILABILIR" if yak == toplam and toplam >= 4 else "yetersiz"
+        print(f"  {ad:9s} konum {i:3d}  {yak}/{toplam} yakin  -> {karar}")
+
+    # Her dogrulama maci icin 18-22 araligini yan yana goster
+    print("\nElle karsilastirma (livedata [18..22] vs iddaa):")
+    for k in ortak:
+        r = dogrulama[k]
+        ld = [str(akis[k][i]) for i in range(18, 23) if i < len(akis[k])]
+        print(f"  {r['Ev Sahibi'][:18]:18s}-{r['Konuk Ekip'][:18]:18s} "
+              f"ld={ld}  iddaa MS={r.get('MS1')}/{r.get('MS0')}/{r.get('MS2')} "
+              f"2.5A={r.get('AU 2.5 Alt')} 2.5U={r.get('AU 2.5 Ust')}")
 
     # Elle bakmak icin bir ornek
     kod = ortak[0]
