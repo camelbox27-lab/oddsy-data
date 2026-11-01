@@ -42,7 +42,7 @@
      "skor": "0-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 14,
    "iy": [
     1,
@@ -383,7 +383,8 @@
   "fP9IqtR6": {
    "bahis": {},
    "son": "1y",
-   "ilk_gol_dk": 10
+   "ilk_gol_dk": 10,
+   "iki_gol_dk": 38
   },
   "GE82mORs": {
    "bahis": {},
@@ -575,7 +576,7 @@
   },
   "KpoH7CE4": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 31,
    "iki_gol_dk": 31,
    "iy": [
@@ -630,7 +631,7 @@
   },
   "dWKzJCT9": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "l6HSKYbc": {
    "bahis": {},
@@ -671,7 +672,7 @@
   },
   "ELYYeZDE": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "MVBn4dYP": {
    "bahis": {},
