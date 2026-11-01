@@ -85,12 +85,26 @@ def mackolik():
     print("  dolu olan alanlar (konum: kac macta):")
     print("   ", dict(sorted(doluluk.items())))
 
-    print("\n  --- ilk 3 macin tam dizisi (konum: deger)")
-    for m in ornek[:3]:
-        print("  " + ", ".join(f"[{i}]{v!r}" for i, v in enumerate(m)
-                               if v not in (None, "")))
+    # Baslamis gorunen maclari hedefle: [6]/[7] yalnizca bir kisminda dolu,
+    # bunlar buyuk olasilikla skor. Bos ve dolu ornekleri yan yana basiyoruz.
+    def bos_mu(v):
+        return v in (None, "", 0, "0", "0.0")
 
+    baslamis = [m for m in ornek
+                if not bos_mu(m[6]) or not bos_mu(m[7])
+                or any(not bos_mu(m[i]) for i in range(8, 14))]
+    print(f"\n  baslamis/bitmis gorunen: {len(baslamis)} / {len(ornek)}")
 
-if __name__ == "__main__":
-    flashscore()
-    mackolik()
+    def dok(m, baslik):
+        print(f"\n  --- {baslik}: {m[2]} - {m[4]}  ({m[16]})")
+        for i, v in enumerate(m):
+            if bos_mu(v):
+                continue
+            print(f"      [{i:2d}] {str(v)[:90]}")
+
+    for m in baslamis[:4]:
+        dok(m, "BASLAMIS")
+    if not baslamis:
+        print("  (su an baslamis mac yok, maç saatinde tekrar bak)")
+    for m in ornek[:1]:
+        dok(m, "BASLAMAMIS (karsilastirma)")
