@@ -255,7 +255,7 @@
      "skor": "0-1"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 4,
    "iki_gol_dk": 47,
    "iy": [
@@ -529,7 +529,7 @@
      "skor": "0-0"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 8,
    "iy": [
     0,
@@ -1432,7 +1432,7 @@
   "6BcU8I3m": "bitti",
   "0n0mim1m": "2y",
   "r581JR5L": "bitti",
-  "KpUg5Y9T": "da",
+  "KpUg5Y9T": "2y",
   "j50YaAxn": "bitti",
   "OIbtbl7b": "bitti",
   "MRCm6Kfc": "bitti",
@@ -1557,7 +1557,9 @@
    "ust25"
   ],
   "f9NBOqy2": [],
-  "KpUg5Y9T": [],
+  "KpUg5Y9T": [
+   "ust25"
+  ],
   "WKczZfK6": []
  }
 }
