@@ -42,8 +42,12 @@
      "skor": "0-0"
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 14
+   "son": "da",
+   "ilk_gol_dk": 14,
+   "iy": [
+    1,
+    0
+   ]
   },
   "fuGf2I16": {
    "bahis": {},
@@ -698,7 +702,7 @@
   },
   "v7xU0FlU": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "Y7Kb8ujt": {
    "bahis": {},
