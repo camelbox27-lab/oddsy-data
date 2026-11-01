@@ -1,0 +1,385 @@
+{
+ "tarih": "01.11.2026",
+ "ust25": [
+  {
+   "kod": "MBBAo2df",
+   "saat": "16:00",
+   "ev": "Viborg FF",
+   "dep": "AC Horsens",
+   "lig": "DÄNEMARK Superliga",
+   "beraberlik": 4.2
+  },
+  {
+   "kod": "jmZJ9tUs",
+   "saat": "16:00",
+   "ev": "Vendsyssel",
+   "dep": "Vejle",
+   "lig": "DÄNEMARK 1. Division",
+   "beraberlik": 3.9
+  },
+  {
+   "kod": "vRfnz2YG",
+   "saat": "16:00",
+   "ev": "AC Oulu",
+   "dep": "KuPS",
+   "lig": "FINNLAND Veikkausliiga - Championship Gruppe",
+   "beraberlik": 3.5
+  },
+  {
+   "kod": "MVBn4dYP",
+   "saat": "16:00",
+   "ev": "Falkirk",
+   "dep": "Celtic Glasgow",
+   "lig": "SCHOTTLAND Premier League",
+   "beraberlik": 5.25
+  },
+  {
+   "kod": "YwWJ2jA6",
+   "saat": "16:00",
+   "ev": "Djurgårdens IF",
+   "dep": "Degerfors IF",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 5.75
+  },
+  {
+   "kod": "EcigHkPa",
+   "saat": "16:00",
+   "ev": "Malmö FF",
+   "dep": "Hammarby IF",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 3.9
+  },
+  {
+   "kod": "Iql8Pkj5",
+   "saat": "16:00",
+   "ev": "Kladno",
+   "dep": "Kromeriz",
+   "lig": "TSCHECHIEN Division 2",
+   "beraberlik": 3.6
+  },
+  {
+   "kod": "j50YaAxn",
+   "saat": "16:30",
+   "ev": "Excelsior Rotterdam",
+   "dep": "Twente Enschede",
+   "lig": "NIEDERLANDE Eredivisie",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "OIbtbl7b",
+   "saat": "16:30",
+   "ev": "Telstar",
+   "dep": "FC Utrecht",
+   "lig": "NIEDERLANDE Eredivisie",
+   "beraberlik": 3.8
+  },
+  {
+   "kod": "lzkTdFU6",
+   "saat": "16:30",
+   "ev": "Wolfsberger AC",
+   "dep": "Sturm Graz",
+   "lig": "ÖSTERREICH Bundesliga",
+   "beraberlik": 4.1
+  },
+  {
+   "kod": "CvsNzh1K",
+   "saat": "17:00",
+   "ev": "Sheffield Wednesday",
+   "dep": "Blackpool FC",
+   "lig": "ENGLAND League One",
+   "beraberlik": 4.0
+  },
+  {
+   "kod": "K02SNhJs",
+   "saat": "17:00",
+   "ev": "Racing Straßburg",
+   "dep": "AJ Auxerre",
+   "lig": "FRANKREICH Ligue 1",
+   "beraberlik": 3.8
+  },
+  {
+   "kod": "r581JR5L",
+   "saat": "17:00",
+   "ev": "Lazio Rom",
+   "dep": "Cagliari Calcio",
+   "lig": "ITALIEN Serie A",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "hxiXNkS6",
+   "saat": "17:00",
+   "ev": "Baník Ostrau",
+   "dep": "Viktoria Pilsen",
+   "lig": "TSCHECHIEN 1. Liga",
+   "beraberlik": 3.6
+  },
+  {
+   "kod": "CSxieSFa",
+   "saat": "18:00",
+   "ev": "VV St. Truiden",
+   "dep": "OH Leuven",
+   "lig": "BELGIEN Jupiler League",
+   "beraberlik": 4.2
+  },
+  {
+   "kod": "nTcxlhdJ",
+   "saat": "18:00",
+   "ev": "Dender",
+   "dep": "KRC Genk U23",
+   "lig": "BELGIEN Challenger Pro League",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "fP9IqtR6",
+   "saat": "18:00",
+   "ev": "FC Nordsjælland",
+   "dep": "FC Midtjylland",
+   "lig": "DÄNEMARK Superliga",
+   "beraberlik": 3.75
+  },
+  {
+   "kod": "djkAjYup",
+   "saat": "18:00",
+   "ev": "Ferencváros Budapest",
+   "dep": "Paksi FC",
+   "lig": "UNGARN NB I.",
+   "beraberlik": 4.75
+  },
+  {
+   "kod": "0Ek1FTgC",
+   "saat": "18:30",
+   "ev": "IF Elfsborg",
+   "dep": "Örgryte IS",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "SdUAInL8",
+   "saat": "18:30",
+   "ev": "FC Lausanne-Sport",
+   "dep": "FC Thun",
+   "lig": "SCHWEIZ Super League",
+   "beraberlik": 3.6
+  },
+  {
+   "kod": "zNXIGQkL",
+   "saat": "18:30",
+   "ev": "FC Lugano",
+   "dep": "FC Basel",
+   "lig": "SCHWEIZ Super League",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "MRCm6Kfc",
+   "saat": "19:00",
+   "ev": "IK Start",
+   "dep": "Lillestrøm SK",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 3.7
+  },
+  {
+   "kod": "4jr3b8yi",
+   "saat": "19:00",
+   "ev": "Sarpsborg 08",
+   "dep": "Kristiansund BK",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "0zoULIJO",
+   "saat": "19:00",
+   "ev": "IL Hødd",
+   "dep": "Bryne FK",
+   "lig": "NORWEGEN OBOS-ligaen",
+   "beraberlik": 3.8
+  },
+  {
+   "kod": "8t8exv45",
+   "saat": "19:00",
+   "ev": "Odds BK",
+   "dep": "Sandnes Ulf",
+   "lig": "NORWEGEN OBOS-ligaen",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "O6QuJ5o9",
+   "saat": "19:00",
+   "ev": "Austria Wien",
+   "dep": "SK Rapid",
+   "lig": "ÖSTERREICH Bundesliga",
+   "beraberlik": 4.0
+  },
+  {
+   "kod": "nabo9Sp2",
+   "saat": "19:00",
+   "ev": "Kasımpaşa Istanbul",
+   "dep": "Beşiktaş Istanbul",
+   "lig": "TÜRKEI Süper Lig",
+   "beraberlik": 4.33
+  },
+  {
+   "kod": "dj3e9g4l",
+   "saat": "19:15",
+   "ev": "Olympique Lyon",
+   "dep": "SCO Angers",
+   "lig": "FRANKREICH Ligue 1",
+   "beraberlik": 5.0
+  },
+  {
+   "kod": "fuGf2I16",
+   "saat": "19:30",
+   "ev": "Eintracht Frankfurt",
+   "dep": "HSV",
+   "lig": "DEUTSCHLAND Bundesliga",
+   "beraberlik": 4.75
+  },
+  {
+   "kod": "GE82mORs",
+   "saat": "20:00",
+   "ev": "Brøndby IF",
+   "dep": "Aarhus GF",
+   "lig": "DÄNEMARK Superliga",
+   "beraberlik": 3.7
+  },
+  {
+   "kod": "AXoK8X1S",
+   "saat": "20:15",
+   "ev": "Újpest",
+   "dep": "Nyíregyháza",
+   "lig": "UNGARN NB I.",
+   "beraberlik": 3.7
+  },
+  {
+   "kod": "YyRY3ljA",
+   "saat": "21:00",
+   "ev": "Cobresal",
+   "dep": "Everton",
+   "lig": "CHILE Liga de Primera",
+   "beraberlik": 3.5
+  },
+  {
+   "kod": "0n0mim1m",
+   "saat": "21:00",
+   "ev": "Maccabi Petach Tikwa",
+   "dep": "Hapoel Be'er Sheva",
+   "lig": "ISRAEL Ligat ha'Al",
+   "beraberlik": 4.33
+  },
+  {
+   "kod": "IoeIb1Mi",
+   "saat": "21:15",
+   "ev": "RSC Charleroi",
+   "dep": "RAAL La Louviere",
+   "lig": "BELGIEN Jupiler League",
+   "beraberlik": 4.33
+  },
+  {
+   "kod": "UiGe4bP9",
+   "saat": "21:15",
+   "ev": "Vålerenga IF",
+   "dep": "Tromsø IL",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 3.7
+  },
+  {
+   "kod": "f9NBOqy2",
+   "saat": "21:30",
+   "ev": "Alemannia Aachen",
+   "dep": "Preußen Münster",
+   "lig": "DEUTSCHLAND 3. Liga",
+   "beraberlik": 3.6
+  },
+  {
+   "kod": "KpUg5Y9T",
+   "saat": "21:30",
+   "ev": "Palermo",
+   "dep": "L.R. Vicenza",
+   "lig": "ITALIEN Serie B",
+   "beraberlik": 4.1
+  },
+  {
+   "kod": "0thEbUjt",
+   "saat": "23:30",
+   "ev": "Vancouver Whitecaps",
+   "dep": "Seattle Sounders",
+   "lig": "USA MLS",
+   "beraberlik": 4.2
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "MVBn4dYP",
+   "saat": "16:00",
+   "ev": "Falkirk",
+   "dep": "Celtic Glasgow",
+   "lig": "SCHOTTLAND Premier League",
+   "beraberlik": 5.25
+  },
+  {
+   "kod": "YwWJ2jA6",
+   "saat": "16:00",
+   "ev": "Djurgårdens IF",
+   "dep": "Degerfors IF",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 5.75
+  },
+  {
+   "kod": "QZK47MC7",
+   "saat": "16:00",
+   "ev": "Young Boys Bern",
+   "dep": "FC Zürich",
+   "lig": "SCHWEIZ Super League",
+   "beraberlik": 7.0
+  },
+  {
+   "kod": "xAG2RRdf",
+   "saat": "17:00",
+   "ev": "Brighton & Hove Albion F",
+   "dep": "Crystal Palace F",
+   "lig": "ENGLAND WSL",
+   "beraberlik": 7.0
+  },
+  {
+   "kod": "2mtCGew9",
+   "saat": "18:30",
+   "ev": "CS Universitatea Craiova",
+   "dep": "Botosani",
+   "lig": "RUMÄNIEN Superliga",
+   "beraberlik": 5.0
+  },
+  {
+   "kod": "lbOyI9Ij",
+   "saat": "19:00",
+   "ev": "Strømsgodset IF",
+   "dep": "Moss FK",
+   "lig": "NORWEGEN OBOS-ligaen",
+   "beraberlik": 7.0
+  },
+  {
+   "kod": "dj3e9g4l",
+   "saat": "19:15",
+   "ev": "Olympique Lyon",
+   "dep": "SCO Angers",
+   "lig": "FRANKREICH Ligue 1",
+   "beraberlik": 5.0
+  },
+  {
+   "kod": "6BcU8I3m",
+   "saat": "20:00",
+   "ev": "PAOK",
+   "dep": "Asteras Tripolis",
+   "lig": "GRIECHENLAND Super League",
+   "beraberlik": 5.25
+  },
+  {
+   "kod": "WKczZfK6",
+   "saat": "22:00",
+   "ev": "The Strongest",
+   "dep": "GV San Jose",
+   "lig": "BOLIVIEN Liga de Fútbol Profesional",
+   "beraberlik": 5.75
+  }
+ ],
+ "kupon": null,
+ "sonuclandi": false
+}
