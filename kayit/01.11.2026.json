@@ -128,12 +128,13 @@
    "bahis": {
     "iy05": {
      "id": 82,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 5,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 42
   },
   "4G637XY0": {
    "bahis": {},
@@ -148,7 +149,7 @@
      "skor": "0-0"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 12,
    "iki_gol_dk": 43,
    "iy": [
@@ -496,7 +497,7 @@
   },
   "CSxieSFa": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -609,7 +610,8 @@
   },
   "dj3e9g4l": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 42
   },
   "0CVdRQJE": {
    "bahis": {},
@@ -1212,7 +1214,7 @@
   "20:00": 108
  },
  "liste_son": {
-  "CSxieSFa": "2y",
+  "CSxieSFa": "bitti",
   "IoeIb1Mi": "once",
   "nTcxlhdJ": "2y",
   "WKczZfK6": "once",
