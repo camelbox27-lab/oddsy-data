@@ -1,11 +1,14 @@
 """CANLI MAÇ TARAMA -> tahmin grubu.
 
-ADAYLAR: bet365 beraberlik orani TAM OLARAK su basamaklardan birine esit
-olan gunun maclari: 3.50  4.00  4.10  4.33  4.50  4.75
-(Kaynak bet365/GGAAYYYY.json; mac kodu Flashscore'un kodu.)
+IZLENEN MACLAR: gunun bet365 bultenindeki maclardan yalnizca LIGLER
+listesindekiler (majör ligler ve alt ligleri). Kadin, altyapi (U17-U23)
+ve rezerv (B / II) takimlari alinmaz. Kaynak bet365/GGAAYYYY.json; mac
+kodu Flashscore'un kodu.
 
-KURALLAR (hepsi ayni maca ayri ayri uygulanabilir):
-  1) İY 0.5 Üst  -- macin 2-3. dakikasinda, skor 0-0 iken.
+KURALLAR (hepsi ayni maca ayri ayri uygulanabilir). Oran sarti YALNIZCA
+kural 1'de var; 2-3-4 orandan bagimsiz, butun maclara uygulanir.
+  1) İY 0.5 Üst  -- beraberlik orani TAM OLARAK 3.50 4.00 4.10 4.33 4.50
+                    4.75 olan maclarda, 2-3. dakikada, skor 0-0 iken.
                     Gol olmadigi surece 25. dakikaya kadar gonderilebilir
                     (tarama gec baslarsa); 25'ten sonra gonderilmez.
   2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa (skor tek gol iken).
@@ -65,6 +68,56 @@ BET365 = KOK / "bet365"
 
 BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 
+# Canli tarama yalnizca bu liglerde calisir. Anahtar Flashscore'un (Almanca)
+# ulke adi, deger lig adinin basi. Buyuk 5 + Turkiye: ilk 3 kademe (Ingiltere
+# 4); diger Avrupa: ilk 2 kademe; Avrupa kupalari; birkac buyuk Amerika ligi.
+LIGLER = {
+    "ENGLAND":      ["Premier League", "Championship", "League One", "League Two",
+                     "FA Cup", "EFL Cup"],
+    "SPANIEN":      ["La Liga", "Primera RFEF", "Copa del Rey"],
+    "ITALIEN":      ["Serie A", "Serie B", "Serie C", "Coppa Italia -"],
+    "DEUTSCHLAND":  ["Bundesliga", "2. Bundesliga", "3. Liga", "DFB Pokal"],
+    "FRANKREICH":   ["Ligue 1", "Ligue 2", "National", "Coupe de France"],
+    "TÜRKEI":       ["Süper Lig", "1. Lig", "2. Lig", "Pokal"],
+    "NIEDERLANDE":  ["Eredivisie", "Eerste Divisie", "KNVB Beker"],
+    "PORTUGAL":     ["Liga Portugal", "Taça de Portugal"],
+    "BELGIEN":      ["Jupiler League", "Challenger Pro League", "Beker"],
+    "SCHOTTLAND":   ["Premier League", "Championship", "League Cup", "FA Cup"],
+    "ÖSTERREICH":   ["Bundesliga", "2. Liga", "ÖFB Cup"],
+    "SCHWEIZ":      ["Super League", "Challenge League"],
+    "DÄNEMARK":     ["Superliga", "1. Division"],
+    "SCHWEDEN":     ["Allsvenskan", "Superettan"],
+    "NORWEGEN":     ["Eliteserien", "OBOS-ligaen"],
+    "GRIECHENLAND": ["Super League"],
+    "TSCHECHIEN":   ["1. Liga", "Division 2"],
+    "POLEN":        ["Ekstraklasa", "I liga"],
+    "KROATIEN":     ["HNL", "Prva NL"],
+    "EUROPA":       ["Champions League", "Europa League", "Conference League"],
+    "BRASILIEN":    ["Série A", "Série B", "Copa do Brasil"],
+    "ARGENTINIEN":  ["Liga Profesional"],
+    "USA":          ["MLS"],
+}
+_DISLA_LIG = ("frauen", "women", "wsl", "damen", "femen", "u17", "u18", "u19",
+              "u20", "u21", "u23", "jugend", "youth", "primavera", "reserve",
+              "freundschaft", "friendly")
+_DISLA_TAKIM_SON = (" F", " B", " II", " U19", " U20", " U21", " U23")
+
+
+def lig_uygun(lig, ev="", dep=""):
+    """Mac canli taramaya alinir mi? (majör lig/alt lig, yetiskin erkek)"""
+    lig = (lig or "").strip()
+    kucuk = lig.lower()
+    if any(k in kucuk for k in _DISLA_LIG):
+        return False
+    for takim in (ev or "", dep or ""):
+        if takim.strip().endswith(_DISLA_TAKIM_SON):
+            return False
+    for ulke, ligler in LIGLER.items():
+        if lig.startswith(ulke + " "):
+            yarisma = lig[len(ulke) + 1:]
+            return any(yarisma.startswith(l) for l in ligler)
+    return False
+
 R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
 R2_SON = 6                   # ilk gol en gec bu dakikada gorulmus olmali
 R3_SON = 21                  # ikinci gol en gec bu dakikada
@@ -115,6 +168,8 @@ def _zaman(v):
 
 
 def adaylar(gun):
+    """Gunun bultenindeki butun maclar. Beraberlik orani yalnizca kural 1
+    icin tasinir; diger kurallar orana bakmaz."""
     dosya = BET365 / f"{gun:%d%m%Y}.json"
     if not dosya.exists():
         return None
@@ -123,7 +178,9 @@ def adaylar(gun):
         o = _ms0(r)
         z = _zaman(r.get("Tarih"))
         kod = str(r.get("MatchCode") or "").strip()
-        if not kod or o not in BERABERLIK or z is None or z.date() != gun:
+        if not kod or z is None or z.date() != gun:
+            continue
+        if not lig_uygun(r.get("Lig"), r.get("Ev"), r.get("Dep")):
             continue
         sonuc[kod] = {"ev": r.get("Ev") or "", "dep": r.get("Dep") or "",
                       "lig": r.get("Lig") or "", "baslama": z,
@@ -393,9 +450,7 @@ class Tarayici:
     def isle(self, kod, m, simdi):
         f = faz(m)
         st = self._st(kod)
-        if st.get("son") != f:
-            st["son"] = f
-            self.degisti = True
+        st["son"] = f          # yalniz durum degisimi kayit yazdirmaz
         if f in ("once", "?"):
             return
 
@@ -423,7 +478,8 @@ class Tarayici:
                     self.kapat(kod, b, "kazandi", (ag, ah), f"{dk}'")
 
             # Kural 1-3: yalnizca ilk yarida
-            if toplam == 0 and R1_BAS <= dk <= R1_SON:
+            if (toplam == 0 and R1_BAS <= dk <= R1_SON
+                    and self.adaylar[kod]["beraberlik"] in BERABERLIK):
                 self.ac(kod, "iy05", dk, (ag, ah))
             if toplam == 1 and st.get("ilk_gol_dk", 99) <= R2_SON:
                 self.ac(kod, "iy15", dk, (ag, ah))
@@ -471,10 +527,7 @@ class Tarayici:
     def liste_isle(self, kod, m, simdi):
         e = self.liste[kod]
         f = faz(m)
-        sonlar = self.kayit.veri.setdefault("liste_son", {})
-        if sonlar.get(kod) != f:
-            sonlar[kod] = f
-            self.degisti = True
+        self.kayit.veri.setdefault("liste_son", {})[kod] = f
         if f in ("once", "?", "iptal"):
             return
         ag, ah = _int(m.get("AG")), _int(m.get("AH"))
@@ -547,8 +600,10 @@ def main():
     if aday is None:
         print(f"HATA: bet365/{gun:%d%m%Y}.json yok.")
         return 1
-    print(f"[tarama] {gun:%d.%m.%Y}: {len(aday)} aday mac "
-          f"(beraberlik {', '.join(f'{b:.2f}' for b in BERABERLIK)})", flush=True)
+    k1 = sum(1 for a in aday.values() if a["beraberlik"] in BERABERLIK)
+    print(f"[tarama] {gun:%d.%m.%Y}: bultende {len(aday)} mac izleniyor; "
+          f"kural 1 (beraberlik {', '.join(f'{b:.2f}' for b in BERABERLIK)}) "
+          f"bunlarin {k1}'inde gecerli", flush=True)
 
     kayit = Kayit(gun)
     kayit.oku()
