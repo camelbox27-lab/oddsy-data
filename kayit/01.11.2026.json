@@ -645,7 +645,8 @@
   "reTQJXOM": {
    "bahis": {},
    "son": "1y",
-   "ilk_gol_dk": 12
+   "ilk_gol_dk": 12,
+   "iki_gol_dk": 24
   },
   "MqmVnxEt": {
    "bahis": {},
@@ -756,7 +757,8 @@
   },
   "0zoULIJO": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 41
   },
   "nRJnv0Zh": {
    "bahis": {},
@@ -840,7 +842,7 @@
   },
   "ELYYeZDE": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 16,
    "iki_gol_dk": 47,
    "iy": [
@@ -1213,7 +1215,9 @@
    "ust25"
   ],
   "CvsNzh1K": [],
-  "CSxieSFa": [],
+  "CSxieSFa": [
+   "ust25"
+  ],
   "djkAjYup": [],
   "nTcxlhdJ": [],
   "fP9IqtR6": [
