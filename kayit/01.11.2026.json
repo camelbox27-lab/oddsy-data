@@ -1426,8 +1426,16 @@
    ]
   },
   "0thEbUjt": {
-   "bahis": {},
-   "son": "once"
+   "bahis": {
+    "iy15": {
+     "id": 158,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "1-0"
+    }
+   },
+   "son": "1y",
+   "ilk_gol_dk": 3
   }
  },
  "liste_slot": {
@@ -1489,7 +1497,7 @@
   "nabo9Sp2": "bitti",
   "djkAjYup": "bitti",
   "AXoK8X1S": "bitti",
-  "0thEbUjt": "once"
+  "0thEbUjt": "1y"
  },
  "liste_kazanan": {
   "MBBAo2df": [],
@@ -1600,6 +1608,7 @@
   "WKczZfK6": [
    "iy15",
    "ust35"
-  ]
+  ],
+  "0thEbUjt": []
  }
 }
