@@ -109,12 +109,13 @@
    "bahis": {
     "iy05": {
      "id": 13,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 12
   },
   "8KdX3UDT": {
    "bahis": {},
@@ -222,5 +223,6 @@
    "bahis": {},
    "son": "once"
   }
- }
+ },
+ "liste_slot": {}
 }
