@@ -1029,12 +1029,12 @@
    "bahis": {
     "ms45": {
      "id": 76,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "0-3"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 15,
    "iki_gol_dk": 24,
    "iy": [
@@ -1280,7 +1280,7 @@
   "Iql8Pkj5": "bitti",
   "nabo9Sp2": "2y",
   "djkAjYup": "bitti",
-  "AXoK8X1S": "once",
+  "AXoK8X1S": "1y",
   "0thEbUjt": "once"
  },
  "liste_kazanan": {
@@ -1359,6 +1359,7 @@
   "dj3e9g4l": [],
   "fuGf2I16": [],
   "GE82mORs": [],
-  "6BcU8I3m": []
+  "6BcU8I3m": [],
+  "AXoK8X1S": []
  }
 }
