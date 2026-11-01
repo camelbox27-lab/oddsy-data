@@ -108,3 +108,8 @@ def mackolik():
         print("  (su an baslamis mac yok, maç saatinde tekrar bak)")
     for m in ornek[:1]:
         dok(m, "BASLAMAMIS (karsilastirma)")
+
+
+if __name__ == "__main__":
+    flashscore()
+    mackolik()
