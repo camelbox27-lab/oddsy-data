@@ -167,8 +167,15 @@
    ]
   },
   "8IrB3NR7": {
-   "bahis": {},
-   "son": "once"
+   "bahis": {
+    "iy05": {
+     "id": 119,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
+   "son": "1y"
   },
   "GnxSGsUI": {
    "bahis": {},
@@ -514,7 +521,7 @@
   },
   "2Z0BmyEj": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "lE58rmWb": {
    "bahis": {},
@@ -548,7 +555,8 @@
   },
   "GE82mORs": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 33
   },
   "jmZJ9tUs": {
    "bahis": {},
@@ -1078,7 +1086,7 @@
   },
   "h0LeQEwo": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "lxOuURQE": {
    "bahis": {},
