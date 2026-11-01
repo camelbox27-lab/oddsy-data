@@ -79,7 +79,10 @@ def _zaman(v):
         return None
     if isinstance(v, (int, float)) or str(v).strip().isdigit():
         try:
-            return dt.datetime.fromtimestamp(int(v) / 1000)
+            # bet365 JSON'unda Tarih, Turkiye saatini UTC'ymis gibi yazilmis epoch'tur
+            # (pandas naive datetime'i boyle serilestiriyor). UTC olarak okunmali;
+            # yerel saat diliminde okumak +3 saat kaydirir.
+            return dt.datetime.fromtimestamp(int(v) / 1000, dt.timezone.utc).replace(tzinfo=None)
         except (ValueError, OSError, OverflowError):
             return None
     try:
