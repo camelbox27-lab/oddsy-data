@@ -6,7 +6,8 @@ olan gunun maclari: 3.50  4.00  4.10  4.33  4.50  4.75
 
 KURALLAR (hepsi ayni maca ayri ayri uygulanabilir):
   1) İY 0.5 Üst  -- macin 2-3. dakikasinda, skor 0-0 iken.
-                    Tarama gec baslarsa 10. dakikaya kadar gonderilir.
+                    Gol olmadigi surece 25. dakikaya kadar gonderilebilir
+                    (tarama gec baslarsa); 25'ten sonra gonderilmez.
   2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa (skor tek gol iken).
                     60 sn'lik yoklama araligi icin 6. dakikaya kadar
                     gorulen gol sayilir.
@@ -59,7 +60,7 @@ BET365 = KOK / "bet365"
 
 BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 
-R1_BAS, R1_SON = 2, 10       # İY 0.5 Üst gonderim penceresi (dk)
+R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
 R2_SON = 6                   # ilk gol en gec bu dakikada gorulmus olmali
 R3_SON = 21                  # ikinci gol en gec bu dakikada
 R4_SKORLAR = {(2, 1), (1, 2), (3, 0), (0, 3)}

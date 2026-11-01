@@ -195,7 +195,10 @@ jobs:
           python otomasyon/livedata_kesif.py || true
           echo
           echo "=== canli mac alan kesfi (dakika + anlik skor icin) ==="
-          python otomasyon/canli_kesif.py
+          python otomasyon/canli_kesif.py || true
+          echo
+          echo "=== xG / tempo kesfi (mac istatistik akisi) ==="
+          python otomasyon/xg_kesif.py
 
       # --- BULTEN YUKLE: gunun bulteni + tahminler
       #
