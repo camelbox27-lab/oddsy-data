@@ -122,7 +122,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 12
+   "ilk_gol_dk": 12,
+   "iki_gol_dk": 43
   },
   "8IrB3NR7": {
    "bahis": {},
@@ -721,7 +722,8 @@
   },
   "SdUAInL8": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 15
   },
   "EoME4ck5": {
    "bahis": {},
@@ -982,7 +984,9 @@
   "K02SNhJs": [
    "ust25"
   ],
-  "r581JR5L": [],
+  "r581JR5L": [
+   "ust25"
+  ],
   "hxiXNkS6": [
    "ust25"
   ],
