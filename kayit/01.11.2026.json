@@ -179,8 +179,16 @@
    ]
   },
   "4G637XY0": {
-   "bahis": {},
-   "son": "once"
+   "bahis": {
+    "iy15": {
+     "id": 151,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "1-0"
+    }
+   },
+   "son": "1y",
+   "ilk_gol_dk": 4
   },
   "0hu35qce": {
    "bahis": {
@@ -781,7 +789,7 @@
   },
   "zu5gLmy9": {
    "bahis": {},
-   "son": "once"
+   "son": "1y"
   },
   "0dspmZmo": {
    "bahis": {
