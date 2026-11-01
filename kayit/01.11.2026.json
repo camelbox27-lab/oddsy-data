@@ -137,7 +137,7 @@
      "skor": "0-0"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 42,
    "iki_gol_dk": 48,
    "iy": [
@@ -1167,7 +1167,8 @@
   },
   "vil0MUKb": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 25
   },
   "GEAr4m5U": {
    "bahis": {},
