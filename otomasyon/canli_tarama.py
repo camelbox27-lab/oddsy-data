@@ -175,7 +175,8 @@ class Kayit:
             c = self._api("GET", f"contents/{self.yol}?ref={DAL}")
             self.sha = c["sha"]
             self.veri = json.loads(base64.b64decode(c["content"]).decode())
-            print(f"[kayit] okundu: {len(self.veri['maclar'])} mac", flush=True)
+            # Mac oncesi arsivinde 'maclar' yok; yalnizca yolu yaz
+            print(f"[kayit] okundu: {self.yol}", flush=True)
         except urllib.error.HTTPError as e:
             if e.code != 404:
                 raise
