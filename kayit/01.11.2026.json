@@ -1279,7 +1279,7 @@
   },
   "vil0MUKb": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 25,
    "iki_gol_dk": 35,
    "iy": [
@@ -1562,7 +1562,9 @@
   "AXoK8X1S": [
    "ust25"
   ],
-  "YyRY3ljA": [],
+  "YyRY3ljA": [
+   "ust25"
+  ],
   "0n0mim1m": [
    "ust25"
   ],
@@ -1576,6 +1578,8 @@
   "KpUg5Y9T": [
    "ust25"
   ],
-  "WKczZfK6": []
+  "WKczZfK6": [
+   "iy15"
+  ]
  }
 }
