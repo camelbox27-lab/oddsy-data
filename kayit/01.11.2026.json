@@ -737,12 +737,12 @@
    "bahis": {
     "ms45": {
      "id": 126,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "1-2"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 14,
    "iki_gol_dk": 30,
    "iy": [
@@ -807,7 +807,7 @@
   },
   "MqmVnxEt": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 10,
    "iki_gol_dk": 38,
    "iy": [
@@ -1230,7 +1230,7 @@
   },
   "vil0MUKb": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 25,
    "iki_gol_dk": 35,
    "iy": [
@@ -1397,7 +1397,7 @@
   "K02SNhJs": "bitti",
   "dj3e9g4l": "bitti",
   "6BcU8I3m": "bitti",
-  "0n0mim1m": "1y",
+  "0n0mim1m": "da",
   "r581JR5L": "bitti",
   "KpUg5Y9T": "1y",
   "j50YaAxn": "bitti",
