@@ -125,5 +125,7 @@ def mackolik():
 
 
 if __name__ == "__main__":
-    flashscore()
+    # Mackolik once: Flashscore raporu log'un SONUNDA kalsin, calisma
+    # loglarinin kuyruguna bakarken kesilmesin.
     mackolik()
+    flashscore()
