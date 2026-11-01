@@ -468,9 +468,13 @@
   },
   "KpoH7CE4": {
    "bahis": {},
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 31,
-   "iki_gol_dk": 31
+   "iki_gol_dk": 31,
+   "iy": [
+    1,
+    1
+   ]
   },
   "MRCm6Kfc": {
    "bahis": {},
