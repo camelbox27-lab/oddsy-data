@@ -189,7 +189,10 @@ jobs:
         run: |
           python otomasyon/sofa_teshis.py || true
           echo
-          python otomasyon/iddaa_teshis.py
+          python otomasyon/iddaa_teshis.py || true
+          echo
+          echo "=== livedata alan kesfi (2.5 Ust vb. icin) ==="
+          python otomasyon/livedata_kesif.py
 
       # --- BULTEN YUKLE: gunun bulteni + tahminler
       #
