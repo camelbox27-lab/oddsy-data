@@ -105,12 +105,13 @@
    "bahis": {
     "iy05": {
      "id": 41,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 12
   },
   "8IrB3NR7": {
    "bahis": {},
@@ -627,7 +628,7 @@
      "skor": "2-1"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 23,
    "iki_gol_dk": 29,
    "iy": [
