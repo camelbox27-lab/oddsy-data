@@ -66,8 +66,12 @@
      "skor": "0-0"
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 10
+   "son": "da",
+   "ilk_gol_dk": 10,
+   "iy": [
+    1,
+    0
+   ]
   },
   "lIBdTEeK": {
    "bahis": {},
@@ -180,12 +184,16 @@
    "bahis": {
     "iy05": {
      "id": 9,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 2,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "AoPbTFdC": {
    "bahis": {},
@@ -231,7 +239,7 @@
   "nTcxlhdJ": "once",
   "WKczZfK6": "once",
   "YyRY3ljA": "once",
-  "MBBAo2df": "1y",
+  "MBBAo2df": "da",
   "fP9IqtR6": "once",
   "GE82mORs": "once",
   "jmZJ9tUs": "1y",
@@ -239,7 +247,7 @@
   "f9NBOqy2": "once",
   "CvsNzh1K": "once",
   "xAG2RRdf": "once",
-  "vRfnz2YG": "1y",
+  "vRfnz2YG": "da",
   "K02SNhJs": "once",
   "dj3e9g4l": "once",
   "6BcU8I3m": "once",
@@ -257,15 +265,15 @@
   "lzkTdFU6": "1y",
   "O6QuJ5o9": "once",
   "2mtCGew9": "once",
-  "MVBn4dYP": "1y",
-  "YwWJ2jA6": "1y",
-  "EcigHkPa": "1y",
+  "MVBn4dYP": "da",
+  "YwWJ2jA6": "da",
+  "EcigHkPa": "da",
   "0Ek1FTgC": "once",
   "QZK47MC7": "1y",
   "SdUAInL8": "once",
   "zNXIGQkL": "once",
   "hxiXNkS6": "once",
-  "Iql8Pkj5": "1y",
+  "Iql8Pkj5": "da",
   "nabo9Sp2": "once",
   "djkAjYup": "once",
   "AXoK8X1S": "once",
