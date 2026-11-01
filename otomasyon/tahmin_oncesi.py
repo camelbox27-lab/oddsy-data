@@ -3,14 +3,18 @@
 Kaynak: bet365/GGAAYYYY.json (Flashscore'dan cekilen bet365 oranlari).
 Yalnizca henuz baslamamis maclar alinir. Esitlikler TAM (aralik yok).
 
-KURAL 1 -- "Maç sonucu 2.5 Üst"
+KURAL 1 -- "Maç sonucu 2.5 Üst"   (iki sarttan HERHANGI BIRI yeter)
     2.5 Ust orani  : 1.53  1.57  1.61
+    VEYA
     beraberlik     : 4.33  4.50  4.75
     NOT: 1.61, bet365 sitesinde 8/13'un gosterimi. Flashscore ayni oran
     basamagini 1.62 olarak veriyor (8/13 = 1.6154); ikisi de kabul edilir.
 
-KURAL 2 -- "3.5 Üst" + "İlk yarı 1.5 Üst"
+KURAL 2 -- "3.5 Üst" ve "İlk yarı 1.5 Üst" (ayri listeler, ayni maclar)
     beraberlik     : 5.00  5.25  5.75  6.00  7.00  8.00
+
+Kurallar birbirinden bagimsizdir: bir mac ikisine birden uyarsa iki
+listede de gorunur. Mesajda oran yazilmaz (Wondiyo kanalindaki gibi).
 
 En sonda gunun kuponu (otomasyon/kupon.py) ayni gruba gonderilir.
 """
@@ -90,48 +94,43 @@ def tercihler(gun):
             "lig": r.get("Lig") or "",
             "beraberlik": ms0,
         }
-        u25 = oran(r, "UST25")
-        if u25 in UST25_ORANLARI and ms0 in UST25_BERABERLIK:
-            ust25.append({**m, "ust25": u25})
-        elif ms0 in UST35_BERABERLIK:
-            ust35.append({**m, "ust35": oran(r, "UST35"),
-                          "iyust15": oran(r, "IYUST15")})
+        if oran(r, "UST25") in UST25_ORANLARI or ms0 in UST25_BERABERLIK:
+            ust25.append(m)
+        if ms0 in UST35_BERABERLIK:
+            ust35.append(m)
     anahtar = lambda m: m["saat"]
     return {"ust25": sorted(ust25, key=anahtar),
             "ust35": sorted(ust35, key=anahtar)}
 
 
-def _mac_satiri(m):
-    bayrak, lig = tr_isim.lig(m["lig"])
-    ev = tg.kacir(tr_isim.takim(m["ev"]))
-    dep = tg.kacir(tr_isim.takim(m["dep"]))
-    return (f"<code>{m['saat']}</code>  <b>{ev} – {dep}</b>",
-            f"{bayrak} {tg.kacir(lig)}".strip())
-
-
-def _o(v):
-    return f"{v:.2f}" if v else "–"
+def _bolum(baslik, maclar):
+    """Wondiyo kanalindaki bicim: lig basligi + saat / ev - deplasman."""
+    satirlar = ["", f"<b>\U0001f3af {baslik}</b>"]
+    ligler = {}
+    for m in maclar:
+        bayrak, lig = tr_isim.lig(m["lig"])
+        ligler.setdefault(f"{bayrak} {lig}".strip(), []).append(m)
+    for lig, grup in sorted(ligler.items(), key=lambda it: it[1][0]["saat"]):
+        satirlar.append(f"<b>{tg.kacir(lig)}</b>")
+        for m in grup:
+            ev = tg.kacir(tr_isim.takim(m["ev"]))
+            dep = tg.kacir(tr_isim.takim(m["dep"]))
+            satirlar.append(f"<code>{m['saat']}</code>  {ev} \u2013 {dep}")
+    return satirlar
 
 
 def tercih_mesaji(t, gun):
     satirlar = [
-        "<b>\U0001f4cb MAÇ ÖNCESİ TERCİHLER</b>",
+        "<b>\U0001f4cb MA\u00c7 \u00d6NCES\u0130 TERC\u0130HLER</b>",
         f"<i>{tg.kacir(tr_isim.tarih(f'{gun:%d.%m.%Y}'))}</i>",
     ]
     if t["ust25"]:
-        satirlar += ["", "<b>\U0001f3af MAÇ SONUCU 2.5 ÜST</b>"]
-        for m in t["ust25"]:
-            ust, alt = _mac_satiri(m)
-            satirlar += [ust, f"        {alt} · 2.5 Üst <b>@{_o(m['ust25'])}</b>"]
+        satirlar += _bolum("MA\u00c7 SONUCU 2.5 \u00dcST", t["ust25"])
     if t["ust35"]:
-        satirlar += ["", "<b>\U0001f3af 3.5 ÜST + İLK YARI 1.5 ÜST</b>"]
-        for m in t["ust35"]:
-            ust, alt = _mac_satiri(m)
-            satirlar += [ust, f"        {alt}",
-                         f"        3.5 Üst <b>@{_o(m['ust35'])}</b> · "
-                         f"İY 1.5 Üst <b>@{_o(m['iyust15'])}</b>"]
+        satirlar += _bolum("MA\u00c7 SONUCU 3.5 \u00dcST", t["ust35"])
+        satirlar += _bolum("\u0130LK YARI 1.5 \u00dcST", t["ust35"])
     if not (t["ust25"] or t["ust35"]):
-        satirlar += ["", "<i>Bugün kriterlere uyan başlamamış maç yok.</i>"]
+        satirlar += ["", "<i>Bug\u00fcn kriterlere uyan ba\u015flamam\u0131\u015f ma\u00e7 yok.</i>"]
     return tg.parcala(satirlar)
 
 
@@ -169,7 +168,7 @@ def main():
     if t is None:
         print(f"HATA: bet365/{gun:%d%m%Y}.json yok.")
         return 1
-    print(f"2.5 Ust: {len(t['ust25'])} mac | 3.5 Ust + IY 1.5: {len(t['ust35'])} mac",
+    print(f"2.5 Ust: {len(t['ust25'])} mac | 3.5 Ust / IY 1.5 Ust: {len(t['ust35'])} mac",
           flush=True)
     parcalar = tercih_mesaji(t, gun)
 
