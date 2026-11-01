@@ -632,7 +632,8 @@
   },
   "6BcU8I3m": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 12
   },
   "zLEaa6Ek": {
    "bahis": {},
@@ -711,7 +712,8 @@
   },
   "MqmVnxEt": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 10
   },
   "SARuD5rI": {
    "bahis": {},
@@ -1057,7 +1059,7 @@
   },
   "hKBknd04": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 33,
    "iy": [
     0,
