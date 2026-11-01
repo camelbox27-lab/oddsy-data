@@ -353,12 +353,12 @@
     },
     "ms45": {
      "id": 59,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "1-2"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 7,
    "iki_gol_dk": 22,
    "iy": [
@@ -1095,7 +1095,7 @@
   },
   "KKWXmtdK": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
