@@ -13,12 +13,13 @@
    "bahis": {
     "iy05": {
      "id": 133,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 2,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 8
   },
   "nTcxlhdJ": {
    "bahis": {},
@@ -554,7 +555,11 @@
   },
   "2Z0BmyEj": {
    "bahis": {},
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "lE58rmWb": {
    "bahis": {},
@@ -1119,7 +1124,11 @@
   },
   "Y7Kb8ujt": {
    "bahis": {},
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "Mody8Bv0": {
    "bahis": {},
@@ -1151,9 +1160,13 @@
      "skor": "0-1"
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 6,
-   "iki_gol_dk": 49
+   "iki_gol_dk": 49,
+   "iy": [
+    1,
+    1
+   ]
   },
   "lxOuURQE": {
    "bahis": {},
@@ -1187,7 +1200,8 @@
   "vil0MUKb": {
    "bahis": {},
    "son": "1y",
-   "ilk_gol_dk": 25
+   "ilk_gol_dk": 25,
+   "iki_gol_dk": 35
   },
   "GEAr4m5U": {
    "bahis": {},
@@ -1371,7 +1385,7 @@
   "Iql8Pkj5": "bitti",
   "nabo9Sp2": "bitti",
   "djkAjYup": "bitti",
-  "AXoK8X1S": "da",
+  "AXoK8X1S": "2y",
   "0thEbUjt": "once"
  },
  "liste_kazanan": {
