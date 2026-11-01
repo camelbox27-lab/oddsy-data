@@ -317,7 +317,7 @@
   },
   "pCRxX2s1": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     1,
     1
@@ -325,7 +325,7 @@
   },
   "MBBAo2df": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -341,7 +341,7 @@
   },
   "jmZJ9tUs": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     1,
     0
@@ -603,10 +603,21 @@
    ]
   },
   "b9vSp95D": {
-   "bahis": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 40,
+     "durum": "acik",
+     "dk": null,
+     "skor": "2-1"
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 23,
-   "iki_gol_dk": 29
+   "iki_gol_dk": 29,
+   "iy": [
+    2,
+    1
+   ]
   },
   "ELYYeZDE": {
    "bahis": {},
@@ -622,7 +633,7 @@
   },
   "YwWJ2jA6": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     2,
     0
@@ -762,7 +773,7 @@
   },
   "Iql8Pkj5": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     1,
     1
@@ -786,7 +797,7 @@
   },
   "bm5WWVx9": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     3,
     1
@@ -794,7 +805,7 @@
   },
   "vZfwBlGk": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     1,
     0
@@ -810,7 +821,7 @@
   },
   "O2phA2c2": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -834,7 +845,8 @@
   }
  },
  "liste_slot": {
-  "17:00": 21
+  "17:00": 21,
+  "18:00": 39
  },
  "liste_son": {
   "CSxieSFa": "once",
@@ -842,15 +854,15 @@
   "nTcxlhdJ": "once",
   "WKczZfK6": "once",
   "YyRY3ljA": "once",
-  "MBBAo2df": "2y",
+  "MBBAo2df": "bitti",
   "fP9IqtR6": "once",
   "GE82mORs": "once",
-  "jmZJ9tUs": "2y",
+  "jmZJ9tUs": "bitti",
   "fuGf2I16": "once",
   "f9NBOqy2": "once",
   "CvsNzh1K": "da",
   "xAG2RRdf": "da",
-  "vRfnz2YG": "2y",
+  "vRfnz2YG": "bitti",
   "K02SNhJs": "da",
   "dj3e9g4l": "once",
   "6BcU8I3m": "once",
@@ -869,14 +881,14 @@
   "O6QuJ5o9": "once",
   "2mtCGew9": "once",
   "MVBn4dYP": "bitti",
-  "YwWJ2jA6": "2y",
+  "YwWJ2jA6": "bitti",
   "EcigHkPa": "bitti",
   "0Ek1FTgC": "once",
   "QZK47MC7": "2y",
   "SdUAInL8": "once",
   "zNXIGQkL": "once",
   "hxiXNkS6": "da",
-  "Iql8Pkj5": "2y",
+  "Iql8Pkj5": "bitti",
   "nabo9Sp2": "once",
   "djkAjYup": "once",
   "AXoK8X1S": "once",
