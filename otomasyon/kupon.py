@@ -39,6 +39,7 @@ from pathlib import Path
 KOK = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import livedata                           # noqa: E402
+from ligler import lig_uygun              # noqa: E402
 
 BET365 = KOK / "bet365"
 IDDAA = KOK / "iddaa" / "gunluk" / "gunlukmaclar.json"
@@ -119,6 +120,8 @@ def adaylar(gun: dt.date):
             continue
         z = _zaman(r.get("Tarih"))
         if z is None or z.date() != gun:
+            continue
+        if not lig_uygun(r.get("Lig"), r.get("Ev"), r.get("Dep")):
             continue
         k = {
             "kod": str(r.get("MatchCode") or "").strip(),

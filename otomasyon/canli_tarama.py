@@ -44,8 +44,10 @@ kayit/GG.AA.YYYY.json olarak tutulur (main'e commit atip Pages'i her
 dakika yeniden derletmemek icin ayri dal). Tarama yeniden baslatilsa da
 ayni bildirim iki kez gitmez.
 
-SURE: GitHub'da bir is en fazla 6 saat surer. Butce dolunca bitmemis mac
-varsa tarama kendini yeniden tetikler.
+SURE: her gun 07:00'de baslar, 00:00'da durur (gece yarisindan sonra
+tarama yok; gerekirse elle baslatilir). GitHub'da bir is en fazla 6 saat
+surdugu icin butce dolunca, gece yarisina daha zaman varsa tarama
+kendini yeniden tetikler.
 """
 import base64
 import datetime as dt
@@ -68,55 +70,7 @@ BET365 = KOK / "bet365"
 
 BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 
-# Canli tarama yalnizca bu liglerde calisir. Anahtar Flashscore'un (Almanca)
-# ulke adi, deger lig adinin basi. Buyuk 5 + Turkiye: ilk 3 kademe (Ingiltere
-# 4); diger Avrupa: ilk 2 kademe; Avrupa kupalari; birkac buyuk Amerika ligi.
-LIGLER = {
-    "ENGLAND":      ["Premier League", "Championship", "League One", "League Two",
-                     "FA Cup", "EFL Cup"],
-    "SPANIEN":      ["La Liga", "Primera RFEF", "Copa del Rey"],
-    "ITALIEN":      ["Serie A", "Serie B", "Serie C", "Coppa Italia -"],
-    "DEUTSCHLAND":  ["Bundesliga", "2. Bundesliga", "3. Liga", "DFB Pokal"],
-    "FRANKREICH":   ["Ligue 1", "Ligue 2", "National", "Coupe de France"],
-    "TÜRKEI":       ["Süper Lig", "1. Lig", "2. Lig", "Pokal"],
-    "NIEDERLANDE":  ["Eredivisie", "Eerste Divisie", "KNVB Beker"],
-    "PORTUGAL":     ["Liga Portugal", "Taça de Portugal"],
-    "BELGIEN":      ["Jupiler League", "Challenger Pro League", "Beker"],
-    "SCHOTTLAND":   ["Premier League", "Championship", "League Cup", "FA Cup"],
-    "ÖSTERREICH":   ["Bundesliga", "2. Liga", "ÖFB Cup"],
-    "SCHWEIZ":      ["Super League", "Challenge League"],
-    "DÄNEMARK":     ["Superliga", "1. Division"],
-    "SCHWEDEN":     ["Allsvenskan", "Superettan"],
-    "NORWEGEN":     ["Eliteserien", "OBOS-ligaen"],
-    "GRIECHENLAND": ["Super League"],
-    "TSCHECHIEN":   ["1. Liga", "Division 2"],
-    "POLEN":        ["Ekstraklasa", "I liga"],
-    "KROATIEN":     ["HNL", "Prva NL"],
-    "EUROPA":       ["Champions League", "Europa League", "Conference League"],
-    "BRASILIEN":    ["Série A", "Série B", "Copa do Brasil"],
-    "ARGENTINIEN":  ["Liga Profesional"],
-    "USA":          ["MLS"],
-}
-_DISLA_LIG = ("frauen", "women", "wsl", "damen", "femen", "u17", "u18", "u19",
-              "u20", "u21", "u23", "jugend", "youth", "primavera", "reserve",
-              "freundschaft", "friendly")
-_DISLA_TAKIM_SON = (" F", " B", " II", " U19", " U20", " U21", " U23")
-
-
-def lig_uygun(lig, ev="", dep=""):
-    """Mac canli taramaya alinir mi? (majör lig/alt lig, yetiskin erkek)"""
-    lig = (lig or "").strip()
-    kucuk = lig.lower()
-    if any(k in kucuk for k in _DISLA_LIG):
-        return False
-    for takim in (ev or "", dep or ""):
-        if takim.strip().endswith(_DISLA_TAKIM_SON):
-            return False
-    for ulke, ligler in LIGLER.items():
-        if lig.startswith(ulke + " "):
-            yarisma = lig[len(ulke) + 1:]
-            return any(yarisma.startswith(l) for l in ligler)
-    return False
+from ligler import lig_uygun     # noqa: E402,F401  (canli + mac oncesi ortak)
 
 R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
 R2_SON = 6                   # ilk gol en gec bu dakikada gorulmus olmali
@@ -615,6 +569,7 @@ def main():
         return 0
     kaynak = fk.FlashscoreKaynak()
     basla = time.time()
+    gece_yarisi = dt.datetime.combine(gun + dt.timedelta(days=1), dt.time(0, 0))
 
     try:
         while True:
@@ -673,8 +628,12 @@ def main():
             if not kalan:
                 print("[tarama] butun maclar bitti.", flush=True)
                 break
+            if simdi_dt >= gece_yarisi:
+                print("[tarama] 00:00 oldu, tarama durdu.", flush=True)
+                break
             if time.time() - basla > BUTCE:
-                yeniden_tetikle(gun)
+                if gece_yarisi - simdi_dt > dt.timedelta(minutes=10):
+                    yeniden_tetikle(gun)
                 break
 
             if yakin:
@@ -683,6 +642,8 @@ def main():
                 ilk = min(kalan)
                 bekle = max(YOKLAMA, min(
                     int((ilk - simdi_dt).total_seconds()) - 360, 600))
+            # Gece yarisini asacak kadar uyuma
+            bekle = min(bekle, max(1, int((gece_yarisi - simdi_dt).total_seconds())))
             time.sleep(bekle)
     except tg.ChatBulunamadi as e:
         print(f"HATA: {e}\nGirilen TELEGRAM_CHAT_ID_2 calismadi. Adaylar:")

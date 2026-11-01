@@ -13,7 +13,8 @@ KURAL 1 -- "Maç sonucu 2.5 Üst"   (iki sarttan HERHANGI BIRI yeter)
 KURAL 2 -- "3.5 Üst" ve "İlk yarı 1.5 Üst" (ayri listeler, ayni maclar)
     beraberlik     : 5.00  5.25  5.75  6.00  7.00  8.00
 
-Kurallar birbirinden bagimsizdir: bir mac ikisine birden uyarsa iki
+Yalnizca otomasyon/ligler.py'deki ligler (majör ligler ve alt ligleri;
+kadin, altyapi, rezerv yok). Kurallar birbirinden bagimsizdir: bir mac ikisine birden uyarsa iki
 listede de gorunur. Mesajda oran yazilmaz (Wondiyo kanalindaki gibi).
 
 En sonda gunun kuponu (otomasyon/kupon.py) ayni gruba gonderilir.
@@ -39,6 +40,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import canli_tarama                  # noqa: E402  (kayit dali + skor yardimcilari)
 import kupon as kupon_modulu         # noqa: E402
+from ligler import lig_uygun         # noqa: E402
 import tg                            # noqa: E402
 import tr_isim                       # noqa: E402
 
@@ -97,6 +99,8 @@ def tercihler(gun, sadece_baslamamis=True):
         z = _zaman(r.get("Tarih"))
         if z is None or z.date() != gun:
             continue                      # baska gunun maci
+        if not lig_uygun(r.get("Lig"), r.get("Ev"), r.get("Dep")):
+            continue                      # kadin / altyapi / listede olmayan lig
         if sadece_baslamamis and z <= simdi:
             continue                      # baslamis mac
         ms0 = oran(r, "MS0")

@@ -5,12 +5,12 @@ run-name: "${{ github.event_name == 'schedule' && 'Tahmin · gunluk (oncesi + ca
 # tetikler. Mesajlar Wondiyo kanalina degil, ayri tahmin grubuna gider
 # (TELEGRAM_CHAT_ID_2).
 on:
-  # Her sabah 07:07 (TR): once mac oncesi tercihler (dunun sonucu + gunun
-  # listesi), ardindan canli tarama gun boyu kendiliginden calisir.
-  # Saatin dakikasi bilerek :00 degil; GitHub'in zamanlayicisi tam saatlerde
-  # yogun oldugu icin gecikiyor.
+  # Her sabah 07:00 (TR = 04:00 UTC): once mac oncesi tercihler (dunun
+  # sonucu + gunun listesi), ardindan canli tarama 00:00'a kadar calisir.
+  # GitHub'in zamanlayicisi tam saatlerde yogun oldugu icin birkac dakika
+  # gecikebilir.
   schedule:
-    - cron: "7 4 * * *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
     inputs:
       hangisi:
