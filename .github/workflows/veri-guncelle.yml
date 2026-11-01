@@ -193,7 +193,10 @@ jobs:
           python otomasyon/iddaa_teshis.py || true
           echo
           echo "=== livedata alan kesfi (2.5 Ust vb. icin) ==="
-          python otomasyon/livedata_kesif.py
+          python otomasyon/livedata_kesif.py || true
+          echo
+          echo "=== canli mac alan kesfi (dakika + anlik skor icin) ==="
+          python otomasyon/canli_kesif.py
 
       # --- BULTEN YUKLE: gunun bulteni + tahminler
       #

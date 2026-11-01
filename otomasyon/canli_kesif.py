@@ -1,0 +1,96 @@
+"""Canli mac takibi icin: akislarda hangi alanlar var, onu raporlar.
+
+Amac: "dk 15, skor 1-1" gibi bir bildirim kurabilmek icin CANLI maclarda
+dakika ve anlik skorun hangi alanda geldigini tespit etmek.
+
+Iki kaynak birden denenir:
+  - Flashscore gun akisi (zaten kullandigimiz kaynak)
+  - vd.mackolik.com/livedata (engellenmemis, canli veri icin tasarlanmis)
+
+Veri yazmaz, sadece rapor basar.
+"""
+import collections
+import datetime as dt
+import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "kaynak"))
+import flashscore_kaynak as fk           # noqa: E402
+import requests                          # noqa: E402
+
+UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+      '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
+
+
+def flashscore():
+    print("=" * 66)
+    print("  FLASHSCORE gun akisi")
+    print("=" * 66)
+    k = fk.FlashscoreKaynak()
+    try:
+        maclar = k.gunun_maclari(0)
+    except Exception as e:
+        print(f"  alinamadi: {e}")
+        return
+    print(f"  bugun {len(maclar)} mac")
+    durum = collections.Counter((m.get("AB"), m.get("AC")) for m in maclar)
+    print("  (AB, AC) dagilimi, en sik 12:")
+    for (ab, ac), n in durum.most_common(12):
+        etiket = ""
+        if ab == "1" and ac == "1":
+            etiket = "baslamamis"
+        elif ab == "3" and ac in fk.BITEN_DURUMLAR:
+            etiket = "bitmis"
+        print(f"    AB={ab!r:6} AC={ac!r:6}  x{n:<4} {etiket}")
+
+    canli = [m for m in maclar
+             if not fk.mac_baslamadi_mi(m) and not fk.mac_bitti_mi(m)]
+    print(f"\n  canli/ara/devam eden gorunen: {len(canli)}")
+    for m in canli[:3]:
+        print(f"\n  --- {m.get('AE')} - {m.get('AF')}  (AB={m.get('AB')} "
+              f"AC={m.get('AC')})")
+        for a, v in sorted(m.items()):
+            if a.startswith("_") or v in (None, ""):
+                continue
+            print(f"      {a:6} = {str(v)[:60]}")
+
+
+def mackolik():
+    print()
+    print("=" * 66)
+    print("  MACKOLIK livedata")
+    print("=" * 66)
+    gun = dt.date.today()
+    try:
+        y = requests.get("https://vd.mackolik.com/livedata",
+                         params={"date": f"{gun:%d/%m/%Y}"},
+                         headers={"User-Agent": UA, "Accept": "*/*"},
+                         timeout=30)
+        y.raise_for_status()
+        maclar = y.json().get("m", [])
+    except Exception as e:
+        print(f"  alinamadi: {e}")
+        return
+    print(f"  {len(maclar)} mac, dizi uzunlugu "
+          f"{sorted({len(m) for m in maclar if isinstance(m, list)})}")
+
+    # Skor gibi duran alanlari ara: tam sayi ya da '1-1' bicimi
+    ornek = [m for m in maclar if isinstance(m, list) and len(m) > 22][:400]
+    doluluk = collections.Counter()
+    for m in ornek:
+        for i, v in enumerate(m):
+            if v not in (None, "", "0.0"):
+                doluluk[i] += 1
+    print("  dolu olan alanlar (konum: kac macta):")
+    print("   ", dict(sorted(doluluk.items())))
+
+    print("\n  --- ilk 3 macin tam dizisi (konum: deger)")
+    for m in ornek[:3]:
+        print("  " + ", ".join(f"[{i}]{v!r}" for i, v in enumerate(m)
+                               if v not in (None, "")))
+
+
+if __name__ == "__main__":
+    flashscore()
+    mackolik()
