@@ -1002,7 +1002,8 @@
   },
   "l6HSKYbc": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 40
   },
   "vwe8XBr3": {
    "bahis": {},
@@ -1215,9 +1216,13 @@
   },
   "vil0MUKb": {
    "bahis": {},
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 25,
-   "iki_gol_dk": 35
+   "iki_gol_dk": 35,
+   "iy": [
+    2,
+    0
+   ]
   },
   "GEAr4m5U": {
    "bahis": {},
