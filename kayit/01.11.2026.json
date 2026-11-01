@@ -191,7 +191,7 @@
      "skor": "1-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 4,
    "iki_gol_dk": 26,
    "iy": [
@@ -802,7 +802,7 @@
   },
   "zu5gLmy9": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1433,13 +1433,20 @@
    "bahis": {
     "iy15": {
      "id": 158,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 3,
      "skor": "1-0"
+    },
+    "iy25": {
+     "id": 160,
+     "durum": "acik",
+     "dk": 12,
+     "skor": "2-0"
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 3
+   "ilk_gol_dk": 3,
+   "iki_gol_dk": 12
   }
  },
  "liste_slot": {
