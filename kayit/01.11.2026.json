@@ -477,7 +477,7 @@
      "skor": "0-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 31,
    "iy": [
     0,
@@ -843,7 +843,7 @@
      "skor": "0-3"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 41,
    "iki_gol_dk": 50,
    "iy": [
@@ -1231,7 +1231,8 @@
   "19:00": 60,
   "19:15": 73,
   "19:30": 88,
-  "20:00": 108
+  "20:00": 108,
+  "20:15": 112
  },
  "liste_son": {
   "CSxieSFa": "bitti",
@@ -1259,7 +1260,7 @@
   "MRCm6Kfc": "2y",
   "4jr3b8yi": "2y",
   "UiGe4bP9": "once",
-  "0zoULIJO": "da",
+  "0zoULIJO": "2y",
   "8t8exv45": "2y",
   "lbOyI9Ij": "2y",
   "lzkTdFU6": "bitti",
@@ -1274,7 +1275,7 @@
   "zNXIGQkL": "2y",
   "hxiXNkS6": "bitti",
   "Iql8Pkj5": "bitti",
-  "nabo9Sp2": "da",
+  "nabo9Sp2": "2y",
   "djkAjYup": "bitti",
   "AXoK8X1S": "once",
   "0thEbUjt": "once"
