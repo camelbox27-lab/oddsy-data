@@ -22,6 +22,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import tr_isim                       # noqa: E402
+import sonuclandir                   # noqa: E402
+import kupon as kupon_modulu         # noqa: E402
 
 KOK = Path(__file__).resolve().parent.parent
 KAYNAK_DOSYA = KOK / "data" / "halfTimeGoals.json"
@@ -79,7 +81,7 @@ def _mesajlar(kayitlar, tarih):
             dep = _kacir(tr_isim.takim(m.get("away_team")) or "?")
             ogeler.append((ustbilgi, f"<code>{saat}</code>  {ev} \u2013 {dep}"))
 
-    parcalar, simdiki, acik = [], "", None
+    parcalar, simdiki = [], ""
     for ustbilgi, satir in ogeler:
         aday = satir if not simdiki else simdiki + "\n" + satir
         if len(aday) > SINIR and simdiki:
@@ -91,10 +93,65 @@ def _mesajlar(kayitlar, tarih):
                 simdiki = satir.lstrip("\n")
         else:
             simdiki = aday
-        acik = ustbilgi
     if simdiki:
         parcalar.append(simdiki)
     return parcalar
+
+
+def _parcala(satirlar):
+    """Duz satir listesini Telegram sinirina gore mesajlara boler."""
+    parcalar, simdiki = [], ""
+    for satir in satirlar:
+        aday = satir if not simdiki else simdiki + "\n" + satir
+        if len(aday) > SINIR and simdiki:
+            parcalar.append(simdiki)
+            simdiki = satir
+        else:
+            simdiki = aday
+    if simdiki:
+        parcalar.append(simdiki)
+    return parcalar
+
+
+def _sonuc_mesaji(r):
+    """Dunun listesinin sonucu: ozet + mac mac ✅/❌."""
+    bas = [
+        f"<b>\U0001f4ca DÜNÜN SONUCU</b>",
+        f"<i>{_kacir(tr_isim.tarih(r['tarih']))}</i>",
+        "",
+        f"Listede <b>{r['toplam']}</b> maç · "
+        f"<b>{r['sonuclanan']}</b> tanesi sonuçlandı",
+        f"✅ İlk yarıda gol: <b>{r['tutan']}</b>   "
+        f"❌ Gol yok: <b>{r['tutmayan']}</b>",
+        f"🎯 Başarı: <b>%{r['yuzde']}</b>",
+    ]
+    if r["kaynak"] != "arsiv":
+        bas.append("<i>(liste o gün arşivlenmemiş, oranlardan "
+                   "yeniden kuruldu)</i>")
+    satirlar = [""]
+    for m in r["maclar"]:
+        im = "✅" if m["tuttu"] else "❌"
+        ev = _kacir(tr_isim.takim(m["home_team"]))
+        dep = _kacir(tr_isim.takim(m["away_team"]))
+        satirlar.append(f"{im} <code>{_kacir(m['iy'])}</code>  {ev} \u2013 {dep}")
+    return _parcala(["\n".join(bas)] + satirlar)
+
+
+def _kupon_mesaji(k):
+    satirlar = [
+        "<b>\U0001f3ab GÜNÜN KUPONU</b>",
+        f"<i>{_kacir(tr_isim.tarih(k['tarih']))} · "
+        f"{k['aday_sayisi']} aday içinden {len(k['maclar'])} maç</i>",
+        "",
+    ]
+    for m in k["maclar"]:
+        satirlar.append(
+            f"<code>{_kacir(m['saat'])}</code>  <b>{_kacir(m['ev'])} \u2013 "
+            f"{_kacir(m['dep'])}</b>")
+        satirlar.append(f"        maç sonucu 2.5 üst &gt; "
+                        f"<b>{m['ust25']:.2f}</b>")
+    satirlar += ["", f"💰 <b>TOPLAM ORAN: {k['toplam']:.2f}</b>"]
+    return _parcala(satirlar)
 
 
 def _gonder(token, chat_id, metin):
@@ -166,7 +223,33 @@ def main():
         # Engellemiyoruz; kullanici dunun listesini bilerek gonderebilir.
         print(f"UYARI: listedeki tarih {tarih}, bugun {bugun}.", flush=True)
 
-    parcalar = _mesajlar(kayitlar, tarih or bugun)
+    parcalar = []
+
+    # 1) Dunun listesinin sonucu. Veri cekmeyi gerektirdigi icin hata
+    #    verebilir; vermesi bugunun listesinin gonderilmesini engellemesin.
+    dun = dt.date.today() - dt.timedelta(days=1)
+    try:
+        r = sonuclandir.sonuclandir(dun)
+        if r and r["sonuclanan"]:
+            parcalar += _sonuc_mesaji(r)
+        else:
+            print("Dun icin sonuclandirilacak mac bulunamadi.", flush=True)
+    except Exception as e:
+        print(f"UYARI: dun sonuclandirilamadi: {e}", flush=True)
+
+    # 2) Bugunun Ilk Yari Gol listesi
+    parcalar += _mesajlar(kayitlar, tarih or bugun)
+
+    # 3) Gunun kuponu (en sonda)
+    try:
+        k = kupon_modulu.kupon(dt.date.today())
+        if k and k["maclar"]:
+            parcalar += _kupon_mesaji(k)
+        else:
+            print("Kupon olusturulamadi (uygun mac yok).", flush=True)
+    except Exception as e:
+        print(f"UYARI: kupon olusturulamadi: {e}", flush=True)
+
     print(f"{len(kayitlar)} mac, {len(parcalar)} mesaj gonderilecek.", flush=True)
 
     for i, parca in enumerate(parcalar, 1):

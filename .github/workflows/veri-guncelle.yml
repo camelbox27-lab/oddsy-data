@@ -208,7 +208,11 @@ jobs:
           MOBIL: "1"
         run: |
           python otomasyon/bulten_uret.py
-          cd otomasyon/bot && python main.py
+          (cd otomasyon/bot && python main.py)
+          # Gunun listesini arsivle; yarin "dun kaci tuttu" hesabi buradan
+          # yapiliyor. main.py kendi push'unu yaptiktan sonra calisir,
+          # arsiv dosyasini asagidaki "Commit ve push" adimi gonderir.
+          python otomasyon/arsivle_liste.py
 
       # NOT: droppingOdds.json'u main.py icinden korur (filter_bot.py MOBIL
       # bayragi ile mevcut dosyayi okur, bos listeyle ezmez). Burada bir sey
@@ -267,7 +271,7 @@ jobs:
   telegram:
     if: inputs.hangisi == 'telegram'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     env:
       TZ: Europe/Istanbul
 
@@ -277,8 +281,18 @@ jobs:
           ref: main
           fetch-depth: 1
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Telegram'a gonderim stdlib ile yapiliyor; requests ise dunun
+      # skorlarini (Flashscore) ve 2.5 ust oranini (Mackolik livedata)
+      # cekmek icin gerekli.
+      - name: Paketler
+        run: pip install --quiet requests
+
       - name: Ilk Yari Gol listesini Telegram'a gonder
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python3 otomasyon/telegram_gonder.py
+        run: python otomasyon/telegram_gonder.py
