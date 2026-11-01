@@ -231,8 +231,12 @@
      "skor": "0-0"
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 34
+   "son": "da",
+   "ilk_gol_dk": 34,
+   "iy": [
+    1,
+    0
+   ]
   },
   "4jr3b8yi": {
    "bahis": {
@@ -247,11 +251,21 @@
      "durum": "kazandi",
      "dk": 7,
      "skor": "0-2"
+    },
+    "ms45": {
+     "id": 103,
+     "durum": "acik",
+     "dk": null,
+     "skor": "0-3"
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 7,
-   "iki_gol_dk": 7
+   "iki_gol_dk": 7,
+   "iy": [
+    0,
+    3
+   ]
   },
   "fc63zIYH": {
    "bahis": {
@@ -457,8 +471,12 @@
      "skor": "0-0"
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 31
+   "son": "da",
+   "ilk_gol_dk": 31,
+   "iy": [
+    0,
+    1
+   ]
   },
   "djkAjYup": {
    "bahis": {},
@@ -577,7 +595,8 @@
   },
   "xxDTaeAO": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 20
   },
   "K02SNhJs": {
    "bahis": {},
@@ -594,7 +613,11 @@
   },
   "0CVdRQJE": {
    "bahis": {},
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "6BcU8I3m": {
    "bahis": {},
@@ -739,8 +762,12 @@
   },
   "MRCm6Kfc": {
    "bahis": {},
-   "son": "1y",
-   "ilk_gol_dk": 32
+   "son": "da",
+   "ilk_gol_dk": 32,
+   "iy": [
+    0,
+    1
+   ]
   },
   "UiGe4bP9": {
    "bahis": {},
@@ -788,7 +815,8 @@
   "0zoULIJO": {
    "bahis": {},
    "son": "1y",
-   "ilk_gol_dk": 41
+   "ilk_gol_dk": 41,
+   "iki_gol_dk": 50
   },
   "nRJnv0Zh": {
    "bahis": {},
@@ -803,14 +831,18 @@
    "bahis": {
     "iy25": {
      "id": 79,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 13,
      "skor": "2-0"
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 7,
-   "iki_gol_dk": 13
+   "iki_gol_dk": 13,
+   "iy": [
+    2,
+    0
+   ]
   },
   "U5hD0cVs": {
    "bahis": {
@@ -1190,12 +1222,12 @@
   "KpUg5Y9T": "once",
   "j50YaAxn": "bitti",
   "OIbtbl7b": "bitti",
-  "MRCm6Kfc": "1y",
-  "4jr3b8yi": "1y",
+  "MRCm6Kfc": "da",
+  "4jr3b8yi": "da",
   "UiGe4bP9": "once",
   "0zoULIJO": "1y",
   "8t8exv45": "da",
-  "lbOyI9Ij": "1y",
+  "lbOyI9Ij": "da",
   "lzkTdFU6": "bitti",
   "O6QuJ5o9": "da",
   "2mtCGew9": "2y",
@@ -1208,7 +1240,7 @@
   "zNXIGQkL": "2y",
   "hxiXNkS6": "bitti",
   "Iql8Pkj5": "bitti",
-  "nabo9Sp2": "1y",
+  "nabo9Sp2": "da",
   "djkAjYup": "2y",
   "AXoK8X1S": "once",
   "0thEbUjt": "once"
