@@ -57,12 +57,13 @@
    "bahis": {
     "iy05": {
      "id": 49,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 2,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 39
   },
   "CvsNzh1K": {
    "bahis": {
@@ -121,7 +122,7 @@
      "skor": "0-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 12,
    "iki_gol_dk": 43,
    "iy": [
@@ -299,7 +300,7 @@
      "skor": "1-2"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 7,
    "iki_gol_dk": 22,
    "iy": [
@@ -447,7 +448,7 @@
   },
   "fP9IqtR6": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 10,
    "iki_gol_dk": 38,
    "iy": [
@@ -690,7 +691,8 @@
   },
   "SMnMNvkC": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 11
   },
   "0zoULIJO": {
    "bahis": {},
@@ -755,7 +757,7 @@
      "skor": "2-1"
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 23,
    "iki_gol_dk": 29,
    "iy": [
@@ -827,10 +829,21 @@
    ]
   },
   "v7xU0FlU": {
-   "bahis": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 76,
+     "durum": "acik",
+     "dk": null,
+     "skor": "0-3"
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 15,
-   "iki_gol_dk": 24
+   "iki_gol_dk": 24,
+   "iy": [
+    0,
+    3
+   ]
   },
   "Y7Kb8ujt": {
    "bahis": {},
@@ -900,7 +913,7 @@
   },
   "KKWXmtdK": {
    "bahis": {},
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -996,7 +1009,8 @@
   },
   "vD92LmN0": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 11
   },
   "0thEbUjt": {
    "bahis": {},
@@ -1007,16 +1021,17 @@
   "17:00": 21,
   "18:00": 39,
   "18:30": 48,
-  "19:00": 60
+  "19:00": 60,
+  "19:15": 73
  },
  "liste_son": {
   "CSxieSFa": "2y",
   "IoeIb1Mi": "once",
-  "nTcxlhdJ": "da",
+  "nTcxlhdJ": "2y",
   "WKczZfK6": "once",
   "YyRY3ljA": "once",
   "MBBAo2df": "bitti",
-  "fP9IqtR6": "da",
+  "fP9IqtR6": "2y",
   "GE82mORs": "once",
   "jmZJ9tUs": "bitti",
   "fuGf2I16": "once",
@@ -1106,7 +1121,9 @@
   ],
   "0Ek1FTgC": [],
   "SdUAInL8": [],
-  "zNXIGQkL": [],
+  "zNXIGQkL": [
+   "ust25"
+  ],
   "MRCm6Kfc": [],
   "4jr3b8yi": [],
   "0zoULIJO": [],
