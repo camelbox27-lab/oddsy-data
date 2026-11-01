@@ -261,12 +261,13 @@
    "bahis": {
     "iy05": {
      "id": 50,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 18
   },
   "0Ek1FTgC": {
    "bahis": {
@@ -563,8 +564,16 @@
    ]
   },
   "AZdldSyB": {
-   "bahis": {},
-   "son": "once"
+   "bahis": {
+    "iy15": {
+     "id": 56,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "1-0"
+    }
+   },
+   "son": "1y",
+   "ilk_gol_dk": 2
   },
   "WMpEaYkm": {
    "bahis": {},
@@ -674,7 +683,8 @@
   },
   "ELYYeZDE": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 16
   },
   "MVBn4dYP": {
    "bahis": {},
@@ -757,7 +767,8 @@
   },
   "hKBknd04": {
    "bahis": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 33
   },
   "h0LeQEwo": {
    "bahis": {},
@@ -947,7 +958,7 @@
   "hxiXNkS6": "2y",
   "Iql8Pkj5": "bitti",
   "nabo9Sp2": "once",
-  "djkAjYup": "1y",
+  "djkAjYup": "da",
   "AXoK8X1S": "once",
   "0thEbUjt": "once"
  },
