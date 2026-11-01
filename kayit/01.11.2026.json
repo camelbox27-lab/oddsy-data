@@ -507,7 +507,7 @@
      "skor": "0-0"
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 8,
    "iy": [
     0,
@@ -548,8 +548,12 @@
   },
   "Gp4X8Dr9": {
    "bahis": {},
-   "son": "1y",
-   "ilk_gol_dk": 29
+   "son": "da",
+   "ilk_gol_dk": 29,
+   "iy": [
+    1,
+    0
+   ]
   },
   "Qi8WzbUp": {
    "bahis": {},
@@ -607,7 +611,7 @@
   },
   "GE82mORs": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 33,
    "iy": [
     1,
@@ -705,7 +709,7 @@
   },
   "6BcU8I3m": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 12,
    "iki_gol_dk": 43,
    "iy": [
@@ -1004,8 +1008,12 @@
   },
   "l6HSKYbc": {
    "bahis": {},
-   "son": "1y",
-   "ilk_gol_dk": 40
+   "son": "da",
+   "ilk_gol_dk": 40,
+   "iy": [
+    0,
+    1
+   ]
   },
   "vwe8XBr3": {
    "bahis": {},
@@ -1264,7 +1272,7 @@
   },
   "KOhPPBcf": {
    "bahis": {},
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -1378,7 +1386,7 @@
   "YyRY3ljA": "da",
   "MBBAo2df": "bitti",
   "fP9IqtR6": "bitti",
-  "GE82mORs": "2y",
+  "GE82mORs": "bitti",
   "jmZJ9tUs": "bitti",
   "fuGf2I16": "bitti",
   "f9NBOqy2": "1y",
@@ -1387,7 +1395,7 @@
   "vRfnz2YG": "bitti",
   "K02SNhJs": "bitti",
   "dj3e9g4l": "bitti",
-  "6BcU8I3m": "2y",
+  "6BcU8I3m": "bitti",
   "0n0mim1m": "1y",
   "r581JR5L": "bitti",
   "KpUg5Y9T": "1y",
