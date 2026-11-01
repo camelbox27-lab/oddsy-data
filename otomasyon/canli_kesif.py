@@ -59,6 +59,24 @@ def flashscore():
                            and len(str(v)) < 30)
         print(f"\n  [{etiket}] {m.get('AE')} - {m.get('AF')} :: {alanlar}")
 
+    # Durum kodu (AC) ve zaman alanlari: AO'nun "son periyodun baslangici"
+    # olup olmadigini, dakikanin buradan hesaplanip hesaplanamayacagini gor.
+    import time as _t
+    simdi = int(_t.time())
+    print("\n  CANLI maclarda AC / dakika hesabi (AB=2):")
+    print("    AC   | (simdi-AD)/60 | (simdi-AO)/60 | skor | BC-BD | mac")
+    canli2 = sorted((m for m in maclar if m.get("AB") == "2"),
+                    key=lambda m: (m.get("AC"), m.get("AE") or ""))
+    for m in canli2[:40]:
+        ad = int(m.get("AD") or 0)
+        ao = int(m.get("AO") or 0)
+        print(f"    {m.get('AC'):4} | {(simdi-ad)/60:13.1f} | "
+              f"{((simdi-ao)/60 if ao else -1):13.1f} | "
+              f"{m.get('AG')}-{m.get('AH')} | {m.get('BC')}-{m.get('BD')} | "
+              f"{(m.get('AE') or '')[:22]} - {(m.get('AF') or '')[:22]}")
+    print("  AC dagilimi (canli):",
+          dict(collections.Counter(m.get("AC") for m in canli2)))
+
     for m in canli[:3]:
         tek_satir(m, "CANLI")
     if not canli:
