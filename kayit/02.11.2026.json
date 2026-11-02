@@ -308,6 +308,12 @@
        "xg": null,
        "isb": 1.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 1.0,
+       "buy": null
       }
      }
     }
@@ -340,6 +346,12 @@
        "xg": 0.3,
        "isb": 2.0,
        "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.36,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -363,6 +375,12 @@
        "xg": null,
        "isb": 3.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
       }
      }
     }
@@ -371,7 +389,18 @@
   },
   "nwfFwxzf": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": null,
+       "isb": 3.0,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "tGhi4TwP": {
