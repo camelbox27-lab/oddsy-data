@@ -134,7 +134,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -171,7 +171,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 28,
    "iki_gol_dk": 49,
    "iy": [
@@ -602,7 +602,7 @@
    "bahis": {
     "ms45": {
      "id": 178,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "3-0"
     }
@@ -635,7 +635,7 @@
  },
  "liste_son": {
   "hxVpVtCD": "1y",
-  "YHemANS7": "da",
+  "YHemANS7": "2y",
   "buLL6lMF": "once",
   "2sT0wrZp": "once",
   "KKbSDOAc": "once",
