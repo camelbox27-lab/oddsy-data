@@ -1,8 +1,13 @@
 name: Analiz
-run-name: Analiz · bet365 yari skorlari
+run-name: Analiz · ${{ inputs.is }}
 
 on:
   workflow_dispatch:
+    inputs:
+      is:
+        type: choice
+        options: [yari-skorlari, bugun-ara]
+        default: yari-skorlari
 
 permissions:
   contents: read
@@ -18,4 +23,13 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - name: Yari skorlari
+        if: ${{ inputs.is == 'yari-skorlari' }}
         run: python otomasyon/yari_skorlari.py
+      - name: Bugunun bultenlerinde ara (kaydetmez)
+        if: ${{ inputs.is == 'bugun-ara' }}
+        run: |
+          pip install --quiet -r otomasyon/requirements.txt
+          cd otomasyon
+          python iddaa_cek.py && python excel_to_json_ci.py iddaa || echo "iddaa cekilemedi"
+          python bet365_cek.py && python excel_to_json_ci.py bet365 "$(date +%Y-%m-%d)" || echo "bet365 cekilemedi"
+          python bugun_ara.py
