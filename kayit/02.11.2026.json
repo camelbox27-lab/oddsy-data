@@ -24,10 +24,25 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.31,
+     "isb": 2.0,
+     "buy": 0.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "hxVpVtCD": {
    "bahis": {
@@ -58,10 +73,12 @@
      "dk": 45,
      "xg": 0.78,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 22,
    "iki_gol_dk": 41,
    "iy": [
@@ -88,13 +105,14 @@
    "bahis": {
     "iy05": {
      "id": 203,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 5,
      "skor": "0-0"
     }
    },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 8
   },
   "AuhHEmz9": {
    "bahis": {
@@ -243,9 +261,24 @@
   },
   "2sT0wrZp": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
-   "ilk_gol_dk": 14
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.46,
+     "isb": 3.0,
+     "buy": 4.0
+    }
+   },
+   "son": "da",
+   "ilk_gol_dk": 14,
+   "iy": [
+    1,
+    0
+   ]
   },
   "drLAeseT": {
    "bahis": {
@@ -661,10 +694,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -838,7 +873,18 @@
   },
   "nZSWTK4l": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.1,
+       "isb": 1.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "2qfAPmVr": {
@@ -912,16 +958,16 @@
   "22:45": 201
  },
  "liste_son": {
-  "hxVpVtCD": "2y",
+  "hxVpVtCD": "bitti",
   "YHemANS7": "bitti",
   "buLL6lMF": "1y",
-  "2sT0wrZp": "1y",
+  "2sT0wrZp": "da",
   "KKbSDOAc": "da",
   "QkFIeJkm": "bitti",
   "C6DQgcKa": "1y",
   "zs2gO75k": "once",
   "6iUR0UvJ": "2y",
-  "zD5VZgZI": "2y"
+  "zD5VZgZI": "bitti"
  },
  "liste_kazanan": {
   "QkFIeJkm": [
@@ -934,7 +980,9 @@
   "6iUR0UvJ": [
    "ust25"
   ],
-  "zD5VZgZI": [],
+  "zD5VZgZI": [
+   "ust25"
+  ],
   "KKbSDOAc": [],
   "2sT0wrZp": [],
   "C6DQgcKa": [],
