@@ -108,11 +108,18 @@
      "durum": "kazandi",
      "dk": 5,
      "skor": "0-0"
+    },
+    "iy25": {
+     "id": 210,
+     "durum": "acik",
+     "dk": 14,
+     "skor": "2-0"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 8
+   "ilk_gol_dk": 8,
+   "iki_gol_dk": 14
   },
   "AuhHEmz9": {
    "bahis": {
@@ -559,10 +566,12 @@
      "dk": 45,
      "xg": null,
      "isb": 1.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -745,10 +754,12 @@
      "dk": 45,
      "xg": null,
      "isb": 4.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
