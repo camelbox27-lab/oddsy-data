@@ -28,7 +28,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 22
+   "ilk_gol_dk": 22,
+   "iki_gol_dk": 41
   },
   "YceoIxQh": {
    "bahis": {},
@@ -353,7 +354,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 39
   },
   "hr3pJBfm": {
    "bahis": {},
@@ -531,7 +533,7 @@
      "buy": 5.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 8,
    "iki_gol_dk": 24,
    "iy": [
@@ -649,7 +651,9 @@
   "QkFIeJkm": [
    "ust25"
   ],
-  "YHemANS7": [],
+  "YHemANS7": [
+   "ust25"
+  ],
   "hxVpVtCD": [],
   "6iUR0UvJ": [],
   "zD5VZgZI": []
