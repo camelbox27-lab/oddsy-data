@@ -123,16 +123,23 @@
      "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
+    },
+    "iy25": {
+     "id": 175,
+     "durum": "acik",
+     "dk": 10,
+     "skor": "1-1"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 7
+   "ilk_gol_dk": 7,
+   "iki_gol_dk": 10
   },
   "IPVicWQi": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "C6DQgcKa": {
    "bahis": {},
