@@ -55,11 +55,26 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.51,
+     "isb": 4.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 29
+   "son": "da",
+   "ilk_gol_dk": 29,
+   "iy": [
+    1,
+    0
+   ]
   },
   "I5ePCR4L": {
    "bahis": {},
