@@ -165,7 +165,14 @@
    ]
   },
   "dhQdKGpn": {
-   "bahis": {},
+   "bahis": {
+    "ms45": {
+     "id": 215,
+     "durum": "acik",
+     "dk": null,
+     "skor": "1-2"
+    }
+   },
    "gozlem": {
     "k5": {
      "olcum": {
@@ -175,12 +182,27 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      2
+     ],
+     "dk": 45,
+     "xg": 2.12,
+     "isb": 5.0,
+     "buy": 3.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 23,
-   "iki_gol_dk": 33
+   "iki_gol_dk": 33,
+   "iy": [
+    1,
+    2
+   ]
   },
   "U5O4IfFb": {
    "bahis": {
@@ -658,7 +680,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 8,
    "iy": [
     0,
@@ -963,7 +985,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 37
   },
   "lxOuURQE": {
    "bahis": {
@@ -1228,7 +1251,7 @@
   "2sT0wrZp": "2y",
   "KKbSDOAc": "2y",
   "QkFIeJkm": "bitti",
-  "C6DQgcKa": "da",
+  "C6DQgcKa": "2y",
   "zs2gO75k": "1y",
   "6iUR0UvJ": "bitti",
   "zD5VZgZI": "bitti"
