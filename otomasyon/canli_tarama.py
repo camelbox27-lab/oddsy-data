@@ -26,6 +26,16 @@ MAÇ ÖNCESİ LİSTESİ (MAÇ ÖNCESİ TERCİHLER'in arsivledigi liste):
   bahis tuttugu an KAZANDI olarak hatirlatmaya yanit duser. Kaybedenler
   ertesi sabahki "dunun tercihleri" ozetinde.
 
+xG KURALLARI -- SESSIZ MOD (Telegram'a gitmez, yalnizca kayda yazilir):
+  Esikler test edilmedigi icin once gozlem toplaniyor. Esigi gecsin
+  gecmesin ilgili her macin olcumu ve sonucu "gozlem" altinda saklanir;
+  xg_rapor.py farkli esiklerin basarisini bunlardan hesaplar.
+    k5: skor 0-0 iken dk 20, 25 ve 30'da ilk yari xG / isabetli sut / buyuk firsat;
+        sonuc: ilk yarida gol oldu mu (İY 0.5 Üst).
+    da: devre arasi (ya da 2Y 60'a kadar) -> ilk yari skoru + olcumler;
+        sonuc: mac toplam golu (MS 4.5 Üst, kural 4 suzgeci) ve ikinci
+        yari golu (2Y 0.5 Üst).
+
 SONUCLANDIRMA (tahmin mesajina yanit olarak):
   İY bahisleri: esik asildigi an KAZANDI; ilk yari esik altinda biterse
                 KAYBETTI.
@@ -62,6 +72,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "kaynak"))
 import flashscore_kaynak as fk       # noqa: E402
+import xg as xg_modulu               # noqa: E402
 import tg                            # noqa: E402
 import tr_isim                       # noqa: E402
 
@@ -368,6 +379,7 @@ class Tarayici:
         self.gun, self.token, self.chat = gun, token, chat
         self.kayit, self.adaylar = kayit, adaylar_
         self.liste = {}
+        self.kaynak = None           # xG gozlemi icin (main'de atanir)
         self.degisti = False
 
     def _st(self, kod):
@@ -462,6 +474,53 @@ class Tarayici:
             self.kapat(kod, "ms45", "kazandi", (ag, ah), _an(m, f, simdi))
         elif f == "bitti":
             self.kapat(kod, "ms45", "kaybetti", (ag, ah), "Maç sonu")
+
+    # ---- xG gözlemi (sessiz mod)
+    def gozle(self, kod, m, f, simdi):
+        if self.kaynak is None:
+            return
+        st = self._st(kod)
+        g = st.setdefault("gozlem", {})
+        ag, ah = _int(m.get("AG")), _int(m.get("AH"))
+        iy = (ag, ah) if f in ("1y", "da") else iy_skoru(m, f)
+
+        def olc(anahtar, ek):
+            deneme = g.get("_deneme", 0)
+            if deneme >= 6:
+                return None
+            try:
+                return {**ek, **xg_modulu.ilk_yari(self.kaynak, fk, kod)}
+            except Exception as e:
+                g["_deneme"] = deneme + 1
+                print(f"[xg] {kod} istatistik alinamadi: {e}", flush=True)
+                return None
+
+        dk = dakika(m, f, simdi)
+        if f == "1y" and ag + ah == 0 and 20 <= dk <= 32:
+            k5 = g.setdefault("k5", {"olcum": {}})
+            nokta = max(n for n in (20, 25, 30) if n <= dk)
+            if str(nokta) not in k5["olcum"]:
+                o = olc("k5", {"dk": dk})
+                if o is not None:
+                    k5["olcum"][str(nokta)] = o
+                    self.degisti = True
+        if f in ("da", "2y") and "da" not in g and iy is not None and \
+                (f == "da" or dakika(m, f, simdi) <= 60):
+            o = olc("da", {"iy": list(iy), "dk": dk if f == "2y" else 45})
+            if o is not None:
+                g["da"] = o
+                self.degisti = True
+
+        # sonuclar
+        if g.get("k5", {}).get("olcum") and "sonuc" not in g["k5"] and \
+                f in ("da", "2y", "bitti") and iy is not None:
+            g["k5"]["sonuc"] = sum(iy) >= 1
+            self.degisti = True
+        if "da" in g and "ms" not in g["da"] and f == "bitti":
+            ms = ms_toplam(m, tuple(g["da"]["iy"]))
+            g["da"]["ms"] = ms
+            g["da"]["y2"] = ms - sum(g["da"]["iy"])
+            self.degisti = True
 
     # ---- maç öncesi listesi
     def hatirlat(self, simdi_dt):
@@ -572,6 +631,7 @@ def main():
     if not aday and not t.liste:
         return 0
     kaynak = fk.FlashscoreKaynak()
+    t.kaynak = kaynak
     basla = time.time()
     gece_yarisi = dt.datetime.combine(gun + dt.timedelta(days=1), dt.time(0, 0))
 
@@ -598,6 +658,11 @@ def main():
                 print(f"[tarama] hatirlatma gonderilemedi: {e}", flush=True)
 
             for kod, m in feed.items():
+                if kod in aday:
+                    try:
+                        t.gozle(kod, m, faz(m), simdi)
+                    except Exception as e:
+                        print(f"[xg] {kod} gozlenemedi: {e}", flush=True)
                 for kume, islev in ((aday, t.isle), (t.liste, t.liste_isle)):
                     if kod not in kume:
                         continue
