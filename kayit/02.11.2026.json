@@ -120,13 +120,14 @@
    "bahis": {
     "iy05": {
      "id": 173,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
     }
    },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 7
   },
   "IPVicWQi": {
    "bahis": {},
@@ -278,7 +279,8 @@
   "tGSEAW8r": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 8
   }
  },
  "liste_slot": {
