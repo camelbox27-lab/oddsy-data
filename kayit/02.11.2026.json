@@ -135,14 +135,15 @@
    "bahis": {
     "iy15": {
      "id": 167,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 6,
      "skor": "1-0"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 6
+   "ilk_gol_dk": 6,
+   "iki_gol_dk": 43
   },
   "UJeN0eFc": {
    "bahis": {},
