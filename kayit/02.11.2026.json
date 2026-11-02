@@ -266,7 +266,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "20:00": 171
+ },
  "liste_son": {
   "hxVpVtCD": "once",
   "YHemANS7": "once",
