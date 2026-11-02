@@ -256,14 +256,22 @@
    "son": "once"
   },
   "2qfAPmVr": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 172,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "ilk_gol_dk": 3
   },
   "tGSEAW8r": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {
