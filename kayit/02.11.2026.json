@@ -279,14 +279,29 @@
    "bahis": {
     "iy15": {
      "id": 172,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 3,
      "skor": "1-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
-   "ilk_gol_dk": 3
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.44,
+     "isb": 6.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
+   "ilk_gol_dk": 3,
+   "iy": [
+    1,
+    0
+   ]
   },
   "tGSEAW8r": {
    "bahis": {},
