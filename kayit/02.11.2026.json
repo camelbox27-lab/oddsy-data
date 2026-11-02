@@ -588,9 +588,24 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
-   "ilk_gol_dk": 8
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.4,
+     "isb": 2.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
+   "ilk_gol_dk": 8,
+   "iy": [
+    0,
+    1
+   ]
   },
   "zs2gO75k": {
    "bahis": {},
@@ -1109,7 +1124,7 @@
   "2sT0wrZp": "2y",
   "KKbSDOAc": "2y",
   "QkFIeJkm": "bitti",
-  "C6DQgcKa": "1y",
+  "C6DQgcKa": "da",
   "zs2gO75k": "1y",
   "6iUR0UvJ": "bitti",
   "zD5VZgZI": "bitti"
