@@ -35,7 +35,7 @@
    "bahis": {
     "iy05": {
      "id": 169,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
@@ -58,7 +58,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 29
   },
   "I5ePCR4L": {
    "bahis": {},
@@ -211,7 +212,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 24,
    "iki_gol_dk": 30,
    "iy": [
