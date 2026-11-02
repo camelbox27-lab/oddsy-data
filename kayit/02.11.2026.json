@@ -10,7 +10,7 @@
    "bahis": {
     "iy05": {
      "id": 182,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
@@ -27,7 +27,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 22
   },
   "YceoIxQh": {
    "bahis": {},
@@ -156,12 +157,27 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.5,
+     "isb": 3.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 28,
-   "iki_gol_dk": 49
+   "iki_gol_dk": 49,
+   "iy": [
+    1,
+    1
+   ]
   },
   "buLL6lMF": {
    "bahis": {},
@@ -532,7 +548,7 @@
  },
  "liste_son": {
   "hxVpVtCD": "1y",
-  "YHemANS7": "1y",
+  "YHemANS7": "da",
   "buLL6lMF": "once",
   "2sT0wrZp": "once",
   "KKbSDOAc": "once",
@@ -543,7 +559,9 @@
   "zD5VZgZI": "1y"
  },
  "liste_kazanan": {
-  "QkFIeJkm": [],
+  "QkFIeJkm": [
+   "ust25"
+  ],
   "YHemANS7": [],
   "hxVpVtCD": [],
   "6iUR0UvJ": [],
