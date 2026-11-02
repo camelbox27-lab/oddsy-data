@@ -140,10 +140,25 @@
      "skor": "1-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.43,
+     "isb": 4.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 6,
-   "iki_gol_dk": 43
+   "iki_gol_dk": 43,
+   "iy": [
+    2,
+    0
+   ]
   },
   "UJeN0eFc": {
    "bahis": {},
