@@ -84,6 +84,28 @@
    "beraberlik": 8.0
   }
  ],
- "kupon": null,
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "KKbSDOAc",
+    "ev": "Jong PSV",
+    "dep": "NAC Breda",
+    "saat": "22:00",
+    "lig": "Hollanda Eerste Divisie",
+    "beraberlik": 4.5,
+    "ust25": 1.17
+   },
+   {
+    "kod": "buLL6lMF",
+    "ev": "Atalanta",
+    "dep": "Parma",
+    "saat": "22:45",
+    "lig": "İtalya Serie A",
+    "beraberlik": 4.5,
+    "ust25": 1.42
+   }
+  ],
+  "toplam": 1.66
+ },
  "sonuclandi": false
 }
