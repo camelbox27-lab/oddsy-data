@@ -149,10 +149,12 @@
      "dk": 45,
      "xg": 1.43,
      "isb": 4.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 4,
+     "y2": 2
     }
    },
-   "son": "da",
+   "son": "bitti",
    "ilk_gol_dk": 6,
    "iki_gol_dk": 43,
    "iy": [
@@ -163,7 +165,7 @@
   "UJeN0eFc": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "llhwcDEM": {
    "bahis": {},
