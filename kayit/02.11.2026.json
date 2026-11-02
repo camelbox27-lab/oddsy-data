@@ -218,7 +218,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 25
   },
   "QkFIeJkm": {
    "bahis": {
@@ -476,10 +477,25 @@
   },
   "llhwcDEM": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      3,
+      1
+     ],
+     "dk": 45,
+     "xg": 2.27,
+     "isb": 11.0,
+     "buy": 5.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 8,
-   "iki_gol_dk": 24
+   "iki_gol_dk": 24,
+   "iy": [
+    3,
+    1
+   ]
   },
   "2D3ywhNj": {
    "bahis": {},
