@@ -274,7 +274,7 @@
   "nwfFwxzf": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "tGhi4TwP": {
    "bahis": {},
@@ -361,9 +361,24 @@
   },
   "hEvnQx4D": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
-   "ilk_gol_dk": 13
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.71,
+     "isb": 2.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
+   "ilk_gol_dk": 13,
+   "iy": [
+    1,
+    0
+   ]
   },
   "nZSWTK4l": {
    "bahis": {},
@@ -419,7 +434,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 8,
    "iki_gol_dk": 42,
    "iy": [
