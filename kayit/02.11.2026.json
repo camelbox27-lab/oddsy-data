@@ -161,7 +161,7 @@
      "y2": 2
     }
    },
-   "son": "bitti",
+   "son": "iptal",
    "ilk_gol_dk": 6,
    "iki_gol_dk": 43,
    "iy": [
@@ -180,12 +180,27 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.79,
+     "isb": 4.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 24,
-   "iki_gol_dk": 30
+   "iki_gol_dk": 30,
+   "iy": [
+    0,
+    2
+   ]
   },
   "llhwcDEM": {
    "bahis": {},
