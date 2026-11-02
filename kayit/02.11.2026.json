@@ -203,7 +203,8 @@
   "2sT0wrZp": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 14
   },
   "drLAeseT": {
    "bahis": {
@@ -222,14 +223,21 @@
    "bahis": {
     "iy15": {
      "id": 194,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 6,
      "skor": "1-0"
+    },
+    "iy25": {
+     "id": 196,
+     "durum": "acik",
+     "dk": 15,
+     "skor": "2-0"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 6
+   "ilk_gol_dk": 6,
+   "iki_gol_dk": 15
   },
   "KKbSDOAc": {
    "bahis": {
