@@ -1,0 +1,170 @@
+[
+  {
+    "event_id": "pQMJHgIk",
+    "home_team": "Inter Turku",
+    "away_team": "IF Gnistan",
+    "league": "FINNLAND Veikkausliiga - Championship Gruppe",
+    "saat": "19:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "IwLRFXn2",
+    "home_team": "Vaasa PS",
+    "away_team": "HJK Helsinki",
+    "league": "FINNLAND Veikkausliiga - Championship Gruppe",
+    "saat": "19:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "AuhHEmz9",
+    "home_team": "Atromitos",
+    "away_team": "Volos",
+    "league": "GRIECHENLAND Super League",
+    "saat": "19:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "QkFIeJkm",
+    "home_team": "Radomiak Radom",
+    "away_team": "Śląsk Wrocław",
+    "league": "POLEN Ekstraklasa",
+    "saat": "20:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "hxVpVtCD",
+    "home_team": "Sønderjyske",
+    "away_team": "FC Kopenhagen",
+    "league": "DÄNEMARK Superliga",
+    "saat": "21:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "rTKFxlnf",
+    "home_team": "Hapoel Ramat Gan",
+    "away_team": "Maccabi Tel Aviv",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "21:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "IHNCli6l",
+    "home_team": "Penafiel",
+    "away_team": "CD Feirense",
+    "league": "PORTUGAL Liga Portugal 2",
+    "saat": "21:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "zD5VZgZI",
+    "home_team": "Östers IF",
+    "away_team": "Helsingborgs IF",
+    "league": "SCHWEDEN Superettan",
+    "saat": "21:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "vXVypWgK",
+    "home_team": "Hapoel Tel Aviv",
+    "away_team": "Maccabi Haifa",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "21:30",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "vZnUNCde",
+    "home_team": "AFC Bournemouth U21",
+    "away_team": "Cardiff City U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "W8qMPYRr",
+    "home_team": "Hull City U21",
+    "away_team": "Derby County U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "z7ZTgJPO",
+    "home_team": "Exeter U21",
+    "away_team": "FC Reading U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "StWLeueC",
+    "home_team": "Preston North End U21",
+    "away_team": "Fleetwood Town U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "KGSDc1Qa",
+    "home_team": "Wycombe Wanderers U21",
+    "away_team": "FC Brentford U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "2sT0wrZp",
+    "home_team": "Heracles Almelo",
+    "away_team": "Oss",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "KKbSDOAc",
+    "home_team": "Jong PSV Eindhoven",
+    "away_team": "NAC Breda",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "C6DQgcKa",
+    "home_team": "Raków Częstochowa",
+    "away_team": "Pogoń Stettin",
+    "league": "POLEN Ekstraklasa",
+    "saat": "22:30",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "U5O4IfFb",
+    "home_team": "Stade Reims",
+    "away_team": "FC Sochaux",
+    "league": "FRANKREICH Ligue 2",
+    "saat": "22:45",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "buLL6lMF",
+    "home_team": "Atalanta Bergamo",
+    "away_team": "Parma Calcio",
+    "league": "ITALIEN Serie A",
+    "saat": "22:45",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "YceoIxQh",
+    "home_team": "Newcastle United",
+    "away_team": "FC Everton",
+    "league": "ENGLAND Premier League",
+    "saat": "23:00",
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "KOzUWQ7T",
+    "home_team": "Sporting Cristal",
+    "away_team": "FC Cajamarca",
+    "league": "PERU Liga 1 - Clausura",
+    "saat": "23:30",
+    "tarih": "02.11.2026"
+  }
+]

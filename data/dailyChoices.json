@@ -1,352 +1,92 @@
 [
   {
-    "event_id": "6Nmihwy3",
-    "home_team": "Tampines",
-    "away_team": "Geylang",
-    "league": "SINGAPUR Premier League",
-    "saat": "14:30",
+    "event_id": "pQMJHgIk",
+    "home_team": "Inter Turku",
+    "away_team": "IF Gnistan",
+    "league": "FINNLAND Veikkausliiga - Championship Gruppe",
+    "saat": "19:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "01.11.2026"
+    "2_5_ust": 1.57,
+    "tarih": "02.11.2026"
   },
   {
-    "event_id": "j50YaAxn",
-    "home_team": "Excelsior Rotterdam",
-    "away_team": "Twente Enschede",
-    "league": "NIEDERLANDE Eredivisie",
-    "saat": "16:30",
+    "event_id": "IwLRFXn2",
+    "home_team": "Vaasa PS",
+    "away_team": "HJK Helsinki",
+    "league": "FINNLAND Veikkausliiga - Championship Gruppe",
+    "saat": "19:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.48,
-    "tarih": "01.11.2026"
+    "tarih": "02.11.2026"
   },
   {
-    "event_id": "fc63zIYH",
-    "home_team": "Ranheim Fotball",
-    "away_team": "Sogndal IL",
-    "league": "NORWEGEN OBOS-ligaen",
-    "saat": "16:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.3,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "lzkTdFU6",
-    "home_team": "Wolfsberger AC",
-    "away_team": "Sturm Graz",
-    "league": "ÖSTERREICH Bundesliga",
-    "saat": "16:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "CvsNzh1K",
-    "home_team": "Sheffield Wednesday",
-    "away_team": "Blackpool FC",
-    "league": "ENGLAND League One",
-    "saat": "17:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "GKHINqdJ",
-    "home_team": "Birmingham City F",
-    "away_team": "Tottenham Hotspur F",
-    "league": "ENGLAND WSL",
-    "saat": "17:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "GnxSGsUI",
-    "home_team": "Inter Kashi",
-    "away_team": "Goa",
-    "league": "INDIEN ISL",
-    "saat": "17:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.95,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "r581JR5L",
-    "home_team": "Lazio Rom",
-    "away_team": "Cagliari Calcio",
-    "league": "ITALIEN Serie A",
-    "saat": "17:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.8,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "nTcxlhdJ",
-    "home_team": "Dender",
-    "away_team": "KRC Genk U23",
-    "league": "BELGIEN Challenger Pro League",
-    "saat": "18:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.4,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "djkAjYup",
-    "home_team": "Ferencváros Budapest",
-    "away_team": "Paksi FC",
-    "league": "UNGARN NB I.",
-    "saat": "18:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.33,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "MaCEOXWP",
-    "home_team": "BK Häcken",
-    "away_team": "IFK Göteborg",
-    "league": "SCHWEDEN Allsvenskan",
-    "saat": "18:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "0Ek1FTgC",
-    "home_team": "IF Elfsborg",
-    "away_team": "Örgryte IS",
-    "league": "SCHWEDEN Allsvenskan",
-    "saat": "18:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "zNXIGQkL",
-    "home_team": "FC Lugano",
-    "away_team": "FC Basel",
-    "league": "SCHWEIZ Super League",
-    "saat": "18:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "4jr3b8yi",
-    "home_team": "Sarpsborg 08",
-    "away_team": "Kristiansund BK",
-    "league": "NORWEGEN Eliteserien",
-    "saat": "19:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.4,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "8t8exv45",
-    "home_team": "Odds BK",
-    "away_team": "Sandnes Ulf",
-    "league": "NORWEGEN OBOS-ligaen",
-    "saat": "19:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "O6QuJ5o9",
-    "home_team": "Austria Wien",
-    "away_team": "SK Rapid",
-    "league": "ÖSTERREICH Bundesliga",
-    "saat": "19:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.53,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "nabo9Sp2",
-    "home_team": "Kasımpaşa Istanbul",
-    "away_team": "Beşiktaş Istanbul",
-    "league": "TÜRKEI Süper Lig",
-    "saat": "19:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.65,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "fuGf2I16",
-    "home_team": "Eintracht Frankfurt",
-    "away_team": "HSV",
-    "league": "DEUTSCHLAND Bundesliga",
-    "saat": "19:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.4,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "0n0mim1m",
-    "home_team": "Maccabi Petach Tikwa",
-    "away_team": "Hapoel Be'er Sheva",
-    "league": "ISRAEL Ligat ha'Al",
+    "event_id": "hxVpVtCD",
+    "home_team": "Sønderjyske",
+    "away_team": "FC Kopenhagen",
+    "league": "DÄNEMARK Superliga",
     "saat": "21:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "IoeIb1Mi",
-    "home_team": "RSC Charleroi",
-    "away_team": "RAAL La Louviere",
-    "league": "BELGIEN Jupiler League",
-    "saat": "21:15",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.75,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "tWfUkER6",
-    "home_team": "KAS Eupen",
-    "away_team": "Royal Excelsior Virton",
-    "league": "BELGIEN Challenger Pro League",
-    "saat": "21:15",
-    "kategori": "2.5 Üst",
     "2_5_ust": 1.57,
-    "tarih": "01.11.2026"
+    "tarih": "02.11.2026"
   },
   {
-    "event_id": "KpUg5Y9T",
-    "home_team": "Palermo",
-    "away_team": "L.R. Vicenza",
-    "league": "ITALIEN Serie B",
-    "saat": "21:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.53,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "SfNKBkCG",
-    "home_team": "Em Huanuni",
-    "away_team": "San Juan FC",
-    "league": "BOLIVIEN Copa Simon Bolivar - Playoffs",
+    "event_id": "StWLeueC",
+    "home_team": "Preston North End U21",
+    "away_team": "Fleetwood Town U21",
+    "league": "ENGLAND Premier League Cup",
     "saat": "22:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.5,
-    "tarih": "01.11.2026"
+    "tarih": "02.11.2026"
   },
   {
-    "event_id": "4G637XY0",
-    "home_team": "Olympique Marseille",
-    "away_team": "FC Toulouse",
-    "league": "FRANKREICH Ligue 1",
+    "event_id": "KKbSDOAc",
+    "home_team": "Jong PSV Eindhoven",
+    "away_team": "NAC Breda",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.4,
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "buLL6lMF",
+    "home_team": "Atalanta Bergamo",
+    "away_team": "Parma Calcio",
+    "league": "ITALIEN Serie A",
     "saat": "22:45",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "01.11.2026"
+    "2_5_ust": 1.57,
+    "tarih": "02.11.2026"
   },
   {
-    "event_id": "zLEaa6Ek",
-    "home_team": "Como 1907",
-    "away_team": "FC Venedig",
-    "league": "ITALIEN Serie A",
-    "saat": "14:30",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.0,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "MVBn4dYP",
-    "home_team": "Falkirk",
-    "away_team": "Celtic Glasgow",
-    "league": "SCHOTTLAND Premier League",
-    "saat": "16:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.38,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "YwWJ2jA6",
-    "home_team": "Djurgårdens IF",
-    "away_team": "Degerfors IF",
-    "league": "SCHWEDEN Allsvenskan",
-    "saat": "16:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.25,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "QZK47MC7",
-    "home_team": "Young Boys Bern",
-    "away_team": "FC Zürich",
-    "league": "SCHWEIZ Super League",
-    "saat": "16:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.53,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "U5hD0cVs",
-    "home_team": "RB Salzburg",
-    "away_team": "Austria Lustenau",
-    "league": "ÖSTERREICH Bundesliga",
-    "saat": "16:30",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.62,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "xAG2RRdf",
-    "home_team": "Brighton & Hove Albion F",
-    "away_team": "Crystal Palace F",
-    "league": "ENGLAND WSL",
-    "saat": "17:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.8,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "2mtCGew9",
-    "home_team": "CS Universitatea Craiova",
-    "away_team": "Botosani",
-    "league": "RUMÄNIEN Superliga",
-    "saat": "18:30",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.25,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "lbOyI9Ij",
-    "home_team": "Strømsgodset IF",
-    "away_team": "Moss FK",
-    "league": "NORWEGEN OBOS-ligaen",
-    "saat": "19:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.53,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "dj3e9g4l",
-    "home_team": "Olympique Lyon",
-    "away_team": "SCO Angers",
-    "league": "FRANKREICH Ligue 1",
-    "saat": "19:15",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.38,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "6BcU8I3m",
-    "home_team": "PAOK",
-    "away_team": "Asteras Tripolis",
-    "league": "GRIECHENLAND Super League",
-    "saat": "20:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.75,
-    "tarih": "01.11.2026"
-  },
-  {
-    "event_id": "WKczZfK6",
-    "home_team": "The Strongest",
-    "away_team": "GV San Jose",
-    "league": "BOLIVIEN Liga de Fútbol Profesional",
-    "saat": "22:00",
+    "event_id": "rTKFxlnf",
+    "home_team": "Hapoel Ramat Gan",
+    "away_team": "Maccabi Tel Aviv",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "21:00",
     "kategori": "3.5 Üst",
     "3_5_ust": 1.83,
-    "tarih": "01.11.2026"
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "2sT0wrZp",
+    "home_team": "Heracles Almelo",
+    "away_team": "Oss",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.73,
+    "tarih": "02.11.2026"
+  },
+  {
+    "event_id": "KOzUWQ7T",
+    "home_team": "Sporting Cristal",
+    "away_team": "FC Cajamarca",
+    "league": "PERU Liga 1 - Clausura",
+    "saat": "23:30",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.93,
+    "tarih": "02.11.2026"
   }
 ]
