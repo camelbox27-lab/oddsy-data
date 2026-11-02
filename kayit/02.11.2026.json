@@ -315,6 +315,12 @@
        "xg": null,
        "isb": 1.0,
        "buy": null
+      },
+      "30": {
+       "dk": 30,
+       "xg": null,
+       "isb": 1.0,
+       "buy": null
       }
      }
     }
@@ -522,7 +528,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 13,
    "iy": [
     1,
