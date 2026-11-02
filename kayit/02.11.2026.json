@@ -595,12 +595,12 @@
   "zs2gO75k": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nq8M98jd": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "IHNCli6l": {
    "bahis": {
@@ -988,11 +988,26 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.62,
+     "isb": 3.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 33
+   "son": "da",
+   "ilk_gol_dk": 33,
+   "iy": [
+    1,
+    0
+   ]
   },
   "2qfAPmVr": {
    "bahis": {
@@ -1073,7 +1088,7 @@
   "KKbSDOAc": "2y",
   "QkFIeJkm": "bitti",
   "C6DQgcKa": "1y",
-  "zs2gO75k": "once",
+  "zs2gO75k": "1y",
   "6iUR0UvJ": "bitti",
   "zD5VZgZI": "bitti"
  },
@@ -1094,6 +1109,7 @@
   "KKbSDOAc": [],
   "2sT0wrZp": [],
   "C6DQgcKa": [],
-  "buLL6lMF": []
+  "buLL6lMF": [],
+  "zs2gO75k": []
  }
 }
