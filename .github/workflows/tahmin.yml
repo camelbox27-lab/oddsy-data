@@ -5,12 +5,15 @@ run-name: "${{ github.event_name == 'schedule' && 'Tahmin · gunluk (oncesi + ca
 # tetikler. Mesajlar Wondiyo kanalina degil, ayri tahmin grubuna gider
 # (TELEGRAM_CHAT_ID_2).
 on:
-  # Her sabah 07:00 (TR = 04:00 UTC): once mac oncesi tercihler (dunun
-  # sonucu + gunun listesi), ardindan canli tarama 00:00'a kadar calisir.
-  # GitHub'in zamanlayicisi tam saatlerde yogun oldugu icin birkac dakika
-  # gecikebilir.
+  # Her sabah: once mac oncesi tercihler (dunun sonucu + gunun listesi),
+  # ardindan canli tarama 00:00'a kadar calisir.
+  # GitHub'in zamanlayicisi yogunlukta calismalari geciktirip hatta
+  # dusurebiliyor (02.11 sabahi 07:00 hic tetiklenmedi). Bu yuzden tam
+  # saatten kacinan iki zamanlama var; ikisi de calisirsa ikincisi
+  # "bugun zaten yapildi mi" kontrolunde atlanir.
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "55 3 * * *"   # 06:55 TR -- asil
+    - cron: "40 4 * * *"   # 07:40 TR -- yedek
   workflow_dispatch:
     inputs:
       hangisi:
@@ -46,17 +49,30 @@ jobs:
         with:
           ref: main
 
+      # Zamanlanmis calismada: bugun zaten yapildiysa (elle ya da diger
+      # zamanlamayla) tekrar gonderme. Elle tetiklemede her zaman calisir.
+      - name: Bugun yapildi mi
+        id: kapi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YOL: oncesi
+        run: bash otomasyon/bugun_yapildi_mi.sh "${{ github.event_name }}"
+
       - uses: actions/setup-python@v5
+        if: steps.kapi.outputs.calis == 'true'
         with:
           python-version: "3.12"
 
       - name: Paketler
+        if: steps.kapi.outputs.calis == 'true'
         run: pip install --quiet requests
 
       - name: bet365 verisini hazirla
+        if: steps.kapi.outputs.calis == 'true'
         run: bash otomasyon/bet365_hazirla.sh
 
       - name: Mac oncesi tercihleri gonder
+        if: steps.kapi.outputs.calis == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
@@ -82,19 +98,29 @@ jobs:
         with:
           ref: main
 
+      - name: Bugun yapildi mi
+        id: kapi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YOL: kayit
+        run: bash otomasyon/bugun_yapildi_mi.sh "${{ github.event_name }}"
+
       - uses: actions/setup-python@v5
+        if: steps.kapi.outputs.calis == 'true'
         with:
           python-version: "3.12"
 
       - name: Paketler
+        if: steps.kapi.outputs.calis == 'true'
         run: pip install --quiet requests
 
-      # Yeniden tetiklenen (gece yarisini gecmis) taramada veri zaten hazir.
+      # Yeniden tetiklenen taramada veri zaten hazir.
       - name: bet365 verisini hazirla
-        if: ${{ !inputs.gun }}
+        if: ${{ steps.kapi.outputs.calis == 'true' && !inputs.gun }}
         run: bash otomasyon/bet365_hazirla.sh
 
       - name: Canli tarama
+        if: steps.kapi.outputs.calis == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}

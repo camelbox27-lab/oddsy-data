@@ -561,6 +561,10 @@ def main():
 
     kayit = Kayit(gun)
     kayit.oku()
+    if kayit.sha is None and kayit.token:
+        # Gunun kaydi hemen olussun: zamanlanmis yedek calisma "bugun
+        # tarama basladi mi" sorusunu bu dosyaya bakarak cevapliyor.
+        kayit.yaz()
     t = Tarayici(gun, token, chat, kayit, aday)
     t.liste = liste_yukle(gun)
     liste_zamani = time.time()
