@@ -397,7 +397,7 @@
    "bahis": {
     "ms45": {
      "id": 189,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "1-2"
     }
@@ -422,10 +422,12 @@
      "dk": 45,
      "xg": null,
      "isb": 7.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 25,
    "iki_gol_dk": 44,
    "iy": [
@@ -600,10 +602,12 @@
      "dk": 45,
      "xg": 0.36,
      "isb": 2.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 39,
    "iy": [
     1,
@@ -644,10 +648,12 @@
      "dk": 45,
      "xg": 0.7,
      "isb": 4.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -966,7 +972,7 @@
   "QkFIeJkm": "bitti",
   "C6DQgcKa": "1y",
   "zs2gO75k": "once",
-  "6iUR0UvJ": "2y",
+  "6iUR0UvJ": "bitti",
   "zD5VZgZI": "bitti"
  },
  "liste_kazanan": {
