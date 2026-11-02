@@ -78,7 +78,18 @@
   },
   "I5ePCR4L": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 21,
+       "xg": 0.35,
+       "isb": 1.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "YHemANS7": {
@@ -315,11 +326,33 @@
    ]
   },
   "tGSEAW8r": {
-   "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 178,
+     "durum": "acik",
+     "dk": null,
+     "skor": "3-0"
+    }
+   },
+   "gozlem": {
+    "da": {
+     "iy": [
+      3,
+      0
+     ],
+     "dk": 45,
+     "xg": 2.81,
+     "isb": 6.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 8,
-   "iki_gol_dk": 42
+   "iki_gol_dk": 42,
+   "iy": [
+    3,
+    0
+   ]
   }
  },
  "liste_slot": {
