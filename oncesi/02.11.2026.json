@@ -1,0 +1,89 @@
+{
+ "tarih": "02.11.2026",
+ "ust25": [
+  {
+   "kod": "QkFIeJkm",
+   "saat": "20:00",
+   "ev": "Radomiak Radom",
+   "dep": "Śląsk Wrocław",
+   "lig": "POLEN Ekstraklasa",
+   "beraberlik": 3.6
+  },
+  {
+   "kod": "YHemANS7",
+   "saat": "20:30",
+   "ev": "Sassuolo Calcio",
+   "dep": "AC Florenz",
+   "lig": "ITALIEN Serie A",
+   "beraberlik": 3.6
+  },
+  {
+   "kod": "hxVpVtCD",
+   "saat": "21:00",
+   "ev": "Sønderjyske",
+   "dep": "FC Kopenhagen",
+   "lig": "DÄNEMARK Superliga",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "6iUR0UvJ",
+   "saat": "21:00",
+   "ev": "GAIS Göteborg",
+   "dep": "AIK Stockholm",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 3.7
+  },
+  {
+   "kod": "zD5VZgZI",
+   "saat": "21:00",
+   "ev": "Östers IF",
+   "dep": "Helsingborgs IF",
+   "lig": "SCHWEDEN Superettan",
+   "beraberlik": 3.5
+  },
+  {
+   "kod": "KKbSDOAc",
+   "saat": "22:00",
+   "ev": "Jong PSV Eindhoven",
+   "dep": "NAC Breda",
+   "lig": "NIEDERLANDE Eerste Divisie",
+   "beraberlik": 4.5
+  },
+  {
+   "kod": "C6DQgcKa",
+   "saat": "22:30",
+   "ev": "Raków Częstochowa",
+   "dep": "Pogoń Stettin",
+   "lig": "POLEN Ekstraklasa",
+   "beraberlik": 3.5
+  },
+  {
+   "kod": "buLL6lMF",
+   "saat": "22:45",
+   "ev": "Atalanta Bergamo",
+   "dep": "Parma Calcio",
+   "lig": "ITALIEN Serie A",
+   "beraberlik": 4.5
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "2sT0wrZp",
+   "saat": "22:00",
+   "ev": "Heracles Almelo",
+   "dep": "Oss",
+   "lig": "NIEDERLANDE Eerste Divisie",
+   "beraberlik": 7.0
+  },
+  {
+   "kod": "zs2gO75k",
+   "saat": "23:15",
+   "ev": "Benfica Lissabon",
+   "dep": "Alverca",
+   "lig": "PORTUGAL Liga Portugal",
+   "beraberlik": 8.0
+  }
+ ],
+ "kupon": null,
+ "sonuclandi": false
+}
