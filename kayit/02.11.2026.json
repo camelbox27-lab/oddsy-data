@@ -266,7 +266,7 @@
   "hEvnQx4D": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nZSWTK4l": {
    "bahis": {},
@@ -294,7 +294,8 @@
   }
  },
  "liste_slot": {
-  "20:00": 171
+  "20:00": 171,
+  "20:30": 176
  },
  "liste_son": {
   "hxVpVtCD": "once",
