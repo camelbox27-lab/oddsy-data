@@ -24,6 +24,7 @@ on:
         options:
           - oncesi
           - canli
+          - eksik     # yalnizca gitmemis olanlar: dunun raporlari, bugunun kuponu
       gun:
         description: "Tarama gunu GG.AA.YYYY (yalnizca tarama kendini yeniden tetiklediginde)"
         required: false
@@ -36,7 +37,7 @@ permissions:
 
 jobs:
   oncesi:
-    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi'
+    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi' || inputs.hangisi == 'eksik'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     concurrency:
@@ -71,12 +72,17 @@ jobs:
         if: steps.kapi.outputs.calis == 'true'
         run: bash otomasyon/bet365_hazirla.sh
 
+      - name: Iddaa bultenini hazirla (kupon icin)
+        if: steps.kapi.outputs.calis == 'true'
+        run: bash otomasyon/iddaa_hazirla.sh
+
       - name: Mac oncesi tercihleri gonder
         if: steps.kapi.outputs.calis == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
           GITHUB_TOKEN: ${{ github.token }}   # liste arsivi (canli-kayit dali)
+          SADECE_EKSIK: ${{ inputs.hangisi == 'eksik' && '1' || '0' }}
         run: python otomasyon/tahmin_oncesi.py
 
   canli:

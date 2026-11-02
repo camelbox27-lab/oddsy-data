@@ -185,7 +185,7 @@ KURAL = {
 TUTTU, TUTMADI = "\u2705", "\u274c"
 
 
-def sonuc_mesaji(arsiv, kaynak, skor, gun):
+def sonuc_mesaji(arsiv, kaynak, skor, gun, toplam=None):
     bolumler = {"ust25": arsiv.get("ust25", []), "ust35": arsiv.get("ust35", []),
                 "iy15": arsiv.get("ust35", [])}
     ozet, detay = [], []
@@ -209,6 +209,9 @@ def sonuc_mesaji(arsiv, kaynak, skor, gun):
             on = "\u0130Y " if tur == "iy" else ""
             im = TUTTU if tuttu else TUTMADI
             detay.append(f"{im} <code>{on}{e}-{d_}</code>  {ev} \u2013 {dep}")
+        if toplam is not None:
+            toplam["tutan"] += tutan
+            toplam["biten"] += biten
         yuzde = f"%{round(100 * tutan / biten)}" if biten else "\u2013"
         ozet.append(f"\U0001f3af {kisa}: <b>{tutan}/{biten}</b> \u00b7 {yuzde}")
 
@@ -244,7 +247,7 @@ def sonuc_mesaji(arsiv, kaynak, skor, gun):
     return tg.parcala(satirlar + detay)
 
 
-def dunu_sonuclandir(gun):
+def dunu_sonuclandir(gun, toplam=None):
     """(mesaj parcalari, kayit) -- gonderildikten sonra kayit isaretlenmeli."""
     k = canli_tarama.Kayit(gun, "oncesi")
     k.oku()
@@ -263,7 +266,60 @@ def dunu_sonuclandir(gun):
     print(f"{gun:%d.%m.%Y}: {len(skor)} bitmis mac skoru alindi "
           f"(liste kaynagi: {kaynak})", flush=True)
     k.veri = {**arsiv, "tarih": f"{gun:%d.%m.%Y}"}
-    return sonuc_mesaji(arsiv, kaynak, skor, gun), k
+    return sonuc_mesaji(arsiv, kaynak, skor, gun, toplam), k
+
+
+# ------------------------------------------------------ canlı tahmin raporu
+CANLI_AD = {"iy05": "İY 0.5 Üst", "iy15": "İY 1.5 Üst",
+            "iy25": "İY 2.5 Üst", "ms45": "MS 4.5 Üst"}
+
+
+def canli_ozet(gun, toplam=None):
+    """Dünün canlı tahminlerinin raporu: kural kural tuttu/toplam + maç maç.
+    (mesaj parcalari, kayit) döner; gönderilince kayit işaretlenmeli."""
+    k = canli_tarama.Kayit(gun)
+    k.oku()
+    if k.veri.get("ozet_gonderildi"):
+        print(f"{gun:%d.%m.%Y} canli ozeti zaten gonderilmis.", flush=True)
+        return [], None
+    adlar = {}
+    for r in bet365_kayitlari(gun) or []:
+        adlar[str(r.get("MatchCode") or "").strip()] = (r.get("Ev") or "", r.get("Dep") or "")
+
+    gruplar = {b: [] for b in CANLI_AD}
+    for kod, st in k.veri.get("maclar", {}).items():
+        for b, x in st.get("bahis", {}).items():
+            if b in gruplar:
+                gruplar[b].append((x.get("durum"), adlar.get(kod, ("?", "?"))))
+    if not any(gruplar.values()):
+        print(f"{gun:%d.%m.%Y}: canli tahmin yok.", flush=True)
+        return [], None
+
+    ozet, detay, ct_ = [], [], 0
+    cb = 0
+    for b, liste in gruplar.items():
+        if not liste:
+            continue
+        tutan = sum(1 for d_, _ in liste if d_ == "kazandi")
+        biten = sum(1 for d_, _ in liste if d_ in ("kazandi", "kaybetti"))
+        acik = len(liste) - biten
+        ct_ += tutan
+        cb += biten
+        yuzde = f"%{round(100 * tutan / biten)}" if biten else "–"
+        ozet.append(f"🎯 {CANLI_AD[b]}: <b>{tutan}/{biten}</b> · {yuzde}"
+                    + (f"  <i>({acik} sonuçlanmadı)</i>" if acik else ""))
+        detay += ["", f"<b>{CANLI_AD[b].upper()}</b>"]
+        for d_, (ev, dep) in liste:
+            im = {"kazandi": "✅", "kaybetti": "❌"}.get(d_, "⚪")
+            detay.append(f"{im} {tg.kacir(tr_isim.takim(ev))} – {tg.kacir(tr_isim.takim(dep))}")
+    if toplam is not None:
+        toplam["tutan"] += ct_
+        toplam["biten"] += cb
+    ozet.append(f"🔴 Canlı toplam: <b>{ct_}/{cb}</b> · "
+                + (f"%{round(100 * ct_ / cb)}" if cb else "–"))
+    satirlar = ["<b>🔴 DÜNÜN CANLI TAHMİNLERİ</b>",
+                f"<i>{tg.kacir(tr_isim.tarih(f'{gun:%d.%m.%Y}'))}</i>", ""] + ozet
+    return satirlar + detay, k
 
 
 def bugunu_arsivle(gun, t, k_kupon):
@@ -322,31 +378,69 @@ def main():
         return 1
     print(f"2.5 Ust: {len(t['ust25'])} mac | 3.5 Ust / IY 1.5 Ust: {len(t['ust35'])} mac",
           flush=True)
-    # 1) Dunun tercihleri: sonuclandirma (hata verirse bugunun listesini engellemesin)
+    # SADECE_EKSIK=1: bugunun listesi tekrar gonderilmez; yalnizca henuz
+    # gitmemis olanlar gider (dunun raporlari, bugunun kuponu).
+    sadece_eksik = os.environ.get("SADECE_EKSIK") == "1"
+    dun = gun - dt.timedelta(days=1)
+    toplam = {"tutan": 0, "biten": 0}
+
+    # 1) Dunun raporlari: mac oncesi listesi + kupon, canli tahminler.
+    #    Hata verirlerse bugunun listesini engellemesinler.
     sonuc_parcalari, dun_kayit = [], None
     try:
-        sonuc_parcalari, dun_kayit = dunu_sonuclandir(gun - dt.timedelta(days=1))
+        sonuc_parcalari, dun_kayit = dunu_sonuclandir(dun, toplam)
     except Exception as e:
         print(f"UYARI: dun sonuclandirilamadi: {e}", flush=True)
+    canli_satirlari, canli_kayit = [], None
+    try:
+        canli_satirlari, canli_kayit = canli_ozet(dun, toplam)
+    except Exception as e:
+        print(f"UYARI: canli ozeti cikarilamadi: {e}", flush=True)
+    canli_parcalari = []
+    if canli_satirlari:
+        # Genel toplam: maç öncesi listesi + canlı tahminler (kupon hariç);
+        # yalnızca iki rapor birlikte gidiyorsa anlamlı.
+        if toplam["biten"] and sonuc_parcalari:
+            genel = (f"📊 <b>DÜNÜN TOPLAMI</b> (maç öncesi + canlı): "
+                     f"<b>{toplam['tutan']}/{toplam['biten']}</b> · "
+                     f"%{round(100 * toplam['tutan'] / toplam['biten'])}")
+            canli_satirlari = canli_satirlari[:3] + [genel, ""] + canli_satirlari[3:]
+        canli_parcalari = tg.parcala(canli_satirlari)
 
     # 2) Bugunun listesi + kupon
-    parcalar = tercih_mesaji(t, gun)
+    parcalar = [] if sadece_eksik else tercih_mesaji(t, gun)
     k = None
-    try:
-        k = kupon_modulu.kupon(gun)
-        if k and k["maclar"]:
-            parcalar += kupon_mesaji(k)
-        else:
-            print("Kupon olusturulamadi (uygun mac yok).", flush=True)
-    except Exception as e:
-        print(f"UYARI: kupon olusturulamadi: {e}", flush=True)
+    kupon_gitti = False
+    if sadece_eksik:
+        try:
+            ak = canli_tarama.Kayit(gun, "oncesi")
+            ak.oku()
+            kupon_gitti = bool(ak.veri.get("kupon"))
+        except Exception as e:
+            print(f"UYARI: bugunun arsivi okunamadi: {e}", flush=True)
+    if not kupon_gitti:
+        try:
+            k = kupon_modulu.kupon(gun)
+            if k and k["maclar"]:
+                parcalar += kupon_mesaji(k)
+            else:
+                print("Kupon olusturulamadi (uygun mac yok).", flush=True)
+        except Exception as e:
+            print(f"UYARI: kupon olusturulamadi: {e}", flush=True)
+    else:
+        print("Bugunun kuponu zaten gonderilmis.", flush=True)
 
     try:
         if sonuc_parcalari:
             tg.hepsini_gonder(token, chat, sonuc_parcalari)
             dun_kayit.veri["sonuclandi"] = True
             dun_kayit.yaz()
-        tg.hepsini_gonder(token, chat, parcalar)
+        if canli_parcalari:
+            tg.hepsini_gonder(token, chat, canli_parcalari)
+            canli_kayit.veri["ozet_gonderildi"] = True
+            canli_kayit.yaz()
+        if parcalar:
+            tg.hepsini_gonder(token, chat, parcalar)
     except tg.ChatBulunamadi as e:
         print(f"HATA: {e}\nGirilen TELEGRAM_CHAT_ID_2 calismadi. Adaylar:")
         tg.chat_adaylari(token)
@@ -354,7 +448,14 @@ def main():
 
     # 3) Yarin sonuclandirilabilsin diye arsivle
     try:
-        bugunu_arsivle(gun, t, k if (k and k.get("maclar")) else None)
+        if sadece_eksik:
+            ak = canli_tarama.Kayit(gun, "oncesi")
+            ak.oku()
+            if "ust25" in ak.veri and not ak.veri.get("kupon") and k and k.get("maclar"):
+                ak.veri["kupon"] = {"maclar": k["maclar"], "toplam": k["toplam"]}
+                ak.yaz()
+        else:
+            bugunu_arsivle(gun, t, k if (k and k.get("maclar")) else None)
     except Exception as e:
         print(f"UYARI: arsivlenemedi: {e}", flush=True)
     print("OK: tercihler gonderildi.")
