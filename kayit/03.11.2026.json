@@ -4,37 +4,52 @@
   "fmhXnH1S": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "MaPjhCw8": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "QVr3sePk": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 227,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "C6X41GGL": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4tCThItm": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "bqsBuZg2": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 228,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "ilk_gol_dk": 4
   },
   "4tUd3xn9": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nNlPlwXF": {
    "bahis": {},
@@ -47,19 +62,26 @@
    "son": "once"
   },
   "SfwERv5N": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 229,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nL3JaPG6": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "fBErhd3b": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SGSUoDnR": {
    "bahis": {
