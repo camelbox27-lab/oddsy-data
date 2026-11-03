@@ -1,5 +1,5 @@
 name: Tahmin
-run-name: "${{ github.event_name == 'schedule' && 'Tahmin · gunluk (oncesi + canli)' || format('Tahmin · {0}', inputs.hangisi) }}"
+run-name: "${{ (github.event_name == 'schedule' || inputs.hangisi == 'gunluk') && 'Tahmin · gunluk (oncesi + canli)' || format('Tahmin · {0}', inputs.hangisi) }}"
 
 # Tahmin uygulamasindaki (tahmin/) butonlar bu akisi workflow_dispatch ile
 # tetikler. Mesajlar Wondiyo kanalina degil, ayri tahmin grubuna gider
@@ -7,10 +7,11 @@ run-name: "${{ github.event_name == 'schedule' && 'Tahmin · gunluk (oncesi + ca
 on:
   # Her sabah: once mac oncesi tercihler (dunun sonucu + gunun listesi),
   # ardindan canli tarama 00:00'a kadar calisir.
-  # GitHub'in zamanlayicisi yogunlukta calismalari geciktirip hatta
-  # dusurebiliyor (02.11 sabahi 07:00 hic tetiklenmedi). Bu yuzden tam
-  # saatten kacinan iki zamanlama var; ikisi de calisirsa ikincisi
-  # "bugun zaten yapildi mi" kontrolunde atlanir.
+  # GitHub'in zamanlayicisi bu repoda guvenilmez (02.11'de 9 saat gecikti,
+  # 03.11'de hic calismadi). Asil tetikleyici bekci.yml: 07:00'ye kadar
+  # bekleyip "gunluk" secenegiyle bu akisi baslatir. Asagidaki zamanlamalar
+  # yalnizca yedek; hangisi once gelirse calisir, digeri "bugun zaten
+  # yapildi mi" kontrolunde atlanir.
   schedule:
     - cron: "55 3 * * *"   # 06:55 TR -- asil
     - cron: "40 4 * * *"   # 07:40 TR -- yedek
@@ -24,6 +25,7 @@ on:
         options:
           - oncesi
           - canli
+          - gunluk    # oncesi + canli, zamanlanmis calisma gibi (bekci kullanir)
           - eksik     # yalnizca gitmemis olanlar: dunun raporlari, bugunun kuponu
       gun:
         description: "Tarama gunu GG.AA.YYYY (yalnizca tarama kendini yeniden tetiklediginde)"
@@ -37,7 +39,7 @@ permissions:
 
 jobs:
   oncesi:
-    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi' || inputs.hangisi == 'eksik'
+    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi' || inputs.hangisi == 'eksik' || inputs.hangisi == 'gunluk'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     concurrency:
@@ -57,7 +59,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           YOL: oncesi
-        run: bash otomasyon/bugun_yapildi_mi.sh "${{ github.event_name }}"
+        run: bash otomasyon/bugun_yapildi_mi.sh "${{ inputs.hangisi == 'gunluk' && 'schedule' || github.event_name }}"
 
       - uses: actions/setup-python@v5
         if: steps.kapi.outputs.calis == 'true'
@@ -89,7 +91,7 @@ jobs:
     # Gunluk calismada mac oncesi isi bitince baslar (bet365 verisi ve
     # liste arsivi hazir olsun); elle tetiklenince dogrudan baslar.
     needs: oncesi
-    if: ${{ !cancelled() && (github.event_name == 'schedule' || inputs.hangisi == 'canli') }}
+    if: ${{ !cancelled() && (github.event_name == 'schedule' || inputs.hangisi == 'canli' || inputs.hangisi == 'gunluk') }}
     runs-on: ubuntu-latest
     # GitHub'in ust siniri 6 saat; tarama 340 dk sonra kendini yeniden
     # tetikleyip cikar, kalan pay kayit yazmak icin.
@@ -109,7 +111,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           YOL: kayit
-        run: bash otomasyon/bugun_yapildi_mi.sh "${{ github.event_name }}"
+        run: bash otomasyon/bugun_yapildi_mi.sh "${{ inputs.hangisi == 'gunluk' && 'schedule' || github.event_name }}"
 
       - uses: actions/setup-python@v5
         if: steps.kapi.outputs.calis == 'true'
@@ -124,6 +126,15 @@ jobs:
       - name: bet365 verisini hazirla
         if: ${{ steps.kapi.outputs.calis == 'true' && !inputs.gun }}
         run: bash otomasyon/bet365_hazirla.sh
+
+      # Bekci zinciri koptuysa (iptal, GitHub hatasi) yeniden kurulsun;
+      # yeni bekci eskisini iptal eder, ayni anda tek bekci kalir.
+      - name: Bekciyi kur
+        if: steps.kapi.outputs.calis == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run bekci.yml --repo "$GITHUB_REPOSITORY" || echo "UYARI - bekci baslatilamadi"
 
       - name: Canli tarama
         if: steps.kapi.outputs.calis == 'true'

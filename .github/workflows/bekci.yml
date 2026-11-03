@@ -1,0 +1,48 @@
+name: Bekci
+run-name: "Bekci · 07:00 bekleniyor"
+
+# GitHub'in zamanlayicisi (schedule) bu repoda saatlerce gecikiyor ya da
+# hic calismiyor. Bekci her zaman calisan bir isle bekler: 07:00'ye (TR)
+# kadar uyur, Tahmin akisini "gunluk" secenegiyle baslatir ve ertesi gun
+# icin kendini yeniden tetikler. Bir is en fazla 6 saat surebildiginden
+# uzun beklemeler 340 dakikalik parcalara bolunur.
+# Ayni anda tek bekci calisir: yenisi baslayinca eskisi iptal edilir.
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+concurrency:
+  group: bekci
+  cancel-in-progress: true
+
+jobs:
+  bekle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: 07:00'ye kadar bekle, sonra gunluk calismayi baslat
+        run: |
+          set -uo pipefail
+          HEDEF_UTC="04:00"          # 07:00 TR (Turkiye'de yaz saati yok)
+          PARCA=$((340 * 60))
+          simdi=$(date -u +%s)
+          hedef=$(date -u -d "today ${HEDEF_UTC}" +%s)
+          [ "$hedef" -le "$simdi" ] && hedef=$((hedef + 86400))
+          kalan=$((hedef - simdi))
+          echo "Hedef: $(TZ=Europe/Istanbul date -d @${hedef} '+%d.%m.%Y %H:%M') TR, kalan $((kalan / 60)) dk"
+          if [ "$kalan" -gt "$PARCA" ]; then
+            sleep "$PARCA"
+            gh workflow run bekci.yml --repo "$GITHUB_REPOSITORY"
+            exit 0
+          fi
+          sleep "$kalan"
+          for deneme in 1 2 3 4; do
+            gh workflow run tahmin.yml --repo "$GITHUB_REPOSITORY" -f hangisi=gunluk && break
+            sleep $((deneme * 15))
+          done
+          echo "Gunluk calisma baslatildi."
+          gh workflow run bekci.yml --repo "$GITHUB_REPOSITORY"
