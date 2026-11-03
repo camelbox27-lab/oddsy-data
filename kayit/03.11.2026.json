@@ -85,10 +85,12 @@
      "dk": 45,
      "xg": 1.46,
      "isb": 3.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 15,
    "iki_gol_dk": 18,
    "iy": [
