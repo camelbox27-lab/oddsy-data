@@ -59,7 +59,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 20,
    "iy": [
     0,
@@ -93,7 +93,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 11,
    "iki_gol_dk": 29,
    "iy": [
@@ -138,7 +138,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -254,7 +254,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 41,
    "iy": [
     0,
@@ -274,12 +274,33 @@
      "durum": "kazandi",
      "dk": 17,
      "skor": "2-0"
+    },
+    "ms45": {
+     "id": 251,
+     "durum": "acik",
+     "dk": null,
+     "skor": "3-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      3,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.93,
+     "isb": 6.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 5,
-   "iki_gol_dk": 17
+   "iki_gol_dk": 17,
+   "iy": [
+    3,
+    0
+   ]
   },
   "8xJzdfvq": {
    "bahis": {},
@@ -298,11 +319,26 @@
        "isb": 3.0,
        "buy": 2.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.37,
+     "isb": 4.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 26
+   "son": "da",
+   "ilk_gol_dk": 26,
+   "iy": [
+    1,
+    0
+   ]
   },
   "SfwERv5N": {
    "bahis": {
@@ -348,7 +384,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 42,
    "iy": [
     0,
@@ -435,7 +471,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -575,9 +611,24 @@
   },
   "tGbMn4el": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
-   "ilk_gol_dk": 9
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.11,
+     "isb": 4.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
+   "ilk_gol_dk": 9,
+   "iy": [
+    1,
+    0
+   ]
   },
   "Y7dW9kaT": {
    "bahis": {
@@ -594,17 +645,47 @@
      "skor": "0-2"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      4
+     ],
+     "dk": 45,
+     "xg": 1.92,
+     "isb": 9.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 13,
-   "iki_gol_dk": 13
+   "iki_gol_dk": 13,
+   "iy": [
+    0,
+    4
+   ]
   },
   "xK9rfn3E": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.46,
+     "isb": 5.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 12,
-   "iki_gol_dk": 37
+   "iki_gol_dk": 37,
+   "iy": [
+    0,
+    2
+   ]
   },
   "YqbyqjVg": {
    "bahis": {
@@ -657,7 +738,14 @@
    ]
   },
   "6TK5I5v3": {
-   "bahis": {},
+   "bahis": {
+    "ms45": {
+     "id": 252,
+     "durum": "acik",
+     "dk": null,
+     "skor": "3-0"
+    }
+   },
    "gozlem": {
     "k5": {
      "olcum": {
@@ -667,12 +755,27 @@
        "isb": 3.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      3,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.83,
+     "isb": 6.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 22,
-   "iki_gol_dk": 41
+   "iki_gol_dk": 41,
+   "iy": [
+    3,
+    0
+   ]
   },
   "8rnngLzB": {
    "bahis": {
@@ -684,15 +787,30 @@
     },
     "iy25": {
      "id": 245,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 19,
      "skor": "0-2"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.72,
+     "isb": 4.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 13,
-   "iki_gol_dk": 19
+   "iki_gol_dk": 19,
+   "iy": [
+    0,
+    2
+   ]
   },
   "fF7ZdLwo": {
    "bahis": {},
@@ -744,8 +862,8 @@
   "23:00": 230
  },
  "liste_son": {
-  "tGbMn4el": "1y",
-  "Y7dW9kaT": "1y",
+  "tGbMn4el": "da",
+  "Y7dW9kaT": "da",
   "fF7ZdLwo": "bitti",
   "Wx31QD9m": "iptal"
  },
