@@ -169,7 +169,18 @@
   },
   "8xJzdfvq": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.18,
+       "isb": 2.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "SfwERv5N": {
@@ -413,11 +424,18 @@
      "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
+    },
+    "iy25": {
+     "id": 245,
+     "durum": "acik",
+     "dk": 19,
+     "skor": "0-2"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 13
+   "ilk_gol_dk": 13,
+   "iki_gol_dk": 19
   },
   "fF7ZdLwo": {
    "bahis": {},
