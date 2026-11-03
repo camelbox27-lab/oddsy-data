@@ -185,11 +185,26 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.99,
+     "isb": 3.0,
+     "buy": 3.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 24
+   "son": "da",
+   "ilk_gol_dk": 24,
+   "iy": [
+    2,
+    0
+   ]
   },
   "S88UBEff": {
    "bahis": {},
@@ -208,10 +223,12 @@
  "liste_son": {
   "tGbMn4el": "once",
   "Y7dW9kaT": "once",
-  "fF7ZdLwo": "1y",
+  "fF7ZdLwo": "da",
   "Wx31QD9m": "iptal"
  },
  "liste_kazanan": {
-  "fF7ZdLwo": []
+  "fF7ZdLwo": [
+   "iy15"
+  ]
  }
 }
