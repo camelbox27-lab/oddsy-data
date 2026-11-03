@@ -88,7 +88,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 15,
    "iki_gol_dk": 18,
    "iy": [
@@ -130,10 +130,12 @@
      "dk": 45,
      "xg": 0.67,
      "isb": 2.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "da",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -199,7 +201,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 24,
    "iy": [
     2,
@@ -223,7 +225,7 @@
  "liste_son": {
   "tGbMn4el": "once",
   "Y7dW9kaT": "once",
-  "fF7ZdLwo": "da",
+  "fF7ZdLwo": "2y",
   "Wx31QD9m": "iptal"
  },
  "liste_kazanan": {
