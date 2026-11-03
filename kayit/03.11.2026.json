@@ -71,15 +71,30 @@
     },
     "iy25": {
      "id": 224,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 18,
      "skor": "2-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.46,
+     "isb": 3.0,
+     "buy": 4.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 15,
-   "iki_gol_dk": 18
+   "iki_gol_dk": 18,
+   "iy": [
+    2,
+    0
+   ]
   },
   "QXNphZjA": {
    "bahis": {},
