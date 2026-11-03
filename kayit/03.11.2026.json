@@ -129,7 +129,9 @@
    "son": "iptal"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "21:00": 222
+ },
  "liste_son": {
   "tGbMn4el": "once",
   "Y7dW9kaT": "once",
