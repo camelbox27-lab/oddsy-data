@@ -1,0 +1,72 @@
+{
+ "tarih": "03.11.2026",
+ "ust25": [
+  {
+   "kod": "Y7dW9kaT",
+   "saat": "23:00",
+   "ev": "FC Villarreal",
+   "dep": "PSG",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 4.33
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "fF7ZdLwo",
+   "saat": "21:00",
+   "ev": "IK Sirius",
+   "dep": "Halmstads BK",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 5.75
+  },
+  {
+   "kod": "Wx31QD9m",
+   "saat": "21:00",
+   "ev": "Pamplona",
+   "dep": "SD Eibar",
+   "lig": "SPANIEN Copa del Rey",
+   "beraberlik": 6.0
+  },
+  {
+   "kod": "tGbMn4el",
+   "saat": "23:00",
+   "ev": "FC Barcelona",
+   "dep": "Aston Villa",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 7.0
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "Y7dW9kaT",
+    "ev": "Villarreal",
+    "dep": "PSG",
+    "saat": "23:00",
+    "lig": "Avrupa Şampiyonlar Ligi",
+    "beraberlik": 4.33,
+    "ust25": 1.18
+   },
+   {
+    "kod": "xK9rfn3E",
+    "ev": "Feyenoord",
+    "dep": "Inter",
+    "saat": "23:00",
+    "lig": "Avrupa Şampiyonlar Ligi",
+    "beraberlik": 4.1,
+    "ust25": 1.25
+   },
+   {
+    "kod": "YqbyqjVg",
+    "ev": "Bodo/Glimt",
+    "dep": "Lille",
+    "saat": "23:00",
+    "lig": "Avrupa Şampiyonlar Ligi",
+    "beraberlik": 4.1,
+    "ust25": 1.3
+   }
+  ],
+  "toplam": 1.92
+ },
+ "sonuclandi": false
+}
