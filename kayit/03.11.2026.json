@@ -68,11 +68,18 @@
      "durum": "kazandi",
      "dk": 2,
      "skor": "0-0"
+    },
+    "iy25": {
+     "id": 224,
+     "durum": "acik",
+     "dk": 18,
+     "skor": "2-0"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 15
+   "ilk_gol_dk": 15,
+   "iki_gol_dk": 18
   },
   "QXNphZjA": {
    "bahis": {},
@@ -117,7 +124,7 @@
   "fF7ZdLwo": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "S88UBEff": {
    "bahis": {},
@@ -136,7 +143,10 @@
  "liste_son": {
   "tGbMn4el": "once",
   "Y7dW9kaT": "once",
-  "fF7ZdLwo": "once",
+  "fF7ZdLwo": "1y",
   "Wx31QD9m": "iptal"
+ },
+ "liste_kazanan": {
+  "fF7ZdLwo": []
  }
 }
