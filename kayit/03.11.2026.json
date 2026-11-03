@@ -151,14 +151,21 @@
    "bahis": {
     "iy15": {
      "id": 232,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 5,
      "skor": "1-0"
+    },
+    "iy25": {
+     "id": 242,
+     "durum": "acik",
+     "dk": 17,
+     "skor": "2-0"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 5
+   "ilk_gol_dk": 5,
+   "iki_gol_dk": 17
   },
   "8xJzdfvq": {
    "bahis": {},
@@ -214,6 +221,12 @@
       "25": {
        "dk": 25,
        "xg": 0.21,
+       "isb": 1.0,
+       "buy": 2.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.61,
        "isb": 1.0,
        "buy": 2.0
       }
@@ -360,7 +373,7 @@
     },
     "iy25": {
      "id": 239,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 13,
      "skor": "0-2"
     }
@@ -466,6 +479,8 @@
    "iy15"
   ],
   "tGbMn4el": [],
-  "Y7dW9kaT": []
+  "Y7dW9kaT": [
+   "ust25"
+  ]
  }
 }
