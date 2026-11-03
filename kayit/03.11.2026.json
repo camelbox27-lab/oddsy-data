@@ -222,10 +222,12 @@
      "dk": 45,
      "xg": 1.99,
      "isb": 3.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 24,
    "iy": [
     2,
@@ -249,7 +251,7 @@
  "liste_son": {
   "tGbMn4el": "once",
   "Y7dW9kaT": "once",
-  "fF7ZdLwo": "2y",
+  "fF7ZdLwo": "bitti",
   "Wx31QD9m": "iptal"
  },
  "liste_kazanan": {
