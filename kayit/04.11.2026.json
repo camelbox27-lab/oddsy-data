@@ -114,7 +114,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 14,
    "iki_gol_dk": 39,
    "iy": [
@@ -195,11 +195,26 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.76,
+     "isb": 2.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 35
+   "son": "da",
+   "ilk_gol_dk": 35,
+   "iy": [
+    1,
+    0
+   ]
   },
   "Of4b1TYR": {
    "bahis": {},
@@ -346,10 +361,25 @@
   },
   "6Zinb7I7": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.96,
+     "isb": 4.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 15,
-   "iki_gol_dk": 45
+   "iki_gol_dk": 45,
+   "iy": [
+    1,
+    1
+   ]
   },
   "ptuqtEuP": {
    "bahis": {
@@ -375,11 +405,26 @@
        "isb": 2.0,
        "buy": 2.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 2.54,
+     "isb": 7.0,
+     "buy": 5.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 27
+   "son": "da",
+   "ilk_gol_dk": 27,
+   "iy": [
+    0,
+    1
+   ]
   },
   "YVOHJ5R1": {
    "bahis": {
@@ -411,18 +456,55 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.85,
+     "isb": 3.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 41
+   "son": "da",
+   "ilk_gol_dk": 41,
+   "iy": [
+    0,
+    1
+   ]
   },
   "QVtE7T8m": {
-   "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 278,
+     "durum": "acik",
+     "dk": null,
+     "skor": "0-3"
+    }
+   },
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      3
+     ],
+     "dk": 45,
+     "xg": 2.1,
+     "isb": 6.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 12,
-   "iki_gol_dk": 33
+   "iki_gol_dk": 33,
+   "iy": [
+    0,
+    3
+   ]
   },
   "nBxtZvSs": {
    "bahis": {},
@@ -574,9 +656,9 @@
   "4EXrkztC": "2y",
   "E3VsH66d": "bitti",
   "Ao5br4Mh": "1y",
-  "ptuqtEuP": "1y",
-  "YVOHJ5R1": "1y",
-  "QVtE7T8m": "1y",
+  "ptuqtEuP": "da",
+  "YVOHJ5R1": "da",
+  "QVtE7T8m": "da",
   "nBxtZvSs": "da",
   "4GCn9tph": "da"
  },
