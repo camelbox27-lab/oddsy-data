@@ -141,6 +141,12 @@
        "xg": 0.5,
        "isb": 1.0,
        "buy": 1.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.75,
+       "isb": 1.0,
+       "buy": 1.0
       }
      }
     }
@@ -227,7 +233,8 @@
   "6Zinb7I7": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 15
   },
   "ptuqtEuP": {
    "bahis": {
@@ -268,7 +275,8 @@
   "4GCn9tph": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 15
   },
   "fTyRNTVP": {
    "bahis": {},
