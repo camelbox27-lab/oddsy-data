@@ -58,7 +58,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 29
+   "ilk_gol_dk": 29,
+   "iki_gol_dk": 32
   },
   "Ao5br4Mh": {
    "bahis": {},
@@ -204,6 +205,8 @@
   "4GCn9tph": "once"
  },
  "liste_kazanan": {
-  "E3VsH66d": []
+  "E3VsH66d": [
+   "iy15"
+  ]
  }
 }
