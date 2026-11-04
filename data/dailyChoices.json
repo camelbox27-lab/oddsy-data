@@ -1,202 +1,82 @@
 [
   {
-    "event_id": "UPfbB32n",
-    "home_team": "Karmiotissa",
-    "away_team": "Ermis",
-    "league": "ZYPERN Pokal Zypern",
-    "saat": "20:00",
+    "event_id": "8CkD3DlK",
+    "home_team": "Majevica",
+    "away_team": "FK Sutjeska Foča",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - RS",
+    "saat": "15:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
-    "tarih": "03.11.2026"
+    "2_5_ust": 1.75,
+    "tarih": "04.11.2026"
   },
   {
-    "event_id": "SGSUoDnR",
-    "home_team": "Galatasaray Istanbul",
-    "away_team": "VfB Stuttgart",
-    "league": "EUROPA Champions League - Ligaphase",
-    "saat": "20:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.33,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "WSw5LwBd",
-    "home_team": "Cambridge United",
-    "away_team": "Brighton & Hove Albion U21",
-    "league": "ENGLAND EFL Trophy",
-    "saat": "22:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "jJ9wEMAt",
-    "home_team": "Charlton Athletic U21",
-    "away_team": "Stockport County U21",
-    "league": "ENGLAND Premier League Cup",
-    "saat": "22:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.33,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "QBzkvG4C",
-    "home_team": "Annan",
-    "away_team": "Ayr",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.48,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "E9ULhFJ5",
-    "home_team": "Bonnyrigg Rose",
-    "away_team": "Dunfermline",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.48,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "zam3mKsQ",
-    "home_team": "East Kilbride",
-    "away_team": "Stirling",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.4,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "0Si9RxL6",
-    "home_team": "Edinburgh City",
-    "away_team": "Partick Thistle",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "WUYYsb5m",
-    "home_team": "FC Aberdeen B",
-    "away_team": "Queen's Park",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.48,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "SEg1Tbjf",
-    "home_team": "FC St. Mirren B",
-    "away_team": "Peterhead",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
+    "event_id": "C6FyidBa",
+    "home_team": "Cardiff City",
+    "away_team": "West Ham United",
+    "league": "ENGLAND Championship",
     "saat": "22:45",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.36,
-    "tarih": "03.11.2026"
+    "tarih": "04.11.2026"
   },
   {
-    "event_id": "jZaNzsbK",
-    "home_team": "Spartans FC",
-    "away_team": "Livingston",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
+    "event_id": "4EXrkztC",
+    "home_team": "Wrexham",
+    "away_team": "FC Middlesbrough",
+    "league": "ENGLAND Championship",
     "saat": "22:45",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "03.11.2026"
+    "2_5_ust": 1.62,
+    "tarih": "04.11.2026"
   },
   {
-    "event_id": "vg7E1ClJ",
-    "home_team": "Atlético Madrid",
-    "away_team": "Bayern München",
-    "league": "EUROPA Champions League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "Y7dW9kaT",
-    "home_team": "FC Villarreal",
-    "away_team": "PSG",
-    "league": "EUROPA Champions League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.33,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "xK9rfn3E",
-    "home_team": "Feyenoord Rotterdam",
-    "away_team": "Inter Mailand",
-    "league": "EUROPA Champions League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.4,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "YqbyqjVg",
-    "home_team": "FK Bodø/Glimt",
-    "away_team": "OSC Lille",
-    "league": "EUROPA Champions League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "8rnngLzB",
-    "home_team": "Manchester United",
-    "away_team": "AS Rom",
+    "event_id": "Ao5br4Mh",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Betis Sevilla",
     "league": "EUROPA Champions League - Ligaphase",
     "saat": "23:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.5,
-    "tarih": "03.11.2026"
+    "tarih": "04.11.2026"
   },
   {
-    "event_id": "Wx31QD9m",
-    "home_team": "Pamplona",
-    "away_team": "SD Eibar",
-    "league": "SPANIEN Copa del Rey",
-    "saat": "21:00",
+    "event_id": "ptuqtEuP",
+    "home_team": "PSV Eindhoven",
+    "away_team": "FC Brügge",
+    "league": "EUROPA Champions League - Ligaphase",
+    "saat": "23:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.36,
+    "tarih": "04.11.2026"
+  },
+  {
+    "event_id": "YVOHJ5R1",
+    "home_team": "RB Leipzig",
+    "away_team": "Manchester City",
+    "league": "EUROPA Champions League - Ligaphase",
+    "saat": "23:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.3,
+    "tarih": "04.11.2026"
+  },
+  {
+    "event_id": "E3VsH66d",
+    "home_team": "Fenerbahçe Istanbul",
+    "away_team": "FC Liverpool",
+    "league": "EUROPA Champions League - Ligaphase",
+    "saat": "20:45",
     "kategori": "3.5 Üst",
-    "3_5_ust": 2.75,
-    "tarih": "03.11.2026"
+    "3_5_ust": 1.91,
+    "tarih": "04.11.2026"
   },
   {
-    "event_id": "fF7ZdLwo",
-    "home_team": "IK Sirius",
-    "away_team": "Halmstads BK",
-    "league": "SCHWEDEN Allsvenskan",
-    "saat": "21:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.83,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "MHjgVKLs",
-    "home_team": "Inverness",
-    "away_team": "Montrose",
-    "league": "SCHOTTLAND Challenge Cup - Playoffs",
-    "saat": "22:45",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.1,
-    "tarih": "03.11.2026"
-  },
-  {
-    "event_id": "tGbMn4el",
-    "home_team": "FC Barcelona",
-    "away_team": "Aston Villa",
+    "event_id": "4GCn9tph",
+    "home_team": "Viking FK",
+    "away_team": "Sabah FK",
     "league": "EUROPA Champions League - Ligaphase",
     "saat": "23:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.5,
-    "tarih": "03.11.2026"
+    "3_5_ust": 1.8,
+    "tarih": "04.11.2026"
   }
 ]
