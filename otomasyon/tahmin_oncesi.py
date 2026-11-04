@@ -17,7 +17,8 @@ Yalnizca otomasyon/ligler.py'deki ligler (majör ligler ve alt ligleri;
 kadin, altyapi, rezerv yok). Kurallar birbirinden bagimsizdir: bir mac ikisine birden uyarsa iki
 listede de gorunur. Mesajda oran yazilmaz (Wondiyo kanalindaki gibi).
 
-En sonda gunun kuponu (otomasyon/kupon.py) ayni gruba gonderilir.
+En sonda gunun kuponu (otomasyon/kupon.py) ayni gruba gonderilir:
+1 x 3.5 Üst, 1 x İY 1.5 Üst, 2 x 2.5 Üst, listelerden en dusuk oranlilar.
 
 SONUCLANDIRMA: gonderilen liste (kupon dahil) 'canli-kayit' dalinda
 oncesi/GG.AA.YYYY.json olarak arsivlenir. Ertesi gun butona basilinca
@@ -27,7 +28,7 @@ basilirsa liste birlestirilir; sonuclandirma bir kez gonderilir.
   2.5 Üst  : macin 90 dk toplam golu >= 3
   3.5 Üst  : >= 4
   İY 1.5 Üst: ilk yari toplam golu >= 2
-  Kupon    : 4 macin hepsinde 2.5 Üst tutarsa kazandi
+  Kupon    : her mac kendi bahsiyle; hepsi tutarsa kazandi
 Arsivi olmayan gun (bu ozellikten onceki gunler) bet365 dosyasindan ayni
 kurallarla yeniden kurulur; kupon o durumda sonuclandirilamaz.
 """
@@ -89,12 +90,14 @@ def bet365_kayitlari(gun):
     return json.loads(dosya.read_text(encoding="utf-8"))
 
 
-def tercihler(gun, sadece_baslamamis=True):
+def _maclar(gun, sadece_baslamamis=True):
+    """Lig filtresine uyan, (istenirse) baslamamis, beraberlik orani olan maclar:
+    [(bet365 kaydi, mac)]"""
     kayitlar = bet365_kayitlari(gun)
     if kayitlar is None:
         return None
     simdi = dt.datetime.now()
-    ust25, ust35 = [], []
+    sonuc = []
     for r in kayitlar:
         z = _zaman(r.get("Tarih"))
         if z is None or z.date() != gun:
@@ -113,7 +116,24 @@ def tercihler(gun, sadece_baslamamis=True):
             "dep": r.get("Dep") or "",
             "lig": r.get("Lig") or "",
             "beraberlik": ms0,
+            "oran": {a: oran(r, a) for a in ("UST25", "UST35", "IYUST15")},
         }
+        sonuc.append((r, m))
+    return sonuc
+
+
+def genel_maclar(gun):
+    """Kupon icin yedek havuz: kurala bakmadan butun uygun maclar."""
+    return [m for _, m in (_maclar(gun) or [])]
+
+
+def tercihler(gun, sadece_baslamamis=True):
+    maclar = _maclar(gun, sadece_baslamamis)
+    if maclar is None:
+        return None
+    ust25, ust35 = [], []
+    for r, m in maclar:
+        ms0 = m["beraberlik"]
         if oran(r, "UST25") in UST25_ORANLARI or ms0 in UST25_BERABERLIK:
             ust25.append(m)
         if ms0 in UST35_BERABERLIK:
@@ -221,15 +241,19 @@ def sonuc_mesaji(arsiv, kaynak, skor, gun, toplam=None):
         durumlar = []
         for m in kupon["maclar"]:
             s = skor.get(m.get("kod"))
-            ev, dep = tg.kacir(m["ev"]), tg.kacir(m["dep"])
+            ev = tg.kacir(tr_isim.takim(m["ev"]))
+            dep = tg.kacir(tr_isim.takim(m["dep"]))
+            # eski kuponlarda bahis alani yok: hepsi 2.5 Ust idi
+            _, kisa, tur, esik = KURAL[m.get("bahis", "ust25")]
             if not s:
                 durumlar.append(None)
-                detay.append(f"\u26aa <code>  \u2013  </code>  {ev} \u2013 {dep}")
+                detay.append(f"\u26aa <code>  \u2013  </code>  {ev} \u2013 {dep} \u00b7 {kisa}")
                 continue
-            e, d_ = s["ms"]
-            durumlar.append(e + d_ >= 3)
-            im = TUTTU if e + d_ >= 3 else TUTMADI
-            detay.append(f"{im} <code>{e}-{d_}</code>  {ev} \u2013 {dep}")
+            e, d_ = s[tur]
+            durumlar.append(e + d_ >= esik)
+            im = TUTTU if e + d_ >= esik else TUTMADI
+            on = "\u0130Y " if tur == "iy" else ""
+            detay.append(f"{im} <code>{on}{e}-{d_}</code>  {ev} \u2013 {dep} \u00b7 {kisa}")
         if False in durumlar:
             kd = "\u274c KAYBETT\u0130"
         elif None in durumlar:
@@ -346,17 +370,17 @@ def kupon_mesaji(k):
     satirlar = [
         "<b>\U0001f3ab GÜNÜN KUPONU</b>",
         f"<i>{tg.kacir(tr_isim.tarih(k['tarih']))}</i>",
-        "",
     ]
     for m in k["maclar"]:
-        satirlar.append(f"<code>{tg.kacir(m['saat'])}</code>  "
-                        f"<b>{tg.kacir(m['ev'])} – {tg.kacir(m['dep'])}</b>")
-        satirlar.append(f"        maç sonucu 2.5 üst &gt; "
-                        f"<b>{m['ust25']:.2f}</b>")
-    satirlar += ["", f"\U0001f4b0 <b>TOPLAM ORAN: {k['toplam']:.2f}</b>"]
-    if not k.get("hedefte", True):
-        satirlar.append("<i>(bugünkü adaylarla 4.00-10.00 aralığına "
-                        "ulaşılamadı, en yakını seçildi)</i>")
+        bayrak, lig = tr_isim.lig(m.get("lig", ""))
+        ev = tg.kacir(tr_isim.takim(m["ev"]))
+        dep = tg.kacir(tr_isim.takim(m["dep"]))
+        satirlar += ["",
+                     f"<code>{tg.kacir(m['saat'])}</code>  <b>{ev} – {dep}</b>",
+                     f"{bayrak} {tg.kacir(lig)}".strip(),
+                     f"\U0001f3af {tg.kacir(kupon_modulu.BAHISLER[m['bahis']][1])} · <b>{m['oran']:.2f}</b>"]
+    satirlar += ["", f"\U0001f4b0 <b>TOPLAM ORAN: {k['toplam']:.2f}</b>",
+                 "<i>(bet365 oranları)</i>"]
     return tg.parcala(satirlar)
 
 
@@ -378,6 +402,28 @@ def main():
         return 1
     print(f"2.5 Ust: {len(t['ust25'])} mac | 3.5 Ust / IY 1.5 Ust: {len(t['ust35'])} mac",
           flush=True)
+    # SADECE_KUPON=1: yalnizca bugunun kuponu (yeniden) olusturulup gonderilir;
+    # arsivdeki kupon bununla degistirilir (yarin bu sonuclandirilir).
+    if os.environ.get("SADECE_KUPON") == "1":
+        k = kupon_modulu.kupon(gun, t, genel_maclar(gun))
+        if not k:
+            print("Kupon olusturulamadi (uygun mac yok).")
+            return 1
+        try:
+            tg.hepsini_gonder(token, chat, kupon_mesaji(k))
+        except tg.ChatBulunamadi as e:
+            print(f"HATA: {e}")
+            return 1
+        ak = canli_tarama.Kayit(gun, "oncesi")
+        ak.oku()
+        if "ust25" in ak.veri:
+            ak.veri["kupon"] = {"maclar": k["maclar"], "toplam": k["toplam"]}
+            ak.yaz()
+        else:
+            bugunu_arsivle(gun, t, k)
+        print("OK: kupon gonderildi.")
+        return 0
+
     # SADECE_EKSIK=1: bugunun listesi tekrar gonderilmez; yalnizca henuz
     # gitmemis olanlar gider (dunun raporlari, bugunun kuponu).
     sadece_eksik = os.environ.get("SADECE_EKSIK") == "1"
@@ -420,7 +466,7 @@ def main():
             print(f"UYARI: bugunun arsivi okunamadi: {e}", flush=True)
     if not kupon_gitti:
         try:
-            k = kupon_modulu.kupon(gun)
+            k = kupon_modulu.kupon(gun, t, genel_maclar(gun))
             if k and k["maclar"]:
                 parcalar += kupon_mesaji(k)
             else:
