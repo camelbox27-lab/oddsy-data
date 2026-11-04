@@ -1,0 +1,104 @@
+{
+ "tarih": "04.11.2026",
+ "ust25": [
+  {
+   "kod": "4EXrkztC",
+   "saat": "22:45",
+   "ev": "Wrexham",
+   "dep": "FC Middlesbrough",
+   "lig": "ENGLAND Championship",
+   "beraberlik": 4.0
+  },
+  {
+   "kod": "Ao5br4Mh",
+   "saat": "23:00",
+   "ev": "Borussia Dortmund",
+   "dep": "Betis Sevilla",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 4.33
+  },
+  {
+   "kod": "ptuqtEuP",
+   "saat": "23:00",
+   "ev": "PSV Eindhoven",
+   "dep": "FC Brügge",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 4.33
+  },
+  {
+   "kod": "YVOHJ5R1",
+   "saat": "23:00",
+   "ev": "RB Leipzig",
+   "dep": "Manchester City",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 4.75
+  },
+  {
+   "kod": "QVtE7T8m",
+   "saat": "23:00",
+   "ev": "RC Lens",
+   "dep": "Como 1907",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 3.8
+  },
+  {
+   "kod": "nBxtZvSs",
+   "saat": "23:00",
+   "ev": "Slavia Prag",
+   "dep": "FC Arsenal",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 6.5
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "E3VsH66d",
+   "saat": "20:45",
+   "ev": "Fenerbahçe Istanbul",
+   "dep": "FC Liverpool",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 5.0
+  },
+  {
+   "kod": "4GCn9tph",
+   "saat": "23:00",
+   "ev": "Viking FK",
+   "dep": "Sabah FK",
+   "lig": "EUROPA Champions League - Ligaphase",
+   "beraberlik": 5.0
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "E3VsH66d",
+    "ev": "Fenerbahçe",
+    "dep": "Liverpool",
+    "saat": "20:45",
+    "lig": "Avrupa Şampiyonlar Ligi",
+    "beraberlik": 5.0,
+    "ust25": 1.21
+   },
+   {
+    "kod": "YVOHJ5R1",
+    "ev": "Leipzig",
+    "dep": "Man. City",
+    "saat": "23:00",
+    "lig": "Avrupa Şampiyonlar Ligi",
+    "beraberlik": 4.75,
+    "ust25": 1.16
+   },
+   {
+    "kod": "4GCn9tph",
+    "ev": "Viking",
+    "dep": "Sabah",
+    "saat": "23:00",
+    "lig": "Avrupa Şampiyonlar Ligi",
+    "beraberlik": 5.0,
+    "ust25": 1.19
+   }
+  ],
+  "toplam": 1.67
+ },
+ "sonuclandi": false
+}
