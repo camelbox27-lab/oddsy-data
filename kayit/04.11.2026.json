@@ -38,7 +38,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -94,12 +94,33 @@
      "durum": "kazandi",
      "dk": 2,
      "skor": "0-0"
+    },
+    "ms45": {
+     "id": 275,
+     "durum": "acik",
+     "dk": null,
+     "skor": "3-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      3,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.39,
+     "isb": 5.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 14,
-   "iki_gol_dk": 39
+   "iki_gol_dk": 39,
+   "iy": [
+    3,
+    0
+   ]
   },
   "4EXrkztC": {
    "bahis": {
