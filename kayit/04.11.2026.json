@@ -35,14 +35,28 @@
    "son": "1y"
   },
   "C6FyidBa": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 265,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4EXrkztC": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 266,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "G2MrfY8e": {
    "bahis": {},
@@ -52,7 +66,7 @@
   "Of4b1TYR": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "8nfvNJGd": {
    "bahis": {},
@@ -256,7 +270,7 @@
   "22:45": 264
  },
  "liste_son": {
-  "4EXrkztC": "once",
+  "4EXrkztC": "1y",
   "E3VsH66d": "bitti",
   "Ao5br4Mh": "once",
   "ptuqtEuP": "once",
@@ -269,6 +283,7 @@
   "E3VsH66d": [
    "iy15",
    "ust35"
-  ]
+  ],
+  "4EXrkztC": []
  }
 }
