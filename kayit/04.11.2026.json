@@ -367,7 +367,8 @@
    "bahis": {},
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 15
+   "ilk_gol_dk": 15,
+   "iki_gol_dk": 31
   },
   "fTyRNTVP": {
    "bahis": {},
@@ -490,7 +491,9 @@
   "ptuqtEuP": [],
   "QVtE7T8m": [],
   "nBxtZvSs": [],
-  "4GCn9tph": [],
+  "4GCn9tph": [
+   "iy15"
+  ],
   "Ao5br4Mh": [],
   "YVOHJ5R1": []
  }
