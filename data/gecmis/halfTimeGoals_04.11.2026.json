@@ -24,6 +24,14 @@
     "tarih": "04.11.2026"
   },
   {
+    "event_id": "4EXrkztC",
+    "home_team": "Wrexham",
+    "away_team": "FC Middlesbrough",
+    "league": "ENGLAND Championship",
+    "saat": "22:45",
+    "tarih": "04.11.2026"
+  },
+  {
     "event_id": "C6FyidBa",
     "home_team": "Cardiff City",
     "away_team": "West Ham United",
@@ -32,11 +40,11 @@
     "tarih": "04.11.2026"
   },
   {
-    "event_id": "4EXrkztC",
-    "home_team": "Wrexham",
-    "away_team": "FC Middlesbrough",
+    "event_id": "G2MrfY8e",
+    "home_team": "Bristol City",
+    "away_team": "Wolverhampton Wanderers",
     "league": "ENGLAND Championship",
-    "saat": "22:45",
+    "saat": "23:00",
     "tarih": "04.11.2026"
   },
   {
@@ -56,17 +64,17 @@
     "tarih": "04.11.2026"
   },
   {
-    "event_id": "4GCn9tph",
-    "home_team": "Viking FK",
-    "away_team": "Sabah FK",
+    "event_id": "YVOHJ5R1",
+    "home_team": "RB Leipzig",
+    "away_team": "Manchester City",
     "league": "EUROPA Champions League - Ligaphase",
     "saat": "23:00",
     "tarih": "04.11.2026"
   },
   {
-    "event_id": "YVOHJ5R1",
-    "home_team": "RB Leipzig",
-    "away_team": "Manchester City",
+    "event_id": "4GCn9tph",
+    "home_team": "Viking FK",
+    "away_team": "Sabah FK",
     "league": "EUROPA Champions League - Ligaphase",
     "saat": "23:00",
     "tarih": "04.11.2026"

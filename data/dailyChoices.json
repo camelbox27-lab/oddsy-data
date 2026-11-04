@@ -10,16 +10,6 @@
     "tarih": "04.11.2026"
   },
   {
-    "event_id": "C6FyidBa",
-    "home_team": "Cardiff City",
-    "away_team": "West Ham United",
-    "league": "ENGLAND Championship",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.36,
-    "tarih": "04.11.2026"
-  },
-  {
     "event_id": "4EXrkztC",
     "home_team": "Wrexham",
     "away_team": "FC Middlesbrough",
@@ -27,6 +17,16 @@
     "saat": "22:45",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.62,
+    "tarih": "04.11.2026"
+  },
+  {
+    "event_id": "C6FyidBa",
+    "home_team": "Cardiff City",
+    "away_team": "West Ham United",
+    "league": "ENGLAND Championship",
+    "saat": "22:45",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.36,
     "tarih": "04.11.2026"
   },
   {
