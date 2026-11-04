@@ -4,7 +4,7 @@
   "rgdRv7VI": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "x20cyFCD": {
    "bahis": {},
@@ -248,7 +248,8 @@
   }
  },
  "liste_slot": {
-  "20:45": 261
+  "20:45": 261,
+  "22:45": 264
  },
  "liste_son": {
   "4EXrkztC": "once",
