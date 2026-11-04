@@ -33,10 +33,25 @@
   },
   "8nfvNJGd": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.62,
+     "isb": 6.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 14,
-   "iki_gol_dk": 35
+   "iki_gol_dk": 35,
+   "iy": [
+    1,
+    1
+   ]
   },
   "E3VsH66d": {
    "bahis": {},
