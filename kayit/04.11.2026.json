@@ -328,7 +328,7 @@
    "bahis": {
     "iy05": {
      "id": 270,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 4,
      "skor": "0-0"
     }
@@ -354,10 +354,25 @@
        "isb": 3.0,
        "buy": 3.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.14,
+     "isb": 3.0,
+     "buy": 2.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "6Zinb7I7": {
    "bahis": {},
@@ -655,7 +670,7 @@
  "liste_son": {
   "4EXrkztC": "2y",
   "E3VsH66d": "bitti",
-  "Ao5br4Mh": "1y",
+  "Ao5br4Mh": "da",
   "ptuqtEuP": "da",
   "YVOHJ5R1": "da",
   "QVtE7T8m": "da",
