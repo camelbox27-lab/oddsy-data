@@ -1,4 +1,128 @@
 {
  "tarih": "04.11.2026",
- "maclar": {}
+ "maclar": {
+  "rgdRv7VI": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "x20cyFCD": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "C6FyidBa": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "4EXrkztC": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "G2MrfY8e": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "Of4b1TYR": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "8nfvNJGd": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "E3VsH66d": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "Ao5br4Mh": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "6Zinb7I7": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "ptuqtEuP": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "YVOHJ5R1": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "QVtE7T8m": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "nBxtZvSs": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "4GCn9tph": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "fTyRNTVP": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "bJ7ImZUs": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "QL5a2fyQ": {
+   "bahis": {
+    "ms45": {
+     "id": 259,
+     "durum": "acik",
+     "dk": null,
+     "skor": "1-3"
+    }
+   },
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      2
+     ],
+     "dk": 49,
+     "xg": null,
+     "isb": 5.0,
+     "buy": null
+    }
+   },
+   "son": "2y",
+   "iy": [
+    1,
+    2
+   ]
+  }
+ },
+ "liste_slot": {},
+ "liste_son": {
+  "4EXrkztC": "once",
+  "E3VsH66d": "once",
+  "Ao5br4Mh": "once",
+  "ptuqtEuP": "once",
+  "YVOHJ5R1": "once",
+  "QVtE7T8m": "once",
+  "nBxtZvSs": "once",
+  "4GCn9tph": "once"
+ }
 }
