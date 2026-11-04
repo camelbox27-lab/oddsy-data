@@ -72,33 +72,46 @@
   "maclar": [
    {
     "kod": "E3VsH66d",
-    "ev": "Fenerbahçe",
-    "dep": "Liverpool",
     "saat": "20:45",
-    "lig": "Avrupa Şampiyonlar Ligi",
-    "beraberlik": 5.0,
-    "ust25": 1.21
-   },
-   {
-    "kod": "YVOHJ5R1",
-    "ev": "Leipzig",
-    "dep": "Man. City",
-    "saat": "23:00",
-    "lig": "Avrupa Şampiyonlar Ligi",
-    "beraberlik": 4.75,
-    "ust25": 1.16
+    "ev": "Fenerbahçe Istanbul",
+    "dep": "FC Liverpool",
+    "lig": "EUROPA Champions League - Ligaphase",
+    "bahis": "iy15",
+    "oran": 1.91,
+    "listeden": true
    },
    {
     "kod": "4GCn9tph",
-    "ev": "Viking",
-    "dep": "Sabah",
     "saat": "23:00",
-    "lig": "Avrupa Şampiyonlar Ligi",
-    "beraberlik": 5.0,
-    "ust25": 1.19
+    "ev": "Viking FK",
+    "dep": "Sabah FK",
+    "lig": "EUROPA Champions League - Ligaphase",
+    "bahis": "ust35",
+    "oran": 1.88,
+    "listeden": true
+   },
+   {
+    "kod": "ptuqtEuP",
+    "saat": "23:00",
+    "ev": "PSV Eindhoven",
+    "dep": "FC Brügge",
+    "lig": "EUROPA Champions League - Ligaphase",
+    "bahis": "ust25",
+    "oran": 1.33,
+    "listeden": true
+   },
+   {
+    "kod": "YVOHJ5R1",
+    "saat": "23:00",
+    "ev": "RB Leipzig",
+    "dep": "Manchester City",
+    "lig": "EUROPA Champions League - Ligaphase",
+    "bahis": "ust25",
+    "oran": 1.33,
+    "listeden": true
    }
   ],
-  "toplam": 1.67
+  "toplam": 6.35
  },
  "sonuclandi": false
 }
