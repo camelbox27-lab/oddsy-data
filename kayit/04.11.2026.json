@@ -70,12 +70,27 @@
        "isb": 0.0,
        "buy": 3.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.77,
+     "isb": 3.0,
+     "buy": 4.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 29,
-   "iki_gol_dk": 32
+   "iki_gol_dk": 32,
+   "iy": [
+    1,
+    1
+   ]
   },
   "Ao5br4Mh": {
    "bahis": {},
@@ -212,7 +227,7 @@
  },
  "liste_son": {
   "4EXrkztC": "once",
-  "E3VsH66d": "1y",
+  "E3VsH66d": "da",
   "Ao5br4Mh": "once",
   "ptuqtEuP": "once",
   "YVOHJ5R1": "once",
