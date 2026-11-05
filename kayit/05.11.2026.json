@@ -85,10 +85,12 @@
      "dk": 45,
      "xg": 1.54,
      "isb": 5.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -165,10 +167,12 @@
      "dk": 45,
      "xg": 1.0,
      "isb": 4.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -279,10 +283,12 @@
      "dk": 45,
      "xg": 1.13,
      "isb": 2.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 31,
    "iy": [
     1,
@@ -311,10 +317,12 @@
      "dk": 45,
      "xg": 1.29,
      "isb": 5.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 24,
    "iy": [
     1,
@@ -362,10 +370,12 @@
      "dk": 45,
      "xg": 2.98,
      "isb": 5.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 4,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 37,
    "iy": [
     1,
@@ -496,10 +506,12 @@
      "dk": 45,
      "xg": 0.75,
      "isb": 6.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -601,10 +613,12 @@
      "dk": 45,
      "xg": 1.02,
      "isb": 0.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -644,10 +658,12 @@
      "dk": 45,
      "xg": 0.39,
      "isb": 0.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -824,18 +840,18 @@
  },
  "liste_son": {
   "0zJ5UuSq": "2y",
-  "hUC4nhiT": "2y",
+  "hUC4nhiT": "bitti",
   "bXOqBKM0": "bitti",
   "EVykFB1D": "bitti",
   "4GCxISZp": "bitti",
-  "Ob6SjhQO": "2y",
-  "EaLfUhVp": "2y",
-  "nJY69nUb": "2y",
+  "Ob6SjhQO": "bitti",
+  "EaLfUhVp": "bitti",
+  "nJY69nUb": "bitti",
   "GjMFkhwQ": "once",
   "fcLWxBac": "once",
   "Oteki5EU": "once",
   "6BkHDUkS": "once",
-  "WAlyu0zS": "2y",
+  "WAlyu0zS": "bitti",
   "vuQXWA23": "bitti",
   "dIBLsSGL": "once",
   "6qmGdP1U": "once",
