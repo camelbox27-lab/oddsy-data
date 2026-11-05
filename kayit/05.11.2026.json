@@ -247,11 +247,26 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.13,
+     "isb": 2.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 31
+   "son": "da",
+   "ilk_gol_dk": 31,
+   "iy": [
+    1,
+    0
+   ]
   },
   "EaLfUhVp": {
    "bahis": {},
@@ -315,11 +330,26 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 2.98,
+     "isb": 5.0,
+     "buy": 3.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 37
+   "son": "da",
+   "ilk_gol_dk": 37,
+   "iy": [
+    1,
+    0
+   ]
   },
   "GjMFkhwQ": {
    "bahis": {},
@@ -432,10 +462,25 @@
        "isb": 3.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.75,
+     "isb": 6.0,
+     "buy": 1.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "vLgy2j3T": {
    "bahis": {},
@@ -466,7 +511,7 @@
    "bahis": {
     "iy05": {
      "id": 290,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 3,
      "skor": "0-0"
     }
@@ -492,10 +537,25 @@
        "isb": 0.0,
        "buy": 2.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.02,
+     "isb": 0.0,
+     "buy": 3.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "WAlyu0zS": {
    "bahis": {},
@@ -613,11 +673,26 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.99,
+     "isb": 2.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 34
+   "son": "da",
+   "ilk_gol_dk": 34,
+   "iy": [
+    0,
+    0
+   ]
   },
   "vuQXWA23": {
    "bahis": {},
@@ -696,9 +771,9 @@
   "bXOqBKM0": "da",
   "EVykFB1D": "da",
   "4GCxISZp": "da",
-  "Ob6SjhQO": "1y",
+  "Ob6SjhQO": "da",
   "EaLfUhVp": "da",
-  "nJY69nUb": "1y",
+  "nJY69nUb": "da",
   "GjMFkhwQ": "once",
   "fcLWxBac": "once",
   "Oteki5EU": "once",
