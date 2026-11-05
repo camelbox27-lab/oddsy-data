@@ -500,12 +500,27 @@
        "isb": 3.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.06,
+     "isb": 6.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 24,
-   "iki_gol_dk": 37
+   "iki_gol_dk": 37,
+   "iy": [
+    2,
+    0
+   ]
   },
   "b3uvdwgT": {
    "bahis": {
