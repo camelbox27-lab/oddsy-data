@@ -42,10 +42,12 @@
      "dk": 45,
      "xg": 1.33,
      "isb": 5.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -846,7 +848,7 @@
   "23:00": 304
  },
  "liste_son": {
-  "0zJ5UuSq": "2y",
+  "0zJ5UuSq": "bitti",
   "hUC4nhiT": "bitti",
   "bXOqBKM0": "bitti",
   "EVykFB1D": "bitti",
