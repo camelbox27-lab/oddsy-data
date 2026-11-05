@@ -561,10 +561,12 @@
      "dk": 45,
      "xg": 1.06,
      "isb": 6.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 4,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 24,
    "iki_gol_dk": 37,
    "iy": [
