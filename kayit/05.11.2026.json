@@ -534,7 +534,8 @@
    "bahis": {},
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 15
+   "ilk_gol_dk": 15,
+   "iki_gol_dk": 46
   },
   "6BkHDUkS": {
    "bahis": {
@@ -1093,7 +1094,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 43
+   "ilk_gol_dk": 43,
+   "iki_gol_dk": 46
   },
   "bmsWKkiI": {
    "bahis": {
@@ -1232,7 +1234,9 @@
   "GjMFkhwQ": [],
   "fcLWxBac": [],
   "Oteki5EU": [],
-  "6BkHDUkS": [],
+  "6BkHDUkS": [
+   "ust25"
+  ],
   "dIBLsSGL": [],
   "6qmGdP1U": [],
   "Ekl1n5Kt": [
