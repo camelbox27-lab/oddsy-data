@@ -1,0 +1,287 @@
+{
+ "tarih": "05.11.2026",
+ "ust25": [
+  {
+   "kod": "bXOqBKM0",
+   "saat": "20:45",
+   "ev": "Crystal Palace",
+   "dep": "TSG Hoffenheim",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.0,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.2,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "EVykFB1D",
+   "saat": "20:45",
+   "ev": "Lillestrøm SK",
+   "dep": "Viktoria Pilsen",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "4GCxISZp",
+   "saat": "20:45",
+   "ev": "NEC Nijmegen",
+   "dep": "Omonia Nikosia",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.1,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.5,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "hUC4nhiT",
+   "saat": "20:45",
+   "ev": "AC Mailand",
+   "dep": "Ferencváros Budapest",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.3,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "Ob6SjhQO",
+   "saat": "20:45",
+   "ev": "Real Sociedad",
+   "dep": "Olympique Lyon",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.1,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.3,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "EaLfUhVp",
+   "saat": "20:45",
+   "ev": "RSC Anderlecht",
+   "dep": "RB Salzburg",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 3.75,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "nJY69nUb",
+   "saat": "20:45",
+   "ev": "Sparta Prag",
+   "dep": "AFC Bournemouth",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "WAlyu0zS",
+   "saat": "20:45",
+   "ev": "Lincoln Red Imps",
+   "dep": "Hajduk Split",
+   "lig": "EUROPA Conference League - Ligaphase",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.7,
+    "UST35": 2.63,
+    "IYUST15": 2.5
+   }
+  },
+  {
+   "kod": "vuQXWA23",
+   "saat": "20:45",
+   "ev": "Trabzonspor",
+   "dep": "SC Freiburg",
+   "lig": "EUROPA Conference League - Ligaphase",
+   "beraberlik": 3.6,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "0zJ5UuSq",
+   "saat": "21:00",
+   "ev": "CA Aldosivi",
+   "dep": "River Plate",
+   "lig": "ARGENTINIEN Liga Profesional - Clausura",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.85,
+    "UST35": 3.25,
+    "IYUST15": 2.63
+   }
+  },
+  {
+   "kod": "GjMFkhwQ",
+   "saat": "23:00",
+   "ev": "AFC Sunderland",
+   "dep": "Dinamo Zagreb",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.67,
+    "UST35": 2.63,
+    "IYUST15": 2.38
+   }
+  },
+  {
+   "kod": "Oteki5EU",
+   "saat": "23:00",
+   "ev": "Celtic Glasgow",
+   "dep": "Beşiktaş Istanbul",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.3,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "6BkHDUkS",
+   "saat": "23:00",
+   "ev": "Sturm Graz",
+   "dep": "NK Celje",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.3,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "6qmGdP1U",
+   "saat": "23:00",
+   "ev": "CS Universitatea Craiova",
+   "dep": "KS Egnatia",
+   "lig": "EUROPA Conference League - Ligaphase",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.7,
+    "UST35": 2.75,
+    "IYUST15": 2.5
+   }
+  },
+  {
+   "kod": "6knqhUie",
+   "saat": "23:00",
+   "ev": "Panathinaikos",
+   "dep": "ZSKA Sofia",
+   "lig": "EUROPA Conference League - Ligaphase",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.65,
+    "UST35": 2.63,
+    "IYUST15": 2.38
+   }
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "fcLWxBac",
+   "saat": "23:00",
+   "ev": "Bayer Leverkusen",
+   "dep": "Olympique Marseille",
+   "lig": "EUROPA Europa League - Ligaphase",
+   "beraberlik": 5.75,
+   "oran": {
+    "UST25": 1.4,
+    "UST35": 2.0,
+    "IYUST15": 2.03
+   }
+  },
+  {
+   "kod": "dIBLsSGL",
+   "saat": "23:00",
+   "ev": "AS Monaco",
+   "dep": "FC Nordsjælland",
+   "lig": "EUROPA Conference League - Ligaphase",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.4,
+    "UST35": 2.0,
+    "IYUST15": 2.0
+   }
+  },
+  {
+   "kod": "Ekl1n5Kt",
+   "saat": "23:00",
+   "ev": "FC Lugano",
+   "dep": "FK Kauno Žalgiris",
+   "lig": "EUROPA Conference League - Ligaphase",
+   "beraberlik": 7.0,
+   "oran": {
+    "UST25": 1.33,
+    "UST35": 1.88,
+    "IYUST15": 1.83
+   }
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "bXOqBKM0",
+    "saat": "20:45",
+    "ev": "Crystal Palace",
+    "dep": "TSG Hoffenheim",
+    "lig": "EUROPA Europa League - Ligaphase",
+    "bahis": "ust25",
+    "oran": 1.53,
+    "listeden": true
+   },
+   {
+    "kod": "hUC4nhiT",
+    "saat": "20:45",
+    "ev": "AC Mailand",
+    "dep": "Ferencváros Budapest",
+    "lig": "EUROPA Europa League - Ligaphase",
+    "bahis": "ust25",
+    "oran": 1.53,
+    "listeden": true
+   },
+   {
+    "kod": "Ekl1n5Kt",
+    "saat": "23:00",
+    "ev": "FC Lugano",
+    "dep": "FK Kauno Žalgiris",
+    "lig": "EUROPA Conference League - Ligaphase",
+    "bahis": "ust35",
+    "oran": 1.88,
+    "listeden": true
+   },
+   {
+    "kod": "dIBLsSGL",
+    "saat": "23:00",
+    "ev": "AS Monaco",
+    "dep": "FC Nordsjælland",
+    "lig": "EUROPA Conference League - Ligaphase",
+    "bahis": "iy15",
+    "oran": 2.0,
+    "listeden": true
+   }
+  ],
+  "toplam": 8.8
+ },
+ "sonuclandi": false
+}
