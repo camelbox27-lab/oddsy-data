@@ -18,6 +18,12 @@
        "xg": 0.82,
        "isb": 2.0,
        "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.95,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -187,7 +193,7 @@
    "bahis": {
     "iy05": {
      "id": 289,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
     }
@@ -216,7 +222,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 37
   },
   "GjMFkhwQ": {
    "bahis": {},
@@ -340,7 +347,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 24
+   "ilk_gol_dk": 24,
+   "iki_gol_dk": 37
   },
   "b3uvdwgT": {
    "bahis": {
