@@ -2,9 +2,16 @@
  "tarih": "05.11.2026",
  "maclar": {
   "0zJ5UuSq": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 294,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "hUC4nhiT": {
    "bahis": {},
@@ -141,7 +148,7 @@
   "vLgy2j3T": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "llGRbfR0": {
    "bahis": {},
@@ -185,7 +192,8 @@
   "vuQXWA23": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 16
   },
   "dIBLsSGL": {
    "bahis": {},
@@ -238,7 +246,7 @@
   "21:00": 292
  },
  "liste_son": {
-  "0zJ5UuSq": "once",
+  "0zJ5UuSq": "1y",
   "hUC4nhiT": "1y",
   "bXOqBKM0": "1y",
   "EVykFB1D": "1y",
@@ -266,6 +274,7 @@
   "EaLfUhVp": [],
   "nJY69nUb": [],
   "WAlyu0zS": [],
-  "vuQXWA23": []
+  "vuQXWA23": [],
+  "0zJ5UuSq": []
  }
 }
