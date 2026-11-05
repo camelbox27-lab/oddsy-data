@@ -399,7 +399,7 @@
   "thdi2RS8": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "fcLWxBac": {
    "bahis": {},
@@ -409,7 +409,8 @@
   "Q1PvtyC6": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 8
   },
   "zuF6XhHs": {
    "bahis": {},
