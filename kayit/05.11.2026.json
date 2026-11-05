@@ -686,10 +686,12 @@
      "dk": 45,
      "xg": 1.34,
      "isb": 6.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -750,10 +752,12 @@
      "dk": 45,
      "xg": 1.16,
      "isb": 4.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 16,
    "iy": [
     0,
@@ -824,7 +828,7 @@
   "Oteki5EU": "once",
   "6BkHDUkS": "once",
   "WAlyu0zS": "2y",
-  "vuQXWA23": "2y",
+  "vuQXWA23": "bitti",
   "dIBLsSGL": "once",
   "6qmGdP1U": "once",
   "Ekl1n5Kt": "once",
