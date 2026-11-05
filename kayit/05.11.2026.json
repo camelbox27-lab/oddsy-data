@@ -112,10 +112,12 @@
      "dk": 45,
      "xg": 1.47,
      "isb": 6.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 9,
    "iy": [
     0,
@@ -183,10 +185,12 @@
      "dk": 45,
      "xg": 1.28,
      "isb": 10.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 13,
    "iy": [
     0,
@@ -222,10 +226,12 @@
      "dk": 45,
      "xg": 0.84,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 4,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 24,
    "iy": [
     0,
@@ -445,10 +451,12 @@
      "dk": 45,
      "xg": 1.47,
      "isb": 9.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -817,9 +825,9 @@
  "liste_son": {
   "0zJ5UuSq": "2y",
   "hUC4nhiT": "2y",
-  "bXOqBKM0": "2y",
-  "EVykFB1D": "2y",
-  "4GCxISZp": "2y",
+  "bXOqBKM0": "bitti",
+  "EVykFB1D": "bitti",
+  "4GCxISZp": "bitti",
   "Ob6SjhQO": "2y",
   "EaLfUhVp": "2y",
   "nJY69nUb": "2y",
