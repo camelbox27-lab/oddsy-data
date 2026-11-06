@@ -468,7 +468,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 24
+   "ilk_gol_dk": 24,
+   "iki_gol_dk": 42
   },
   "4vPSl6JG": {
    "bahis": {},
@@ -524,7 +525,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 42
   },
   "hGXkxREl": {
    "bahis": {
