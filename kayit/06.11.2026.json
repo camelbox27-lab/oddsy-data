@@ -448,6 +448,12 @@
        "xg": 0.15,
        "isb": 1.0,
        "buy": 1.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.28,
+       "isb": 1.0,
+       "buy": 1.0
       }
      }
     }
@@ -1364,10 +1370,12 @@
      "dk": 45,
      "xg": 1.58,
      "isb": 5.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 6,
+     "y2": 4
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 11,
    "iki_gol_dk": 20,
    "iy": [
@@ -1413,11 +1421,33 @@
    ]
   },
   "EmTW99Ac": {
-   "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 379,
+     "durum": "acik",
+     "dk": null,
+     "skor": "2-1"
+    }
+   },
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.64,
+     "isb": 8.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 10,
-   "iki_gol_dk": 23
+   "iki_gol_dk": 23,
+   "iy": [
+    2,
+    1
+   ]
   },
   "SGISPKtf": {
    "bahis": {},
