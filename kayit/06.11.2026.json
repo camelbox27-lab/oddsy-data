@@ -475,7 +475,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 31
+   "ilk_gol_dk": 31,
+   "iki_gol_dk": 46
   },
   "UwpKECEN": {
    "bahis": {},
@@ -766,7 +767,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 46
   },
   "UDjE4KXq": {
    "bahis": {},
@@ -820,7 +822,7 @@
    "bahis": {
     "iy05": {
      "id": 349,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 2,
      "skor": "0-0"
     }
@@ -849,7 +851,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 46
   },
   "xbpGOuPF": {
    "bahis": {
