@@ -397,7 +397,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "20:00": 328
+ },
  "liste_son": {
   "OYhs4xbJ": "once",
   "d4M4469a": "once",
