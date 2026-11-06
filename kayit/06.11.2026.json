@@ -936,7 +936,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 11,
    "iki_gol_dk": 20,
    "iy": [
@@ -984,7 +984,8 @@
   "EmTW99Ac": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 10
   },
   "SGISPKtf": {
    "bahis": {},
