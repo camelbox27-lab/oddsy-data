@@ -570,7 +570,18 @@
   },
   "SUBKEwJk": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.25,
+       "isb": 3.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "QRh8PfX7": {
