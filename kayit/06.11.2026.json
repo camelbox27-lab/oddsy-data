@@ -249,12 +249,27 @@
        "isb": 1.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 2.0,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "ilk_gol_dk": 27,
-   "iki_gol_dk": 39
+   "iki_gol_dk": 39,
+   "iy": [
+    0,
+    2
+   ]
   },
   "Ia0df66N": {
    "bahis": {},
