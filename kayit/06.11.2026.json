@@ -223,7 +223,7 @@
   "pMxurfFb": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "YyAD4eFM": {
    "bahis": {},
@@ -359,7 +359,7 @@
   "I1R4XD1t": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "jX6Xafs1": {
    "bahis": {},
@@ -783,6 +783,12 @@
        "xg": 0.48,
        "isb": 2.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.53,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -978,7 +984,7 @@
   "EmTW99Ac": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SGISPKtf": {
    "bahis": {},
@@ -1384,7 +1390,7 @@
   "OYhs4xbJ": "bitti",
   "d4M4469a": "2y",
   "YyAD4eFM": "bitti",
-  "I1R4XD1t": "once",
+  "I1R4XD1t": "1y",
   "Ia0df66N": "1y",
   "Sp2zC2uA": "1y",
   "xvfM2b2d": "1y",
@@ -1407,6 +1413,7 @@
    "ust25"
   ],
   "xbpGOuPF": [],
-  "APcNMJgS": []
+  "APcNMJgS": [],
+  "I1R4XD1t": []
  }
 }
