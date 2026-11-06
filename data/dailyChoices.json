@@ -1,162 +1,102 @@
 [
   {
-    "event_id": "bXOqBKM0",
-    "home_team": "Crystal Palace",
-    "away_team": "TSG Hoffenheim",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "Sp2zC2uA",
+    "home_team": "Dordrecht",
+    "away_team": "NAC Breda",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.5,
-    "tarih": "05.11.2026"
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "Ob6SjhQO",
-    "home_team": "Real Sociedad",
-    "away_team": "Olympique Lyon",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "xvfM2b2d",
+    "home_team": "Heracles Almelo",
+    "away_team": "Roda Kerkrade",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "05.11.2026"
+    "2_5_ust": 1.48,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "4GCxISZp",
-    "home_team": "NEC Nijmegen",
-    "away_team": "Omonia Nikosia",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "4pn8Q1f3",
+    "home_team": "Jong AZ",
+    "away_team": "Almere City",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "05.11.2026"
+    "2_5_ust": 1.33,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "nJY69nUb",
-    "home_team": "Sparta Prag",
-    "away_team": "AFC Bournemouth",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "xbpGOuPF",
+    "home_team": "Oss",
+    "away_team": "RKC Waalwijk",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "05.11.2026"
+    "2_5_ust": 1.53,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "b3uvdwgT",
-    "home_team": "KuPS",
-    "away_team": "KAA Gent",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "APcNMJgS",
+    "home_team": "VVV-Venlo",
+    "away_team": "Jong PSV Eindhoven",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.9,
-    "tarih": "05.11.2026"
+    "2_5_ust": 1.33,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "0zJ5UuSq",
-    "home_team": "CA Aldosivi",
-    "away_team": "River Plate",
-    "league": "ARGENTINIEN Liga Profesional - Clausura",
-    "saat": "21:00",
+    "event_id": "KjZ2DYb3",
+    "home_team": "CD Castellón",
+    "away_team": "SD Eibar",
+    "league": "SPANIEN La Liga2",
+    "saat": "22:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.85,
-    "tarih": "05.11.2026"
+    "2_5_ust": 1.6,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "GjMFkhwQ",
-    "home_team": "AFC Sunderland",
-    "away_team": "Dinamo Zagreb",
-    "league": "EUROPA Europa League - Ligaphase",
+    "event_id": "OUYQUF9b",
+    "home_team": "FC Everton",
+    "away_team": "Coventry City",
+    "league": "ENGLAND Premier League",
     "saat": "23:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.67,
-    "tarih": "05.11.2026"
+    "2_5_ust": 1.73,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "6BkHDUkS",
-    "home_team": "Sturm Graz",
-    "away_team": "NK Celje",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.57,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "6qmGdP1U",
-    "home_team": "CS Universitatea Craiova",
-    "away_team": "KS Egnatia",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.7,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "6knqhUie",
-    "home_team": "Panathinaikos",
-    "away_team": "ZSKA Sofia",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "hUC4nhiT",
-    "home_team": "AC Mailand",
-    "away_team": "Ferencváros Budapest",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "lpfK5nGt",
+    "home_team": "Maccabi Tel Aviv",
+    "away_team": "Maccabi Petach Tikwa",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "15:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 2.2,
-    "tarih": "05.11.2026"
+    "3_5_ust": 1.67,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "WAlyu0zS",
-    "home_team": "Lincoln Red Imps",
-    "away_team": "Hajduk Split",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "0r4aLGOO",
+    "home_team": "Botev Plovdiv",
+    "away_team": "FK Dunav Ruse",
+    "league": "BULGARIEN Parva Liga",
+    "saat": "20:15",
     "kategori": "3.5 Üst",
     "3_5_ust": 2.75,
-    "tarih": "05.11.2026"
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "fcLWxBac",
-    "home_team": "Bayer Leverkusen",
-    "away_team": "Olympique Marseille",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "23:00",
+    "event_id": "zq6yHtVG",
+    "home_team": "Hammarby IF",
+    "away_team": "IF Elfsborg",
+    "league": "SCHWEDEN Allsvenskan",
+    "saat": "21:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.95,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "dIBLsSGL",
-    "home_team": "AS Monaco",
-    "away_team": "FC Nordsjælland",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.0,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "Ekl1n5Kt",
-    "home_team": "FC Lugano",
-    "away_team": "FK Kauno Žalgiris",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.9,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "hQzoCkqR",
-    "home_team": "Twente Enschede",
-    "away_team": "Paphos FC",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.83,
-    "tarih": "05.11.2026"
+    "3_5_ust": 2.25,
+    "tarih": "06.11.2026"
   }
 ]

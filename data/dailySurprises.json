@@ -1,112 +1,52 @@
 [
   {
-    "event_id": "hUC4nhiT",
-    "home_team": "AC Mailand",
-    "away_team": "Ferencváros Budapest",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "lpfK5nGt",
+    "home_team": "Maccabi Tel Aviv",
+    "away_team": "Maccabi Petach Tikwa",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "15:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "05.11.2026"
+    "ms_5_5_ust": 4.33,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "nJY69nUb",
-    "home_team": "Sparta Prag",
-    "away_team": "AFC Bournemouth",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "20:45",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "WAlyu0zS",
-    "home_team": "Lincoln Red Imps",
-    "away_team": "Hajduk Split",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "20:45",
+    "event_id": "0r4aLGOO",
+    "home_team": "Botev Plovdiv",
+    "away_team": "FK Dunav Ruse",
+    "league": "BULGARIEN Parva Liga",
+    "saat": "20:15",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 11.0,
-    "tarih": "05.11.2026"
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "0zJ5UuSq",
-    "home_team": "CA Aldosivi",
-    "away_team": "River Plate",
-    "league": "ARGENTINIEN Liga Profesional - Clausura",
+    "event_id": "zq6yHtVG",
+    "home_team": "Hammarby IF",
+    "away_team": "IF Elfsborg",
+    "league": "SCHWEDEN Allsvenskan",
     "saat": "21:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 13.0,
-    "tarih": "05.11.2026"
+    "ms_5_5_ust": 8.0,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "GjMFkhwQ",
-    "home_team": "AFC Sunderland",
-    "away_team": "Dinamo Zagreb",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "23:00",
+    "event_id": "xvfM2b2d",
+    "home_team": "Heracles Almelo",
+    "away_team": "Roda Kerkrade",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 9.0,
-    "tarih": "05.11.2026"
+    "ms_5_5_ust": 7.0,
+    "tarih": "06.11.2026"
   },
   {
-    "event_id": "fcLWxBac",
-    "home_team": "Bayer Leverkusen",
-    "away_team": "Olympique Marseille",
-    "league": "EUROPA Europa League - Ligaphase",
-    "saat": "23:00",
+    "event_id": "APcNMJgS",
+    "home_team": "VVV-Venlo",
+    "away_team": "Jong PSV Eindhoven",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 5.0,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "dIBLsSGL",
-    "home_team": "AS Monaco",
-    "away_team": "FC Nordsjælland",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.0,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "6qmGdP1U",
-    "home_team": "CS Universitatea Craiova",
-    "away_team": "KS Egnatia",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 11.0,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "6knqhUie",
-    "home_team": "Panathinaikos",
-    "away_team": "ZSKA Sofia",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 10.0,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "Ekl1n5Kt",
-    "home_team": "FC Lugano",
-    "away_team": "FK Kauno Žalgiris",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "05.11.2026"
-  },
-  {
-    "event_id": "hQzoCkqR",
-    "home_team": "Twente Enschede",
-    "away_team": "Paphos FC",
-    "league": "EUROPA Conference League - Ligaphase",
-    "saat": "23:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "05.11.2026"
+    "tarih": "06.11.2026"
   }
 ]

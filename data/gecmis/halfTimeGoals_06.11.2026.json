@@ -1,0 +1,138 @@
+[
+  {
+    "event_id": "lpfK5nGt",
+    "home_team": "Maccabi Tel Aviv",
+    "away_team": "Maccabi Petach Tikwa",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "15:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "OYhs4xbJ",
+    "home_team": "Vejle",
+    "away_team": "FC Fredericia",
+    "league": "DÄNEMARK 1. Division",
+    "saat": "20:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "tKI6sOBj",
+    "home_team": "Dukla Prag",
+    "away_team": "FK Příbram",
+    "league": "TSCHECHIEN Division 2",
+    "saat": "20:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "0r4aLGOO",
+    "home_team": "Botev Plovdiv",
+    "away_team": "FK Dunav Ruse",
+    "league": "BULGARIEN Parva Liga",
+    "saat": "20:15",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "IeSQBlHP",
+    "home_team": "HB Køge",
+    "away_team": "Aalborg BK",
+    "league": "DÄNEMARK 1. Division",
+    "saat": "21:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "zq6yHtVG",
+    "home_team": "Hammarby IF",
+    "away_team": "IF Elfsborg",
+    "league": "SCHWEDEN Allsvenskan",
+    "saat": "21:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "dlUpI8ED",
+    "home_team": "FC Arges",
+    "away_team": "Dinamo Bukarest",
+    "league": "RUMÄNIEN Superliga",
+    "saat": "21:30",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "jgEVLTLj",
+    "home_team": "AS Nancy",
+    "away_team": "FC Sochaux",
+    "league": "FRANKREICH Ligue 2",
+    "saat": "22:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "Sp2zC2uA",
+    "home_team": "Dordrecht",
+    "away_team": "NAC Breda",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "xvfM2b2d",
+    "home_team": "Heracles Almelo",
+    "away_team": "Roda Kerkrade",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "4pn8Q1f3",
+    "home_team": "Jong AZ",
+    "away_team": "Almere City",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "xbpGOuPF",
+    "home_team": "Oss",
+    "away_team": "RKC Waalwijk",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "APcNMJgS",
+    "home_team": "VVV-Venlo",
+    "away_team": "Jong PSV Eindhoven",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "KjZ2DYb3",
+    "home_team": "CD Castellón",
+    "away_team": "SD Eibar",
+    "league": "SPANIEN La Liga2",
+    "saat": "22:30",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "Cnqi0Ecd",
+    "home_team": "Standard Lüttich",
+    "away_team": "Beveren",
+    "league": "BELGIEN Jupiler League",
+    "saat": "22:45",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "OUYQUF9b",
+    "home_team": "FC Everton",
+    "away_team": "Coventry City",
+    "league": "ENGLAND Premier League",
+    "saat": "23:00",
+    "tarih": "06.11.2026"
+  },
+  {
+    "event_id": "xMjDMVAj",
+    "home_team": "FC Sevilla",
+    "away_team": "Deportivo Alavés",
+    "league": "SPANIEN La Liga",
+    "saat": "23:00",
+    "tarih": "06.11.2026"
+  }
+]
