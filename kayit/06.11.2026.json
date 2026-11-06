@@ -789,10 +789,12 @@
      "dk": 45,
      "xg": null,
      "isb": 4.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 30,
    "iy": [
     1,
@@ -913,10 +915,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 42,
    "iy": [
     1,
@@ -941,10 +945,12 @@
      "dk": 45,
      "xg": 1.45,
      "isb": 4.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 6,
    "iki_gol_dk": 24,
    "iy": [
