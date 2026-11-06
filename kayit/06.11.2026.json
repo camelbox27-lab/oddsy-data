@@ -141,7 +141,18 @@
   },
   "fcowoGrg": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.07,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "Mi7PP3qL": {
@@ -396,7 +407,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 21,
+       "xg": null,
+       "isb": 1.0,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "tOSgk6pJ": {
@@ -451,7 +473,18 @@
   },
   "8njSy97s": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 21,
+       "xg": 0.01,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "lQirYQ66": {
