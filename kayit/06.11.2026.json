@@ -52,7 +52,18 @@
   },
   "Ui3P4sht": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.0,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "hMj6fcuP": {
@@ -291,10 +302,12 @@
      "dk": 45,
      "xg": 0.54,
      "isb": 1.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -659,7 +672,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.09,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "Ys5rAtAM": {
@@ -735,7 +759,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.64,
+       "isb": 1.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "APcNMJgS": {
@@ -747,7 +782,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.92,
+       "isb": 2.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "S2LbeNAa": {
@@ -815,7 +861,8 @@
    "bahis": {},
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 7
+   "ilk_gol_dk": 7,
+   "iki_gol_dk": 34
   },
   "zq6yHtVG": {
    "bahis": {},
