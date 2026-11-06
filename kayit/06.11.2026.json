@@ -496,7 +496,7 @@
   "zeg4GJZR": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "fcowoGrg": {
    "bahis": {},
@@ -993,10 +993,25 @@
   },
   "SrLi1Ukf": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 3.0,
+     "buy": null
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 7,
-   "iki_gol_dk": 34
+   "iki_gol_dk": 34,
+   "iy": [
+    0,
+    2
+   ]
   },
   "zq6yHtVG": {
    "bahis": {},
