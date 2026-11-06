@@ -479,7 +479,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 45
   },
   "I1R4XD1t": {
    "bahis": {},
@@ -693,7 +694,7 @@
     },
     "ms45": {
      "id": 370,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "2-1"
     }
@@ -1532,10 +1533,12 @@
      "dk": 45,
      "xg": null,
      "isb": 3.0,
-     "buy": null
+     "buy": null,
+     "ms": 4,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 7,
    "iki_gol_dk": 34,
    "iy": [
