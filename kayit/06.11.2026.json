@@ -476,11 +476,26 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.76,
+     "isb": 5.0,
+     "buy": 3.0
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 45
+   "son": "da",
+   "ilk_gol_dk": 45,
+   "iy": [
+    0,
+    1
+   ]
   },
   "I1R4XD1t": {
    "bahis": {},
@@ -1509,7 +1524,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 10,
    "iki_gol_dk": 23,
    "iy": [
@@ -1520,7 +1535,7 @@
   "SGISPKtf": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SrLi1Ukf": {
    "bahis": {},
