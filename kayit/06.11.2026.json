@@ -81,7 +81,8 @@
   "d4M4469a": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 17
   },
   "IeSQBlHP": {
    "bahis": {
@@ -162,7 +163,8 @@
   "Sb3jgetg": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 17
   },
   "OUYQUF9b": {
    "bahis": {},
@@ -517,7 +519,7 @@
   "zq6yHtVG": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "xMjDMVAj": {
    "bahis": {},
@@ -830,13 +832,14 @@
   "xvfM2b2d": "once",
   "xbpGOuPF": "once",
   "APcNMJgS": "once",
-  "zq6yHtVG": "once",
+  "zq6yHtVG": "1y",
   "4vPSl6JG": "2y"
  },
  "liste_kazanan": {
   "OYhs4xbJ": [],
   "4vPSl6JG": [],
   "YyAD4eFM": [],
-  "d4M4469a": []
+  "d4M4469a": [],
+  "zq6yHtVG": []
  }
 }
