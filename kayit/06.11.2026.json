@@ -4,7 +4,7 @@
   "tjxZZ14M": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Cnqi0Ecd": {
    "bahis": {},
@@ -17,9 +17,16 @@
    "son": "once"
   },
   "hMj6fcuP": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 340,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OYhs4xbJ": {
    "bahis": {
@@ -65,7 +72,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -74,12 +81,19 @@
   "d4M4469a": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "IeSQBlHP": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 341,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "pMxurfFb": {
    "bahis": {},
@@ -112,7 +126,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 34
   },
   "2BjwLGa3": {
    "bahis": {},
@@ -145,7 +160,7 @@
   "Sb3jgetg": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OUYQUF9b": {
    "bahis": {},
@@ -249,7 +264,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -515,7 +530,7 @@
   "SUBKEwJk": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "QRh8PfX7": {
    "bahis": {},
@@ -592,7 +607,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 24,
    "iki_gol_dk": 42,
    "iy": [
@@ -680,7 +695,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 42,
    "iy": [
     1,
@@ -804,8 +819,8 @@
   "21:00": 339
  },
  "liste_son": {
-  "OYhs4xbJ": "da",
-  "d4M4469a": "once",
+  "OYhs4xbJ": "2y",
+  "d4M4469a": "1y",
   "YyAD4eFM": "1y",
   "I1R4XD1t": "once",
   "Ia0df66N": "once",
@@ -819,6 +834,7 @@
  "liste_kazanan": {
   "OYhs4xbJ": [],
   "4vPSl6JG": [],
-  "YyAD4eFM": []
+  "YyAD4eFM": [],
+  "d4M4469a": []
  }
 }
