@@ -428,12 +428,33 @@
      "durum": "kazandi",
      "dk": 6,
      "skor": "1-0"
+    },
+    "ms45": {
+     "id": 338,
+     "durum": "acik",
+     "dk": null,
+     "skor": "1-2"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      2
+     ],
+     "dk": 45,
+     "xg": 2.68,
+     "isb": 5.0,
+     "buy": 6.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 6,
-   "iki_gol_dk": 34
+   "iki_gol_dk": 34,
+   "iy": [
+    1,
+    2
+   ]
   },
   "EmTW99Ac": {
    "bahis": {},
@@ -499,11 +520,26 @@
        "isb": 1.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 4.0,
+     "buy": null
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 30
+   "son": "da",
+   "ilk_gol_dk": 30,
+   "iy": [
+    1,
+    0
+   ]
   },
   "tOSgk6pJ": {
    "bahis": {},
@@ -604,11 +640,26 @@
        "isb": 1.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 5.0,
+     "buy": null
     }
    },
-   "son": "1y",
-   "ilk_gol_dk": 42
+   "son": "da",
+   "ilk_gol_dk": 42,
+   "iy": [
+    1,
+    0
+   ]
   },
   "hGXkxREl": {
    "bahis": {
