@@ -74,12 +74,12 @@
   "YyAD4eFM": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "2BjwLGa3": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Sb3jgetg": {
    "bahis": {},
@@ -373,14 +373,15 @@
    "bahis": {
     "iy15": {
      "id": 332,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 6,
      "skor": "1-0"
     }
    },
    "gozlem": {},
    "son": "1y",
-   "ilk_gol_dk": 6
+   "ilk_gol_dk": 6,
+   "iki_gol_dk": 34
   },
   "EmTW99Ac": {
    "bahis": {},
@@ -598,7 +599,7 @@
  "liste_son": {
   "OYhs4xbJ": "1y",
   "d4M4469a": "once",
-  "YyAD4eFM": "once",
+  "YyAD4eFM": "1y",
   "I1R4XD1t": "once",
   "Ia0df66N": "once",
   "Sp2zC2uA": "once",
@@ -610,6 +611,7 @@
  },
  "liste_kazanan": {
   "OYhs4xbJ": [],
-  "4vPSl6JG": []
+  "4vPSl6JG": [],
+  "YyAD4eFM": []
  }
 }
