@@ -35,10 +35,12 @@
      "dk": 45,
      "xg": 1.98,
      "isb": 3.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 44,
    "iy": [
     1,
@@ -393,7 +395,7 @@
   "SriMjKJ0": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "I1R4XD1t": {
    "bahis": {},
