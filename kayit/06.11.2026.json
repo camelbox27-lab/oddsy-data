@@ -234,8 +234,19 @@
   },
   "SUcxrQsh": {
    "bahis": {},
-   "gozlem": {},
-   "son": "once"
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": null,
+       "isb": 0.0,
+       "buy": null
+      }
+     }
+    }
+   },
+   "son": "1y"
   },
   "Ia0df66N": {
    "bahis": {},
