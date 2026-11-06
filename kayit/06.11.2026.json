@@ -186,7 +186,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 34,
    "iki_gol_dk": 43,
    "iy": [
@@ -231,7 +231,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -542,7 +542,8 @@
   "S2LbeNAa": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "ilk_gol_dk": 11
   },
   "jBkFiSfT": {
    "bahis": {
@@ -608,7 +609,7 @@
      }
     }
    },
-   "son": "1y"
+   "son": "iptal"
   },
   "xMjDMVAj": {
    "bahis": {},
@@ -926,14 +927,14 @@
  "liste_son": {
   "OYhs4xbJ": "2y",
   "d4M4469a": "1y",
-  "YyAD4eFM": "da",
+  "YyAD4eFM": "2y",
   "I1R4XD1t": "once",
   "Ia0df66N": "once",
   "Sp2zC2uA": "once",
   "xvfM2b2d": "once",
   "xbpGOuPF": "once",
   "APcNMJgS": "once",
-  "zq6yHtVG": "1y",
+  "zq6yHtVG": "iptal",
   "4vPSl6JG": "2y"
  },
  "liste_kazanan": {
