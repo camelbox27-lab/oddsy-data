@@ -65,7 +65,8 @@
     }
    },
    "son": "1y",
-   "ilk_gol_dk": 23
+   "ilk_gol_dk": 23,
+   "iki_gol_dk": 27
   },
   "hMj6fcuP": {
    "bahis": {
@@ -258,10 +259,12 @@
      "dk": 45,
      "xg": 1.15,
      "isb": 5.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "ilk_gol_dk": 34,
    "iki_gol_dk": 43,
    "iy": [
@@ -318,7 +321,7 @@
    "bahis": {
     "ms45": {
      "id": 345,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "3-0"
     }
@@ -802,7 +805,7 @@
    "bahis": {
     "iy05": {
      "id": 355,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
@@ -825,7 +828,8 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "ilk_gol_dk": 26
   },
   "APcNMJgS": {
    "bahis": {
@@ -1315,7 +1319,7 @@
  "liste_son": {
   "OYhs4xbJ": "bitti",
   "d4M4469a": "2y",
-  "YyAD4eFM": "2y",
+  "YyAD4eFM": "bitti",
   "I1R4XD1t": "once",
   "Ia0df66N": "1y",
   "Sp2zC2uA": "1y",
