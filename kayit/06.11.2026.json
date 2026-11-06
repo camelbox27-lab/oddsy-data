@@ -22,9 +22,16 @@
    "son": "once"
   },
   "OYhs4xbJ": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 329,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "d4M4469a": {
    "bahis": {},
@@ -362,14 +369,21 @@
    "son": "once"
   },
   "tKI6sOBj": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 330,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "tOSgk6pJ": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4vPSl6JG": {
    "bahis": {},
@@ -379,29 +393,29 @@
   "O0NChlKi": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "hGXkxREl": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "8njSy97s": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "lQirYQ66": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {
   "20:00": 328
  },
  "liste_son": {
-  "OYhs4xbJ": "once",
+  "OYhs4xbJ": "1y",
   "d4M4469a": "once",
   "YyAD4eFM": "once",
   "I1R4XD1t": "once",
@@ -412,5 +426,8 @@
   "APcNMJgS": "once",
   "zq6yHtVG": "once",
   "4vPSl6JG": "once"
+ },
+ "liste_kazanan": {
+  "OYhs4xbJ": []
  }
 }
