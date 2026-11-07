@@ -287,10 +287,12 @@
      "dk": 45,
      "xg": 1.65,
      "isb": 4.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 18,
     "2": 44
@@ -4549,7 +4551,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 26,
     "2": 42
@@ -4626,13 +4628,24 @@
    "bahis": {
     "iy25": {
      "id": 500,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 16,
      "skor": "2-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.32,
+     "isb": 4.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 16,
     "2": 16
@@ -4644,7 +4657,11 @@
    "ilk_gol_dk": 12,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 14,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    0
+   ]
   },
   "I1k0RG2e": {
    "bahis": {},
@@ -4744,10 +4761,21 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      3,
+      1
+     ],
+     "dk": 45,
+     "xg": 2.81,
+     "isb": 7.0,
+     "buy": 4.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 26,
     "2": 35
@@ -4759,7 +4787,11 @@
    "ilk_gol_dk": 26,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 35,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    3,
+    1
+   ]
   },
   "YT3igyYa": {
    "bahis": {},
@@ -5106,13 +5138,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 21
+    "1": 21,
+    "2": 24
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 18,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 22,
+   "iki_gol_dk_kesin": true
   },
   "pACAJRiD": {
    "bahis": {},
@@ -5263,6 +5299,12 @@
        "xg": 0.52,
        "isb": 2.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.61,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -5285,7 +5327,7 @@
   "bNXhKZlS": "once",
   "2kDQsKeJ": "once",
   "tYyhXx1t": "bitti",
-  "xdZWqGpn": "2y",
+  "xdZWqGpn": "bitti",
   "Eoz0VGVh": "bitti",
   "4jZfvCEN": "bitti",
   "MBw8Tf05": "once",
@@ -5381,7 +5423,9 @@
   "K6mcGFRs": [
    "ust25"
   ],
-  "0Qj59IzA": [],
+  "0Qj59IzA": [
+   "ust25"
+  ],
   "27n2fVHi": [
    "ust25"
   ],
