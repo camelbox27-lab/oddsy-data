@@ -298,9 +298,24 @@
    "son": "1y"
   },
   "jaJIvdRa": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 405,
+     "durum": "acik",
+     "dk": 8,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 8
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 5,
+   "ilk_gol_dk_kesin": true
   },
   "U9KYzEQO": {
    "bahis": {
