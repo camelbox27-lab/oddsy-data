@@ -24,10 +24,21 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.27,
+     "isb": 2.0,
+     "buy": 0.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 49
    },
@@ -35,7 +46,11 @@
     "1": 1
    },
    "ilk_gol_dk": 45,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    1,
+    0
+   ]
   },
   "ppUl33Tp": {
    "bahis": {},
@@ -60,10 +75,21 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.61,
+     "isb": 4.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 39
    },
@@ -71,7 +97,11 @@
     "1": 1
    },
    "ilk_gol_dk": 38,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "txc0L2kT": {
    "bahis": {},
@@ -264,10 +294,12 @@
      "dk": 45,
      "xg": 1.61,
      "isb": 4.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 14
    },
@@ -3189,10 +3221,21 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.2,
+     "isb": 1.0,
+     "buy": 0.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 41
    },
@@ -3200,7 +3243,11 @@
     "1": 1
    },
    "ilk_gol_dk": 39,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    0
+   ]
   },
   "fs9eEuno": {
    "bahis": {},
@@ -4059,7 +4106,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 25
    },
@@ -4728,7 +4775,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -6630,7 +6677,7 @@
   "Cd5qPpj4": "once",
   "0Qj59IzA": "bitti",
   "bNXhKZlS": "once",
-  "2kDQsKeJ": "2y",
+  "2kDQsKeJ": "bitti",
   "tYyhXx1t": "bitti",
   "xdZWqGpn": "bitti",
   "Eoz0VGVh": "bitti",
@@ -6661,7 +6708,7 @@
   "vcHi3EXO": "2y",
   "MF91ODmI": "once",
   "EVoSlpUp": "bitti",
-  "6cfT85LG": "da",
+  "6cfT85LG": "2y",
   "txvECmMi": "once",
   "t8lgHcHk": "bitti",
   "M5Ijcqtm": "1y",
@@ -6766,7 +6813,9 @@
    "ust25"
   ],
   "MBw8Tf05": [],
-  "vcHi3EXO": [],
+  "vcHi3EXO": [
+   "ust25"
+  ],
   "CbiABCTF": [
    "ust25"
   ],
