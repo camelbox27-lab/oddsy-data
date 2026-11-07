@@ -1706,9 +1706,10 @@
     "1": 28
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
-   "ilk_gol_dk": 28
+   "ilk_gol_dk": 28,
+   "ilk_gol_dk_kesin": true
   },
   "x4adsVqK": {
    "bahis": {},
