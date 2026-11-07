@@ -4930,7 +4930,8 @@
    },
    "ilk_gol_dk": 22,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 42
+   "iki_gol_dk": 42,
+   "iki_gol_dk_kesin": true
   },
   "IanJk64l": {
    "bahis": {
@@ -5089,7 +5090,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.07,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "4SrapZ2c": {
