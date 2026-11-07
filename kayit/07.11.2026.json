@@ -779,7 +779,7 @@
   "QiGBpzOj": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0C1biZA5": {
    "bahis": {
@@ -3404,9 +3404,10 @@
     "1": 29
    },
    "gol_deneme": {
-    "1": 4
+    "1": 8
    },
-   "ilk_gol_dk": 29
+   "ilk_gol_dk": 29,
+   "ilk_gol_dk_kesin": true
   },
   "ULd1NHIt": {
    "bahis": {
