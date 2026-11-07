@@ -1978,7 +1978,7 @@
     },
     "ms45": {
      "id": 503,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "2-1"
     }
@@ -3247,6 +3247,12 @@
       "20": {
        "dk": 20,
        "xg": 0.07,
+       "isb": 0.0,
+       "buy": 1.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.32,
        "isb": 0.0,
        "buy": 1.0
       }
@@ -4800,7 +4806,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 26,
     "2": 35
@@ -5421,7 +5427,9 @@
    "ust25"
   ],
   "Eyc1EfPH": [],
-  "GMbz0OdE": [],
+  "GMbz0OdE": [
+   "ust25"
+  ],
   "SGdFC1tK": [],
   "bw4ugnUG": [
    "iy15",
@@ -5435,7 +5443,9 @@
   "S4lV4mwC": [
    "ust25"
   ],
-  "n3C0oeS7": [],
+  "n3C0oeS7": [
+   "ust25"
+  ],
   "0tNirVFb": [
    "iy15",
    "ust35"
