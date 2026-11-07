@@ -130,7 +130,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1073,13 +1073,24 @@
    "bahis": {
     "iy25": {
      "id": 556,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 20,
      "skor": "2-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.74,
+     "isb": 7.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 7,
     "2": 20
@@ -1091,7 +1102,11 @@
    "ilk_gol_dk": 6,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 18,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    0
+   ]
   },
   "On2rb2RQ": {
    "bahis": {},
@@ -4341,7 +4356,18 @@
   },
   "r751Moz2": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.29,
+       "isb": 1.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "4G20vKem": {
@@ -5479,10 +5505,21 @@
        "isb": 2.0,
        "buy": 2.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.19,
+     "isb": 6.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 26,
     "2": 29
@@ -5494,7 +5531,11 @@
    "ilk_gol_dk": 23,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 25,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    0
+   ]
   },
   "Sl2EzLu9": {
    "bahis": {},
@@ -5763,7 +5804,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 36
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 32,
+   "ilk_gol_dk_kesin": true
   },
   "G8av4hnI": {
    "bahis": {},
@@ -6437,7 +6486,7 @@
   "2of66R9c": "bitti",
   "QgBbT3ZQ": "2y",
   "htDjVP4E": "once",
-  "CbiABCTF": "1y",
+  "CbiABCTF": "da",
   "YD5h5R3c": "iptal",
   "pAfuzdkI": "bitti"
  },
@@ -6520,7 +6569,9 @@
   "pAfuzdkI": [
    "ust25"
   ],
-  "x4BCMnf3": [],
+  "x4BCMnf3": [
+   "ust25"
+  ],
   "2kDQsKeJ": [],
   "QgBbT3ZQ": [],
   "MBw8Tf05": [],
