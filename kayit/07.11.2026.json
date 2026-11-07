@@ -1308,7 +1308,7 @@
    "bahis": {
     "iy05": {
      "id": 436,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
@@ -1337,7 +1337,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 46
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 44,
+   "ilk_gol_dk_kesin": true
   },
   "C2FwZQxo": {
    "bahis": {},
@@ -1459,7 +1467,7 @@
     "1": 42
    },
    "gol_deneme": {
-    "1": 4
+    "1": 5
    },
    "ilk_gol_dk": 42
   },
@@ -1554,13 +1562,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 41
+    "1": 41,
+    "2": 45
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 39,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 45,
+   "iki_gol_dk_kesin": true
   },
   "0W1x3R7O": {
    "bahis": {
@@ -1805,7 +1817,7 @@
    "bahis": {
     "iy15": {
      "id": 457,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 8,
      "skor": "1-0"
     }
@@ -1836,13 +1848,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 8
+    "1": 8,
+    "2": 43
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 4,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 41,
+   "iki_gol_dk_kesin": true
   },
   "tSKsRwfE": {
    "bahis": {},
@@ -2961,13 +2977,16 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 11
+    "1": 11,
+    "2": 43
    },
    "gol_deneme": {
-    "1": 8
+    "1": 8,
+    "2": 1
    },
    "ilk_gol_dk": 11,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 43
   },
   "dCIFfq1T": {
    "bahis": {
@@ -3556,7 +3575,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 26
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 23,
+   "ilk_gol_dk_kesin": true
   },
   "OKqd28j2": {
    "bahis": {},
@@ -4193,8 +4220,12 @@
    "ust25"
   ],
   "0Qj59IzA": [],
-  "27n2fVHi": [],
-  "h2znRev8": [],
+  "27n2fVHi": [
+   "ust25"
+  ],
+  "h2znRev8": [
+   "iy15"
+  ],
   "ObK7d5WG": [],
   "jD0Xf8a4": [],
   "EVoSlpUp": [],
