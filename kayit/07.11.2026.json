@@ -151,22 +151,22 @@
   "tYyhXx1t": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "xdZWqGpn": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Eoz0VGVh": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4jZfvCEN": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "MBw8Tf05": {
    "bahis": {},
@@ -1013,6 +1013,12 @@
        "xg": 0.47,
        "isb": 1.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.57,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -1070,6 +1076,12 @@
        "xg": 0.45,
        "isb": 2.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.5,
+       "isb": 3.0,
+       "buy": 0.0
       }
      }
     }
@@ -1116,7 +1128,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 30
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 26,
+   "ilk_gol_dk_kesin": true
   },
   "fHilK1z3": {
    "bahis": {},
@@ -1646,7 +1666,7 @@
    "bahis": {
     "iy05": {
      "id": 415,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
@@ -1675,7 +1695,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 32
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 29,
+   "ilk_gol_dk_kesin": true
   },
   "pANuj6PG": {
    "bahis": {},
@@ -1811,6 +1839,12 @@
       },
       "25": {
        "dk": 25,
+       "xg": null,
+       "isb": 0.0,
+       "buy": null
+      },
+      "30": {
+       "dk": 30,
        "xg": null,
        "isb": 0.0,
        "buy": null
@@ -2040,6 +2074,12 @@
        "xg": 0.32,
        "isb": 3.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.56,
+       "isb": 4.0,
+       "buy": 1.0
       }
      }
     }
@@ -2384,10 +2424,10 @@
   "0Qj59IzA": "once",
   "bNXhKZlS": "once",
   "2kDQsKeJ": "once",
-  "tYyhXx1t": "once",
-  "xdZWqGpn": "once",
-  "Eoz0VGVh": "once",
-  "4jZfvCEN": "once",
+  "tYyhXx1t": "1y",
+  "xdZWqGpn": "1y",
+  "Eoz0VGVh": "1y",
+  "4jZfvCEN": "1y",
   "MBw8Tf05": "once",
   "jaJIvdRa": "2y",
   "U9KYzEQO": "2y",
@@ -2435,6 +2475,10 @@
   "KYareHBt": [],
   "jaJIvdRa": [],
   "j7QmlpfT": [],
-  "2of66R9c": []
+  "2of66R9c": [],
+  "tYyhXx1t": [],
+  "xdZWqGpn": [],
+  "Eoz0VGVh": [],
+  "4jZfvCEN": []
  }
 }
