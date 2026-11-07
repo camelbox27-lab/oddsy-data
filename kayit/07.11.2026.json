@@ -868,7 +868,7 @@
     },
     "ms45": {
      "id": 395,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "2-1"
     }
@@ -1056,10 +1056,25 @@
        "isb": 2.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.77,
+     "isb": 3.0,
+     "buy": 0.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "MVqmXoZG": {
    "bahis": {},
