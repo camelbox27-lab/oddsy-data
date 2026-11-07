@@ -85,7 +85,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 14
    },
@@ -198,7 +198,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -290,12 +290,12 @@
   "0C1biZA5": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "ddMQxzdC": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "jaJIvdRa": {
    "bahis": {},
@@ -303,14 +303,21 @@
    "son": "once"
   },
   "U9KYzEQO": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 403,
+     "durum": "acik",
+     "dk": 5,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "KYareHBt": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "rZFAtIdm": {
    "bahis": {},
@@ -649,7 +656,7 @@
   "Q9Vk9jxo": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "jD4PsBrA": {
    "bahis": {},
@@ -782,9 +789,16 @@
    ]
   },
   "K4UXJDe2": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 404,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "WQheKs7r": {
    "bahis": {},
@@ -819,7 +833,7 @@
   "YRdl3r1C": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0GJ6g1uC": {
    "bahis": {},
@@ -1053,7 +1067,7 @@
   "SSbRVZm4": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "K2eJXeJi": {
    "bahis": {},
@@ -1186,7 +1200,7 @@
   "zNZez74N": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "YD5h5R3c": {
    "bahis": {},
@@ -1237,7 +1251,7 @@
   "ATZgxnWo": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "pAfuzdkI": {
    "bahis": {},
@@ -1335,7 +1349,7 @@
   "Y7QOXHCN": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "x4adsVqK": {
    "bahis": {},
@@ -1357,8 +1371,8 @@
   "4jZfvCEN": "once",
   "MBw8Tf05": "once",
   "jaJIvdRa": "once",
-  "U9KYzEQO": "once",
-  "KYareHBt": "once",
+  "U9KYzEQO": "1y",
+  "KYareHBt": "1y",
   "Eyc1EfPH": "once",
   "GMbz0OdE": "once",
   "27n2fVHi": "once",
@@ -1396,5 +1410,9 @@
   "CbiABCTF": "once",
   "YD5h5R3c": "once",
   "pAfuzdkI": "once"
+ },
+ "liste_kazanan": {
+  "U9KYzEQO": [],
+  "KYareHBt": []
  }
 }
