@@ -3542,13 +3542,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 33
+    "1": 33,
+    "2": 43
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 30,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 39,
+   "iki_gol_dk_kesin": true
   },
   "lv9HRPE8": {
    "bahis": {
@@ -4858,13 +4862,16 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 23
+    "1": 23,
+    "2": 42
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 22,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 42
   },
   "IanJk64l": {
    "bahis": {
