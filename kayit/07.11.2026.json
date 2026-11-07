@@ -38,7 +38,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 49
    },
@@ -89,7 +89,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 39
    },
@@ -269,9 +269,16 @@
    ]
   },
   "AV4u1ai5": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 578,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "xIdEVL97": {
    "bahis": {},
@@ -3235,7 +3242,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 41
    },
