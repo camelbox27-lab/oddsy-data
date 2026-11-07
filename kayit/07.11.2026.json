@@ -492,9 +492,16 @@
    "son": "once"
   },
   "lv9HRPE8": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 394,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "K4UXJDe2": {
    "bahis": {},
