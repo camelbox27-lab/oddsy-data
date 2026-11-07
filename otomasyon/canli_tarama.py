@@ -85,7 +85,8 @@ BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 from ligler import lig_uygun     # noqa: E402,F401  (canli + mac oncesi ortak)
 
 R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
-R2_SON = 6                   # ilk gol en gec bu dakikada gorulmus olmali
+R2_SON = 5                   # ilk gol en gec bu dakikada ATILMIS olmali (gercek dakika;
+                             # tarama golu sonradan, ornegin 20'de gorse de tahmin gider)
 R3_SON = 21                  # ikinci gol en gec bu dakikada
 R4_SKORLAR = {(2, 1), (1, 2), (3, 0), (0, 3)}
 R4_SON = 60                  # MS 4.5 Üst en gec bu dakikada gonderilir
@@ -456,10 +457,12 @@ class Tarayici:
         if f == "1y":
             dk = dakika(m, f, simdi)
             for sira, alan in ((1, "ilk_gol_dk"), (2, "iki_gol_dk")):
-                if toplam >= sira and alan not in st:
-                    v = self._gol_dk(kod, st, sira, dk)
-                    if v is not None:
+                if toplam >= sira and not st.get(alan + "_kesin"):
+                    v, kesin = self._gol_dk(kod, st, sira, dk, st.get(alan))
+                    if v is not None and (v != st.get(alan) or kesin):
                         st[alan] = v
+                        if kesin:
+                            st[alan + "_kesin"] = True
                         self.degisti = True
 
             # Once sonuclandir (esik asildiysa kazandi), sonra yeni tahmin:
@@ -500,17 +503,23 @@ class Tarayici:
         elif f == "bitti":
             self.kapat(kod, "ms45", "kaybetti", (ag, ah), "Maç sonu")
 
-    def _gol_dk(self, kod, st, sira, dk):
-        """sira. golun dakikasi. Tarama golu ancak bir sonraki yoklamada
-        (60 sn) ve Flashscore'un gecikmesiyle gorur; 5. dakikadaki gol 7.
-        dakikada gorulebilir (07.11 Eyupspor-Kocaelispor). Esige yakin
-        durumlarda gercek dakika mac ozetinden okunur. Ozet golu henuz
-        icermiyorsa bir sonraki yoklamada tekrar denenir (None); 3 dakika
-        icinde gelmezse goruldugu dakika kullanilir."""
-        esik = R2_SON if sira == 1 else R3_SON
-        gorulen = st.setdefault("gol_gorulen", {}).setdefault(str(sira), dk)
-        if gorulen > esik + 5 or self.kaynak is None:
-            return gorulen
+    def _gol_dk(self, kod, st, sira, dk, onceki=None):
+        """(sira. golun dakikasi, kesin_mi).
+        Tarama golu ancak bir sonraki yoklamada (60 sn) ve Flashscore'un
+        gecikmesiyle gorur; tarama gec baslamissa ya da yeniden baslatildiysa
+        cok daha sonra. 07.11 Eyupspor-Kocaelispor'da 5. dakikadaki gol 7.
+        dakika sanildi ve tahmin gitmedi. Bu yuzden gercek dakika her zaman
+        mac ozetinden okunur (gol basina tek istek). Ozet golu henuz
+        icermiyorsa gecici olarak goruldugu dakika yazilir ve sonraki
+        yoklamalarda tekrar bakilir (en fazla 8 deneme)."""
+        gorulen = st.setdefault("gol_gorulen", {}).setdefault(str(sira), onceki or dk)
+        if self.kaynak is None:
+            return gorulen, True
+        denemeler = st.setdefault("gol_deneme", {})
+        deneme = denemeler.get(str(sira), 0)
+        if deneme >= 8:
+            return gorulen, True
+        denemeler[str(sira)] = deneme + 1
         try:
             dakikalar = ilk_yari_gol_dakikalari(self.kaynak, kod)
         except Exception as e:
@@ -520,10 +529,8 @@ class Tarayici:
             gercek = min(gorulen, dakikalar[sira - 1])
             if gercek != gorulen:
                 print(f"[gol] {kod} {sira}. gol: goruldu {gorulen}', gercek {gercek}'", flush=True)
-            return gercek
-        if dk - gorulen >= 3:
-            return gorulen
-        return None
+            return gercek, True
+        return gorulen, False
 
     # ---- xG gözlemi (sessiz mod)
     def gozle(self, kod, m, f, simdi):
