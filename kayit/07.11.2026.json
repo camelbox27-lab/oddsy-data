@@ -3470,7 +3470,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 48
    },
@@ -5130,9 +5130,16 @@
    ]
   },
   "Sf9okNOj": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 584,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "G2RAVupA": {
    "bahis": {},
@@ -5962,7 +5969,7 @@
   "4SrapZ2c": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "hpsHkV6d": {
    "bahis": {},
@@ -6443,7 +6450,7 @@
   "G8av4hnI": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Iuh7kdxn": {
    "bahis": {},
@@ -7113,7 +7120,7 @@
   "x4BCMnf3": "bitti",
   "4G20vKem": "once",
   "ObK7d5WG": "bitti",
-  "Sf9okNOj": "once",
+  "Sf9okNOj": "1y",
   "j7QmlpfT": "bitti",
   "2of66R9c": "bitti",
   "QgBbT3ZQ": "bitti",
@@ -7227,6 +7234,7 @@
   "bNXhKZlS": [],
   "MF91ODmI": [],
   "Wj2miQbT": [],
-  "txvECmMi": []
+  "txvECmMi": [],
+  "Sf9okNOj": []
  }
 }
