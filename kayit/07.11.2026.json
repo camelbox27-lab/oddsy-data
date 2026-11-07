@@ -319,6 +319,12 @@
        "xg": 0.08,
        "isb": 0.0,
        "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.17,
+       "isb": 1.0,
+       "buy": 0.0
       }
      }
     }
@@ -1311,7 +1317,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "16:00": 402
+ },
  "liste_son": {
   "Cd5qPpj4": "once",
   "0Qj59IzA": "once",
