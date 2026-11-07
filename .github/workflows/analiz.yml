@@ -6,7 +6,7 @@ on:
     inputs:
       is:
         type: choice
-        options: [yari-skorlari, bugun-ara]
+        options: [yari-skorlari, bugun-ara, olay-kesif]
         default: yari-skorlari
 
 permissions:
@@ -33,3 +33,6 @@ jobs:
           python iddaa_cek.py && python excel_to_json_ci.py iddaa || echo "iddaa cekilemedi"
           python bet365_cek.py && python excel_to_json_ci.py bet365 "$(date +%Y-%m-%d)" || echo "bet365 cekilemedi"
           python bugun_ara.py
+      - name: Mac olaylari kesfi
+        if: ${{ inputs.is == 'olay-kesif' }}
+        run: python otomasyon/olay_kesif.py 0tybz5q1 KpK8y0Db
