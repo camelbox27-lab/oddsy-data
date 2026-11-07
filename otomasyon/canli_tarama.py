@@ -63,6 +63,7 @@ import base64
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -265,6 +266,30 @@ def iy_skoru(m, f):
     return ag - _int(m.get("BC")), ah - _int(m.get("BD"))
 
 
+GOL_OLAYLARI = {"Tor", "Eigentor", "Elfmeter"}
+
+
+def ilk_yari_gol_dakikalari(kaynak, kod):
+    """Flashscore mac ozetinden (df_sui) ilk yari gollerinin dakikalari, sirali.
+    Kayit ornegi: III÷..¬IA÷2¬IB÷5'¬...¬IK÷Tor  (IB dakika, IK olay turu;
+    bir kayitta asist gibi ikinci bir IK olabilir, ilki asil olaydir)."""
+    r = kaynak._get(f"{fk.FEED}df_sui_1_{kod}")
+    bolum, dakikalar = None, []
+    for kayit in r.text.split("\u00ac~"):
+        alanlar = [a.split("\u00f7", 1) for a in kayit.split("\u00ac") if "\u00f7" in a]
+        ilk = {}
+        for k, v in alanlar:
+            ilk.setdefault(k, v)
+        if "AC" in ilk:
+            bolum = ilk["AC"]
+        if bolum != "1. H\u00e4lfte" or ilk.get("IK") not in GOL_OLAYLARI:
+            continue
+        m = re.match(r"\s*(\d+)", ilk.get("IB", ""))
+        if m:
+            dakikalar.append(int(m.group(1)))
+    return sorted(dakikalar)
+
+
 def ms_toplam(m, iy):
     # Uzatma/penalti ile biten macta 90 dk skoru: ilk yari + ikinci yari
     if m.get("AC") in ("10", "11") and iy and m.get("BC") is not None:
@@ -430,12 +455,12 @@ class Tarayici:
 
         if f == "1y":
             dk = dakika(m, f, simdi)
-            if toplam >= 1 and "ilk_gol_dk" not in st:
-                st["ilk_gol_dk"] = dk
-                self.degisti = True
-            if toplam >= 2 and "iki_gol_dk" not in st:
-                st["iki_gol_dk"] = dk
-                self.degisti = True
+            for sira, alan in ((1, "ilk_gol_dk"), (2, "iki_gol_dk")):
+                if toplam >= sira and alan not in st:
+                    v = self._gol_dk(kod, st, sira, dk)
+                    if v is not None:
+                        st[alan] = v
+                        self.degisti = True
 
             # Once sonuclandir (esik asildiysa kazandi), sonra yeni tahmin:
             # grupta KAZANDI mesaji bir sonraki tahminden once dussun.
@@ -474,6 +499,31 @@ class Tarayici:
             self.kapat(kod, "ms45", "kazandi", (ag, ah), _an(m, f, simdi))
         elif f == "bitti":
             self.kapat(kod, "ms45", "kaybetti", (ag, ah), "Maç sonu")
+
+    def _gol_dk(self, kod, st, sira, dk):
+        """sira. golun dakikasi. Tarama golu ancak bir sonraki yoklamada
+        (60 sn) ve Flashscore'un gecikmesiyle gorur; 5. dakikadaki gol 7.
+        dakikada gorulebilir (07.11 Eyupspor-Kocaelispor). Esige yakin
+        durumlarda gercek dakika mac ozetinden okunur. Ozet golu henuz
+        icermiyorsa bir sonraki yoklamada tekrar denenir (None); 3 dakika
+        icinde gelmezse goruldugu dakika kullanilir."""
+        esik = R2_SON if sira == 1 else R3_SON
+        gorulen = st.setdefault("gol_gorulen", {}).setdefault(str(sira), dk)
+        if gorulen > esik + 5 or self.kaynak is None:
+            return gorulen
+        try:
+            dakikalar = ilk_yari_gol_dakikalari(self.kaynak, kod)
+        except Exception as e:
+            print(f"[gol] {kod} mac ozeti alinamadi: {e}", flush=True)
+            dakikalar = []
+        if len(dakikalar) >= sira:
+            gercek = min(gorulen, dakikalar[sira - 1])
+            if gercek != gorulen:
+                print(f"[gol] {kod} {sira}. gol: goruldu {gorulen}', gercek {gercek}'", flush=True)
+            return gercek
+        if dk - gorulen >= 3:
+            return gorulen
+        return None
 
     # ---- xG gözlemi (sessiz mod)
     def gozle(self, kod, m, f, simdi):
