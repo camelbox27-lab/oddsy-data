@@ -1160,13 +1160,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 30
+    "1": 30,
+    "2": 36
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 26,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 33,
+   "iki_gol_dk_kesin": true
   },
   "fHilK1z3": {
    "bahis": {},
@@ -1670,7 +1674,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 38
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 34,
+   "ilk_gol_dk_kesin": true
   },
   "WQoN2q9M": {
    "bahis": {
@@ -1810,7 +1822,7 @@
    "bahis": {
     "iy05": {
      "id": 416,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
@@ -1839,7 +1851,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 39
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 37,
+   "ilk_gol_dk_kesin": true
   },
   "2of66R9c": {
    "bahis": {},
@@ -1897,7 +1917,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 36
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 32,
+   "ilk_gol_dk_kesin": true
   },
   "QgBbT3ZQ": {
    "bahis": {},
@@ -2516,7 +2544,9 @@
   "pAfuzdkI": "once"
  },
  "liste_kazanan": {
-  "U9KYzEQO": [],
+  "U9KYzEQO": [
+   "ust25"
+  ],
   "KYareHBt": [],
   "jaJIvdRa": [],
   "j7QmlpfT": [],
