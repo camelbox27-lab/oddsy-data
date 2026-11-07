@@ -2011,11 +2011,12 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 2
+    "2": 3
    },
    "ilk_gol_dk": 31,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 37
+   "iki_gol_dk": 37,
+   "iki_gol_dk_kesin": true
   },
   "8Y4ppion": {
    "bahis": {
