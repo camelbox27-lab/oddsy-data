@@ -119,7 +119,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 28
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 25,
+   "ilk_gol_dk_kesin": true
   },
   "tYyhXx1t": {
    "bahis": {},
@@ -403,7 +411,19 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 28,
+    "2": 28
+   },
+   "gol_deneme": {
+    "1": 1,
+    "2": 1
+   },
+   "ilk_gol_dk": 25,
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 27,
+   "iki_gol_dk_kesin": true
   },
   "z1fGWRPp": {
    "bahis": {},
