@@ -127,10 +127,12 @@
      "dk": 45,
      "xg": 1.61,
      "isb": 2.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -1225,10 +1227,12 @@
      "dk": 45,
      "xg": 1.17,
      "isb": 4.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 14,
     "2": 28
@@ -1833,10 +1837,12 @@
      "dk": 45,
      "xg": null,
      "isb": 4.0,
-     "buy": null
+     "buy": null,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 16,
     "2": 45
@@ -1895,10 +1901,12 @@
      "dk": 45,
      "xg": null,
      "isb": 3.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 42
    },
@@ -2113,10 +2121,12 @@
      "dk": 45,
      "xg": null,
      "isb": 0.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -2480,10 +2490,12 @@
      "dk": 45,
      "xg": null,
      "isb": 0.0,
-     "buy": null
+     "buy": null,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 8,
     "2": 43
@@ -2806,10 +2818,12 @@
      "dk": 45,
      "xg": null,
      "isb": 9.0,
-     "buy": null
+     "buy": null,
+     "ms": 6,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 34,
     "2": 37
@@ -3385,7 +3399,7 @@
   "Mio1uCCU": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "lv9HRPE8": {
    "bahis": {
@@ -3637,7 +3651,7 @@
   "jRSoFFwS": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "YRdl3r1C": {
    "bahis": {},
@@ -4892,7 +4906,7 @@
    "bahis": {
     "ms45": {
      "id": 521,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "1-2"
     }
@@ -5574,11 +5588,11 @@
   "jD0Xf8a4": "2y",
   "n3C0oeS7": "bitti",
   "0tNirVFb": "bitti",
-  "h2znRev8": "2y",
+  "h2znRev8": "bitti",
   "tSKsRwfE": "bitti",
   "4d2PdUUi": "bitti",
   "AqpIF4iU": "bitti",
-  "K6mcGFRs": "2y",
+  "K6mcGFRs": "bitti",
   "Wj2miQbT": "once",
   "vcHi3EXO": "once",
   "MF91ODmI": "once",
