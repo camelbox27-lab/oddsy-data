@@ -1163,7 +1163,7 @@
    "bahis": {
     "ms45": {
      "id": 501,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "1-2"
     }
@@ -2168,7 +2168,7 @@
      "buy": null
     }
    },
-   "son": "2y",
+   "son": "iptal",
    "iy": [
     0,
     0
@@ -4496,7 +4496,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
