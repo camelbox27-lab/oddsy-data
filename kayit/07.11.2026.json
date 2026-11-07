@@ -241,6 +241,12 @@
        "xg": 1.57,
        "isb": 2.0,
        "buy": 2.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 1.62,
+       "isb": 2.0,
+       "buy": 2.0
       }
      }
     }
@@ -880,7 +886,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 45
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 44,
+   "ilk_gol_dk_kesin": true
   },
   "0C1biZA5": {
    "bahis": {
@@ -3812,7 +3826,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 30
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 27,
+   "ilk_gol_dk_kesin": true
   },
   "CfwxVIlL": {
    "bahis": {
