@@ -2011,7 +2011,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 1
+    "2": 2
    },
    "ilk_gol_dk": 31,
    "ilk_gol_dk_kesin": true,
@@ -3502,7 +3502,18 @@
   },
   "hpsHkV6d": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.83,
+       "isb": 1.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "OKqd28j2": {
