@@ -3234,7 +3234,7 @@
   "fHilK1z3": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4UZTWvK8": {
    "bahis": {},
@@ -3455,8 +3455,19 @@
   },
   "EVoSlpUp": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.83,
+     "isb": 5.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 17,
     "2": 43
@@ -3468,7 +3479,11 @@
    "ilk_gol_dk": 17,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 43,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    2
+   ]
   },
   "6cfT85LG": {
    "bahis": {},
@@ -3484,7 +3499,7 @@
    "bahis": {
     "iy05": {
      "id": 485,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 4,
      "skor": "0-0"
     }
@@ -3510,10 +3525,25 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.83,
+     "isb": 2.0,
+     "buy": 0.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "jRSoFFwS": {
    "bahis": {},
@@ -3806,8 +3836,19 @@
   },
   "MoIq3jLs": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 3.0,
+     "buy": null
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 12
    },
@@ -3815,7 +3856,11 @@
     "1": 1
    },
    "ilk_gol_dk": 8,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    1,
+    0
+   ]
   },
   "ObK7d5WG": {
    "bahis": {},
@@ -5199,10 +5244,10 @@
   "Wj2miQbT": "once",
   "vcHi3EXO": "once",
   "MF91ODmI": "once",
-  "EVoSlpUp": "1y",
+  "EVoSlpUp": "da",
   "6cfT85LG": "once",
   "txvECmMi": "once",
-  "t8lgHcHk": "1y",
+  "t8lgHcHk": "da",
   "M5Ijcqtm": "once",
   "x4BCMnf3": "once",
   "4G20vKem": "once",
@@ -5275,7 +5320,9 @@
   ],
   "ObK7d5WG": [],
   "jD0Xf8a4": [],
-  "EVoSlpUp": [],
+  "EVoSlpUp": [
+   "ust25"
+  ],
   "t8lgHcHk": [],
   "pAfuzdkI": []
  }
