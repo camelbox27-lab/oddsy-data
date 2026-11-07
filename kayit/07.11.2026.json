@@ -548,7 +548,18 @@
   },
   "Mgton6Ij": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.07,
+       "isb": 1.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "8UUn6R9M": {
@@ -832,7 +843,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 5,
    "gol_gorulen": {
     "1": 7,
@@ -902,7 +913,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 42
    },
@@ -930,7 +941,7 @@
      "buy": 5.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "ilk_gol_dk": 14,
    "gol_gorulen": {
     "1": 17
