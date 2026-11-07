@@ -1590,6 +1590,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 3.0,
+       "buy": null
       }
      }
     }
@@ -1603,6 +1609,12 @@
      "olcum": {
       "20": {
        "dk": 20,
+       "xg": null,
+       "isb": 1.0,
+       "buy": null
+      },
+      "25": {
+       "dk": 25,
        "xg": null,
        "isb": 1.0,
        "buy": null
@@ -1645,6 +1657,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
       }
      }
     }
@@ -1660,6 +1678,12 @@
        "dk": 20,
        "xg": null,
        "isb": 0.0,
+       "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 2.0,
        "buy": null
       }
      }
@@ -1898,6 +1922,12 @@
      "olcum": {
       "20": {
        "dk": 20,
+       "xg": 0.03,
+       "isb": 0.0,
+       "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
        "xg": 0.03,
        "isb": 0.0,
        "buy": 0.0
