@@ -411,9 +411,16 @@
    ]
   },
   "MBw8Tf05": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 545,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "hb8c8wGc": {
    "bahis": {
@@ -2350,7 +2357,7 @@
    "ilk_gol_dk_kesin": true,
    "iy": [
     1,
-    0
+    1
    ]
   },
   "n3C0oeS7": {
@@ -2919,7 +2926,7 @@
   "WYr2Jnh5": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Wj2miQbT": {
    "bahis": {},
@@ -3489,7 +3496,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 33
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 30,
+   "ilk_gol_dk_kesin": true
   },
   "lv9HRPE8": {
    "bahis": {
@@ -4935,9 +4950,16 @@
    ]
   },
   "YP1ZTDIG": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 547,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4SrapZ2c": {
    "bahis": {},
@@ -4996,9 +5018,16 @@
    ]
   },
   "OKqd28j2": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 548,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "CbiABCTF": {
    "bahis": {},
@@ -5198,10 +5227,12 @@
      "dk": 45,
      "xg": 2.81,
      "isb": 7.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 4,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 26,
     "2": 35
@@ -5836,7 +5867,7 @@
   "xdZWqGpn": "bitti",
   "Eoz0VGVh": "bitti",
   "4jZfvCEN": "bitti",
-  "MBw8Tf05": "once",
+  "MBw8Tf05": "1y",
   "jaJIvdRa": "bitti",
   "U9KYzEQO": "bitti",
   "KYareHBt": "bitti",
@@ -5947,7 +5978,9 @@
    "iy15"
   ],
   "ObK7d5WG": [],
-  "jD0Xf8a4": [],
+  "jD0Xf8a4": [
+   "ust25"
+  ],
   "EVoSlpUp": [
    "ust25"
   ],
@@ -5957,6 +5990,7 @@
   ],
   "x4BCMnf3": [],
   "2kDQsKeJ": [],
-  "QgBbT3ZQ": []
+  "QgBbT3ZQ": [],
+  "MBw8Tf05": []
  }
 }
