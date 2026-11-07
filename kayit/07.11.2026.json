@@ -809,7 +809,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -3949,12 +3949,19 @@
   "G2RAVupA": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "StoG9bNj": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 524,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "GUVOglQi": {
    "bahis": {},
