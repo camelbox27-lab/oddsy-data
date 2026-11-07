@@ -549,7 +549,7 @@
   "Mgton6Ij": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "8UUn6R9M": {
    "bahis": {},
@@ -820,8 +820,19 @@
      "skor": "0-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 0.76,
+     "isb": 6.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "ilk_gol_dk": 5,
    "gol_gorulen": {
     "1": 7,
@@ -833,7 +844,11 @@
    },
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 28,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "ATZgxnWo": {
    "bahis": {},
