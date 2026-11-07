@@ -4224,9 +4224,16 @@
    ]
   },
   "M5Ijcqtm": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 568,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Mgton6Ij": {
    "bahis": {},
@@ -4407,6 +4414,12 @@
        "dk": 25,
        "xg": 0.54,
        "isb": 3.0,
+       "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.6,
+       "isb": 4.0,
        "buy": 0.0
       }
      }
@@ -6541,7 +6554,7 @@
   "6cfT85LG": "1y",
   "txvECmMi": "once",
   "t8lgHcHk": "bitti",
-  "M5Ijcqtm": "once",
+  "M5Ijcqtm": "1y",
   "x4BCMnf3": "bitti",
   "4G20vKem": "once",
   "ObK7d5WG": "bitti",
@@ -6645,6 +6658,7 @@
   "MBw8Tf05": [],
   "vcHi3EXO": [],
   "CbiABCTF": [],
-  "6cfT85LG": []
+  "6cfT85LG": [],
+  "M5Ijcqtm": []
  }
 }
