@@ -4535,6 +4535,12 @@
        "xg": 0.21,
        "isb": 1.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.3,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -4582,9 +4588,10 @@
     "1": 26
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
-   "ilk_gol_dk": 26
+   "ilk_gol_dk": 26,
+   "ilk_gol_dk_kesin": true
   },
   "YT3igyYa": {
    "bahis": {},
