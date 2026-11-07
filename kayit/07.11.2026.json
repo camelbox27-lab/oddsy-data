@@ -3538,10 +3538,12 @@
      "dk": 45,
      "xg": 1.31,
      "isb": 3.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 3,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -5391,10 +5393,12 @@
      "dk": 45,
      "xg": 1.93,
      "isb": 8.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 5,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 23,
     "2": 42
@@ -5930,7 +5934,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 23
    },
@@ -6758,7 +6762,7 @@
   "Sf9okNOj": "once",
   "j7QmlpfT": "bitti",
   "2of66R9c": "bitti",
-  "QgBbT3ZQ": "2y",
+  "QgBbT3ZQ": "bitti",
   "htDjVP4E": "once",
   "CbiABCTF": "2y",
   "YD5h5R3c": "iptal",
