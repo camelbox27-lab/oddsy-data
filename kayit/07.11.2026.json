@@ -306,6 +306,12 @@
        "xg": 0.3,
        "isb": 1.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.42,
+       "isb": 3.0,
+       "buy": 0.0
       }
      }
     }
@@ -3398,7 +3404,7 @@
     "1": 29
    },
    "gol_deneme": {
-    "1": 2
+    "1": 4
    },
    "ilk_gol_dk": 29
   },
@@ -5601,7 +5607,7 @@
   "htDjVP4E": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SSbRVZm4": {
    "bahis": {},
@@ -6903,7 +6909,7 @@
   "j7QmlpfT": "bitti",
   "2of66R9c": "bitti",
   "QgBbT3ZQ": "bitti",
-  "htDjVP4E": "once",
+  "htDjVP4E": "1y",
   "CbiABCTF": "bitti",
   "YD5h5R3c": "iptal",
   "pAfuzdkI": "bitti"
@@ -7008,6 +7014,7 @@
   ],
   "M5Ijcqtm": [
    "ust25"
-  ]
+  ],
+  "htDjVP4E": []
  }
 }
