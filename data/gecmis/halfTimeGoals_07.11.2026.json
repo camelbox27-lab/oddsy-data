@@ -1,0 +1,570 @@
+[
+  {
+    "event_id": "lv9HRPE8",
+    "home_team": "Segesta",
+    "away_team": "Opatija",
+    "league": "KROATIEN Prva NL",
+    "saat": "14:45",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "z3JQZyVF",
+    "home_team": "Majevica",
+    "away_team": "Omarska",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - RS",
+    "saat": "15:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "hb8c8wGc",
+    "home_team": "1. FC Nürnberg",
+    "away_team": "SV Darmstadt",
+    "league": "DEUTSCHLAND 2. Bundesliga",
+    "saat": "15:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "2i0qaZxp",
+    "home_team": "Holstein Kiel",
+    "away_team": "Arminia Bielefeld",
+    "league": "DEUTSCHLAND 2. Bundesliga",
+    "saat": "15:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "xInCfheB",
+    "home_team": "Zemun",
+    "away_team": "IMT Novi Beograd",
+    "league": "SERBIEN Super Liga",
+    "saat": "15:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "WhXC4CoR",
+    "home_team": "NK Travnik",
+    "away_team": "Bratstvo Gračanica",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - FBiH",
+    "saat": "15:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "QmvNJzeo",
+    "home_team": "FC Chelsea F",
+    "away_team": "FC Everton F",
+    "league": "ENGLAND WSL",
+    "saat": "15:45",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "U9KYzEQO",
+    "home_team": "SV Wehen Wiesbaden",
+    "away_team": "TSV Havelse",
+    "league": "DEUTSCHLAND 3. Liga",
+    "saat": "16:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "K4UXJDe2",
+    "home_team": "Mladost Zdralovi",
+    "away_team": "Hrvace",
+    "league": "KROATIEN Prva NL",
+    "saat": "16:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "fT79MiIU",
+    "home_team": "FC Turin",
+    "away_team": "US Lecce",
+    "league": "ITALIEN Serie A",
+    "saat": "17:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "WQoN2q9M",
+    "home_team": "IK Brage",
+    "away_team": "Norrby IF",
+    "league": "SCHWEDEN Superettan",
+    "saat": "17:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "j7QmlpfT",
+    "home_team": "Ljungskile SK",
+    "away_team": "Landskrona BoIS",
+    "league": "SCHWEDEN Superettan",
+    "saat": "17:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "pANuj6PG",
+    "home_team": "Örebro",
+    "away_team": "Östers IF",
+    "league": "SCHWEDEN Superettan",
+    "saat": "17:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "2of66R9c",
+    "home_team": "Sundsvall",
+    "away_team": "Varbergs BoIS",
+    "league": "SCHWEDEN Superettan",
+    "saat": "17:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "tYyhXx1t",
+    "home_team": "Borussia Dortmund",
+    "away_team": "SV Elversberg",
+    "league": "DEUTSCHLAND Bundesliga",
+    "saat": "17:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "Eoz0VGVh",
+    "home_team": "RB Leipzig",
+    "away_team": "FC Augsburg",
+    "league": "DEUTSCHLAND Bundesliga",
+    "saat": "17:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "ziLfcHjU",
+    "home_team": "RSC Anderlecht U23",
+    "away_team": "FC Brügge U23",
+    "league": "BELGIEN Challenger Pro League",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "251X2LMh",
+    "home_team": "Francs Borains",
+    "away_team": "Seraing",
+    "league": "BELGIEN Challenger Pro League",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "Eyc1EfPH",
+    "home_team": "FC Arsenal",
+    "away_team": "Hull City",
+    "league": "ENGLAND Premier League",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "WCog5JYg",
+    "home_team": "FC Watford",
+    "away_team": "FC Middlesbrough",
+    "league": "ENGLAND Championship",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "SGdFC1tK",
+    "home_team": "Preston North End",
+    "away_team": "FC Southampton",
+    "league": "ENGLAND Championship",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "MZsR0AMG",
+    "home_team": "Chorley FC",
+    "away_team": "Hereford FC",
+    "league": "ENGLAND National League Nord",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "hfAi4qT8",
+    "home_team": "Hednesford Town",
+    "away_team": "FC Morecambe",
+    "league": "ENGLAND National League Nord",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "27hXGMCE",
+    "home_team": "South Shields FC",
+    "away_team": "FC Southport",
+    "league": "ENGLAND National League Nord",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "bw4ugnUG",
+    "home_team": "Bradford City",
+    "away_team": "Marine FC",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "lOdRLy4K",
+    "home_team": "Carlisle United",
+    "away_team": "Salford City",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "EkEhmHce",
+    "home_team": "Dover Athletic",
+    "away_team": "Wealdstone FC",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "nRnF8Vwm",
+    "home_team": "FC Barnsley",
+    "away_team": "Aldershot Town",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "S4lV4mwC",
+    "home_team": "FC Chesterfield",
+    "away_team": "Yeovil Town",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "0W1x3R7O",
+    "home_team": "FC Gillingham",
+    "away_team": "AFC Barrow",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "6PApkwTr",
+    "home_team": "Fleetwood Town",
+    "away_team": "Rochdale AFC",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "fijN698a",
+    "home_team": "Harrogate Town",
+    "away_team": "AFC Fylde",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "pdRSR9VH",
+    "home_team": "Guiseley AFC",
+    "away_team": "Sutton United",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "n3C0oeS7",
+    "home_team": "Huddersfield Town",
+    "away_team": "Exeter City",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "0tNirVFb",
+    "home_team": "Leyton Orient",
+    "away_team": "Harborough",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "tSKsRwfE",
+    "home_team": "Mansfield Town",
+    "away_team": "Macclesfield FC",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "4d2PdUUi",
+    "home_team": "Milton Keynes Dons",
+    "away_team": "Swindon Town",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "h2znRev8",
+    "home_team": "Luton Town",
+    "away_team": "Forest Green Rovers",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "K6mcGFRs",
+    "home_team": "Salisbury City",
+    "away_team": "Sholing",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "I9PzQm0U",
+    "home_team": "Port Vale",
+    "away_team": "Scunthorpe United",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "AqpIF4iU",
+    "home_team": "Plymouth Argyle",
+    "away_team": "Alvechurch",
+    "league": "ENGLAND FA Cup",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "bTnGtVXH",
+    "home_team": "Ross County",
+    "away_team": "Peterhead",
+    "league": "SCHOTTLAND League One",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "fwByLa4C",
+    "home_team": "Annan",
+    "away_team": "Kelty Hearts",
+    "league": "SCHOTTLAND League Two",
+    "saat": "18:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "rZFAtIdm",
+    "home_team": "Preußen Münster",
+    "away_team": "MSV Duisburg",
+    "league": "DEUTSCHLAND 3. Liga",
+    "saat": "18:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "t8lgHcHk",
+    "home_team": "Den Bosch",
+    "away_team": "Jong FC Utrecht",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "18:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "GrSjzO9d",
+    "home_team": "Zeleznicar Pancevo",
+    "away_team": "Radnicki 1923",
+    "league": "SERBIEN Super Liga",
+    "saat": "19:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "8Mz1MKM9",
+    "home_team": "Real Madrid C",
+    "away_team": "Valladolid Promesas",
+    "league": "SPANIEN Segunda RFEF - Group 5",
+    "saat": "19:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "pAfuzdkI",
+    "home_team": "Galatasaray Istanbul",
+    "away_team": "Amed SK",
+    "league": "TÜRKEI Süper Lig",
+    "saat": "19:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "x4BCMnf3",
+    "home_team": "Górnik Zabrze",
+    "away_team": "Wieczysta Krakow",
+    "league": "POLEN Ekstraklasa",
+    "saat": "19:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "StoG9bNj",
+    "home_team": "Örgryte IS",
+    "away_team": "Västerås SK",
+    "league": "SCHWEDEN Allsvenskan",
+    "saat": "19:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "Ek6gQZI5",
+    "home_team": "Parma Calcio",
+    "away_team": "FC Bologna",
+    "league": "ITALIEN Serie A",
+    "saat": "20:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "jRSoFFwS",
+    "home_team": "Rosenborg Trondheim",
+    "away_team": "IK Start",
+    "league": "NORWEGEN Eliteserien",
+    "saat": "20:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "QgBbT3ZQ",
+    "home_team": "FC Luzern",
+    "away_team": "Young Boys Bern",
+    "league": "SCHWEIZ Super League",
+    "saat": "20:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "MBw8Tf05",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Werder Bremen",
+    "league": "DEUTSCHLAND Bundesliga",
+    "saat": "20:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "vcHi3EXO",
+    "home_team": "Aris Thessaloniki",
+    "away_team": "Panetolikos",
+    "league": "GRIECHENLAND Super League",
+    "saat": "20:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "YXJAoqVO",
+    "home_team": "Ironi Tiberias",
+    "away_team": "Beitar Jerusalem",
+    "league": "ISRAEL Ligat ha'Al",
+    "saat": "20:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "YP1ZTDIG",
+    "home_team": "CA Osasuna",
+    "away_team": "Athletic Bilbao",
+    "league": "SPANIEN La Liga",
+    "saat": "20:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "CbiABCTF",
+    "home_team": "FC Córdoba",
+    "away_team": "Ceuta",
+    "league": "SPANIEN La Liga2",
+    "saat": "20:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "hKVc1kf2",
+    "home_team": "Kisvárda FC",
+    "away_team": "Puskás Akadémia FC",
+    "league": "UNGARN NB I.",
+    "saat": "20:45",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "n9I37Nd2",
+    "home_team": "La Serena",
+    "away_team": "Palestino",
+    "league": "CHILE Liga de Primera",
+    "saat": "21:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "ne2jIlmJ",
+    "home_team": "AJ Auxerre",
+    "away_team": "FC Paris",
+    "league": "FRANKREICH Ligue 1",
+    "saat": "21:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "r751Moz2",
+    "home_team": "Alverca",
+    "away_team": "Casa Pia AC",
+    "league": "PORTUGAL Liga Portugal",
+    "saat": "21:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "M5Ijcqtm",
+    "home_team": "SV Ried",
+    "away_team": "LASK",
+    "league": "ÖSTERREICH Bundesliga",
+    "saat": "21:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "2oHWuC6K",
+    "home_team": "FCSB Bukarest",
+    "away_team": "Corvinul",
+    "league": "RUMÄNIEN Superliga",
+    "saat": "21:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "40GI05Xq",
+    "home_team": "Widzew Lodz",
+    "away_team": "Pogoń Stettin",
+    "league": "POLEN Ekstraklasa",
+    "saat": "22:15",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "MF91ODmI",
+    "home_team": "AS Rom",
+    "away_team": "Sassuolo Calcio",
+    "league": "ITALIEN Serie A",
+    "saat": "22:45",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "Sf9okNOj",
+    "home_team": "FC St. Mirren",
+    "away_team": "Glasgow Rangers",
+    "league": "SCHOTTLAND Premier League",
+    "saat": "23:00",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "fs9eEuno",
+    "home_team": "PSG",
+    "away_team": "ES Troyes AC",
+    "league": "FRANKREICH Ligue 1",
+    "saat": "23:05",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "Cd5qPpj4",
+    "home_team": "Boca Juniors",
+    "away_team": "Defensa y Justicia",
+    "league": "ARGENTINIEN Liga Profesional - Clausura",
+    "saat": "23:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "dh5eDDpL",
+    "home_team": "Everton",
+    "away_team": "Dep. Concepción",
+    "league": "CHILE Liga de Primera",
+    "saat": "23:30",
+    "tarih": "07.11.2026"
+  },
+  {
+    "event_id": "4G20vKem",
+    "home_team": "Sporting CP",
+    "away_team": "FC Moreirense",
+    "league": "PORTUGAL Liga Portugal",
+    "saat": "23:30",
+    "tarih": "07.11.2026"
+  }
+]
