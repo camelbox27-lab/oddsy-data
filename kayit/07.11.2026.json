@@ -290,7 +290,15 @@
   "0C1biZA5": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 11
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 10,
+   "ilk_gol_dk_kesin": true
   },
   "ddMQxzdC": {
    "bahis": {},
@@ -321,13 +329,21 @@
    "bahis": {
     "iy05": {
      "id": 403,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 5,
      "skor": "0-0"
     }
    },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 14
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 10,
+   "ilk_gol_dk_kesin": true
   },
   "KYareHBt": {
    "bahis": {},
@@ -894,10 +910,12 @@
      "dk": 45,
      "xg": 0.97,
      "isb": 2.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
