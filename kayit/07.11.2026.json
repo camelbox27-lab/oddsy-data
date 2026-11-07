@@ -74,7 +74,7 @@
   "lvJd6Svm": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "O0XR7Kbf": {
    "bahis": {},
@@ -601,10 +601,25 @@
        "isb": 2.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.97,
+     "isb": 2.0,
+     "buy": 0.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "8UUn6R9M": {
    "bahis": {},
@@ -820,7 +835,7 @@
   "Sl2EzLu9": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "MVqmXoZG": {
    "bahis": {},
