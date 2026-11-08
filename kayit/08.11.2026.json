@@ -134,12 +134,35 @@
   "QB656HpA": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 8
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 7,
+   "ilk_gol_dk_kesin": true
   },
   "t4IDmiAU": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 617,
+     "durum": "acik",
+     "dk": 8,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 8
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 5,
+   "ilk_gol_dk_kesin": true
   },
   "2ZAFSppS": {
    "bahis": {},
@@ -293,7 +316,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 32
    },
