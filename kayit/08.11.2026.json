@@ -64,10 +64,25 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.37,
+     "isb": 3.0,
+     "buy": 1.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "K8hbdJAC": {
    "bahis": {},
@@ -357,7 +372,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 2
+    "2": 4
    },
    "ilk_gol_dk": 25,
    "ilk_gol_dk_kesin": true,
