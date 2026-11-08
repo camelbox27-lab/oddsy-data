@@ -3989,9 +3989,10 @@
     "1": 42
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
-   "ilk_gol_dk": 42
+   "ilk_gol_dk": 42,
+   "ilk_gol_dk_kesin": true
   },
   "zeFSCHm2": {
    "bahis": {},
