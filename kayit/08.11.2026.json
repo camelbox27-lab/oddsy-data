@@ -708,6 +708,12 @@
        "xg": null,
        "isb": 0.0,
        "buy": null
+      },
+      "25": {
+       "dk": 26,
+       "xg": null,
+       "isb": 1.0,
+       "buy": null
       }
      }
     }
