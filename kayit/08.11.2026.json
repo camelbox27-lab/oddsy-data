@@ -931,17 +931,24 @@
   "AXu8zW2m": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "IcqGY9Xa": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 723,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0v4rKAI6": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "E1fxthuQ": {
    "bahis": {},
