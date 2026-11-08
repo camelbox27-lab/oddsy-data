@@ -1021,10 +1021,21 @@
        "isb": 3.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.63,
+     "isb": 3.0,
+     "buy": 0.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 21
    },
@@ -1032,7 +1043,11 @@
     "1": 1
    },
    "ilk_gol_dk": 18,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "IcqGY9Xa": {
    "bahis": {
@@ -1064,10 +1079,21 @@
        "isb": 2.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.56,
+     "isb": 4.0,
+     "buy": 3.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 43
    },
@@ -1075,19 +1101,34 @@
     "1": 1
    },
    "ilk_gol_dk": 40,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "0v4rKAI6": {
    "bahis": {
     "iy15": {
      "id": 724,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 5,
      "skor": "0-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.81,
+     "isb": 6.0,
+     "buy": 6.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 5
    },
@@ -1095,7 +1136,11 @@
     "1": 1
    },
    "ilk_gol_dk": 2,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "E1fxthuQ": {
    "bahis": {},
@@ -1455,9 +1500,16 @@
    ]
   },
   "UugSM0CD": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 747,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "l2iCQrDl": {
    "bahis": {},
@@ -2608,7 +2660,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 7,
     "2": 20
@@ -4090,7 +4142,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -4128,7 +4180,7 @@
   "vBEo9bKE": "once",
   "bJFy7dYa": "bitti",
   "dGdPHDnI": "2y",
-  "UugSM0CD": "once",
+  "UugSM0CD": "1y",
   "OGZ0N4zA": "2y",
   "tSvmwuv9": "2y",
   "rP7Q7XV1": "bitti",
@@ -4221,6 +4273,7 @@
   "nXgNPCaU": [],
   "Me9aWSp3": [
    "ust25"
-  ]
+  ],
+  "UugSM0CD": []
  }
 }
