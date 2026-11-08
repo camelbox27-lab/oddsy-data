@@ -301,7 +301,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 6,
     "2": 46
@@ -721,7 +721,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 22,
     "2": 34
@@ -760,7 +760,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 10,
     "2": 25
@@ -815,7 +815,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 41
    },
@@ -922,7 +922,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1365,7 +1365,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 23,
     "2": 26
@@ -1544,7 +1544,7 @@
   "M109CYgU": "once",
   "xEzJWyun": "once",
   "Me9aWSp3": "once",
-  "xWoAHQMH": "da",
+  "xWoAHQMH": "2y",
   "2ZhJo4Mj": "once",
   "vBEo9bKE": "once",
   "bJFy7dYa": "once",
@@ -1558,7 +1558,7 @@
   "za4I9g1k": "once",
   "bXkDVzO8": "once",
   "0tjzcGHq": "once",
-  "rH7vxV9M": "da",
+  "rH7vxV9M": "2y",
   "jNU5hjf3": "2y",
   "UmbEl8gS": "da",
   "AH9KKQOF": "once",
@@ -1581,7 +1581,9 @@
   "rH7vxV9M": [
    "iy15"
   ],
-  "jNU5hjf3": [],
+  "jNU5hjf3": [
+   "ust25"
+  ],
   "UmbEl8gS": [
    "ust25"
   ],
