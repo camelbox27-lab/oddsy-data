@@ -997,6 +997,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "30": {
+       "dk": 30,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
       }
      }
     }
@@ -2880,7 +2886,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 23
    },
