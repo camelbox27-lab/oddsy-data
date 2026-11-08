@@ -144,7 +144,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -2472,6 +2472,12 @@
        "xg": 0.5,
        "isb": 4.0,
        "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.55,
+       "isb": 4.0,
+       "buy": 0.0
       }
      }
     }
@@ -3970,7 +3976,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -4047,7 +4053,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 7,
     "2": 42
@@ -4840,7 +4846,7 @@
   "2Z4xMLR0": "bitti",
   "dx2UNscl": "bitti",
   "6w0sSimT": "bitti",
-  "xts7rDX9": "da",
+  "xts7rDX9": "2y",
   "A9JgHzZA": "once",
   "pfCtrVbJ": "bitti",
   "CddXyIK5": "bitti"
