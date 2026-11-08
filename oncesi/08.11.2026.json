@@ -1,0 +1,586 @@
+{
+ "tarih": "08.11.2026",
+ "ust25": [
+  {
+   "kod": "jNU5hjf3",
+   "saat": "15:00",
+   "ev": "Sandnes Ulf",
+   "dep": "Åsane Fotball",
+   "lig": "NORWEGEN OBOS-ligaen",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.44,
+    "UST35": 2.0,
+    "IYUST15": 2.0
+   }
+  },
+  {
+   "kod": "UmbEl8gS",
+   "saat": "15:00",
+   "ev": "Stabæk IF",
+   "dep": "Strømsgodset IF",
+   "lig": "NORWEGEN OBOS-ligaen",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.29,
+    "UST35": 1.67,
+    "IYUST15": 1.8
+   }
+  },
+  {
+   "kod": "QB656HpA",
+   "saat": "15:30",
+   "ev": "VfL Bochum",
+   "dep": "Karlsruher SC",
+   "lig": "DEUTSCHLAND 2. Bundesliga",
+   "beraberlik": 3.75,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "z5bicD7d",
+   "saat": "15:30",
+   "ev": "1. FC Magdeburg",
+   "dep": "FC St. Pauli",
+   "lig": "DEUTSCHLAND 2. Bundesliga",
+   "beraberlik": 3.5,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.5,
+    "IYUST15": 2.38
+   }
+  },
+  {
+   "kod": "K8hbdJAC",
+   "saat": "16:00",
+   "ev": "Aarhus GF",
+   "dep": "AC Horsens",
+   "lig": "DÄNEMARK Superliga",
+   "beraberlik": 4.1,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "6mYsOcxp",
+   "saat": "16:00",
+   "ev": "Halmstads BK",
+   "dep": "Djurgårdens IF",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "2Z4xMLR0",
+   "saat": "16:00",
+   "ev": "FC St. Gallen",
+   "dep": "FC Lugano",
+   "lig": "SCHWEIZ Super League",
+   "beraberlik": 3.9,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "CddXyIK5",
+   "saat": "16:00",
+   "ev": "Çorum",
+   "dep": "Fenerbahçe Istanbul",
+   "lig": "TÜRKEI Süper Lig",
+   "beraberlik": 3.8,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "M109CYgU",
+   "saat": "17:00",
+   "ev": "Brighton & Hove Albion",
+   "dep": "FC Brentford",
+   "lig": "ENGLAND Premier League",
+   "beraberlik": 3.8,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "xEzJWyun",
+   "saat": "17:00",
+   "ev": "Crystal Palace",
+   "dep": "FC Liverpool",
+   "lig": "ENGLAND Premier League",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "2wNnawMH",
+   "saat": "18:00",
+   "ev": "K. Lierse S.K.",
+   "dep": "KAS Eupen",
+   "lig": "BELGIEN Challenger Pro League",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.5,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "2ZhJo4Mj",
+   "saat": "18:00",
+   "ev": "Wimborne",
+   "dep": "Crawley",
+   "lig": "ENGLAND FA Cup",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "vqGWCQGc",
+   "saat": "18:00",
+   "ev": "Heart of Midlothian",
+   "dep": "Falkirk",
+   "lig": "SCHOTTLAND Premier League",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.63,
+    "IYUST15": 2.38
+   }
+  },
+  {
+   "kod": "6w0sSimT",
+   "saat": "18:15",
+   "ev": "Real Sociedad",
+   "dep": "Rayo Vallecano",
+   "lig": "SPANIEN La Liga",
+   "beraberlik": 4.0,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "dGdPHDnI",
+   "saat": "18:30",
+   "ev": "Iraklis 1908",
+   "dep": "Panathinaikos",
+   "lig": "GRIECHENLAND Super League",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.67,
+    "UST35": 2.63,
+    "IYUST15": 2.5
+   }
+  },
+  {
+   "kod": "dx2UNscl",
+   "saat": "18:30",
+   "ev": "Servette Genf",
+   "dep": "FC Zürich",
+   "lig": "SCHWEIZ Super League",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "OGZ0N4zA",
+   "saat": "18:45",
+   "ev": "AZ Alkmaar",
+   "dep": "FC Groningen",
+   "lig": "NIEDERLANDE Eredivisie",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.4,
+    "UST35": 2.0,
+    "IYUST15": 2.05
+   }
+  },
+  {
+   "kod": "tSvmwuv9",
+   "saat": "18:45",
+   "ev": "FC Emmen",
+   "dep": "Maastricht",
+   "lig": "NIEDERLANDE Eerste Divisie",
+   "beraberlik": 4.0,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "d8qqefnd",
+   "saat": "19:00",
+   "ev": "HamKam",
+   "dep": "Sarpsborg 08",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 3.75,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "pUPwHy9F",
+   "saat": "19:00",
+   "ev": "Lillestrøm SK",
+   "dep": "Aalesunds FK",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.33,
+    "UST35": 1.83,
+    "IYUST15": 1.83
+   }
+  },
+  {
+   "kod": "za4I9g1k",
+   "saat": "19:00",
+   "ev": "Sandefjord Fotball",
+   "dep": "Molde FK",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.3,
+    "UST35": 1.73,
+    "IYUST15": 1.88
+   }
+  },
+  {
+   "kod": "nXgNPCaU",
+   "saat": "19:30",
+   "ev": "SC Freiburg",
+   "dep": "1. FC Union Berlin",
+   "lig": "DEUTSCHLAND Bundesliga",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.5,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "Me9aWSp3",
+   "saat": "19:30",
+   "ev": "Manchester United",
+   "dep": "Aston Villa",
+   "lig": "ENGLAND Premier League",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.3,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "UugSM0CD",
+   "saat": "20:00",
+   "ev": "Inter Mailand",
+   "dep": "Como 1907",
+   "lig": "ITALIEN Serie A",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.44,
+    "UST35": 2.2,
+    "IYUST15": 2.1
+   }
+  },
+  {
+   "kod": "vBEo9bKE",
+   "saat": "20:15",
+   "ev": "Oldham Athletic",
+   "dep": "Sheffield Wednesday",
+   "lig": "ENGLAND FA Cup",
+   "beraberlik": 3.4,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.2,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "xts7rDX9",
+   "saat": "20:30",
+   "ev": "FC Villarreal",
+   "dep": "FC Getafe",
+   "lig": "SPANIEN La Liga",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.8,
+    "UST35": 3.0,
+    "IYUST15": 2.63
+   }
+  },
+  {
+   "kod": "x0yI0VuP",
+   "saat": "21:15",
+   "ev": "Sporting Lokeren",
+   "dep": "Dender",
+   "lig": "BELGIEN Challenger Pro League",
+   "beraberlik": 3.4,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "IqWxOHk3",
+   "saat": "21:15",
+   "ev": "VV St. Truiden",
+   "dep": "SV Zulte Waregem",
+   "lig": "BELGIEN Jupiler League",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "0tjzcGHq",
+   "saat": "21:15",
+   "ev": "Fredrikstad FK",
+   "dep": "Brann Bergen",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.2,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "EJeFRYUH",
+   "saat": "21:30",
+   "ev": "TSG Hoffenheim",
+   "dep": "Schalke 04",
+   "lig": "DEUTSCHLAND Bundesliga",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.5,
+    "UST35": 2.3,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "AH9KKQOF",
+   "saat": "22:15",
+   "ev": "Lech Posen",
+   "dep": "Zagłębie Lubin",
+   "lig": "POLEN Ekstraklasa",
+   "beraberlik": 4.1,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "A9JgHzZA",
+   "saat": "23:00",
+   "ev": "Atlético Madrid",
+   "dep": "FC Barcelona",
+   "lig": "SPANIEN La Liga",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.33,
+    "UST35": 1.8,
+    "IYUST15": 1.83
+   }
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "xWoAHQMH",
+   "saat": "15:00",
+   "ev": "Stafford Rangers",
+   "dep": "Grimsby Town",
+   "lig": "ENGLAND FA Cup",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.5,
+    "UST35": 2.2,
+    "IYUST15": 2.1
+   }
+  },
+  {
+   "kod": "rH7vxV9M",
+   "saat": "15:00",
+   "ev": "FK Haugesund",
+   "dep": "Odds BK",
+   "lig": "NORWEGEN OBOS-ligaen",
+   "beraberlik": 5.25,
+   "oran": {
+    "UST25": 1.22,
+    "UST35": 1.57,
+    "IYUST15": 1.73
+   }
+  },
+  {
+   "kod": "6mYsOcxp",
+   "saat": "16:00",
+   "ev": "Halmstads BK",
+   "dep": "Djurgårdens IF",
+   "lig": "SCHWEDEN Allsvenskan",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "rP7Q7XV1",
+   "saat": "16:30",
+   "ev": "Tromsø IL",
+   "dep": "FK Bodø/Glimt",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.4,
+    "UST35": 2.0,
+    "IYUST15": 2.0
+   }
+  },
+  {
+   "kod": "pfCtrVbJ",
+   "saat": "17:00",
+   "ev": "Slavia Prag",
+   "dep": "Artis Brno",
+   "lig": "TSCHECHIEN 1. Liga",
+   "beraberlik": 7.0,
+   "oran": {
+    "UST25": 1.36,
+    "UST35": 1.9,
+    "IYUST15": 1.83
+   }
+  },
+  {
+   "kod": "bJFy7dYa",
+   "saat": "18:00",
+   "ev": "AEK Athen",
+   "dep": "Levadiakos",
+   "lig": "GRIECHENLAND Super League",
+   "beraberlik": 5.75,
+   "oran": {
+    "UST25": 1.67,
+    "UST35": 2.63,
+    "IYUST15": 2.38
+   }
+  },
+  {
+   "kod": "bXkDVzO8",
+   "saat": "19:00",
+   "ev": "Viking FK",
+   "dep": "KFUM Oslo",
+   "lig": "NORWEGEN Eliteserien",
+   "beraberlik": 7.0,
+   "oran": {
+    "UST25": 1.3,
+    "UST35": 1.8,
+    "IYUST15": 1.83
+   }
+  },
+  {
+   "kod": "GYGabR14",
+   "saat": "19:00",
+   "ev": "Celtic Glasgow",
+   "dep": "FC Kilmarnock",
+   "lig": "SCHOTTLAND Premier League",
+   "beraberlik": 8.0,
+   "oran": {
+    "UST25": 1.25,
+    "UST35": 1.67,
+    "IYUST15": 1.73
+   }
+  },
+  {
+   "kod": "ADcmpkS8",
+   "saat": "23:30",
+   "ev": "Estrela Amadora",
+   "dep": "Benfica Lissabon",
+   "lig": "PORTUGAL Liga Portugal",
+   "beraberlik": 6.0,
+   "oran": {
+    "UST25": 1.4,
+    "UST35": 2.0,
+    "IYUST15": 2.0
+   }
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "rH7vxV9M",
+    "saat": "15:00",
+    "ev": "FK Haugesund",
+    "dep": "Odds BK",
+    "lig": "NORWEGEN OBOS-ligaen",
+    "bahis": "ust35",
+    "oran": 1.57,
+    "listeden": true
+   },
+   {
+    "kod": "UmbEl8gS",
+    "saat": "15:00",
+    "ev": "Stabæk IF",
+    "dep": "Strømsgodset IF",
+    "lig": "NORWEGEN OBOS-ligaen",
+    "bahis": "ust25",
+    "oran": 1.29,
+    "listeden": true
+   },
+   {
+    "kod": "GYGabR14",
+    "saat": "19:00",
+    "ev": "Celtic Glasgow",
+    "dep": "FC Kilmarnock",
+    "lig": "SCHOTTLAND Premier League",
+    "bahis": "iy15",
+    "oran": 1.73,
+    "listeden": true
+   },
+   {
+    "kod": "za4I9g1k",
+    "saat": "19:00",
+    "ev": "Sandefjord Fotball",
+    "dep": "Molde FK",
+    "lig": "NORWEGEN Eliteserien",
+    "bahis": "ust25",
+    "oran": 1.3,
+    "listeden": true
+   }
+  ],
+  "toplam": 4.55
+ },
+ "sonuclandi": false
+}
