@@ -162,7 +162,7 @@
   "xWoAHQMH": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Yw5f2lI6": {
    "bahis": {},
@@ -260,7 +260,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 32
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 28,
+   "ilk_gol_dk_kesin": true
   },
   "fL9wUHJt": {
    "bahis": {},
@@ -351,7 +359,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -454,42 +462,63 @@
   "xK4WwiuA": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "rH7vxV9M": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SlqBW8Xq": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 601,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "zFnJUn2d": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "jNU5hjf3": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 602,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OzTDjUOF": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "UmbEl8gS": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 603,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0WlpqnHk": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "8tNEiuAO": {
    "bahis": {},
@@ -567,7 +596,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 8
    },
@@ -792,7 +821,7 @@
   "f3EkXEMH": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Q5eFmz7b": {
    "bahis": {},
@@ -942,7 +971,7 @@
   "M109CYgU": "once",
   "xEzJWyun": "once",
   "Me9aWSp3": "once",
-  "xWoAHQMH": "once",
+  "xWoAHQMH": "1y",
   "2ZhJo4Mj": "once",
   "vBEo9bKE": "once",
   "bJFy7dYa": "once",
@@ -956,9 +985,9 @@
   "za4I9g1k": "once",
   "bXkDVzO8": "once",
   "0tjzcGHq": "once",
-  "rH7vxV9M": "once",
-  "jNU5hjf3": "once",
-  "UmbEl8gS": "once",
+  "rH7vxV9M": "1y",
+  "jNU5hjf3": "1y",
+  "UmbEl8gS": "1y",
   "AH9KKQOF": "once",
   "ADcmpkS8": "once",
   "vqGWCQGc": "once",
@@ -971,5 +1000,11 @@
   "A9JgHzZA": "once",
   "pfCtrVbJ": "once",
   "CddXyIK5": "once"
+ },
+ "liste_kazanan": {
+  "xWoAHQMH": [],
+  "rH7vxV9M": [],
+  "jNU5hjf3": [],
+  "UmbEl8gS": []
  }
 }
