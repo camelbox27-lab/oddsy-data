@@ -44,7 +44,7 @@
   "Ue5C5NmQ": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "K8hbdJAC": {
    "bahis": {},
@@ -419,9 +419,24 @@
    "son": "once"
   },
   "zTEgLksQ": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 597,
+     "durum": "acik",
+     "dk": 8,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 8
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 5,
+   "ilk_gol_dk_kesin": true
   },
   "vqGWCQGc": {
    "bahis": {},
@@ -516,7 +531,7 @@
   "lIouZ744": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "plihTxYr": {
    "bahis": {},
@@ -531,12 +546,12 @@
   "UXED0JuQ": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "jmqP7zmg": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SA57kgXO": {
    "bahis": {},
@@ -591,13 +606,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 33
+    "1": 33,
+    "2": 39
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 31,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 37,
+   "iki_gol_dk_kesin": true
   },
   "CddXyIK5": {
    "bahis": {},
