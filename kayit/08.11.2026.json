@@ -1965,10 +1965,12 @@
      "dk": 45,
      "xg": 1.16,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -2283,21 +2285,31 @@
     },
     "iy15": {
      "id": 691,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 5,
      "skor": "0-1"
+    },
+    "iy25": {
+     "id": 697,
+     "durum": "acik",
+     "dk": 14,
+     "skor": "0-2"
     }
    },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 5
+    "1": 5,
+    "2": 14
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 1,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 12,
+   "iki_gol_dk_kesin": true
   },
   "dx2UNscl": {
    "bahis": {},
@@ -2407,6 +2419,12 @@
       "25": {
        "dk": 25,
        "xg": 0.3,
+       "isb": 1.0,
+       "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.35,
        "isb": 1.0,
        "buy": 0.0
       }
