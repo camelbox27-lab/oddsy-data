@@ -1338,10 +1338,12 @@
      "dk": 45,
      "xg": 1.33,
      "isb": 2.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 20
    },
@@ -1748,13 +1750,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 29
+    "1": 29,
+    "2": 32
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 27,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 30,
+   "iki_gol_dk_kesin": true
   },
   "CvRPLZQk": {
    "bahis": {
@@ -4331,7 +4337,7 @@
   "2ZhJo4Mj": "bitti",
   "vBEo9bKE": "1y",
   "bJFy7dYa": "bitti",
-  "dGdPHDnI": "2y",
+  "dGdPHDnI": "bitti",
   "UugSM0CD": "1y",
   "OGZ0N4zA": "2y",
   "tSvmwuv9": "2y",
