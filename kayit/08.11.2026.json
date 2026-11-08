@@ -846,7 +846,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 23,
     "2": 38
@@ -861,7 +861,7 @@
    "iki_gol_dk_kesin": true,
    "iy": [
     2,
-    3
+    1
    ]
   },
   "2ZhJo4Mj": {
@@ -1843,7 +1843,7 @@
     },
     "iy25": {
      "id": 729,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 22,
      "skor": "1-1"
     }
@@ -3940,7 +3940,9 @@
   "OGZ0N4zA": [],
   "tSvmwuv9": [],
   "d8qqefnd": [],
-  "pUPwHy9F": [],
+  "pUPwHy9F": [
+   "ust25"
+  ],
   "za4I9g1k": [
    "ust25"
   ],
