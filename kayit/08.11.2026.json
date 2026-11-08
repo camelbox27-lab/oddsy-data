@@ -4189,10 +4189,12 @@
      "dk": 45,
      "xg": 0.79,
      "isb": 2.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -5088,7 +5090,7 @@
   "2Z4xMLR0": "bitti",
   "dx2UNscl": "bitti",
   "6w0sSimT": "bitti",
-  "xts7rDX9": "2y",
+  "xts7rDX9": "bitti",
   "A9JgHzZA": "once",
   "pfCtrVbJ": "bitti",
   "CddXyIK5": "bitti"
