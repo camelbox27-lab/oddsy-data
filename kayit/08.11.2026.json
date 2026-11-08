@@ -130,10 +130,25 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.76,
+     "isb": 1.0,
+     "buy": 0.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "IqWxOHk3": {
    "bahis": {},
@@ -3119,7 +3134,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.68,
+       "isb": 1.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "ADcmpkS8": {
@@ -3828,7 +3854,7 @@
    "bahis": {
     "iy05": {
      "id": 756,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 4,
      "skor": "0-0"
     }
@@ -3854,10 +3880,25 @@
        "isb": 1.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.79,
+     "isb": 2.0,
+     "buy": 1.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "A9JgHzZA": {
    "bahis": {},
@@ -3918,8 +3959,19 @@
      "skor": "0-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.05,
+     "isb": 5.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 7,
     "2": 42
@@ -3931,7 +3983,11 @@
    "ilk_gol_dk": 4,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 39,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "GEWsQBr9": {
    "bahis": {},
@@ -4469,7 +4525,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 22
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 20,
+   "ilk_gol_dk_kesin": true
   },
   "GCgzzmxf": {
    "bahis": {},
@@ -4699,7 +4763,7 @@
   "2Z4xMLR0": "bitti",
   "dx2UNscl": "bitti",
   "6w0sSimT": "bitti",
-  "xts7rDX9": "1y",
+  "xts7rDX9": "da",
   "A9JgHzZA": "once",
   "pfCtrVbJ": "bitti",
   "CddXyIK5": "bitti"
