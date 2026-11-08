@@ -3635,12 +3635,19 @@
   "ADcmpkS8": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "8fKrMxtJ": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 794,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "zTEgLksQ": {
    "bahis": {
@@ -5345,7 +5352,7 @@
   "jNU5hjf3": "bitti",
   "UmbEl8gS": "bitti",
   "AH9KKQOF": "2y",
-  "ADcmpkS8": "once",
+  "ADcmpkS8": "1y",
   "vqGWCQGc": "bitti",
   "GYGabR14": "bitti",
   "6mYsOcxp": "bitti",
@@ -5449,6 +5456,7 @@
    "ust25"
   ],
   "AH9KKQOF": [],
-  "A9JgHzZA": []
+  "A9JgHzZA": [],
+  "ADcmpkS8": []
  }
 }
