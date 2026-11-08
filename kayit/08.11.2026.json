@@ -38,7 +38,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 45
    },
@@ -1823,7 +1823,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 43
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 40,
+   "ilk_gol_dk_kesin": true
   },
   "SANGZwrB": {
    "bahis": {},
@@ -1894,7 +1902,9 @@
   "UmbEl8gS": [
    "ust25"
   ],
-  "QB656HpA": [],
+  "QB656HpA": [
+   "ust25"
+  ],
   "z5bicD7d": [],
   "K8hbdJAC": [],
   "6mYsOcxp": [],
