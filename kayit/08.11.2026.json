@@ -440,7 +440,7 @@
     "1": 38
    },
    "gol_deneme": {
-    "1": 4
+    "1": 7
    },
    "ilk_gol_dk": 38
   },
@@ -449,13 +449,16 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 17
+    "1": 17,
+    "2": 45
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 15,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 45
   },
   "xEzJWyun": {
    "bahis": {
@@ -2490,7 +2493,9 @@
    "ust25"
   ],
   "K8hbdJAC": [],
-  "6mYsOcxp": [],
+  "6mYsOcxp": [
+   "ust25"
+  ],
   "2Z4xMLR0": [
    "ust25"
   ],
