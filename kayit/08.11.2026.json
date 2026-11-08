@@ -190,13 +190,21 @@
    "bahis": {
     "iy05": {
      "id": 673,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 3,
      "skor": "0-0"
     }
    },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 10
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 8,
+   "ilk_gol_dk_kesin": true
   },
   "Crkjbut0": {
    "bahis": {},
@@ -483,7 +491,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 17,
     "2": 45
@@ -545,7 +553,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 41
    },
@@ -651,10 +659,21 @@
        "isb": null,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": null,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 23,
     "2": 38
@@ -666,7 +685,11 @@
    "ilk_gol_dk": 21,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 35,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    0
+   ]
   },
   "2ZhJo4Mj": {
    "bahis": {
@@ -1035,7 +1058,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1857,13 +1880,27 @@
    "bahis": {
     "iy05": {
      "id": 675,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
+    },
+    "iy15": {
+     "id": 679,
+     "durum": "acik",
+     "dk": 7,
+     "skor": "0-1"
     }
    },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 7
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 4,
+   "ilk_gol_dk_kesin": true
   },
   "GYGabR14": {
    "bahis": {},
@@ -2646,7 +2683,8 @@
   "16:00": 623,
   "16:30": 634,
   "17:00": 646,
-  "18:00": 672
+  "18:00": 672,
+  "18:15": 676
  },
  "liste_son": {
   "IqWxOHk3": "once",
@@ -2657,8 +2695,8 @@
   "EJeFRYUH": "once",
   "z5bicD7d": "bitti",
   "QB656HpA": "bitti",
-  "M109CYgU": "da",
-  "xEzJWyun": "da",
+  "M109CYgU": "2y",
+  "xEzJWyun": "2y",
   "Me9aWSp3": "once",
   "xWoAHQMH": "bitti",
   "2ZhJo4Mj": "1y",
