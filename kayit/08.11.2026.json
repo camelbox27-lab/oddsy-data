@@ -126,10 +126,21 @@
        "isb": 4.0,
        "buy": 3.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      3
+     ],
+     "dk": 45,
+     "xg": 2.42,
+     "isb": 10.0,
+     "buy": 6.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 22,
     "2": 25
@@ -141,7 +152,11 @@
    "ilk_gol_dk": 18,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 22,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    3
+   ]
   },
   "x0yI0VuP": {
    "bahis": {},
@@ -666,10 +681,12 @@
      "dk": 45,
      "xg": 2.68,
      "isb": 7.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 4,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 41
    },
@@ -1143,10 +1160,12 @@
      "dk": 45,
      "xg": 1.41,
      "isb": 6.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -1225,10 +1244,12 @@
      "dk": 45,
      "xg": 1.3,
      "isb": 6.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 8,
     "2": 12
@@ -1468,21 +1489,31 @@
     },
     "iy15": {
      "id": 704,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 6,
      "skor": "0-1"
+    },
+    "iy25": {
+     "id": 708,
+     "durum": "acik",
+     "dk": 12,
+     "skor": "1-1"
     }
    },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 6
+    "1": 6,
+    "2": 12
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 2,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 9,
+   "iki_gol_dk_kesin": true
   },
   "YqdLARj4": {
    "bahis": {
@@ -2919,10 +2950,12 @@
      "dk": 45,
      "xg": 0.38,
      "isb": 1.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -3234,7 +3267,7 @@
  },
  "liste_son": {
   "IqWxOHk3": "once",
-  "2wNnawMH": "1y",
+  "2wNnawMH": "da",
   "x0yI0VuP": "once",
   "K8hbdJAC": "bitti",
   "nXgNPCaU": "once",
@@ -3242,7 +3275,7 @@
   "z5bicD7d": "bitti",
   "QB656HpA": "bitti",
   "M109CYgU": "2y",
-  "xEzJWyun": "2y",
+  "xEzJWyun": "bitti",
   "Me9aWSp3": "once",
   "xWoAHQMH": "bitti",
   "2ZhJo4Mj": "da",
