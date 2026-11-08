@@ -222,7 +222,7 @@
   "SY7oSelg": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "fL9wUHJt": {
    "bahis": {},
@@ -306,7 +306,18 @@
   },
   "ENcy7qjT": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.2,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "p6l71NDj": {
@@ -700,7 +711,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 33,
     "2": 39
