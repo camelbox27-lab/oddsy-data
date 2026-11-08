@@ -678,7 +678,7 @@
     },
     "iy25": {
      "id": 610,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 12,
      "skor": "1-1"
     }
@@ -1144,10 +1144,12 @@
      "dk": 45,
      "xg": 1.52,
      "isb": 6.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 4,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 15,
     "2": 24
@@ -1231,6 +1233,8 @@
   "xWoAHQMH": [],
   "rH7vxV9M": [],
   "jNU5hjf3": [],
-  "UmbEl8gS": []
+  "UmbEl8gS": [
+   "ust25"
+  ]
  }
 }
