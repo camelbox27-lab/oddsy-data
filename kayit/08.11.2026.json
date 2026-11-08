@@ -3510,10 +3510,12 @@
      "dk": 45,
      "xg": 0.95,
      "isb": 1.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -3568,10 +3570,12 @@
      "dk": 45,
      "xg": 0.55,
      "isb": 2.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -4215,7 +4219,7 @@
   "6mYsOcxp": "bitti",
   "2Z4xMLR0": "bitti",
   "dx2UNscl": "2y",
-  "6w0sSimT": "2y",
+  "6w0sSimT": "bitti",
   "xts7rDX9": "once",
   "A9JgHzZA": "once",
   "pfCtrVbJ": "bitti",
