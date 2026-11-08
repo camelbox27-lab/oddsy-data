@@ -402,7 +402,7 @@
   "2sa6AoOq": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Me9aWSp3": {
    "bahis": {},
@@ -464,9 +464,16 @@
    "son": "once"
   },
   "Mm1sxqvh": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 647,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "AXu8zW2m": {
    "bahis": {},
@@ -1417,7 +1424,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
