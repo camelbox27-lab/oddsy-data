@@ -372,7 +372,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 4
+    "2": 5
    },
    "ilk_gol_dk": 25,
    "ilk_gol_dk_kesin": true,
@@ -899,7 +899,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "15:00": 600
+ },
  "liste_son": {
   "IqWxOHk3": "once",
   "2wNnawMH": "once",
