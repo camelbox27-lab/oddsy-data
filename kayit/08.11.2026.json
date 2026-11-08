@@ -2062,7 +2062,7 @@
     },
     "iy25": {
      "id": 682,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 20,
      "skor": "0-2"
     }
@@ -2358,7 +2358,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.15,
+       "isb": 1.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "dQH1FE3N": {
@@ -2996,13 +3007,17 @@
   "rP7Q7XV1": [],
   "M109CYgU": [],
   "xEzJWyun": [],
-  "pfCtrVbJ": [],
+  "pfCtrVbJ": [
+   "ust35"
+  ],
   "2ZhJo4Mj": [],
   "bJFy7dYa": [],
   "2wNnawMH": [
    "ust25"
   ],
-  "vqGWCQGc": [],
+  "vqGWCQGc": [
+   "ust25"
+  ],
   "6w0sSimT": [],
   "dx2UNscl": [],
   "dGdPHDnI": []
