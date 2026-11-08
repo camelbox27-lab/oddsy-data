@@ -231,7 +231,7 @@
     "1": 24
    },
    "gol_deneme": {
-    "1": 5
+    "1": 7
    },
    "ilk_gol_dk": 24
   },
@@ -4638,13 +4638,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 22
+    "1": 22,
+    "2": 47
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 20,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 45,
+   "iki_gol_dk_kesin": true
   },
   "GCgzzmxf": {
    "bahis": {},
