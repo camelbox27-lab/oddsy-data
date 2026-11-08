@@ -221,7 +221,18 @@
   },
   "SY7oSelg": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.36,
+       "isb": 3.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "fL9wUHJt": {
@@ -346,7 +357,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 1
+    "2": 2
    },
    "ilk_gol_dk": 25,
    "ilk_gol_dk_kesin": true,
