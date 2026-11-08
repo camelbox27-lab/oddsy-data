@@ -1815,7 +1815,7 @@
   "2sedIu5F": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "tEqoqfD5": {
    "bahis": {
@@ -2453,7 +2453,18 @@
   },
   "0tjzcGHq": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.5,
+       "isb": 4.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "xK4WwiuA": {
