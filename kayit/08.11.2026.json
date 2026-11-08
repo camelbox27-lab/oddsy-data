@@ -171,7 +171,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 9,
     "2": 16
@@ -259,7 +259,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 24
    },
@@ -1626,7 +1626,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.33,
+       "isb": 1.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "SY7oSelg": {
@@ -2321,7 +2332,18 @@
   },
   "x0ygPQ5c": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.37,
+       "isb": 2.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "ELn1Fyn2": {
@@ -2642,7 +2664,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -3242,9 +3264,16 @@
    ]
   },
   "AH9KKQOF": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 775,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "z1CUqtYP": {
    "bahis": {},
@@ -4331,10 +4360,12 @@
      "dk": 45,
      "xg": 2.41,
      "isb": 3.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 42
    },
@@ -5021,9 +5052,9 @@
   "22:15": 774
  },
  "liste_son": {
-  "IqWxOHk3": "da",
+  "IqWxOHk3": "2y",
   "2wNnawMH": "bitti",
-  "x0yI0VuP": "da",
+  "x0yI0VuP": "2y",
   "K8hbdJAC": "bitti",
   "nXgNPCaU": "bitti",
   "EJeFRYUH": "da",
@@ -5045,11 +5076,11 @@
   "pUPwHy9F": "bitti",
   "za4I9g1k": "bitti",
   "bXkDVzO8": "bitti",
-  "0tjzcGHq": "da",
+  "0tjzcGHq": "2y",
   "rH7vxV9M": "bitti",
   "jNU5hjf3": "bitti",
   "UmbEl8gS": "bitti",
-  "AH9KKQOF": "once",
+  "AH9KKQOF": "1y",
   "ADcmpkS8": "once",
   "vqGWCQGc": "bitti",
   "GYGabR14": "bitti",
@@ -5144,6 +5175,7 @@
   ],
   "x0yI0VuP": [],
   "0tjzcGHq": [],
-  "EJeFRYUH": []
+  "EJeFRYUH": [],
+  "AH9KKQOF": []
  }
 }
