@@ -72,7 +72,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -142,6 +142,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
       }
      }
     }
@@ -192,7 +198,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -203,7 +209,7 @@
   "22:30": 803
  },
  "liste_son": {
-  "YgLat9pB": "da"
+  "YgLat9pB": "2y"
  },
  "liste_kazanan": {
   "YgLat9pB": []
