@@ -1,0 +1,65 @@
+{
+ "tarih": "09.11.2026",
+ "ust25": [
+  {
+   "kod": "YgLat9pB",
+   "saat": "22:30",
+   "ev": "Plymouth Parkway",
+   "dep": "Berkhamsted FC",
+   "lig": "ENGLAND FA Cup",
+   "beraberlik": 3.7,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.25,
+    "IYUST15": 2.25
+   }
+  }
+ ],
+ "ust35": [],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "l2WUIcv3",
+    "saat": "21:00",
+    "ev": "Kristiansund BK",
+    "dep": "Vålerenga IF",
+    "lig": "NORWEGEN Eliteserien",
+    "bahis": "ust35",
+    "oran": 1.91,
+    "listeden": false
+   },
+   {
+    "kod": "WQzz6bT6",
+    "saat": "21:00",
+    "ev": "Hvidovre IF",
+    "dep": "Aarhus Fremad",
+    "lig": "DÄNEMARK 1. Division",
+    "bahis": "ust25",
+    "oran": 1.8,
+    "listeden": false
+   },
+   {
+    "kod": "YgLat9pB",
+    "saat": "22:30",
+    "ev": "Plymouth Parkway",
+    "dep": "Berkhamsted FC",
+    "lig": "ENGLAND FA Cup",
+    "bahis": "iy15",
+    "oran": 2.25,
+    "listeden": false
+   },
+   {
+    "kod": "GEWsQBr9",
+    "saat": "22:30",
+    "ev": "UD Las Palmas",
+    "dep": "Eldense",
+    "lig": "SPANIEN La Liga2",
+    "bahis": "ust25",
+    "oran": 1.75,
+    "listeden": false
+   }
+  ],
+  "toplam": 13.54
+ },
+ "sonuclandi": false
+}
