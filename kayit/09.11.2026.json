@@ -36,7 +36,7 @@
   "YgLat9pB": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "l2WUIcv3": {
    "bahis": {
@@ -96,15 +96,25 @@
    "son": "once"
   },
   "GEWsQBr9": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 804,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {
   "22:30": 803
  },
  "liste_son": {
-  "YgLat9pB": "once"
+  "YgLat9pB": "1y"
+ },
+ "liste_kazanan": {
+  "YgLat9pB": []
  }
 }
