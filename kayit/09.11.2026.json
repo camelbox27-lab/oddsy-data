@@ -15,7 +15,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 17,
     "2": 38
@@ -76,7 +76,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 28
    },
@@ -101,7 +101,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "22:30": 803
+ },
  "liste_son": {
   "YgLat9pB": "once"
  }
