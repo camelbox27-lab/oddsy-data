@@ -2,7 +2,14 @@
  "tarih": "10.11.2026",
  "maclar": {
   "S88UBEff": {
-   "bahis": {},
+   "bahis": {
+    "ms45": {
+     "id": 812,
+     "durum": "acik",
+     "dk": null,
+     "skor": "1-2"
+    }
+   },
    "gozlem": {
     "k5": {
      "olcum": {
@@ -24,10 +31,21 @@
        "isb": 3.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 6.0,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 31,
     "2": 40
@@ -39,7 +57,11 @@
    "ilk_gol_dk": 28,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 37,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    2
+   ]
   },
   "Wx31QD9m": {
    "bahis": {
