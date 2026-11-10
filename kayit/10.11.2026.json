@@ -29,13 +29,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 31
+    "1": 31,
+    "2": 40
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 28,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 37,
+   "iki_gol_dk_kesin": true
   },
   "Wx31QD9m": {
    "bahis": {
