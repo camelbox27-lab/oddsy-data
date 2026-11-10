@@ -123,7 +123,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "22:00": 813
+ },
  "liste_son": {
   "b7F67ELb": "once"
  }
