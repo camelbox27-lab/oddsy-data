@@ -1,262 +1,102 @@
 [
   {
-    "event_id": "QmvNJzeo",
-    "home_team": "FC Chelsea F",
-    "away_team": "FC Everton F",
-    "league": "ENGLAND WSL",
-    "saat": "15:45",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "2of66R9c",
-    "home_team": "Sundsvall",
-    "away_team": "Varbergs BoIS",
-    "league": "SCHWEDEN Superettan",
-    "saat": "17:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "tYyhXx1t",
-    "home_team": "Borussia Dortmund",
-    "away_team": "SV Elversberg",
-    "league": "DEUTSCHLAND Bundesliga",
-    "saat": "17:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "Eoz0VGVh",
-    "home_team": "RB Leipzig",
-    "away_team": "FC Augsburg",
-    "league": "DEUTSCHLAND Bundesliga",
-    "saat": "17:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "Eyc1EfPH",
-    "home_team": "FC Arsenal",
-    "away_team": "Hull City",
-    "league": "ENGLAND Premier League",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "bw4ugnUG",
-    "home_team": "Bradford City",
-    "away_team": "Marine FC",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
+    "event_id": "l2g6a3Qa",
+    "home_team": "Katar U23",
+    "away_team": "Singapur U23",
+    "league": "WELT Internationale Freundschaftsspiele",
+    "saat": "11:00",
     "kategori": "MS 5.5 Üst",
     "ms_5_5_ust": 8.0,
-    "tarih": "07.11.2026"
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "nRnF8Vwm",
-    "home_team": "FC Barnsley",
-    "away_team": "Aldershot Town",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
+    "event_id": "AkipgQFb",
+    "home_team": "Real Madrid F",
+    "away_team": "FC Paris F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
+    "saat": "20:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 6.0,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "S4lV4mwC",
-    "home_team": "FC Chesterfield",
-    "away_team": "Yeovil Town",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
+    "event_id": "GMSKMDXr",
+    "home_team": "Grimsby Town",
+    "away_team": "Nottingham Forest U21",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 3.75,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "n3C0oeS7",
+    "event_id": "jeocVaMU",
     "home_team": "Huddersfield Town",
-    "away_team": "Exeter City",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
+    "away_team": "FC Liverpool U21",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 3.25,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "0tNirVFb",
-    "home_team": "Leyton Orient",
-    "away_team": "Harborough",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
+    "event_id": "x8iXd6W9",
+    "home_team": "Stevenage FC",
+    "away_team": "FC Fulham U21",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 4.33,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "tSKsRwfE",
-    "home_team": "Mansfield Town",
-    "away_team": "Macclesfield FC",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "4d2PdUUi",
-    "home_team": "Milton Keynes Dons",
-    "away_team": "Swindon Town",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "h2znRev8",
-    "home_team": "Luton Town",
-    "away_team": "Forest Green Rovers",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "K6mcGFRs",
-    "home_team": "Salisbury City",
-    "away_team": "Sholing",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 10.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "AqpIF4iU",
+    "event_id": "0rtDEVcC",
     "home_team": "Plymouth Argyle",
-    "away_team": "Alvechurch",
-    "league": "ENGLAND FA Cup",
-    "saat": "18:00",
+    "away_team": "Swindon Town",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.0,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 5.0,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "bTnGtVXH",
-    "home_team": "Ross County",
-    "away_team": "Peterhead",
-    "league": "SCHOTTLAND League One",
-    "saat": "18:00",
+    "event_id": "Mg01HIe3",
+    "home_team": "Stockport County",
+    "away_team": "Tranmere Rovers",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 5.0,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "t8lgHcHk",
-    "home_team": "Den Bosch",
-    "away_team": "Jong FC Utrecht",
-    "league": "NIEDERLANDE Eerste Divisie",
-    "saat": "18:30",
+    "event_id": "bgI9lxuq",
+    "home_team": "Crawley",
+    "away_team": "FC Brentford U21",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:30",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 4.5,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 4.33,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "pAfuzdkI",
-    "home_team": "Galatasaray Istanbul",
-    "away_team": "Amed SK",
-    "league": "TÜRKEI Süper Lig",
-    "saat": "19:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "jRSoFFwS",
-    "home_team": "Rosenborg Trondheim",
-    "away_team": "IK Start",
-    "league": "NORWEGEN Eliteserien",
-    "saat": "20:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.5,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "vcHi3EXO",
-    "home_team": "Aris Thessaloniki",
-    "away_team": "Panetolikos",
-    "league": "GRIECHENLAND Super League",
-    "saat": "20:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 11.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "YXJAoqVO",
-    "home_team": "Ironi Tiberias",
-    "away_team": "Beitar Jerusalem",
-    "league": "ISRAEL Ligat ha'Al",
-    "saat": "20:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.5,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "MF91ODmI",
-    "home_team": "AS Rom",
-    "away_team": "Sassuolo Calcio",
-    "league": "ITALIEN Serie A",
+    "event_id": "zuiH5zFs",
+    "home_team": "Colchester United",
+    "away_team": "Ipswich Town U21",
+    "league": "ENGLAND EFL Trophy",
     "saat": "22:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.0,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 4.0,
+    "tarih": "10.11.2026"
   },
   {
-    "event_id": "Sf9okNOj",
-    "home_team": "FC St. Mirren",
-    "away_team": "Glasgow Rangers",
-    "league": "SCHOTTLAND Premier League",
+    "event_id": "6wvY8TBD",
+    "home_team": "AS Rom F",
+    "away_team": "Servette Genf F",
+    "league": "EUROPA Champions League - Frauen - Ligaphase",
     "saat": "23:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "fs9eEuno",
-    "home_team": "PSG",
-    "away_team": "ES Troyes AC",
-    "league": "FRANKREICH Ligue 1",
-    "saat": "23:05",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 5.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "Cd5qPpj4",
-    "home_team": "Boca Juniors",
-    "away_team": "Defensa y Justicia",
-    "league": "ARGENTINIEN Liga Profesional - Clausura",
-    "saat": "23:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 13.0,
-    "tarih": "07.11.2026"
-  },
-  {
-    "event_id": "4G20vKem",
-    "home_team": "Sporting CP",
-    "away_team": "FC Moreirense",
-    "league": "PORTUGAL Liga Portugal",
-    "saat": "23:30",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.0,
-    "tarih": "07.11.2026"
+    "ms_5_5_ust": 4.5,
+    "tarih": "10.11.2026"
   }
 ]
