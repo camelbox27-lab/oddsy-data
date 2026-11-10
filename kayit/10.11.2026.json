@@ -180,10 +180,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 24
    },
