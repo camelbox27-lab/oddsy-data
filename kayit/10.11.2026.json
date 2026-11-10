@@ -181,7 +181,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 24
    },
@@ -242,21 +242,31 @@
    "bahis": {
     "iy15": {
      "id": 817,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-1"
+    },
+    "iy25": {
+     "id": 819,
+     "durum": "acik",
+     "dk": 13,
+     "skor": "0-2"
     }
    },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 4
+    "1": 4,
+    "2": 13
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 1,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 11,
+   "iki_gol_dk_kesin": true
   }
  },
  "liste_slot": {
