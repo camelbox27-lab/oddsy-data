@@ -103,19 +103,26 @@
    ]
   },
   "vNb7Dnmd": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 814,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "EwdP7NFs": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "b7F67ELb": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "vsk1ZT9F": {
    "bahis": {},
@@ -127,6 +134,9 @@
   "22:00": 813
  },
  "liste_son": {
-  "b7F67ELb": "once"
+  "b7F67ELb": "1y"
+ },
+ "liste_kazanan": {
+  "b7F67ELb": []
  }
 }
