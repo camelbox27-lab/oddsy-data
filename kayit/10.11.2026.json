@@ -11,6 +11,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
       }
      }
     }
@@ -21,7 +27,7 @@
    "bahis": {
     "iy15": {
      "id": 810,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 5,
      "skor": "0-1"
     }
@@ -29,13 +35,17 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 5
+    "1": 5,
+    "2": 26
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 2,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 22,
+   "iki_gol_dk_kesin": true
   },
   "vNb7Dnmd": {
    "bahis": {},
