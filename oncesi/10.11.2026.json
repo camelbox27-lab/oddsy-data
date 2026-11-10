@@ -1,0 +1,65 @@
+{
+ "tarih": "10.11.2026",
+ "ust25": [
+  {
+   "kod": "b7F67ELb",
+   "saat": "22:00",
+   "ev": "Trival Valderas",
+   "dep": "CD Leganés",
+   "lig": "SPANIEN Copa del Rey",
+   "beraberlik": 8.5,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.38,
+    "IYUST15": 2.2
+   }
+  }
+ ],
+ "ust35": [],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "S88UBEff",
+    "saat": "21:00",
+    "ev": "Anaitasuna FT",
+    "dep": "Deportivo Alavés",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust35",
+    "oran": 1.4,
+    "listeden": false
+   },
+   {
+    "kod": "Wx31QD9m",
+    "saat": "21:00",
+    "ev": "Pamplona",
+    "dep": "SD Eibar",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "iy15",
+    "oran": 2.05,
+    "listeden": false
+   },
+   {
+    "kod": "b7F67ELb",
+    "saat": "22:00",
+    "ev": "Trival Valderas",
+    "dep": "CD Leganés",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust25",
+    "oran": 1.57,
+    "listeden": true
+   },
+   {
+    "kod": "vNb7Dnmd",
+    "saat": "22:00",
+    "ev": "Amorebieta",
+    "dep": "UD Logrones",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust25",
+    "oran": 1.85,
+    "listeden": false
+   }
+  ],
+  "toplam": 8.34
+ },
+ "sonuclandi": false
+}
