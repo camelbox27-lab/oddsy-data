@@ -1,4 +1,54 @@
 {
  "tarih": "10.11.2026",
- "maclar": {}
+ "maclar": {
+  "S88UBEff": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "1y"
+  },
+  "Wx31QD9m": {
+   "bahis": {
+    "iy15": {
+     "id": 810,
+     "durum": "acik",
+     "dk": 5,
+     "skor": "0-1"
+    }
+   },
+   "gozlem": {},
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 5
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 2,
+   "ilk_gol_dk_kesin": true
+  },
+  "vNb7Dnmd": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "EwdP7NFs": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "b7F67ELb": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "vsk1ZT9F": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  }
+ },
+ "liste_slot": {},
+ "liste_son": {
+  "b7F67ELb": "once"
+ }
 }
