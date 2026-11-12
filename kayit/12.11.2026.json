@@ -24,13 +24,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 22
+    "1": 22,
+    "2": 29
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 20,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 27,
+   "iki_gol_dk_kesin": true
   },
   "OKNATSve": {
    "bahis": {},
@@ -170,6 +174,12 @@
       },
       "25": {
        "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
+      },
+      "30": {
+       "dk": 30,
        "xg": null,
        "isb": 2.0,
        "buy": null
