@@ -1,0 +1,65 @@
+{
+ "tarih": "12.11.2026",
+ "ust25": [],
+ "ust35": [
+  {
+   "kod": "QgHb9zin",
+   "saat": "21:00",
+   "ev": "Navalcarnero",
+   "dep": "Betis Sevilla",
+   "lig": "SPANIEN Copa del Rey",
+   "beraberlik": 8.0,
+   "oran": {
+    "UST25": 1.36,
+    "UST35": 1.83,
+    "IYUST15": 1.91
+   }
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "A91hgO0l",
+    "saat": "20:30",
+    "ev": "Puertollano C.F.",
+    "dep": "Albacete Balompié",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust25",
+    "oran": 1.7,
+    "listeden": false
+   },
+   {
+    "kod": "QgHb9zin",
+    "saat": "21:00",
+    "ev": "Navalcarnero",
+    "dep": "Betis Sevilla",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust35",
+    "oran": 1.83,
+    "listeden": true
+   },
+   {
+    "kod": "d0UYmTO8",
+    "saat": "21:00",
+    "ev": "Tarancon",
+    "dep": "UD Levante",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "iy15",
+    "oran": 1.83,
+    "listeden": false
+   },
+   {
+    "kod": "ITTAoLdt",
+    "saat": "21:00",
+    "ev": "Chambéry SF",
+    "dep": "Grenoble Foot",
+    "lig": "FRANKREICH Coupe de France",
+    "bahis": "ust25",
+    "oran": 1.44,
+    "listeden": false
+   }
+  ],
+  "toplam": 8.2
+ },
+ "sonuclandi": false
+}
