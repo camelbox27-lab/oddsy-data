@@ -95,6 +95,9 @@ _ULKE_SIRALI = sorted(ULKELER, key=len, reverse=True)
 
 # ---- Turnuva adindaki Almanca kelimeler ------------------------------------
 TURNUVA_KELIME = [
+    ("Internationale Freundschaftsspiele", "Hazırlık Maçları"),
+    ("EM-Qualifikation", "Avrupa Şampiyonası Elemeleri"),
+    ("WM-Qualifikation", "Dünya Kupası Elemeleri"),
     ("Qualifikation", "Eleme"),
     ("Ligaphase", "Lig Aşaması"),
     ("Gruppenphase", "Grup Aşaması"),
@@ -185,11 +188,29 @@ def lig(ad):
     return bayrak, f"{ulke_tr} · {turnuva}"
 
 
+# Lig listesinde olmayan, milli maclarda gecen ulkeler (Almanca -> Turkce)
+MILLI_EK = {
+    "Kaimaninseln": "Cayman Adaları", "Kuba": "Küba", "Jamaika": "Jamaika",
+    "Nordmazedonien": "Kuzey Makedonya", "Färöer": "Faroe Adaları",
+    "Liechtenstein": "Lihtenştayn", "Luxemburg": "Lüksemburg",
+    "Kosovo": "Kosova", "Gibraltar": "Cebelitarık", "Kasachstan": "Kazakistan",
+    "Georgien": "Gürcistan", "Moldawien": "Moldova", "Estland": "Estonya",
+    "Island": "İzlanda", "Nordirland": "Kuzey İrlanda", "Wales": "Galler",
+    "Irland": "İrlanda", "Slowenien": "Slovenya", "Slowakei": "Slovakya",
+    "Neukaledonien": "Yeni Kaledonya", "Trinidad und Tobago": "Trinidad ve Tobago",
+}
+
+
 def takim(ad):
-    """Almanca sehir adlarini duzeltir; taninmayan adi oldugu gibi birakir."""
+    """Almanca sehir adlarini duzeltir; taninmayan adi oldugu gibi birakir.
+    Milli takim adi tam olarak bir ulke adiysa Turkcesi yazilir (Türkei -> Türkiye)."""
     ad = (ad or "").strip()
     if not ad:
         return ad
+    if ad.upper() in ULKELER:
+        return ULKELER[ad.upper()][0]
+    if ad in MILLI_EK:
+        return MILLI_EK[ad]
     return _TAKIM_RE.sub(lambda m: TAKIM_KELIME[m.group(1)], ad)
 
 

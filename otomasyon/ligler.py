@@ -34,9 +34,18 @@ LIGLER = {
     "ARGENTINIEN":  ["Liga Profesional"],
     "USA":          ["MLS"],
 }
+# Milli takim (A takim) maclari: ulke/kita fark etmeksizin alinir.
+# Kulup hazirlik maclari ("Vereins-Freundschaftsspiele") alinmaz; genc ve
+# kadin milli takimlar asagidaki dislamalarla elenir (U21, U23, Frauen...).
+ULKE_YARISMALARI = (
+    "Nations League", "EM-Qualifikation", "WM-Qualifikation", "WM - Qualifikation",
+    "Europameisterschaft", "Weltmeisterschaft", "Internationale Freundschaftsspiele",
+    "Afrika-Cup", "Afrika Cup", "Asienmeisterschaft", "Asien-Cup", "Copa América",
+    "Gold Cup",
+)
 _DISLA_LIG = ("frauen", "women", "wsl", "damen", "femen", "u17", "u18", "u19",
-              "u20", "u21", "u23", "jugend", "youth", "primavera", "reserve",
-              "freundschaft", "friendly")
+              "u20", "u21", "u23", "jugend", "youth", "primavera", "reserve")
+_DISLA_HAZIRLIK = ("freundschaft", "friendly")
 _DISLA_TAKIM_SON = (" F", " B", " II", " U19", " U20", " U21", " U23")
 
 
@@ -49,6 +58,10 @@ def lig_uygun(lig, ev="", dep=""):
     for takim in (ev or "", dep or ""):
         if takim.strip().endswith(_DISLA_TAKIM_SON):
             return False
+    if "Vereins" not in lig and any(y in lig for y in ULKE_YARISMALARI):
+        return True                      # milli takim maci
+    if any(k in kucuk for k in _DISLA_HAZIRLIK):
+        return False                     # kulup hazirlik maci
     for ulke, ligler in LIGLER.items():
         if lig.startswith(ulke + " "):
             yarisma = lig[len(ulke) + 1:]

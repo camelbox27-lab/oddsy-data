@@ -402,6 +402,18 @@ def main():
         return 1
     print(f"2.5 Ust: {len(t['ust25'])} mac | 3.5 Ust / IY 1.5 Ust: {len(t['ust35'])} mac",
           flush=True)
+    # SADECE_LISTE=1: yalnizca bugunun listesi (baslamamis maclar) yeniden
+    # gonderilir ve arsive eklenir; raporlar ve kupon gitmez.
+    if os.environ.get("SADECE_LISTE") == "1":
+        try:
+            tg.hepsini_gonder(token, chat, tercih_mesaji(t, gun))
+        except tg.ChatBulunamadi as e:
+            print(f"HATA: {e}")
+            return 1
+        bugunu_arsivle(gun, t, None)
+        print("OK: liste gonderildi.")
+        return 0
+
     # SADECE_KUPON=1: yalnizca bugunun kuponu (yeniden) olusturulup gonderilir;
     # arsivdeki kupon bununla degistirilir (yarin bu sonuclandirilir).
     if os.environ.get("SADECE_KUPON") == "1":
