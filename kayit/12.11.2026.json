@@ -77,9 +77,24 @@
    "son": "once"
   },
   "SbPadwMq": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 829,
+     "durum": "acik",
+     "dk": 9,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 9
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 5,
+   "ilk_gol_dk_kesin": true
   },
   "l2ikXbMi": {
    "bahis": {},
@@ -99,6 +114,9 @@
   "OKNATSve": "once",
   "vBfNkJec": "once",
   "QgHb9zin": "once",
-  "SbPadwMq": "once"
+  "SbPadwMq": "1y"
+ },
+ "liste_kazanan": {
+  "SbPadwMq": []
  }
 }
