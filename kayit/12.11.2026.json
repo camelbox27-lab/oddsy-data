@@ -164,8 +164,19 @@
   },
   "lGCR6B45": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.53,
+     "isb": 5.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 13,
     "2": 43
@@ -177,7 +188,11 @@
    "ilk_gol_dk": 10,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 41,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "4jPofYKa": {
    "bahis": {
