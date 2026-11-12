@@ -11,7 +11,7 @@
     },
     "ms45": {
      "id": 839,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "1-2"
     }
@@ -36,10 +36,12 @@
      "dk": 45,
      "xg": 1.46,
      "isb": 4.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 3,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 22,
     "2": 29
@@ -379,10 +381,12 @@
      "dk": 45,
      "xg": null,
      "isb": 3.0,
-     "buy": null
+     "buy": null,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
