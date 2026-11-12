@@ -14,6 +14,45 @@
     "UST35": 1.83,
     "IYUST15": 1.91
    }
+  },
+  {
+   "kod": "SbPadwMq",
+   "saat": "09:00",
+   "ev": "Neuseeland",
+   "dep": "Indien",
+   "lig": "WELT Internationale Freundschaftsspiele",
+   "beraberlik": 5.25,
+   "oran": {
+    "UST25": 1.65,
+    "UST35": 2.63,
+    "IYUST15": 2.5
+   }
+  },
+  {
+   "kod": "OKNATSve",
+   "saat": "22:45",
+   "ev": "England",
+   "dep": "Kroatien",
+   "lig": "EUROPA UEFA Nations League - Liga A",
+   "beraberlik": 7.0,
+   "oran": {
+    "UST25": 1.44,
+    "UST35": 2.1,
+    "IYUST15": 2.0
+   }
+  },
+  {
+   "kod": "vBfNkJec",
+   "saat": "22:45",
+   "ev": "Tschechien",
+   "dep": "Spanien",
+   "lig": "EUROPA UEFA Nations League - Liga A",
+   "beraberlik": 8.0,
+   "oran": {
+    "UST25": 1.44,
+    "UST35": 2.1,
+    "IYUST15": 2.0
+   }
   }
  ],
  "kupon": {
