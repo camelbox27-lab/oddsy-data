@@ -165,20 +165,38 @@
   "lGCR6B45": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 13
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 10,
+   "ilk_gol_dk_kesin": true
   },
   "4jPofYKa": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 848,
+     "durum": "acik",
+     "dk": 15,
+     "skor": "0-2"
+    }
+   },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 9
+    "1": 9,
+    "2": 15
    },
    "gol_deneme": {
-    "1": 5
+    "1": 5,
+    "2": 1
    },
    "ilk_gol_dk": 9,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 15
   },
   "YsmWvdGl": {
    "bahis": {},
