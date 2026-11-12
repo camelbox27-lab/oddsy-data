@@ -197,9 +197,16 @@
    "son": "1y"
   },
   "l04nSHPN": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 838,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {
