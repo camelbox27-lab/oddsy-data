@@ -558,10 +558,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 4,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 7
    },
@@ -773,7 +775,7 @@
  "liste_son": {
   "OKNATSve": "da",
   "vBfNkJec": "da",
-  "QgHb9zin": "2y",
+  "QgHb9zin": "bitti",
   "SbPadwMq": "bitti"
  },
  "liste_kazanan": {
