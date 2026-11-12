@@ -80,7 +80,7 @@
    "bahis": {
     "iy15": {
      "id": 829,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 9,
      "skor": "1-0"
     }
@@ -88,13 +88,17 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 9
+    "1": 9,
+    "2": 36
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 5,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 34,
+   "iki_gol_dk_kesin": true
   },
   "l2ikXbMi": {
    "bahis": {},
@@ -117,6 +121,8 @@
   "SbPadwMq": "1y"
  },
  "liste_kazanan": {
-  "SbPadwMq": []
+  "SbPadwMq": [
+   "iy15"
+  ]
  }
 }
