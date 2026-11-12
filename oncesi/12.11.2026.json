@@ -58,16 +58,6 @@
  "kupon": {
   "maclar": [
    {
-    "kod": "A91hgO0l",
-    "saat": "20:30",
-    "ev": "Puertollano C.F.",
-    "dep": "Albacete Balompié",
-    "lig": "SPANIEN Copa del Rey",
-    "bahis": "ust25",
-    "oran": 1.7,
-    "listeden": false
-   },
-   {
     "kod": "QgHb9zin",
     "saat": "21:00",
     "ev": "Navalcarnero",
@@ -83,22 +73,32 @@
     "ev": "Tarancon",
     "dep": "UD Levante",
     "lig": "SPANIEN Copa del Rey",
-    "bahis": "iy15",
-    "oran": 1.83,
+    "bahis": "ust25",
+    "oran": 1.3,
     "listeden": false
    },
    {
-    "kod": "ITTAoLdt",
-    "saat": "21:00",
-    "ev": "Chambéry SF",
-    "dep": "Grenoble Foot",
-    "lig": "FRANKREICH Coupe de France",
+    "kod": "4jPofYKa",
+    "saat": "22:00",
+    "ev": "Kaimaninseln",
+    "dep": "Guyana",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
     "bahis": "ust25",
-    "oran": 1.44,
+    "oran": 1.2,
     "listeden": false
+   },
+   {
+    "kod": "OKNATSve",
+    "saat": "22:45",
+    "ev": "England",
+    "dep": "Kroatien",
+    "lig": "EUROPA UEFA Nations League - Liga A",
+    "bahis": "iy15",
+    "oran": 2.0,
+    "listeden": true
    }
   ],
-  "toplam": 8.2
+  "toplam": 5.71
  },
  "sonuclandi": false
 }
