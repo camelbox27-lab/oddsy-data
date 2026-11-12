@@ -131,6 +131,12 @@
        "xg": null,
        "isb": null,
        "buy": null
+      },
+      "30": {
+       "dk": 30,
+       "xg": null,
+       "isb": null,
+       "buy": null
       }
      }
     }
@@ -230,6 +236,12 @@
       },
       "25": {
        "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
+      },
+      "30": {
+       "dk": 30,
        "xg": null,
        "isb": 2.0,
        "buy": null
