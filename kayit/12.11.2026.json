@@ -2,9 +2,16 @@
  "tarih": "12.11.2026",
  "maclar": {
   "AJh0DeXa": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 835,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OKNATSve": {
    "bahis": {},
@@ -24,7 +31,7 @@
   "xbrNbmnd": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "lfBbB5E4": {
    "bahis": {},
@@ -126,7 +133,7 @@
   "l2ikXbMi": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "l04nSHPN": {
    "bahis": {},
