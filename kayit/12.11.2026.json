@@ -175,9 +175,10 @@
     "1": 9
    },
    "gol_deneme": {
-    "1": 1
+    "1": 5
    },
-   "ilk_gol_dk": 9
+   "ilk_gol_dk": 9,
+   "ilk_gol_dk_kesin": true
   },
   "YsmWvdGl": {
    "bahis": {},
