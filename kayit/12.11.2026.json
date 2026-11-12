@@ -153,10 +153,12 @@
      "dk": 45,
      "xg": null,
      "isb": null,
-     "buy": null
+     "buy": null,
+     "ms": 2,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -547,7 +549,9 @@
    "iy15",
    "ust35"
   ],
-  "QgHb9zin": [],
+  "QgHb9zin": [
+   "ust35"
+  ],
   "OKNATSve": [],
   "vBfNkJec": []
  }
