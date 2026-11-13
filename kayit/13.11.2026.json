@@ -139,7 +139,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 1
+    "2": 4
    },
    "ilk_gol_dk": 33,
    "ilk_gol_dk_kesin": true,
@@ -173,13 +173,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 37
+    "1": 37,
+    "2": 43
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 34,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 42,
+   "iki_gol_dk_kesin": true
   },
   "0Et862AM": {
    "bahis": {},
@@ -225,7 +229,7 @@
     "1": 42
    },
    "gol_deneme": {
-    "1": 1
+    "1": 4
    },
    "ilk_gol_dk": 42
   },
