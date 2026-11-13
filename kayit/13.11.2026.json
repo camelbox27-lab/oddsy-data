@@ -2,24 +2,46 @@
  "tarih": "13.11.2026",
  "maclar": {
   "GzS4tf1n": {
-   "bahis": {},
-   "gozlem": {},
-   "son": "once"
-  },
-  "6sjuQYG5": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 872,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
    "son": "1y"
+  },
+  "6sjuQYG5": {
+   "bahis": {
+    "iy15": {
+     "id": 873,
+     "durum": "acik",
+     "dk": 6,
+     "skor": "0-1"
+    }
+   },
+   "gozlem": {},
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 6
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 3,
+   "ilk_gol_dk_kesin": true
   },
   "KAogLGHG": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "zqsNLPOQ": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0ztMGL7s": {
    "bahis": {},
@@ -75,9 +97,16 @@
    ]
   },
   "EHIYsb6t": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 874,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "GIt89MIO": {
    "bahis": {},
@@ -136,10 +165,21 @@
        "isb": null,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": null,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 36,
     "2": 42
@@ -151,7 +191,11 @@
    "ilk_gol_dk": 33,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 42,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "Q9ymn75s": {
    "bahis": {},
@@ -176,10 +220,21 @@
        "isb": null,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": null,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 37,
     "2": 43
@@ -191,12 +246,27 @@
    "ilk_gol_dk": 34,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 42,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "0Et862AM": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.29,
+     "isb": 4.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 8
    },
@@ -204,7 +274,11 @@
     "1": 1
    },
    "ilk_gol_dk": 6,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "YP5BAg5t": {
    "bahis": {},
@@ -229,10 +303,21 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.39,
+     "isb": 2.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 42
    },
@@ -240,7 +325,11 @@
     "1": 8
    },
    "ilk_gol_dk": 42,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    1,
+    0
+   ]
   },
   "rB9jSIWr": {
    "bahis": {
@@ -251,8 +340,19 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.82,
+     "isb": 3.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 14,
     "2": 36
@@ -264,7 +364,11 @@
    "ilk_gol_dk": 12,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 34,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    1
+   ]
   },
   "Isu3IKt0": {
    "bahis": {},
@@ -280,7 +384,14 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 22
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 22
   },
   "v9VKjXV6": {
    "bahis": {},
@@ -580,18 +691,19 @@
   "22:45": 870
  },
  "liste_son": {
-  "GzS4tf1n": "once",
+  "GzS4tf1n": "1y",
   "6XrUEaxf": "1y",
   "K0OYkbnR": "1y",
-  "Yw5QOIjJ": "1y",
-  "0Et862AM": "1y",
-  "rB9jSIWr": "1y"
+  "Yw5QOIjJ": "da",
+  "0Et862AM": "da",
+  "rB9jSIWr": "da"
  },
  "liste_kazanan": {
   "Yw5QOIjJ": [],
   "rB9jSIWr": [],
   "0Et862AM": [],
   "6XrUEaxf": [],
-  "K0OYkbnR": []
+  "K0OYkbnR": [],
+  "GzS4tf1n": []
  }
 }
