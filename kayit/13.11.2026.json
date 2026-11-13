@@ -171,7 +171,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -494,10 +494,12 @@
      "dk": 45,
      "xg": null,
      "isb": null,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 36,
     "2": 42
@@ -581,10 +583,12 @@
      "dk": 45,
      "xg": 1.29,
      "isb": 4.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 8
    },
@@ -669,10 +673,12 @@
      "dk": 45,
      "xg": 0.82,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 5,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 14,
     "2": 36
@@ -1078,9 +1084,9 @@
   "GzS4tf1n": "2y",
   "6XrUEaxf": "2y",
   "K0OYkbnR": "2y",
-  "Yw5QOIjJ": "2y",
-  "0Et862AM": "2y",
-  "rB9jSIWr": "2y"
+  "Yw5QOIjJ": "bitti",
+  "0Et862AM": "bitti",
+  "rB9jSIWr": "bitti"
  },
  "liste_kazanan": {
   "Yw5QOIjJ": [
