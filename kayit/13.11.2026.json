@@ -114,12 +114,20 @@
   "Q9ymn75s": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0Et862AM": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 8
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 6,
+   "ilk_gol_dk_kesin": true
   },
   "YP5BAg5t": {
    "bahis": {},
@@ -180,7 +188,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -444,11 +452,12 @@
   "6XrUEaxf": "once",
   "K0OYkbnR": "once",
   "Yw5QOIjJ": "1y",
-  "0Et862AM": "once",
+  "0Et862AM": "1y",
   "rB9jSIWr": "1y"
  },
  "liste_kazanan": {
   "Yw5QOIjJ": [],
-  "rB9jSIWr": []
+  "rB9jSIWr": [],
+  "0Et862AM": []
  }
 }
