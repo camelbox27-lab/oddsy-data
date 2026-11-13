@@ -394,13 +394,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 22
+    "1": 22,
+    "2": 31
    },
    "gol_deneme": {
-    "1": 7
+    "1": 7,
+    "2": 1
    },
    "ilk_gol_dk": 22,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 30,
+   "iki_gol_dk_kesin": true
   },
   "v9VKjXV6": {
    "bahis": {},
@@ -436,10 +440,12 @@
      "dk": 45,
      "xg": 0.35,
      "isb": 1.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 3,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
