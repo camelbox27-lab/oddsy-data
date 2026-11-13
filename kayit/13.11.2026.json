@@ -220,7 +220,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 46
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 42,
+   "ilk_gol_dk_kesin": true
   },
   "6XrUEaxf": {
    "bahis": {
