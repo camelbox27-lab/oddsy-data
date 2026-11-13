@@ -44,10 +44,21 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.62,
+     "isb": 2.0,
+     "buy": 0.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 42
    },
@@ -55,7 +66,11 @@
     "1": 1
    },
    "ilk_gol_dk": 39,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    1,
+    0
+   ]
   },
   "EHIYsb6t": {
    "bahis": {},
