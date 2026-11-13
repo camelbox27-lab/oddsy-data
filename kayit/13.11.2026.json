@@ -239,7 +239,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 3
+    "2": 4
    },
    "ilk_gol_dk": 17,
    "ilk_gol_dk_kesin": true,
@@ -541,7 +541,14 @@
    ]
   },
   "Isu3IKt0": {
-   "bahis": {},
+   "bahis": {
+    "ms45": {
+     "id": 886,
+     "durum": "acik",
+     "dk": null,
+     "skor": "3-0"
+    }
+   },
    "gozlem": {
     "k5": {
      "olcum": {
@@ -551,10 +558,21 @@
        "isb": 1.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      3,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.42,
+     "isb": 2.0,
+     "buy": 1.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 22,
     "2": 31
@@ -566,7 +584,11 @@
    "ilk_gol_dk": 22,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 30,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    3,
+    0
+   ]
   },
   "v9VKjXV6": {
    "bahis": {},
@@ -885,7 +907,9 @@
   "rB9jSIWr": "2y"
  },
  "liste_kazanan": {
-  "Yw5QOIjJ": [],
+  "Yw5QOIjJ": [
+   "ust25"
+  ],
   "rB9jSIWr": [
    "ust25"
   ],
