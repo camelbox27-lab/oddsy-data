@@ -11,7 +11,7 @@
     },
     "iy25": {
      "id": 877,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 16,
      "skor": "2-0"
     }
@@ -161,9 +161,10 @@
     "1": 19
    },
    "gol_deneme": {
-    "1": 2
+    "1": 4
    },
-   "ilk_gol_dk": 19
+   "ilk_gol_dk": 19,
+   "ilk_gol_dk_kesin": true
   },
   "GIt89MIO": {
    "bahis": {},
@@ -224,6 +225,12 @@
      "olcum": {
       "20": {
        "dk": 20,
+       "xg": 0.35,
+       "isb": 4.0,
+       "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
        "xg": 0.35,
        "isb": 4.0,
        "buy": 0.0
@@ -810,6 +817,8 @@
   "0Et862AM": [],
   "6XrUEaxf": [],
   "K0OYkbnR": [],
-  "GzS4tf1n": []
+  "GzS4tf1n": [
+   "ust25"
+  ]
  }
 }
