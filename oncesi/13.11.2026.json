@@ -1,0 +1,131 @@
+{
+ "tarih": "13.11.2026",
+ "ust25": [
+  {
+   "kod": "Yw5QOIjJ",
+   "saat": "22:00",
+   "ev": "Dijon FCO",
+   "dep": "US Orléans",
+   "lig": "FRANKREICH Coupe de France",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.57,
+    "UST35": 2.5,
+    "IYUST15": 2.25
+   }
+  },
+  {
+   "kod": "GzS4tf1n",
+   "saat": "22:45",
+   "ev": "Niederlande",
+   "dep": "Griechenland",
+   "lig": "EUROPA UEFA Nations League - Liga A",
+   "beraberlik": 4.33,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.5,
+    "IYUST15": 2.38
+   }
+  },
+  {
+   "kod": "6XrUEaxf",
+   "saat": "22:45",
+   "ev": "Slowakei",
+   "dep": "Färöer Inseln",
+   "lig": "EUROPA UEFA Nations League - Liga C",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.83,
+    "UST35": 3.0,
+    "IYUST15": 2.63
+   }
+  },
+  {
+   "kod": "rB9jSIWr",
+   "saat": "23:00",
+   "ev": "Grenada",
+   "dep": "Saint Kitts und Nevis",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.4,
+    "UST35": 2.0,
+    "IYUST15": 2.0
+   }
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "0Et862AM",
+   "saat": "22:00",
+   "ev": "Bermuda",
+   "dep": "Saint Lucia",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 6.0,
+   "oran": {
+    "UST25": 1.29,
+    "UST35": 1.67,
+    "IYUST15": 1.8
+   }
+  },
+  {
+   "kod": "K0OYkbnR",
+   "saat": "22:45",
+   "ev": "Liechtenstein",
+   "dep": "Aserbaidschan",
+   "lig": "EUROPA UEFA Nations League - Liga D",
+   "beraberlik": 5.25,
+   "oran": {
+    "UST25": 2.1,
+    "UST35": 3.75,
+    "IYUST15": 3.0
+   }
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "0Et862AM",
+    "saat": "22:00",
+    "ev": "Bermuda",
+    "dep": "Saint Lucia",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "bahis": "ust35",
+    "oran": 1.67,
+    "listeden": true
+   },
+   {
+    "kod": "Yw5QOIjJ",
+    "saat": "22:00",
+    "ev": "Dijon FCO",
+    "dep": "US Orléans",
+    "lig": "FRANKREICH Coupe de France",
+    "bahis": "ust25",
+    "oran": 1.57,
+    "listeden": true
+   },
+   {
+    "kod": "K0OYkbnR",
+    "saat": "22:45",
+    "ev": "Liechtenstein",
+    "dep": "Aserbaidschan",
+    "lig": "EUROPA UEFA Nations League - Liga D",
+    "bahis": "iy15",
+    "oran": 3.0,
+    "listeden": true
+   },
+   {
+    "kod": "rB9jSIWr",
+    "saat": "23:00",
+    "ev": "Grenada",
+    "dep": "Saint Kitts und Nevis",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "bahis": "ust25",
+    "oran": 1.4,
+    "listeden": true
+   }
+  ],
+  "toplam": 11.01
+ },
+ "sonuclandi": false
+}
