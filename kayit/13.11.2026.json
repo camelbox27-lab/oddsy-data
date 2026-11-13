@@ -150,7 +150,8 @@
    },
    "ilk_gol_dk": 33,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 42
+   "iki_gol_dk": 42,
+   "iki_gol_dk_kesin": true
   },
   "Q9ymn75s": {
    "bahis": {},
@@ -238,7 +239,8 @@
    "gol_deneme": {
     "1": 8
    },
-   "ilk_gol_dk": 42
+   "ilk_gol_dk": 42,
+   "ilk_gol_dk_kesin": true
   },
   "rB9jSIWr": {
    "bahis": {
