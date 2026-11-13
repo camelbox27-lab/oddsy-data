@@ -146,7 +146,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 7
+    "2": 8
    },
    "ilk_gol_dk": 33,
    "ilk_gol_dk_kesin": true,
@@ -236,7 +236,7 @@
     "1": 42
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
    "ilk_gol_dk": 42
   },
@@ -266,7 +266,18 @@
   },
   "Isu3IKt0": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 1.0,
+       "isb": 1.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "v9VKjXV6": {
