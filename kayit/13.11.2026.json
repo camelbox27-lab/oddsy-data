@@ -163,7 +163,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 37
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 33,
+   "ilk_gol_dk_kesin": true
   },
   "GbGkMBHs": {
    "bahis": {},
@@ -173,7 +181,7 @@
   "lKpjNJpp": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "2PZIjtUa": {
    "bahis": {},
