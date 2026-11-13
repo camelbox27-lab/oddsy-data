@@ -551,10 +551,12 @@
      "dk": 45,
      "xg": null,
      "isb": null,
-     "buy": null
+     "buy": null,
+     "ms": 4,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 37,
     "2": 43
