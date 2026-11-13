@@ -55,10 +55,12 @@
      "dk": 45,
      "xg": 0.62,
      "isb": 2.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 42
    },
@@ -420,7 +422,9 @@
    ]
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "22:00": 865
+ },
  "liste_son": {
   "GzS4tf1n": "once",
   "6XrUEaxf": "once",
