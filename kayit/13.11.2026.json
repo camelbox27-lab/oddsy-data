@@ -224,10 +224,12 @@
      "dk": 45,
      "xg": 0.93,
      "isb": 5.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 5,
+     "y2": 4
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     1,
     0
@@ -281,7 +283,7 @@
   "2PZIjtUa": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {},
