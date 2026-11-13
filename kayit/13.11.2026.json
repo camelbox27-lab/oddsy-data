@@ -97,9 +97,27 @@
    "son": "once"
   },
   "YoaloFGP": {
-   "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "bahis": {
+    "ms45": {
+     "id": 859,
+     "durum": "acik",
+     "dk": null,
+     "skor": "1-2"
+    }
+   },
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 7.0,
+     "buy": null
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 9,
     "2": 34
@@ -111,7 +129,11 @@
    "ilk_gol_dk": 7,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 30,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    2
+   ]
   },
   "6DzitbZH": {
    "bahis": {},
