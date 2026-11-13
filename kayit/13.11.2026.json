@@ -238,10 +238,27 @@
      "durum": "kazandi",
      "dk": 7,
      "skor": "0-1"
+    },
+    "ms45": {
+     "id": 863,
+     "durum": "acik",
+     "dk": null,
+     "skor": "0-3"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      3
+     ],
+     "dk": 45,
+     "xg": 2.56,
+     "isb": 6.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 7,
     "2": 35
@@ -253,7 +270,11 @@
    "ilk_gol_dk": 5,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 32,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    3
+   ]
   },
   "2PZIjtUa": {
    "bahis": {},
