@@ -108,7 +108,18 @@
      "skor": "0-0"
     }
    },
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": null,
+       "isb": null,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "Q9ymn75s": {
@@ -131,7 +142,18 @@
   },
   "YP5BAg5t": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.0,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "rB9jSIWr": {
