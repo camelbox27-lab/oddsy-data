@@ -805,7 +805,11 @@
   "67Td46RP": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "bitti",
+   "iy": [
+    0,
+    1
+   ]
   },
   "Gd7PtiC4": {
    "bahis": {
@@ -1607,7 +1611,7 @@
   "pEpBFPDj": "2y",
   "tv3rrSgl": "once",
   "focWCnQk": "once",
-  "67Td46RP": "once",
+  "67Td46RP": "bitti",
   "Gd7PtiC4": "2y",
   "8dX2wwN9": "1y",
   "0WTfuahc": "once",
@@ -1630,7 +1634,9 @@
    "ust25"
   ],
   "UH8Dfnhg": [],
-  "ERy1Yeyi": [],
+  "ERy1Yeyi": [
+   "ust25"
+  ],
   "SfkHQkMi": [],
   "pEpBFPDj": [
    "ust25"
@@ -1639,6 +1645,9 @@
    "ust25"
   ],
   "jXjjcQEO": [],
-  "8dX2wwN9": []
+  "8dX2wwN9": [],
+  "67Td46RP": [
+   "ust35"
+  ]
  }
 }
