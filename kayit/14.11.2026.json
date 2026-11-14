@@ -1681,7 +1681,11 @@
   "jc6cKrbs": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "bitti",
+   "iy": [
+    1,
+    3
+   ]
   },
   "bNZfpozf": {
    "bahis": {
@@ -1907,7 +1911,7 @@
     },
     "ms45": {
      "id": 966,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "3-0"
     }
