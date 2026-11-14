@@ -209,7 +209,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 27
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 24,
+   "ilk_gol_dk_kesin": true
   },
   "AyAqCj7b": {
    "bahis": {},
@@ -1038,6 +1046,12 @@
        "dk": 20,
        "xg": null,
        "isb": 0.0,
+       "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 1.0,
        "buy": null
       }
      }
