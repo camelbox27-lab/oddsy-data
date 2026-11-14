@@ -927,7 +927,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -992,7 +992,15 @@
   "MNB7TRJc": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 10
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 6,
+   "ilk_gol_dk_kesin": true
   },
   "jc6cKrbs": {
    "bahis": {},
@@ -1689,7 +1697,7 @@
   "focWCnQk": "once",
   "67Td46RP": "bitti",
   "Gd7PtiC4": "bitti",
-  "8dX2wwN9": "da",
+  "8dX2wwN9": "2y",
   "0WTfuahc": "1y",
   "reTQVdWr": "once",
   "bozsSEV7": "once",
