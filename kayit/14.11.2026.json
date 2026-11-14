@@ -653,7 +653,18 @@
   },
   "QRGa886N": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.44,
+       "isb": 1.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "SYw37rNa": {
@@ -1370,7 +1381,18 @@
   },
   "IZMIMqJl": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.25,
+       "isb": 4.0,
+       "buy": 2.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "bLtJExtP": {
