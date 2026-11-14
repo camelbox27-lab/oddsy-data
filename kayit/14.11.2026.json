@@ -1284,6 +1284,12 @@
        "xg": null,
        "isb": null,
        "buy": null
+      },
+      "25": {
+       "dk": 26,
+       "xg": null,
+       "isb": null,
+       "buy": null
       }
      }
     }
@@ -1513,7 +1519,7 @@
     "1": 28
    },
    "gol_deneme": {
-    "1": 1
+    "1": 2
    },
    "ilk_gol_dk": 28
   },
