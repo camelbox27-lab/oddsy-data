@@ -385,10 +385,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 5,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 19,
     "2": 41
@@ -410,7 +412,7 @@
    "bahis": {
     "iy05": {
      "id": 909,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 3,
      "skor": "0-0"
     }
@@ -436,10 +438,25 @@
        "isb": 2.0,
        "buy": 2.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.91,
+     "isb": 3.0,
+     "buy": 2.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "Q7rBGbBC": {
    "bahis": {},
@@ -706,10 +723,12 @@
      "dk": 45,
      "xg": null,
      "isb": 3.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 35,
     "2": 47
