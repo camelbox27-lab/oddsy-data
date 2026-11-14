@@ -408,9 +408,16 @@
    ]
   },
   "40tRiKGL": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 902,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "bqmPXbPk": {
    "bahis": {},
@@ -444,12 +451,13 @@
   "rem8Vmx0": "once",
   "IZMIMqJl": "once",
   "UHpKugvm": "2y",
-  "40tRiKGL": "once",
+  "40tRiKGL": "1y",
   "jXjjcQEO": "once"
  },
  "liste_kazanan": {
   "UHpKugvm": [
    "ust25"
-  ]
+  ],
+  "40tRiKGL": []
  }
 }
