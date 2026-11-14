@@ -841,10 +841,12 @@
      "dk": 45,
      "xg": null,
      "isb": null,
-     "buy": null
+     "buy": null,
+     "ms": 5,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 10,
     "2": 15
@@ -1650,7 +1652,7 @@
   "tv3rrSgl": "once",
   "focWCnQk": "once",
   "67Td46RP": "bitti",
-  "Gd7PtiC4": "2y",
+  "Gd7PtiC4": "bitti",
   "8dX2wwN9": "da",
   "0WTfuahc": "once",
   "reTQVdWr": "once",
