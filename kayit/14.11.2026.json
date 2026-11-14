@@ -1535,7 +1535,8 @@
    "gol_deneme": {
     "1": 8
    },
-   "ilk_gol_dk": 28
+   "ilk_gol_dk": 28,
+   "ilk_gol_dk_kesin": true
   },
   "bLtJExtP": {
    "bahis": {},
