@@ -389,7 +389,7 @@
      "buy": 4.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 19,
     "2": 22
@@ -424,7 +424,8 @@
   }
  },
  "liste_slot": {
-  "13:15": 896
+  "13:15": 896,
+  "15:00": 901
  },
  "liste_son": {
   "6uVex5xP": "once",
@@ -442,7 +443,7 @@
   "bozsSEV7": "once",
   "rem8Vmx0": "once",
   "IZMIMqJl": "once",
-  "UHpKugvm": "da",
+  "UHpKugvm": "2y",
   "40tRiKGL": "once",
   "jXjjcQEO": "once"
  },
