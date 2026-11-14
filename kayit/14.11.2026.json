@@ -289,7 +289,7 @@
     },
     "ms45": {
      "id": 914,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "1-2"
     }
@@ -587,10 +587,12 @@
      "dk": 45,
      "xg": null,
      "isb": 0.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
