@@ -325,7 +325,7 @@
    "bahis": {
     "ms45": {
      "id": 894,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "2-1"
     }
@@ -339,10 +339,12 @@
      "dk": 45,
      "xg": null,
      "isb": 4.0,
-     "buy": null
+     "buy": null,
+     "ms": 4,
+     "y2": 1
     }
    },
-   "son": "da",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 14,
     "2": 26
