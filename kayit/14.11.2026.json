@@ -1109,7 +1109,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 27
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 24,
+   "ilk_gol_dk_kesin": true
   },
   "0WTfuahc": {
    "bahis": {},
@@ -1347,10 +1355,12 @@
      "dk": 45,
      "xg": 0.18,
      "isb": 3.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
