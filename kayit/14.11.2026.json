@@ -366,7 +366,7 @@
    "bahis": {
     "iy25": {
      "id": 897,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 22,
      "skor": "2-0"
     }
@@ -426,6 +426,8 @@
   "jXjjcQEO": "once"
  },
  "liste_kazanan": {
-  "UHpKugvm": []
+  "UHpKugvm": [
+   "ust25"
+  ]
  }
 }
