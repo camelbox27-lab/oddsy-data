@@ -1253,7 +1253,18 @@
   },
   "EDtBt3ZI": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": null,
+       "isb": null,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "nPseyJ8L": {
