@@ -1506,13 +1506,24 @@
     },
     "iy25": {
      "id": 952,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 10,
      "skor": "1-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.99,
+     "isb": 2.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 7,
     "2": 10
@@ -1523,7 +1534,11 @@
    },
    "ilk_gol_dk": 3,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 10
+   "iki_gol_dk": 10,
+   "iy": [
+    0,
+    1
+   ]
   },
   "IZMIMqJl": {
    "bahis": {},
