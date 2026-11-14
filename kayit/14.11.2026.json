@@ -1169,10 +1169,12 @@
      "dk": 45,
      "xg": null,
      "isb": null,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 10,
     "2": 19
@@ -1258,10 +1260,12 @@
      "dk": 45,
      "xg": null,
      "isb": null,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 27
    },
