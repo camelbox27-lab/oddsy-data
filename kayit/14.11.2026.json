@@ -386,10 +386,12 @@
      "dk": 45,
      "xg": 1.49,
      "isb": 6.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 5,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 19,
     "2": 22
@@ -458,7 +460,7 @@
   "bozsSEV7": "once",
   "rem8Vmx0": "once",
   "IZMIMqJl": "once",
-  "UHpKugvm": "2y",
+  "UHpKugvm": "bitti",
   "40tRiKGL": "1y",
   "jXjjcQEO": "once"
  },
