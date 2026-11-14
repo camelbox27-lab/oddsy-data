@@ -668,10 +668,12 @@
      "dk": 45,
      "xg": 0.95,
      "isb": 2.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 11,
     "2": 23
@@ -774,7 +776,7 @@
   "rem8Vmx0": "once",
   "IZMIMqJl": "once",
   "UHpKugvm": "bitti",
-  "40tRiKGL": "2y",
+  "40tRiKGL": "bitti",
   "jXjjcQEO": "once"
  },
  "liste_kazanan": {
