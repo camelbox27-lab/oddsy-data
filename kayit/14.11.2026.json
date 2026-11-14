@@ -861,12 +861,12 @@
   "8dX2wwN9": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OWuBb7KN": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "WWJqUDSb": {
    "bahis": {},
@@ -1103,6 +1103,12 @@
       },
       "25": {
        "dk": 25,
+       "xg": 0.84,
+       "isb": 1.0,
+       "buy": 3.0
+      },
+      "30": {
+       "dk": 30,
        "xg": 0.84,
        "isb": 1.0,
        "buy": 3.0
@@ -1470,7 +1476,7 @@
   "focWCnQk": "once",
   "67Td46RP": "once",
   "Gd7PtiC4": "da",
-  "8dX2wwN9": "once",
+  "8dX2wwN9": "1y",
   "0WTfuahc": "once",
   "reTQVdWr": "once",
   "bozsSEV7": "once",
@@ -1495,6 +1501,7 @@
   "Gd7PtiC4": [
    "ust25"
   ],
-  "jXjjcQEO": []
+  "jXjjcQEO": [],
+  "8dX2wwN9": []
  }
 }
