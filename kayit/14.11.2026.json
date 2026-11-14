@@ -50,7 +50,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 15
    },
@@ -78,7 +78,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 11,
     "2": 40
@@ -133,7 +133,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 47
    },
@@ -236,7 +236,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 40
    },
@@ -411,7 +411,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 7,
     "2": 37
@@ -443,7 +443,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 10,
     "2": 30
@@ -498,7 +498,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -525,7 +525,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 4
    },
@@ -576,7 +576,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -607,7 +607,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 25,
     "2": 47
@@ -840,7 +840,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 10,
     "2": 15
@@ -929,7 +929,14 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 35
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 35
   },
   "reTQVdWr": {
    "bahis": {},
@@ -1467,15 +1474,15 @@
   "19:00": 935
  },
  "liste_son": {
-  "6uVex5xP": "da",
-  "UH8Dfnhg": "da",
-  "ERy1Yeyi": "da",
-  "SfkHQkMi": "da",
-  "pEpBFPDj": "da",
+  "6uVex5xP": "2y",
+  "UH8Dfnhg": "2y",
+  "ERy1Yeyi": "2y",
+  "SfkHQkMi": "2y",
+  "pEpBFPDj": "2y",
   "tv3rrSgl": "once",
   "focWCnQk": "once",
   "67Td46RP": "once",
-  "Gd7PtiC4": "da",
+  "Gd7PtiC4": "2y",
   "8dX2wwN9": "1y",
   "0WTfuahc": "once",
   "reTQVdWr": "once",
