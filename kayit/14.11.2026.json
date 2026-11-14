@@ -365,7 +365,15 @@
   "UHpKugvm": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 19
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 15,
+   "ilk_gol_dk_kesin": true
   },
   "40tRiKGL": {
    "bahis": {},
@@ -402,8 +410,11 @@
   "bozsSEV7": "once",
   "rem8Vmx0": "once",
   "IZMIMqJl": "once",
-  "UHpKugvm": "once",
+  "UHpKugvm": "1y",
   "40tRiKGL": "once",
   "jXjjcQEO": "once"
+ },
+ "liste_kazanan": {
+  "UHpKugvm": []
  }
 }
