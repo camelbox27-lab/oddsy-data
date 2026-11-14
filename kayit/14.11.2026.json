@@ -154,10 +154,27 @@
      "durum": "kazandi",
      "dk": 15,
      "skor": "1-1"
+    },
+    "ms45": {
+     "id": 933,
+     "durum": "acik",
+     "dk": null,
+     "skor": "2-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      1
+     ],
+     "dk": 45,
+     "xg": 2.12,
+     "isb": 4.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 10,
     "2": 15
@@ -169,7 +186,11 @@
    "ilk_gol_dk": 6,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 11,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    1
+   ]
   },
   "ERy1Yeyi": {
    "bahis": {
@@ -298,10 +319,21 @@
        "isb": 2.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.39,
+     "isb": 2.0,
+     "buy": 0.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 27
    },
@@ -309,7 +341,11 @@
     "1": 1
    },
    "ilk_gol_dk": 24,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "AyAqCj7b": {
    "bahis": {},
@@ -334,10 +370,25 @@
        "isb": 2.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.93,
+     "isb": 4.0,
+     "buy": 1.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "84VaslLj": {
    "bahis": {
@@ -623,10 +674,12 @@
      "dk": 45,
      "xg": 0.85,
      "isb": 2.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -1311,7 +1364,7 @@
    "bahis": {
     "iy05": {
      "id": 922,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 4,
      "skor": "0-0"
     }
@@ -1337,10 +1390,25 @@
        "isb": 2.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 3.0,
+     "buy": null
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   }
  },
  "liste_slot": {
@@ -1367,7 +1435,7 @@
   "IZMIMqJl": "once",
   "UHpKugvm": "bitti",
   "40tRiKGL": "bitti",
-  "jXjjcQEO": "1y"
+  "jXjjcQEO": "da"
  },
  "liste_kazanan": {
   "UHpKugvm": [
