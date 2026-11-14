@@ -1030,7 +1030,18 @@
   },
   "YejRGeRN": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 21,
+       "xg": 0.05,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "focWCnQk": {
@@ -1066,7 +1077,8 @@
    },
    "ilk_gol_dk": 5,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 14
+   "iki_gol_dk": 14,
+   "iki_gol_dk_kesin": true
   },
   "KEFRP4zK": {
    "bahis": {},
