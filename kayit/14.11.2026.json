@@ -1053,10 +1053,25 @@
        "isb": null,
        "buy": null
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": null,
+     "buy": null
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "MNB7TRJc": {
    "bahis": {
@@ -1347,7 +1362,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 1
+    "2": 3
    },
    "ilk_gol_dk": 3,
    "ilk_gol_dk_kesin": true,
@@ -1475,12 +1490,12 @@
   "f1ZXuGHl": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "2Rxtvfn1": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nBnq4D3F": {
    "bahis": {},
@@ -1535,7 +1550,7 @@
   "tEqy6ZY2": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "Cv5ibNFd": {
    "bahis": {},
