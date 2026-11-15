@@ -603,7 +603,7 @@
   "M3aKOOmI": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OvMXGSMh": {
    "bahis": {},
@@ -1031,7 +1031,18 @@
   },
   "KOpi2iYR": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.19,
+       "isb": 1.0,
+       "buy": 2.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "pCJTFMmA": {
