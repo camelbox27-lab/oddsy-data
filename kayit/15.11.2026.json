@@ -4,7 +4,15 @@
   "4YNzMsxg": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 15
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 11,
+   "ilk_gol_dk_kesin": true
   },
   "pWwJD4Rr": {
    "bahis": {},
