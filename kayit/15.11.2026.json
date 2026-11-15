@@ -626,7 +626,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 45
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 42,
+   "ilk_gol_dk_kesin": true
   },
   "OvMXGSMh": {
    "bahis": {},
@@ -740,7 +748,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 14,
     "2": 51
