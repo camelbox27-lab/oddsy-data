@@ -137,10 +137,12 @@
      "dk": 45,
      "xg": 0.85,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 31
    },
@@ -1173,10 +1175,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 4,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 10
    },
