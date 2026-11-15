@@ -2,17 +2,28 @@
  "tarih": "15.11.2026",
  "maclar": {
   "4YNzMsxg": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 1002,
+     "durum": "acik",
+     "dk": 18,
+     "skor": "1-1"
+    }
+   },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 15
+    "1": 15,
+    "2": 18
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 11,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 15,
+   "iki_gol_dk_kesin": true
   },
   "pWwJD4Rr": {
    "bahis": {},
