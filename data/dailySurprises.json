@@ -1,32 +1,12 @@
 [
   {
-    "event_id": "O4c2zrcM",
-    "home_team": "West Ham United F",
-    "away_team": "Charlton Athletic F",
-    "league": "ENGLAND WSL",
-    "saat": "17:00",
+    "event_id": "pWwJD4Rr",
+    "home_team": "Frankreich",
+    "away_team": "Türkei",
+    "league": "EUROPA UEFA Nations League - Liga A",
+    "saat": "22:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 7.5,
-    "tarih": "15.11.2026"
-  },
-  {
-    "event_id": "nXewp85U",
-    "home_team": "Atlas Paillade",
-    "away_team": "AS Cannes",
-    "league": "FRANKREICH Coupe de France",
-    "saat": "17:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 9.0,
-    "tarih": "15.11.2026"
-  },
-  {
-    "event_id": "08PcdxBb",
-    "home_team": "GFA Rumilly Vallières",
-    "away_team": "AS Saint-Étienne",
-    "league": "FRANKREICH Coupe de France",
-    "saat": "17:00",
-    "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 9.0,
+    "ms_5_5_ust": 4.33,
     "tarih": "15.11.2026"
   }
 ]
