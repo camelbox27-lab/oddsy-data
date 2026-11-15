@@ -24,12 +24,27 @@
   "WlNQ9VC7": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4ppF09Hq": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 986,
+     "durum": "acik",
+     "dk": 9,
+     "skor": "0-1"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 9
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 5,
+   "ilk_gol_dk_kesin": true
   },
   "AoaMhFKb": {
    "bahis": {},
@@ -78,7 +93,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -98,7 +113,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 14,
     "2": 36
@@ -119,12 +134,12 @@
   "nXewp85U": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "08PcdxBb": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "G8oGTR6C": {
    "bahis": {},
@@ -399,10 +414,25 @@
        "isb": 0.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.29,
+     "isb": 1.0,
+     "buy": 1.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "SnwZay9K": {
    "bahis": {},
@@ -492,13 +522,14 @@
   "4YNzMsxg": "once",
   "pWwJD4Rr": "once",
   "zs0jyKt4": "once",
-  "KYk3UMMs": "da",
-  "nXewp85U": "once",
+  "KYk3UMMs": "2y",
+  "nXewp85U": "1y",
   "G8oGTR6C": "1y",
   "p6YSlB0J": "once"
  },
  "liste_kazanan": {
   "KYk3UMMs": [],
-  "G8oGTR6C": []
+  "G8oGTR6C": [],
+  "nXewp85U": []
  }
 }
