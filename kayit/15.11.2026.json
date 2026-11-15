@@ -150,13 +150,17 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 15
+    "1": 15,
+    "2": 28
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 12,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 24,
+   "iki_gol_dk_kesin": true
   },
   "YVIOlgGP": {
    "bahis": {},
