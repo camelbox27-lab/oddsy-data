@@ -724,8 +724,19 @@
      "skor": "0-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": 1.71,
+     "isb": 4.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 7,
     "2": 34
@@ -737,7 +748,11 @@
    "ilk_gol_dk": 5,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 34,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "p6YSlB0J": {
    "bahis": {},
