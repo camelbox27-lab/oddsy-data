@@ -722,8 +722,19 @@
   },
   "EojPP2lQ": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.59,
+     "isb": 2.0,
+     "buy": 1.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 14,
     "2": 51
@@ -735,7 +746,11 @@
    "ilk_gol_dk": 11,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 45,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    0
+   ]
   },
   "l8bw2adJ": {
    "bahis": {
