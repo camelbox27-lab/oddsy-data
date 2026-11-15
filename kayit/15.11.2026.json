@@ -278,10 +278,21 @@
        "isb": 2.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 2.01,
+     "isb": 4.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 33
    },
@@ -289,7 +300,11 @@
     "1": 4
    },
    "ilk_gol_dk": 33,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    1,
+    0
+   ]
   },
   "AHyeKtCm": {
    "bahis": {},
