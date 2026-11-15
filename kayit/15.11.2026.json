@@ -148,17 +148,32 @@
        "isb": 1.0,
        "buy": 2.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.91,
+     "isb": 3.0,
+     "buy": 3.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 47
    },
    "gol_deneme": {
-    "1": 4
+    "1": 6
    },
-   "ilk_gol_dk": 47
+   "ilk_gol_dk": 47,
+   "iy": [
+    0,
+    1
+   ]
   },
   "WlNQ9VC7": {
    "bahis": {},
@@ -1352,7 +1367,7 @@
  "liste_son": {
   "4YNzMsxg": "da",
   "pWwJD4Rr": "da",
-  "zs0jyKt4": "1y",
+  "zs0jyKt4": "da",
   "KYk3UMMs": "bitti",
   "nXewp85U": "bitti",
   "G8oGTR6C": "bitti",
