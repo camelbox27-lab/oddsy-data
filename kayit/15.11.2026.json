@@ -463,9 +463,16 @@
    ]
   },
   "S2Ri6GXj": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 990,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "M3aKOOmI": {
    "bahis": {},
@@ -634,7 +641,7 @@
   "p6YSlB0J": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "vR6q0qop": {
    "bahis": {},
@@ -692,7 +699,7 @@
   "M7RBopWj": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "KOpi2iYR": {
    "bahis": {},
@@ -718,13 +725,14 @@
   "KYk3UMMs": "bitti",
   "nXewp85U": "2y",
   "G8oGTR6C": "bitti",
-  "p6YSlB0J": "once"
+  "p6YSlB0J": "1y"
  },
  "liste_kazanan": {
   "KYk3UMMs": [],
   "G8oGTR6C": [
    "ust25"
   ],
-  "nXewp85U": []
+  "nXewp85U": [],
+  "p6YSlB0J": []
  }
 }
