@@ -168,6 +168,12 @@
        "xg": null,
        "isb": null,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": null,
+       "buy": null
       }
      }
     }
@@ -493,7 +499,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
