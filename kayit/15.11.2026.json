@@ -616,6 +616,12 @@
        "xg": null,
        "isb": 0.0,
        "buy": null
+      },
+      "30": {
+       "dk": 30,
+       "xg": null,
+       "isb": 0.0,
+       "buy": null
       }
      }
     }
@@ -1106,7 +1112,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 45
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 43,
+   "ilk_gol_dk_kesin": true
   },
   "pCJTFMmA": {
    "bahis": {},
