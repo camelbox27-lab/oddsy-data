@@ -86,6 +86,70 @@
     padding: 13px; font-size: 14.5px; font-weight: 500;
   }
 
+  /* ---- tek buton (oynat) ---- */
+  .oynat-kutu { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 6px 0 2px; }
+  .oynat {
+    width: 112px; height: 112px; border-radius: 50%; padding: 0;
+    display: grid; place-items: center; position: relative;
+    background: linear-gradient(145deg, var(--yesil), var(--mavi-koyu));
+    box-shadow: 0 10px 30px rgba(52, 211, 153, .25), inset 0 1px 0 rgba(255,255,255,.25);
+  }
+  .oynat svg { width: 46px; height: 46px; margin-left: 7px; }
+  .oynat:disabled { opacity: 1; cursor: progress; }
+  .oynat:disabled svg { opacity: .35; }
+  .oynat::after {
+    content: ""; position: absolute; inset: -7px; border-radius: 50%;
+    border: 3px solid transparent;
+  }
+  .oynat:disabled::after {
+    border-top-color: var(--yesil); border-right-color: var(--mavi);
+    animation: don 1s linear infinite;
+  }
+  @keyframes don { to { transform: rotate(360deg); } }
+  .oynat-yazi {
+    font-size: 11.5px; letter-spacing: 1.1px; color: var(--soluk);
+    text-transform: uppercase; font-weight: 600; text-align: center;
+  }
+
+  /* ---- boru hatti ---- */
+  .hat { list-style: none; margin: 0; padding: 4px 2px; display: grid; gap: 0; }
+  .hat li {
+    display: flex; align-items: center; gap: 12px; position: relative;
+    padding: 9px 4px; font-size: 15px; font-weight: 600;
+  }
+  .hat li + li::before {
+    content: ""; position: absolute; left: 21px; top: -9px; height: 18px;
+    border-left: 2px solid var(--kenar);
+  }
+  .hat .ik {
+    width: 36px; height: 36px; border-radius: 10px; flex: 0 0 auto;
+    display: grid; place-items: center; background: var(--yuzey);
+    border: 1px solid var(--kenar); overflow: hidden;
+  }
+  .hat .ik img { width: 100%; height: 100%; object-fit: contain; background: #fff; }
+  .hat .ik svg { width: 20px; height: 20px; }
+  .hat .ad { flex: 1; }
+  .hat .dur {
+    font-size: 12px; font-weight: 600; color: var(--soluk);
+    padding: 3px 9px; border-radius: 99px; background: var(--yuzey);
+    border: 1px solid var(--kenar); white-space: nowrap;
+  }
+  .hat li.pasif { opacity: .35; }
+  .hat li.calisiyor .dur { color: var(--sari); border-color: var(--sari); animation: nabiz 1.2s ease-in-out infinite; }
+  .hat li.tamam .dur { color: var(--yesil); border-color: var(--yesil-koyu); }
+  .hat li.tamam + li::before, .hat li.tamam::before { border-left-color: var(--yesil-koyu); }
+  .hat li.hata .dur { color: var(--kirmizi); border-color: var(--kirmizi); }
+  .hat li.atlandi .dur { color: var(--soluk); }
+
+  /* ---- tek tek ---- */
+  .tekli summary::before { content: "▸  "; }
+  .tekli[open] summary::before { content: "▾  "; }
+  .tekli-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 11px; }
+  .tekli-grid button {
+    background: var(--zemin); border: 1px solid var(--kenar); color: var(--yazi);
+    padding: 11px 8px; font-size: 13.5px; font-weight: 600; border-radius: 11px;
+  }
+
   /* ---- konsol ---- */
   .konsol-kutu {
     background: var(--konsol);
@@ -165,28 +229,19 @@
   </div>
 </div>
 
-<div class="butonlar">
-  <button class="ana btn-iddaa" data-is="iddaa">
-    <img src="iddaa.png" alt="">
-    <span>VERİLERİ ÇEK YÜKLE</span>
+<div class="oynat-kutu">
+  <button class="oynat" id="oynat" data-is="hepsi" aria-label="Hepsini çalıştır">
+    <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M6 4.2v15.6c0 .8.9 1.3 1.6.9l12.4-7.8c.6-.4.6-1.3 0-1.7L7.6 3.3C6.9 2.9 6 3.4 6 4.2z"/></svg>
   </button>
-  <button class="ana btn-bet365" data-is="bet365">
-    <img src="bet365.png" alt="">
-    <span>VERİLERİ ÇEK YÜKLE</span>
-  </button>
-  <button class="btn-ikisi" data-is="ikisi">İkisini birden çek</button>
-
-  <hr class="ayirac">
-
-  <button class="ana btn-bulten" data-is="menu">
-    <span>BÜLTEN YÜKLE</span>
-  </button>
-
-  <button class="ana btn-telegram" data-is="telegram">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6l-3.06 14.43c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.78 8.7-7.86c.38-.34-.08-.53-.59-.19L6.26 13.1 1.6 11.64c-1.01-.32-1.03-1.01.21-1.5L20.63 2.9c.84-.31 1.58.2 1.31 1.7z"/></svg>
-    <span>TELEGRAM'A GÖNDER</span>
-  </button>
+  <div class="oynat-yazi">Verileri çek · Bülten yükle · Telegram'a gönder</div>
 </div>
+
+<ol class="hat" id="hat">
+  <li data-asama="iddaa"><span class="ik"><img src="iddaa.png" alt=""></span><span class="ad">İddaa verileri</span><span class="dur">bekliyor</span></li>
+  <li data-asama="bet365"><span class="ik"><img src="bet365.png" alt=""></span><span class="ad">bet365 verileri</span><span class="dur">bekliyor</span></li>
+  <li data-asama="bulten"><span class="ik"><svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2" aria-hidden="true"><path d="M8 3h8l4 4v14H4V3h4z"/><path d="M8 11h8M8 15h8M8 7h4"/></svg></span><span class="ad">Bülten yükle</span><span class="dur">bekliyor</span></li>
+  <li data-asama="telegram"><span class="ik"><svg viewBox="0 0 24 24" fill="#30a3dc" aria-hidden="true"><path d="M21.94 4.6l-3.06 14.43c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.78 8.7-7.86c.38-.34-.08-.53-.59-.19L6.26 13.1 1.6 11.64c-1.01-.32-1.03-1.01.21-1.5L20.63 2.9c.84-.31 1.58.2 1.31 1.7z"/></svg></span><span class="ad">Telegram'a gönder</span><span class="dur">bekliyor</span></li>
+</ol>
 
 <div class="konsol-kutu" id="kutu">
   <div class="konsol-ust">
@@ -195,6 +250,18 @@
     <button id="temizle">temizle</button>
   </div>
   <div id="konsol"></div>
+</div>
+
+<div class="kart">
+  <details class="tekli">
+    <summary>Tek tek çalıştır</summary>
+    <div class="tekli-grid">
+      <button data-is="iddaa">İddaa çek</button>
+      <button data-is="bet365">bet365 çek</button>
+      <button data-is="menu">Bülten yükle</button>
+      <button data-is="telegram">Telegram'a gönder</button>
+    </div>
+  </details>
 </div>
 
 <div class="kart">
@@ -213,7 +280,7 @@
 </div>
 
 <script>
-const SURUM   = "01.11-2";   // sayfanin hangi surumu yuklendigini gormek icin
+const SURUM   = "15.11-1";   // sayfanin hangi surumu yuklendigini gormek icin
 const DEPO    = "camelbox27-lab/oddsy-data";
 const AKIS    = "veri-guncelle.yml";
 const DAL     = "main";
@@ -226,6 +293,38 @@ const kutuEl   = document.getElementById("kutu");
 const baslikEl = document.getElementById("baslik");
 const tokenEl  = document.getElementById("token");
 const ayarEl   = document.getElementById("ayar");
+
+/* ---------- boru hatti ---------- */
+const ASAMALAR = {
+  hepsi:    ["iddaa", "bet365", "bulten", "telegram"],
+  ikisi:    ["iddaa", "bet365"],
+  iddaa:    ["iddaa"],
+  bet365:   ["bet365"],
+  menu:     ["bulten"],
+  telegram: ["telegram"],
+};
+// GitHub'daki adim adi -> asama
+const ADIM_ASAMA = [
+  [/^iddaa cek/i, "iddaa"],
+  [/^bet365 cek/i, "bet365"],
+  [/^Bulten yukle/i, "bulten"],
+  [/Telegram/i, "telegram"],
+];
+const DURUM_YAZI = { bekliyor: "bekliyor", calisiyor: "çalışıyor", tamam: "✓ tamam", hata: "✗ hata", atlandi: "atlandı", pasif: "—" };
+const hatEl = document.getElementById("hat");
+function asama(ad, d) {
+  const li = hatEl.querySelector(`[data-asama="${ad}"]`);
+  if (!li) return;
+  li.className = d;
+  li.querySelector(".dur").textContent = DURUM_YAZI[d] || d;
+}
+function hatSifirla(is_) {
+  const ilgili = ASAMALAR[is_] || ASAMALAR.hepsi;
+  for (const ad of ASAMALAR.hepsi) asama(ad, ilgili.includes(ad) ? "bekliyor" : "pasif");
+}
+function hatBitir() {
+  hatEl.querySelectorAll("li.bekliyor, li.calisiyor").forEach(li => asama(li.dataset.asama, "atlandi"));
+}
 
 /* ---------- konsol ---------- */
 function yaz(metin, tip = "") {
@@ -302,7 +401,11 @@ async function izle(id) {
     for (const is_ of isler.jobs || []) {
       if (is_.conclusion === "skipped") continue;
       for (const adim of is_.steps || []) {
+        const eslesme = ADIM_ASAMA.find(([re]) => re.test(adim.name));
+        if (eslesme && adim.status === "in_progress") asama(eslesme[1], "calisiyor");
         if (adim.status !== "completed") continue;
+        if (eslesme && adim.conclusion !== "skipped")
+          asama(eslesme[1], adim.conclusion === "success" ? "tamam" : "hata");
         const anahtar = is_.id + ":" + adim.number;
         if (basilan.has(anahtar)) continue;
         basilan.add(anahtar);
@@ -319,11 +422,29 @@ async function izle(id) {
   }
 }
 
+const BITTI_YAZI = {
+  hepsi:    "✓ TAMAMLANDI — veriler çekildi, bülten yüklendi, Telegram'a gönderildi",
+  telegram: "✓ TAMAMLANDI — liste Telegram'a gönderildi",
+  menu:     "✓ TAMAMLANDI — bülten siteye yüklendi",
+};
+
+async function sonucuYaz(is_, son) {
+  hatBitir();
+  if (son.conclusion === "success") {
+    yaz(BITTI_YAZI[is_] || "✓ TAMAMLANDI — veri siteye yüklendi", "ok");
+    durum("tamamlandı", "tamam");
+  } else {
+    yaz("✗ BAŞARISIZ (" + son.conclusion + ") — kırmızı aşamayı 'Tek tek çalıştır'dan tekrar deneyebilirsin", "err");
+    durum("başarısız", "hata");
+  }
+}
+
 async function tetikle(is_) {
   butonlar.forEach(b => b.disabled = true);
   const baslangic = Date.now();
   durum("çalışıyor", "calisiyor");
-  yaz("> " + is_.toUpperCase(), "cmd");
+  hatSifirla(is_);
+  yaz("> " + (is_ === "hepsi" ? "HEPSİ (çek → bülten → telegram)" : is_.toUpperCase()), "cmd");
 
   try {
     await istek(`/repos/${DEPO}/actions/workflows/${AKIS}/dispatches`, {
@@ -338,17 +459,8 @@ async function tetikle(is_) {
       durum("bilinmiyor", "hata");
       return;
     }
-    yaz("  çalışma #" + c.run_number + " başladı");
-
-    const son = await izle(c.id);
-    if (son.conclusion === "success") {
-      yaz(is_ === "telegram" ? "✓ TAMAMLANDI — liste Telegram'a gönderildi"
-        :                        "✓ TAMAMLANDI — veri siteye yüklendi", "ok");
-      durum("tamamlandı", "tamam");
-    } else {
-      yaz("✗ BAŞARISIZ (" + son.conclusion + ")", "err");
-      durum("başarısız", "hata");
-    }
+    yaz("  çalışma #" + c.run_number + " başladı (ekranı kapatsan da GitHub'da devam eder)");
+    await sonucuYaz(is_, await izle(c.id));
   } catch (e) {
     yaz("✗ " + e.message, "err");
     durum("hata", "hata");
@@ -359,7 +471,27 @@ async function tetikle(is_) {
 }
 
 butonlar.forEach(b => b.onclick = () => tetikle(b.dataset.is));
-yaz("hazır (s. " + SURUM + ") — bir butona bas");
+yaz("hazır (s. " + SURUM + ") — ▶ tuşuna bas");
+
+/* Sayfa acildiginda devam eden bir calisma varsa onu izle
+   (ornegin ekran kapanip sayfa yeniden yuklendiyse). */
+(async () => {
+  if (!tokenOku()) return;
+  try {
+    const d = await istek(`/repos/${DEPO}/actions/workflows/${AKIS}/runs?per_page=3`);
+    const c = (d.workflow_runs || []).find(r => r.status !== "completed");
+    if (!c) return;
+    butonlar.forEach(b => b.disabled = true);
+    durum("çalışıyor", "calisiyor");
+    hatSifirla("hepsi");
+    yaz("devam eden çalışma #" + c.run_number + " izleniyor", "cmd");
+    await sonucuYaz("", await izle(c.id));
+  } catch (e) {
+    yaz("✗ " + e.message, "err");
+  } finally {
+    butonlar.forEach(b => b.disabled = false);
+  }
+})();
 
 /* Sayfayi her acista taze cek; eski kopya telefonda takili kalmasin. */
 if ("serviceWorker" in navigator) {

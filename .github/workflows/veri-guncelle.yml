@@ -1,6 +1,9 @@
 name: Veri guncelle
 
 # Telefondaki butonlar bu akisi GitHub API uzerinden workflow_dispatch ile tetikler.
+# 'hepsi' (telefondaki tek ▶ butonu): iddaa + bet365 cek -> bulten yukle ->
+# Telegram'a gonder, ayni calismada sirayla. Bir asama basarisiz olursa
+# sonrakiler calismaz (eski/bozuk bulten Telegram'a gitmesin).
 on:
   workflow_dispatch:
     inputs:
@@ -17,6 +20,7 @@ on:
           - istatistik
           - teshis
           - telegram
+          - hepsi
 
 # Ayni anda iki calisma main'e push etmeye kalkmasin.
 concurrency:
@@ -29,7 +33,7 @@ permissions:
 jobs:
   # iddaa / bet365 — kendi sabitlenmis paket surumleriyle (pandas 3.x).
   veri:
-    if: inputs.hangisi == 'iddaa' || inputs.hangisi == 'bet365' || inputs.hangisi == 'ikisi'
+    if: inputs.hangisi == 'iddaa' || inputs.hangisi == 'bet365' || inputs.hangisi == 'ikisi' || inputs.hangisi == 'hepsi'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
@@ -67,7 +71,7 @@ jobs:
       # bosuna proxy kotasi harcamasin.
       - name: iddaa cek
         id: iddaa
-        if: inputs.hangisi == 'iddaa' || inputs.hangisi == 'ikisi'
+        if: inputs.hangisi == 'iddaa' || inputs.hangisi == 'ikisi' || inputs.hangisi == 'hepsi'
         continue-on-error: true      # 'ikisi' secildiginde biri patlarsa diger devam etsin
         env:
           https_proxy: ${{ secrets.SOFA_PROXY }}
@@ -81,7 +85,7 @@ jobs:
       # --- bet365: baslamayan maclar -> bet365/GGAAYYYY.xlsx + .json
       - name: bet365 cek
         id: bet365
-        if: inputs.hangisi == 'bet365' || inputs.hangisi == 'ikisi'
+        if: inputs.hangisi == 'bet365' || inputs.hangisi == 'ikisi' || inputs.hangisi == 'hepsi'
         continue-on-error: true      # 'ikisi' secildiginde biri patlarsa diger devam etsin
         working-directory: otomasyon
         run: |
@@ -147,7 +151,12 @@ jobs:
   # pandas 2.x istiyor, yukaridaki is ise pandas 3.x'e sabitli (bet365 JSON'unun
   # byte uyumu buna bagli). Ayni runner'da ikisi bir arada kurulamaz.
   bot:
-    if: inputs.hangisi == 'menu' || inputs.hangisi == 'istatistik' || inputs.hangisi == 'teshis'
+    # 'hepsi'de veri isi bittikten sonra, yalnizca basariliysa calisir.
+    # Tek basina (menu vb.) tetiklenince veri isi atlanmis olur; !cancelled()
+    # bu durumda isin atlanmamasini saglar. checkout ref: main oldugu icin
+    # veri isinin az once gonderdigi dosyalar gorulur.
+    needs: veri
+    if: ${{ !cancelled() && (inputs.hangisi == 'menu' || inputs.hangisi == 'istatistik' || inputs.hangisi == 'teshis' || (inputs.hangisi == 'hepsi' && needs.veri.result == 'success')) }}
     runs-on: ubuntu-latest
     timeout-minutes: 90
     env:
@@ -208,7 +217,7 @@ jobs:
       # main.py kendi push'unu yapar.
       - name: Bulten yukle
         id: menu
-        if: inputs.hangisi == 'menu'
+        if: inputs.hangisi == 'menu' || inputs.hangisi == 'hepsi'
         continue-on-error: true
         env:
           MOBIL: "1"
@@ -275,7 +284,9 @@ jobs:
   # Veri uretmez, sadece data/halfTimeGoals.json'i okur; push yapmaz.
   # Sadece stdlib kullandigi icin pip kurulumu yok, saniyeler icinde biter.
   telegram:
-    if: inputs.hangisi == 'telegram'
+    # 'hepsi'de bulten yuklendikten sonra, yalnizca basariliysa calisir.
+    needs: bot
+    if: ${{ !cancelled() && (inputs.hangisi == 'telegram' || (inputs.hangisi == 'hepsi' && needs.bot.result == 'success')) }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
