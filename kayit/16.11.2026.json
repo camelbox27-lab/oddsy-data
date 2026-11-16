@@ -245,17 +245,24 @@
   "KzuhApBc": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "EJo6seyf": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1017,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SQDRBcn2": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "ncuwTe23": {
    "bahis": {
@@ -278,7 +285,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 5
    },
@@ -300,10 +307,12 @@
  "liste_son": {
   "YgNbVTho": "once",
   "QaWOXbQr": "bitti",
-  "KzuhApBc": "once",
-  "SQDRBcn2": "once"
+  "KzuhApBc": "1y",
+  "SQDRBcn2": "1y"
  },
  "liste_kazanan": {
-  "QaWOXbQr": []
+  "QaWOXbQr": [],
+  "KzuhApBc": [],
+  "SQDRBcn2": []
  }
 }
