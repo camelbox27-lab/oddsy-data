@@ -2,19 +2,33 @@
  "tarih": "16.11.2026",
  "maclar": {
   "2RA7BZ1C": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1025,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "YgNbVTho": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1026,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "O6zXDY9j": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "2VjYW7HL": {
    "bahis": {},
@@ -240,7 +254,7 @@
   "rsY1QVmI": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "KzuhApBc": {
    "bahis": {},
@@ -290,8 +304,19 @@
      "skor": "2-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      4,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.16,
+     "isb": 4.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 6,
     "2": 22
@@ -303,7 +328,11 @@
    "ilk_gol_dk": 5,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 19,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    4,
+    0
+   ]
   },
   "ncuwTe23": {
    "bahis": {
@@ -347,16 +376,17 @@
   "22:45": 1022
  },
  "liste_son": {
-  "YgNbVTho": "once",
+  "YgNbVTho": "1y",
   "QaWOXbQr": "bitti",
   "KzuhApBc": "1y",
-  "SQDRBcn2": "1y"
+  "SQDRBcn2": "da"
  },
  "liste_kazanan": {
   "QaWOXbQr": [],
   "KzuhApBc": [],
   "SQDRBcn2": [
    "ust25"
-  ]
+  ],
+  "YgNbVTho": []
  }
 }
