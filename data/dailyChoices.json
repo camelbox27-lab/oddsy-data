@@ -1,62 +1,52 @@
 [
   {
-    "event_id": "pCJTFMmA",
-    "home_team": "Suriname",
-    "away_team": "Eswatini",
+    "event_id": "MRT6wmZp",
+    "home_team": "Ungarn U21",
+    "away_team": "Zypern U21",
     "league": "WELT Internationale Freundschaftsspiele",
-    "saat": "20:00",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.83,
-    "tarih": "15.11.2026"
-  },
-  {
-    "event_id": "Eq1vmbFO",
-    "home_team": "Comerciantes Unidos",
-    "away_team": "Sport Boys",
-    "league": "PERU Liga 1 - Clausura",
     "saat": "21:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.8,
-    "tarih": "15.11.2026"
+    "2_5_ust": 1.6,
+    "tarih": "16.11.2026"
   },
   {
-    "event_id": "U5Aau8sf",
-    "home_team": "Mineros Potosi",
-    "away_team": "San Martin de Yacuiba",
-    "league": "BOLIVIEN Copa Simon Bolivar - Playoffs",
-    "saat": "22:00",
+    "event_id": "YgNbVTho",
+    "home_team": "Griechenland",
+    "away_team": "Serbien",
+    "league": "EUROPA UEFA Nations League - Liga A",
+    "saat": "22:45",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.62,
+    "tarih": "16.11.2026"
+  },
+  {
+    "event_id": "2RA7BZ1C",
+    "home_team": "Deutschland",
+    "away_team": "Niederlande",
+    "league": "EUROPA UEFA Nations League - Liga A",
+    "saat": "22:45",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.4,
-    "tarih": "15.11.2026"
+    "tarih": "16.11.2026"
   },
   {
-    "event_id": "GfK2VlAr",
-    "home_team": "Kroatien",
-    "away_team": "Tschechien",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.7,
-    "tarih": "15.11.2026"
-  },
-  {
-    "event_id": "zs0jyKt4",
-    "home_team": "Spanien",
-    "away_team": "England",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "15.11.2026"
-  },
-  {
-    "event_id": "pWwJD4Rr",
-    "home_team": "Frankreich",
-    "away_team": "Türkei",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
+    "event_id": "6sMHTP3t",
+    "home_team": "Island",
+    "away_team": "Luxemburg",
+    "league": "EUROPA UEFA Nations League - Liga C",
+    "saat": "20:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 1.73,
-    "tarih": "15.11.2026"
+    "3_5_ust": 2.75,
+    "tarih": "16.11.2026"
+  },
+  {
+    "event_id": "SQDRBcn2",
+    "home_team": "Kuba",
+    "away_team": "Grenada",
+    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "saat": "22:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 2.0,
+    "tarih": "16.11.2026"
   }
 ]
