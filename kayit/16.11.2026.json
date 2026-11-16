@@ -97,7 +97,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 31
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 29,
+   "ilk_gol_dk_kesin": true
   },
   "2VjYW7HL": {
    "bahis": {},
