@@ -137,7 +137,18 @@
   },
   "6sMHTP3t": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.41,
+       "isb": 3.0,
+       "buy": 1.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "QaWOXbQr": {
