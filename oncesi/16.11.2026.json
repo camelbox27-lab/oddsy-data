@@ -1,0 +1,105 @@
+{
+ "tarih": "16.11.2026",
+ "ust25": [
+  {
+   "kod": "SQDRBcn2",
+   "saat": "22:00",
+   "ev": "Kuba",
+   "dep": "Grenada",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.48,
+    "UST35": 2.1,
+    "IYUST15": 2.1
+   }
+  },
+  {
+   "kod": "YgNbVTho",
+   "saat": "22:45",
+   "ev": "Griechenland",
+   "dep": "Serbien",
+   "lig": "EUROPA UEFA Nations League - Liga A",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.65,
+    "UST35": 2.63,
+    "IYUST15": 2.5
+   }
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "QaWOXbQr",
+   "saat": "20:00",
+   "ev": "Litauen",
+   "dep": "Liechtenstein",
+   "lig": "EUROPA UEFA Nations League - Liga D",
+   "beraberlik": 8.0,
+   "oran": {
+    "UST25": 1.8,
+    "UST35": 3.0,
+    "IYUST15": 2.63
+   }
+  },
+  {
+   "kod": "KzuhApBc",
+   "saat": "22:00",
+   "ev": "Guadeloupe",
+   "dep": "Bermuda",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 5.25,
+   "oran": {
+    "UST25": 1.36,
+    "UST35": 1.83,
+    "IYUST15": 1.98
+   }
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "QaWOXbQr",
+    "saat": "20:00",
+    "ev": "Litauen",
+    "dep": "Liechtenstein",
+    "lig": "EUROPA UEFA Nations League - Liga D",
+    "bahis": "iy15",
+    "oran": 2.63,
+    "listeden": true
+   },
+   {
+    "kod": "KzuhApBc",
+    "saat": "22:00",
+    "ev": "Guadeloupe",
+    "dep": "Bermuda",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "bahis": "ust35",
+    "oran": 1.83,
+    "listeden": true
+   },
+   {
+    "kod": "SQDRBcn2",
+    "saat": "22:00",
+    "ev": "Kuba",
+    "dep": "Grenada",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "bahis": "ust25",
+    "oran": 1.48,
+    "listeden": true
+   },
+   {
+    "kod": "YgNbVTho",
+    "saat": "22:45",
+    "ev": "Griechenland",
+    "dep": "Serbien",
+    "lig": "EUROPA UEFA Nations League - Liga A",
+    "bahis": "ust25",
+    "oran": 1.65,
+    "listeden": true
+   }
+  ],
+  "toplam": 11.75
+ },
+ "sonuclandi": false
+}
