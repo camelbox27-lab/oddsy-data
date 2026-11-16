@@ -285,7 +285,7 @@
     },
     "iy25": {
      "id": 1021,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 22,
      "skor": "2-0"
     }
@@ -355,6 +355,8 @@
  "liste_kazanan": {
   "QaWOXbQr": [],
   "KzuhApBc": [],
-  "SQDRBcn2": []
+  "SQDRBcn2": [
+   "ust25"
+  ]
  }
 }
