@@ -260,9 +260,24 @@
    "son": "1y"
   },
   "SQDRBcn2": {
-   "bahis": {},
+   "bahis": {
+    "iy15": {
+     "id": 1018,
+     "durum": "acik",
+     "dk": 6,
+     "skor": "1-0"
+    }
+   },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 6
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 5,
+   "ilk_gol_dk_kesin": true
   },
   "ncuwTe23": {
    "bahis": {
