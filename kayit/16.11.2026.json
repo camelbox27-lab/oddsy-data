@@ -1,4 +1,89 @@
 {
  "tarih": "16.11.2026",
- "maclar": {}
+ "maclar": {
+  "2RA7BZ1C": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "YgNbVTho": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "O6zXDY9j": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "2VjYW7HL": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "AmO1Tbim": {
+   "bahis": {
+    "iy05": {
+     "id": 1011,
+     "durum": "acik",
+     "dk": 3,
+     "skor": "0-0"
+    }
+   },
+   "gozlem": {},
+   "son": "1y"
+  },
+  "CUwHKU8F": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "1y"
+  },
+  "0hNdxfzI": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "6sMHTP3t": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "QaWOXbQr": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "rsY1QVmI": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "KzuhApBc": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "EJo6seyf": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "SQDRBcn2": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "ncuwTe23": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  }
+ },
+ "liste_slot": {},
+ "liste_son": {
+  "YgNbVTho": "once",
+  "QaWOXbQr": "once",
+  "KzuhApBc": "once",
+  "SQDRBcn2": "once"
+ }
 }
