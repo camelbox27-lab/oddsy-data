@@ -305,7 +305,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "17:10": 1045
+ },
  "liste_son": {
   "x20Nf5wf": "once",
   "hIlBKwSb": "once",
