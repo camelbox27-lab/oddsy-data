@@ -1,0 +1,144 @@
+{
+ "tarih": "17.11.2026",
+ "ust25": [
+  {
+   "kod": "IVvTpVtB",
+   "saat": "17:10",
+   "ev": "Vereinigte Arabische Emirate",
+   "dep": "Syrien",
+   "lig": "WELT Internationale Freundschaftsspiele",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.9,
+    "UST35": 3.25,
+    "IYUST15": 2.75
+   }
+  },
+  {
+   "kod": "OlB6OzW7",
+   "saat": "22:00",
+   "ev": "Saint Kitts und Nevis",
+   "dep": "Bonaire",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 4.75,
+   "oran": {
+    "UST25": 1.29,
+    "UST35": 1.73,
+    "IYUST15": 1.8
+   }
+  },
+  {
+   "kod": "MqkEuZ56",
+   "saat": "22:00",
+   "ev": "Dominica",
+   "dep": "Kaimaninseln",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 4.5,
+   "oran": {
+    "UST25": 1.8,
+    "UST35": 3.0,
+    "IYUST15": 2.63
+   }
+  },
+  {
+   "kod": "UmNXMNf3",
+   "saat": "22:00",
+   "ev": "Saint Lucia",
+   "dep": "Barbados",
+   "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+   "beraberlik": 4.0,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "x20Nf5wf",
+   "saat": "22:45",
+   "ev": "Wales",
+   "dep": "Portugal",
+   "lig": "EUROPA UEFA Nations League - Liga A",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  },
+  {
+   "kod": "hIlBKwSb",
+   "saat": "22:45",
+   "ev": "Polen",
+   "dep": "Schweden",
+   "lig": "EUROPA UEFA Nations League - Liga B",
+   "beraberlik": 3.6,
+   "oran": {
+    "UST25": 1.62,
+    "UST35": 2.5,
+    "IYUST15": 2.38
+   }
+  }
+ ],
+ "ust35": [
+  {
+   "kod": "x20Nf5wf",
+   "saat": "22:45",
+   "ev": "Wales",
+   "dep": "Portugal",
+   "lig": "EUROPA UEFA Nations League - Liga A",
+   "beraberlik": 5.0,
+   "oran": {
+    "UST25": 1.53,
+    "UST35": 2.25,
+    "IYUST15": 2.2
+   }
+  }
+ ],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "xrlSwX8a",
+    "saat": "13:00",
+    "ev": "Singapur",
+    "dep": "Brasilien",
+    "lig": "WELT Internationale Freundschaftsspiele",
+    "bahis": "iy15",
+    "oran": 1.33,
+    "listeden": false
+   },
+   {
+    "kod": "OlB6OzW7",
+    "saat": "22:00",
+    "ev": "Saint Kitts und Nevis",
+    "dep": "Bonaire",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "bahis": "ust25",
+    "oran": 1.29,
+    "listeden": true
+   },
+   {
+    "kod": "UmNXMNf3",
+    "saat": "22:00",
+    "ev": "Saint Lucia",
+    "dep": "Barbados",
+    "lig": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "bahis": "ust25",
+    "oran": 1.53,
+    "listeden": true
+   },
+   {
+    "kod": "x20Nf5wf",
+    "saat": "22:45",
+    "ev": "Wales",
+    "dep": "Portugal",
+    "lig": "EUROPA UEFA Nations League - Liga A",
+    "bahis": "ust35",
+    "oran": 2.25,
+    "listeden": true
+   }
+  ],
+  "toplam": 5.91
+ },
+ "sonuclandi": false
+}
