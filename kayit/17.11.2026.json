@@ -35,7 +35,7 @@
    "bahis": {
     "iy25": {
      "id": 1071,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 17,
      "skor": "1-1"
     }
@@ -997,7 +997,9 @@
   ],
   "UmNXMNf3": [],
   "x20Nf5wf": [
-   "iy15"
+   "iy15",
+   "ust25",
+   "ust35"
   ],
   "hIlBKwSb": []
  }
