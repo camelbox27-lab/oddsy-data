@@ -62,17 +62,28 @@
    "son": "once"
   },
   "xrlSwX8a": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 1034,
+     "durum": "acik",
+     "dk": 17,
+     "skor": "0-2"
+    }
+   },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 11
+    "1": 11,
+    "2": 17
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 9,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 15,
+   "iki_gol_dk_kesin": true
   },
   "GQnFOCbC": {
    "bahis": {},
