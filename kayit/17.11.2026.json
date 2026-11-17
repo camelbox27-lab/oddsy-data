@@ -42,24 +42,52 @@
    "son": "once"
   },
   "QyALxRjI": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1057,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "MqkEuZ56": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1058,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "OlB6OzW7": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1059,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "UmNXMNf3": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1060,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "xrlSwX8a": {
    "bahis": {
@@ -597,14 +625,17 @@
  "liste_son": {
   "x20Nf5wf": "once",
   "hIlBKwSb": "once",
-  "MqkEuZ56": "once",
-  "OlB6OzW7": "once",
-  "UmNXMNf3": "once",
+  "MqkEuZ56": "1y",
+  "OlB6OzW7": "1y",
+  "UmNXMNf3": "1y",
   "IVvTpVtB": "bitti"
  },
  "liste_kazanan": {
   "IVvTpVtB": [
    "ust25"
-  ]
+  ],
+  "MqkEuZ56": [],
+  "OlB6OzW7": [],
+  "UmNXMNf3": []
  }
 }
