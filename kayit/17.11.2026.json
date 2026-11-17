@@ -99,9 +99,10 @@
     "1": 31
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
-   "ilk_gol_dk": 31
+   "ilk_gol_dk": 31,
+   "ilk_gol_dk_kesin": true
   },
   "UNTItOqf": {
    "bahis": {},
