@@ -373,7 +373,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 40,
     "2": 46
@@ -421,9 +421,11 @@
   "MqkEuZ56": "once",
   "OlB6OzW7": "once",
   "UmNXMNf3": "once",
-  "IVvTpVtB": "da"
+  "IVvTpVtB": "2y"
  },
  "liste_kazanan": {
-  "IVvTpVtB": []
+  "IVvTpVtB": [
+   "ust25"
+  ]
  }
 }
