@@ -357,10 +357,21 @@
        "isb": 3.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 5.0,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 40,
     "2": 46
@@ -372,7 +383,11 @@
    "ilk_gol_dk": 36,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 44,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    1
+   ]
   },
   "dxI5ITG6": {
    "bahis": {},
@@ -404,7 +419,7 @@
   "MqkEuZ56": "once",
   "OlB6OzW7": "once",
   "UmNXMNf3": "once",
-  "IVvTpVtB": "1y"
+  "IVvTpVtB": "da"
  },
  "liste_kazanan": {
   "IVvTpVtB": []
