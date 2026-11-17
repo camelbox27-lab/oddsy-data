@@ -1,32 +1,52 @@
 [
   {
-    "event_id": "6sMHTP3t",
-    "home_team": "Island",
-    "away_team": "Luxemburg",
-    "league": "EUROPA UEFA Nations League - Liga C",
-    "saat": "20:00",
+    "event_id": "IVvTpVtB",
+    "home_team": "Vereinigte Arabische Emirate",
+    "away_team": "Syrien",
+    "league": "WELT Internationale Freundschaftsspiele",
+    "saat": "17:10",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 8.5,
-    "tarih": "16.11.2026"
+    "ms_5_5_ust": 15.0,
+    "tarih": "17.11.2026"
   },
   {
-    "event_id": "SQDRBcn2",
-    "home_team": "Kuba",
-    "away_team": "Grenada",
+    "event_id": "r5fP3Eqf",
+    "home_team": "Luton Town",
+    "away_team": "Peterborough United",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.33,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "MqkEuZ56",
+    "home_team": "Dominica",
+    "away_team": "Kaimaninseln",
     "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
     "saat": "22:00",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 6.0,
-    "tarih": "16.11.2026"
+    "ms_5_5_ust": 11.0,
+    "tarih": "17.11.2026"
   },
   {
-    "event_id": "YgNbVTho",
-    "home_team": "Griechenland",
-    "away_team": "Serbien",
+    "event_id": "OlB6OzW7",
+    "home_team": "Saint Kitts und Nevis",
+    "away_team": "Bonaire",
+    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "saat": "22:00",
+    "kategori": "MS 5.5 Üst",
+    "ms_5_5_ust": 4.0,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "x20Nf5wf",
+    "home_team": "Wales",
+    "away_team": "Portugal",
     "league": "EUROPA UEFA Nations League - Liga A",
     "saat": "22:45",
     "kategori": "MS 5.5 Üst",
-    "ms_5_5_ust": 10.0,
-    "tarih": "16.11.2026"
+    "ms_5_5_ust": 7.0,
+    "tarih": "17.11.2026"
   }
 ]

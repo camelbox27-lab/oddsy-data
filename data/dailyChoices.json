@@ -1,52 +1,122 @@
 [
   {
-    "event_id": "MRT6wmZp",
-    "home_team": "Ungarn U21",
-    "away_team": "Zypern U21",
+    "event_id": "buH5qeNq",
+    "home_team": "Thailand",
+    "away_team": "Tadschikistan",
+    "league": "WELT Kings Cup (Thailand)",
+    "saat": "15:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.98,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "lCEcKknf",
+    "home_team": "Katar",
+    "away_team": "Südkorea",
     "league": "WELT Internationale Freundschaftsspiele",
-    "saat": "21:00",
+    "saat": "17:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.6,
-    "tarih": "16.11.2026"
+    "2_5_ust": 1.8,
+    "tarih": "17.11.2026"
   },
   {
-    "event_id": "YgNbVTho",
-    "home_team": "Griechenland",
-    "away_team": "Serbien",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
+    "event_id": "IVvTpVtB",
+    "home_team": "Vereinigte Arabische Emirate",
+    "away_team": "Syrien",
+    "league": "WELT Internationale Freundschaftsspiele",
+    "saat": "17:10",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.62,
-    "tarih": "16.11.2026"
+    "2_5_ust": 1.9,
+    "tarih": "17.11.2026"
   },
   {
-    "event_id": "2RA7BZ1C",
-    "home_team": "Deutschland",
-    "away_team": "Niederlande",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
+    "event_id": "OjAFPsvP",
+    "home_team": "Portugal U21",
+    "away_team": "Norwegen U21",
+    "league": "WELT Internationale Freundschaftsspiele",
+    "saat": "20:30",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.4,
-    "tarih": "16.11.2026"
+    "2_5_ust": 1.53,
+    "tarih": "17.11.2026"
   },
   {
-    "event_id": "6sMHTP3t",
-    "home_team": "Island",
-    "away_team": "Luxemburg",
-    "league": "EUROPA UEFA Nations League - Liga C",
-    "saat": "20:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.75,
-    "tarih": "16.11.2026"
-  },
-  {
-    "event_id": "SQDRBcn2",
-    "home_team": "Kuba",
-    "away_team": "Grenada",
+    "event_id": "MqkEuZ56",
+    "home_team": "Dominica",
+    "away_team": "Kaimaninseln",
     "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
     "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.75,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "OlB6OzW7",
+    "home_team": "Saint Kitts und Nevis",
+    "away_team": "Bonaire",
+    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.25,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "UmNXMNf3",
+    "home_team": "Saint Lucia",
+    "away_team": "Barbados",
+    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.53,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "C2RkhOHN",
+    "home_team": "South Shields FC",
+    "away_team": "Harborough",
+    "league": "ENGLAND National League Nord",
+    "saat": "22:45",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.5,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "pS3Vhq86",
+    "home_team": "Dänemark",
+    "away_team": "Norwegen",
+    "league": "EUROPA UEFA Nations League - Liga A",
+    "saat": "22:45",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.44,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "f9alBZCk",
+    "home_team": "Swansea City U21",
+    "away_team": "Gillingham FC U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
     "kategori": "3.5 Üst",
-    "3_5_ust": 2.0,
-    "tarih": "16.11.2026"
+    "3_5_ust": 1.83,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "r5fP3Eqf",
+    "home_team": "Luton Town",
+    "away_team": "Peterborough United",
+    "league": "ENGLAND EFL Trophy",
+    "saat": "22:00",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 1.73,
+    "tarih": "17.11.2026"
+  },
+  {
+    "event_id": "x20Nf5wf",
+    "home_team": "Wales",
+    "away_team": "Portugal",
+    "league": "EUROPA UEFA Nations League - Liga A",
+    "saat": "22:45",
+    "kategori": "3.5 Üst",
+    "3_5_ust": 2.2,
+    "tarih": "17.11.2026"
   }
 ]
