@@ -219,10 +219,12 @@
      "dk": 45,
      "xg": null,
      "isb": 4.0,
-     "buy": null
+     "buy": null,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -360,13 +362,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 40
+    "1": 40,
+    "2": 46
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 36,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 44,
+   "iki_gol_dk_kesin": true
   },
   "dxI5ITG6": {
    "bahis": {},
