@@ -268,9 +268,16 @@
    ]
   },
   "lCEcKknf": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1044,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "IVvTpVtB": {
    "bahis": {},
