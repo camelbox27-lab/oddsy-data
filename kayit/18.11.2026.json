@@ -54,7 +54,7 @@
     },
     "ms45": {
      "id": 1088,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": null,
      "skor": "0-3"
     }
@@ -68,10 +68,12 @@
      "dk": 45,
      "xg": null,
      "isb": 5.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 13,
     "2": 27
@@ -137,10 +139,21 @@
        "isb": 1.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 3.0,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 21,
     "2": 48
@@ -152,7 +165,11 @@
    "ilk_gol_dk": 18,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 45,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    1
+   ]
   },
   "re5gDqhK": {
    "bahis": {},
