@@ -1,0 +1,51 @@
+{
+ "tarih": "18.11.2026",
+ "ust25": [],
+ "ust35": [],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "jqymLwk5",
+    "saat": "21:00",
+    "ev": "Utebo FC",
+    "dep": "Sabadell",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust35",
+    "oran": 3.25,
+    "listeden": false
+   },
+   {
+    "kod": "WGogyju3",
+    "saat": "21:00",
+    "ev": "Portugalete",
+    "dep": "Real Unión Irún",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust25",
+    "oran": 2.1,
+    "listeden": false
+   },
+   {
+    "kod": "lK2hbAro",
+    "saat": "22:00",
+    "ev": "Badajoz",
+    "dep": "CD Teneriffa",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "iy15",
+    "oran": 2.75,
+    "listeden": false
+   },
+   {
+    "kod": "v7KSx3G7",
+    "saat": "22:00",
+    "ev": "CD Alcoyano",
+    "dep": "RCD Mallorca",
+    "lig": "SPANIEN Copa del Rey",
+    "bahis": "ust25",
+    "oran": 1.95,
+    "listeden": false
+   }
+  ],
+  "toplam": 36.6
+ },
+ "sonuclandi": false
+}
