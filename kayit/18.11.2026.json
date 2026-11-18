@@ -35,12 +35,14 @@
      "dk": 45,
      "xg": null,
      "isb": 1.0,
-     "buy": null
+     "buy": null,
+     "ms": 0,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
-    0,
+    1,
     0
    ]
   },
