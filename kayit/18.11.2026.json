@@ -99,7 +99,7 @@
     },
     "iy25": {
      "id": 1092,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 10,
      "skor": "0-2"
     }
@@ -153,12 +153,12 @@
   "re5gDqhK": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nFt0F8Iq": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {}
