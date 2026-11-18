@@ -181,6 +181,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
       }
      }
     }
@@ -196,6 +202,12 @@
        "dk": 20,
        "xg": null,
        "isb": 0.0,
+       "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 1.0,
        "buy": null
       }
      }
