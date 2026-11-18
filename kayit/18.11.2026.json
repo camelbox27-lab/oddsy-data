@@ -1,4 +1,43 @@
 {
  "tarih": "18.11.2026",
- "maclar": {}
+ "maclar": {
+  "WGogyju3": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "1y"
+  },
+  "jqymLwk5": {
+   "bahis": {
+    "iy05": {
+     "id": 1086,
+     "durum": "acik",
+     "dk": 4,
+     "skor": "0-0"
+    }
+   },
+   "gozlem": {},
+   "son": "1y"
+  },
+  "lK2hbAro": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "v7KSx3G7": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "re5gDqhK": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  },
+  "nFt0F8Iq": {
+   "bahis": {},
+   "gozlem": {},
+   "son": "once"
+  }
+ },
+ "liste_slot": {}
 }
