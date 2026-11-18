@@ -10,13 +10,21 @@
    "bahis": {
     "iy05": {
      "id": 1086,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 4,
      "skor": "0-0"
     }
    },
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 13
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 10,
+   "ilk_gol_dk_kesin": true
   },
   "lK2hbAro": {
    "bahis": {},
