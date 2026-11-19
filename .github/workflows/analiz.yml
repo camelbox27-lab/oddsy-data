@@ -6,7 +6,7 @@ on:
     inputs:
       is:
         type: choice
-        options: [yari-skorlari, bugun-ara, olay-kesif]
+        options: [yari-skorlari, bugun-ara, olay-kesif, canli-oran]
         default: yari-skorlari
 
 permissions:
@@ -36,3 +36,6 @@ jobs:
       - name: Mac olaylari kesfi
         if: ${{ inputs.is == 'olay-kesif' }}
         run: python otomasyon/olay_kesif.py 0tybz5q1 KpK8y0Db
+      - name: Canli oran testi (yalniz log)
+        if: ${{ inputs.is == 'canli-oran' }}
+        run: python otomasyon/canli_oran_kesif.py
