@@ -1,0 +1,21 @@
+{
+ "tarih": "19.11.2026",
+ "ust25": [],
+ "ust35": [],
+ "kupon": {
+  "maclar": [
+   {
+    "kod": "UHKC2pvC",
+    "saat": "21:00",
+    "ev": "FC Fredericia",
+    "dep": "Hillerød Fodbold",
+    "lig": "DÄNEMARK 1. Division",
+    "bahis": "ust35",
+    "oran": 2.0,
+    "listeden": false
+   }
+  ],
+  "toplam": 2.0
+ },
+ "sonuclandi": false
+}
