@@ -16,8 +16,19 @@
      "skor": "2-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      3,
+      1
+     ],
+     "dk": 45,
+     "xg": 3.04,
+     "isb": 6.0,
+     "buy": 4.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 7,
     "2": 13
@@ -29,7 +40,11 @@
    "ilk_gol_dk": 1,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 12,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    3,
+    1
+   ]
   }
  },
  "liste_slot": {}
