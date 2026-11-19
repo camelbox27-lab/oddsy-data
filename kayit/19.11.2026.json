@@ -1,4 +1,26 @@
 {
  "tarih": "19.11.2026",
- "maclar": {}
+ "maclar": {
+  "UHKC2pvC": {
+   "bahis": {
+    "iy15": {
+     "id": 1102,
+     "durum": "acik",
+     "dk": 7,
+     "skor": "1-0"
+    }
+   },
+   "gozlem": {},
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 7
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 1,
+   "ilk_gol_dk_kesin": true
+  }
+ },
+ "liste_slot": {}
 }
