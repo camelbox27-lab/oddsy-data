@@ -11,9 +11,12 @@ kural 1'de var; 2-3-4 orandan bagimsiz, butun maclara uygulanir.
                     4.75 olan maclarda, 2-3. dakikada, skor 0-0 iken.
                     Gol olmadigi surece 25. dakikaya kadar gonderilebilir
                     (tarama gec baslarsa); 25'ten sonra gonderilmez.
-  2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa; hemen degil, 25. dakikada
+  2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa; hemen degil, 20. dakikada
                     skor hala tek golse gonderilir (erken gonderimde oran
-                    1.15-1.20 oluyor). 25'ten once 2. gol gelirse gonderilmez.
+                    1.15-1.20 oluyor). 20'den once 2. gol gelirse gonderilmez.
+                    Gondermeden once mac ozetinden 2. golun atilmadigi
+                    dogrulanir (skor akisi birkac dakika gec guncellenebiliyor:
+                    20.11 Darmstadt-Heidenheim, gol 22', tahmin 25'te gitti).
                     60 sn'lik yoklama araligi icin 6. dakikaya kadar
                     gorulen gol sayilir.
   3) İY 2.5 Üst  -- ilk 20 dakikada 2 gol olmussa (skor iki gol iken).
@@ -87,7 +90,7 @@ BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 from ligler import lig_uygun     # noqa: E402,F401  (canli + mac oncesi ortak)
 
 R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
-R2_BEKLE = 25                # kural 2 tahmini en erken bu dakikada (hala tek golse) gider
+R2_BEKLE = 20                # kural 2 tahmini en erken bu dakikada (hala tek golse) gider
 R2_SON = 5                   # ilk gol en gec bu dakikada ATILMIS olmali (gercek dakika;
                              # tarama golu sonradan, ornegin 20'de gorse de tahmin gider)
 R3_SON = 21                  # ikinci gol en gec bu dakikada
@@ -478,7 +481,8 @@ class Tarayici:
             if (toplam == 0 and R1_BAS <= dk <= R1_SON
                     and self.adaylar[kod]["beraberlik"] in BERABERLIK):
                 self.ac(kod, "iy05", dk, (ag, ah))
-            if toplam == 1 and st.get("ilk_gol_dk", 99) <= R2_SON and dk >= R2_BEKLE:
+            if (toplam == 1 and st.get("ilk_gol_dk", 99) <= R2_SON and dk >= R2_BEKLE
+                    and "iy15" not in st["bahis"] and self._tek_gol_mu(kod, st, dk)):
                 self.ac(kod, "iy15", dk, (ag, ah))
             if toplam == 2 and st.get("iki_gol_dk", 99) <= R3_SON:
                 self.ac(kod, "iy25", dk, (ag, ah))
@@ -505,6 +509,25 @@ class Tarayici:
             self.kapat(kod, "ms45", "kazandi", (ag, ah), _an(m, f, simdi))
         elif f == "bitti":
             self.kapat(kod, "ms45", "kaybetti", (ag, ah), "Maç sonu")
+
+    def _tek_gol_mu(self, kod, st, dk):
+        """Skor akisi gec guncellenebilir; mac ozetinde ilk yarida ikinci gol
+        varsa tahmin gonderilmez. Ozet alinamazsa (dakikada bir denenir)
+        skor akisina guvenilir."""
+        if self.kaynak is None:
+            return True
+        if st.get("_ozet_dk") == dk:
+            return st.get("_ozet_tek", True)
+        st["_ozet_dk"] = dk
+        try:
+            tek = len(ilk_yari_gol_dakikalari(self.kaynak, kod)) < 2
+        except Exception as e:
+            print(f"[gol] {kod} ozet kontrol edilemedi: {e}", flush=True)
+            tek = True
+        if not tek:
+            print(f"[gol] {kod} ozette 2. gol var (akis henuz gostermiyor), IY 1.5 gonderilmedi", flush=True)
+        st["_ozet_tek"] = tek
+        return tek
 
     def _gol_dk(self, kod, st, sira, dk, onceki=None):
         """(sira. golun dakikasi, kesin_mi).
