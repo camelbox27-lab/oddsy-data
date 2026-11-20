@@ -79,7 +79,14 @@ body{width:1080px;height:1100px;background:var(--zemin);font-family:Inter,sans-s
 .sk small{display:block;font-size:12px;letter-spacing:1.5px;color:var(--soluk);font-weight:800}
 .vurgu{background:var(--y);color:#fff}
 .vurgu small{color:#CFE8D6}
-.satir.tutan{border-color:#A9D6B6;background:#F7FBF5}
+.satir.tutan{border-color:var(--yk);background:linear-gradient(110deg,var(--ya),var(--yk));color:#fff;box-shadow:0 8px 20px rgba(30,138,69,.28)}
+.satir.tutan .t span{color:#D9EFD9}
+.satir.tutan .sk{background:rgba(255,255,255,.18);color:#fff}
+.satir.tutan .sk small{color:#D9EFD9}
+.satir.tutan .vurgu{background:#fff;color:var(--yk)}
+.satir.tutan .vurgu small{color:var(--y)}
+.tik{flex:0 0 auto;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:900;background:#fff;color:var(--y)}
+.bos{flex:0 0 auto;width:34px;height:34px}
 .dip{position:absolute;left:70px;right:70px;bottom:34px;display:flex;justify-content:space-between;font-size:17px;font-weight:700;color:var(--soluk);letter-spacing:1.2px}
 .dip b{color:var(--y)}
 """
@@ -120,7 +127,8 @@ def _ornek_satiri(o, vurgu_ms=False, vurgu_iyms=None):
     if vurgu_iyms is not None:
         son = f'<div class="sk{" vurgu" if o["iyms"] == vurgu_iyms else ""}"><small>İY/MS</small>{_e(o["iyms"])}</div>'
     tutan = (vurgu_iyms is not None and o["iyms"] == vurgu_iyms) or bool(ms_v)
-    return f"""<div class="satir{' tutan' if tutan else ''}"><div class="t"><b>{_tarih(o['tarih'])}</b><span>{_e(_lig_gecmis(o['lig']))}</span></div>
+    isaret = '<span class="tik">✓</span>' if tutan else '<span class="bos"></span>'
+    return f"""<div class="satir{' tutan' if tutan else ''}">{isaret}<div class="t"><b>{_tarih(o['tarih'])}</b><span>{_e(_lig_gecmis(o['lig']))}</span></div>
       <div class="k">{_e(o['ev'])} – {_e(o['dep'])}</div>
       <div class="s">{iy_k}<div class="sk{ms_v}"><small>MS</small>{ms_y}</div>{son}</div></div>"""
 

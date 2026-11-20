@@ -446,22 +446,34 @@ def surpriz_mesaji(sur, gun):
 
 
 def surpriz_gonder(token, chat, sur, gun):
-    """Surprizleri kart albumu olarak gonderir; kart uretilemezse yazili mesaj.
-    Gonderilen mesaj numaralarini sur["mesaj_id"]'ye yazar (sonradan silmek icin)."""
+    """Surprizleri tek tek kart (fotograf) olarak gonderir; her kartin altinda
+    mac bilgisi yazar. Kartlar uretilemezse yazili mesaj gider.
+    Gonderilen mesaj numaralari sur["mesaj_id"]'ye yazilir (sonradan silmek icin)."""
     if not (sur.get("alti") or sur.get("iyms")):
         return
+    tarih = f"{gun:%d.%m.%Y}"
     try:
         import tempfile
         import kart
-        sayfalar = []
-        for i, m in enumerate(sur.get("iyms") or []):
-            sayfalar.append((f"iyms{i}", kart.iyms_html(m, m.get("ornek") or surpriz.ornekler(m["acilis"], m["iyms"]), f"{gun:%d.%m.%Y}")))
-        for i, m in enumerate(sur.get("alti") or []):
-            sayfalar.append((f"alti{i}", kart.alti_html(m, m.get("ornek") or surpriz.ornekler(m["acilis"]), f"{gun:%d.%m.%Y}")))
+        sayfalar, aciklamalar = [], []
+        for anahtar, etiket in (("iyms", "🔮 İY/MS SÜRPRİZİ"), ("alti", "🎲 6+ GOL SÜRPRİZİ")):
+            for i, m in enumerate(sur.get(anahtar) or []):
+                if anahtar == "iyms":
+                    h = kart.iyms_html(m, m.get("ornek") or surpriz.ornekler(m["acilis"], m["iyms"]), tarih)
+                    tahmin = f"İY/MS <b>{m['iyms']}</b>"
+                else:
+                    h = kart.alti_html(m, m.get("ornek") or surpriz.ornekler(m["acilis"]), tarih)
+                    tahmin = "<b>6+ gol</b> (5.5 Üst)"
+                sayfalar.append((f"{anahtar}{i}", h))
+                aciklamalar.append(f"<b>{etiket}</b>\n<code>{m['saat']}</code>  "
+                                   f"{tg.kacir(tr_isim.takim(m['ev']))} – {tg.kacir(tr_isim.takim(m['dep']))}"
+                                   f"\n🎯 {tahmin}")
         yollar = kart.png_yap(sayfalar, tempfile.mkdtemp(prefix="kart_"))
-        aciklama = (f"<b>💥 GÜNÜN SÜRPRİZLERİ</b>\n<i>{tg.kacir(tr_isim.tarih(f'{gun:%d.%m.%Y}'))}</i>")
-        sur["mesaj_id"] = tg.foto_albumu(token, chat, yollar, aciklama)
-        print(f"[surpriz] {len(yollar)} kart album olarak gonderildi", flush=True)
+        idler = []
+        for yol, aciklama in zip(yollar, aciklamalar):
+            idler += tg.foto_albumu(token, chat, [yol], aciklama)
+        sur["mesaj_id"] = idler
+        print(f"[surpriz] {len(yollar)} kart tek tek gonderildi", flush=True)
         return
     except tg.ChatBulunamadi:
         raise
