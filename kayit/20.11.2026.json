@@ -211,7 +211,14 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 40
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 40
   },
   "Eo4iZPw9": {
    "bahis": {},
