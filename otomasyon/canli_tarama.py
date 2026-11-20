@@ -11,7 +11,9 @@ kural 1'de var; 2-3-4 orandan bagimsiz, butun maclara uygulanir.
                     4.75 olan maclarda, 2-3. dakikada, skor 0-0 iken.
                     Gol olmadigi surece 25. dakikaya kadar gonderilebilir
                     (tarama gec baslarsa); 25'ten sonra gonderilmez.
-  2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa (skor tek gol iken).
+  2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa; hemen degil, 25. dakikada
+                    skor hala tek golse gonderilir (erken gonderimde oran
+                    1.15-1.20 oluyor). 25'ten once 2. gol gelirse gonderilmez.
                     60 sn'lik yoklama araligi icin 6. dakikaya kadar
                     gorulen gol sayilir.
   3) İY 2.5 Üst  -- ilk 20 dakikada 2 gol olmussa (skor iki gol iken).
@@ -85,6 +87,7 @@ BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 from ligler import lig_uygun     # noqa: E402,F401  (canli + mac oncesi ortak)
 
 R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
+R2_BEKLE = 25                # kural 2 tahmini en erken bu dakikada (hala tek golse) gider
 R2_SON = 5                   # ilk gol en gec bu dakikada ATILMIS olmali (gercek dakika;
                              # tarama golu sonradan, ornegin 20'de gorse de tahmin gider)
 R3_SON = 21                  # ikinci gol en gec bu dakikada
@@ -475,7 +478,7 @@ class Tarayici:
             if (toplam == 0 and R1_BAS <= dk <= R1_SON
                     and self.adaylar[kod]["beraberlik"] in BERABERLIK):
                 self.ac(kod, "iy05", dk, (ag, ah))
-            if toplam == 1 and st.get("ilk_gol_dk", 99) <= R2_SON:
+            if toplam == 1 and st.get("ilk_gol_dk", 99) <= R2_SON and dk >= R2_BEKLE:
                 self.ac(kod, "iy15", dk, (ag, ah))
             if toplam == 2 and st.get("iki_gol_dk", 99) <= R3_SON:
                 self.ac(kod, "iy25", dk, (ag, ah))
