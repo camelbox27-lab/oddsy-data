@@ -24,10 +24,25 @@
        "isb": 2.0,
        "buy": 0.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.01,
+     "isb": 4.0,
+     "buy": 0.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "4QL1DTtS": {
    "bahis": {},
@@ -433,13 +448,24 @@
    "bahis": {
     "iy25": {
      "id": 1169,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 21,
      "skor": "1-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.13,
+     "isb": 4.0,
+     "buy": 3.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 6,
     "2": 21
@@ -453,7 +479,11 @@
    "_ozet_dk": 20,
    "_ozet_tek": false,
    "iki_gol_dk": 19,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    1
+   ]
   },
   "0Qn5flSF": {
    "bahis": {},
