@@ -262,7 +262,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 14,
     "2": 39
@@ -424,7 +424,7 @@
    "bahis": {
     "iy25": {
      "id": 1171,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": 19,
      "skor": "0-2"
     }
@@ -709,7 +709,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 10
    },
@@ -954,7 +954,7 @@
    "bahis": {
     "ms45": {
      "id": 1165,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "3-0"
     }
@@ -1332,7 +1332,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1619,7 +1619,7 @@
   "vJpmrRL5": "2y",
   "nqlet5jI": "2y",
   "Ueb0KAF7": "bitti",
-  "Eo4iZPw9": "da",
+  "Eo4iZPw9": "2y",
   "G6MoOrne": "1y",
   "Wjdnf1ed": "bitti"
  },
