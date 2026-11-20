@@ -33,6 +33,7 @@ ESLESME_MIN = 20
 SURPRIZ_MIN = 2
 
 _GECMIS = None
+_ORNEK = None      # acilis oran uclusu -> [(tarih, lig, ev, dep, iy, ms, iyms)]
 
 
 def _oran(r, ad, son=" K"):
@@ -45,10 +46,10 @@ def _oran(r, ad, son=" K"):
 
 def gecmis():
     """(acilis1, acilis0, acilis2) -> Counter(IY/MS). Ayni mac bir kez sayilir."""
-    global _GECMIS
+    global _GECMIS, _ORNEK
     if _GECMIS is not None:
         return _GECMIS
-    g, gorulen = defaultdict(Counter), set()
+    g, gorulen, ornek = defaultdict(Counter), set(), defaultdict(list)
     for f in glob.glob(str(LIGLER_JSON / "*.json")):
         metin = re.sub(r":\s*-?NaN", ": null", Path(f).read_text(encoding="utf-8"))
         for m in json.loads(metin):
@@ -64,9 +65,33 @@ def gecmis():
                 continue
             gorulen.add(imza)
             g[k][im] += 1
+            ornek[k].append((str(m.get("Tarih") or "")[:10], m.get("Lig") or "",
+                             m.get("Ev Sahibi") or "", m.get("Deplasman") or "",
+                             str(m.get("İlk Yarı Skor") or ""), str(m.get("Maç Sonucu Skor") or ""), im))
     print(f"[surpriz] gecmis: {len(gorulen)} mac, {len(g)} farkli acilis oran uclusu", flush=True)
-    _GECMIS = g
+    _GECMIS, _ORNEK = g, ornek
     return g
+
+
+def _gol(skor):
+    try:
+        e, d = (int(x) for x in skor.split("-"))
+        return e + d
+    except (ValueError, AttributeError):
+        return -1
+
+
+def ornekler(acilis, iyms_=None, adet=5):
+    """Ayni acilis oranli gecmis maclardan ornekler (en yeni once).
+    iyms_ verilirse yalnizca o sonucla bitenler; verilmezse en gollu maclar."""
+    gecmis()
+    satir = _ORNEK.get(tuple(acilis), [])
+    if iyms_:
+        sec = [x for x in satir if x[6] == iyms_]
+        sec.sort(key=lambda x: x[0], reverse=True)
+    else:
+        sec = sorted(satir, key=lambda x: (_gol(x[5]), x[0]), reverse=True)
+    return [dict(zip(("tarih", "lig", "ev", "dep", "iy", "ms", "iyms"), x)) for x in sec[:adet]]
 
 
 def alti_gol(maclar):
@@ -76,7 +101,8 @@ def alti_gol(maclar):
         ms0, u55 = _oran(r, "MS0"), _oran(r, "UST55")
         if ms0 is None or ms0 < ALTI_BERABERLIK_MIN or u55 is None:
             continue
-        aday.append({**{k: m[k] for k in ("kod", "saat", "ev", "dep", "lig")}, "oran": u55})
+        aday.append({**{k: m[k] for k in ("kod", "saat", "ev", "dep", "lig")}, "oran": u55,
+                     "acilis": [_oran(r, f"MS{t}", " A") for t in "102"]})
     aday.sort(key=lambda m: (m["oran"], m["saat"]))
     return sorted(aday[:ALTI_SAYI], key=lambda m: m["saat"])
 
@@ -97,7 +123,7 @@ def iyms(maclar):
         if sur[c] < SURPRIZ_MIN:
             continue
         aday.append({**{k_: m[k_] for k_ in ("kod", "saat", "ev", "dep", "lig")},
-                     "iyms": c, "eslesme": toplam, "gorulme": sur[c],
+                     "iyms": c, "eslesme": toplam, "gorulme": sur[c], "acilis": list(k),
                      "oran": _oran(r, "IYMS " + c.replace("/", "E"))})
     aday.sort(key=lambda m: (-m["eslesme"], -m["gorulme"]))
     return sorted(aday[:IYMS_SAYI], key=lambda m: m["saat"])

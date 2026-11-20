@@ -430,7 +430,6 @@ def surpriz_mesaji(sur, gun):
         for m in sur["iyms"]:
             satirlar.append(f"<code>{m['saat']}</code>  {tg.kacir(tr_isim.takim(m['ev']))} – "
                             f"{tg.kacir(tr_isim.takim(m['dep']))} · <b>{m['iyms']}</b>")
-            satirlar.append(f"        <i>aynı açılış oranlı {m['eslesme']} maçta {m['gorulme']} kez</i>")
     return tg.parcala(satirlar)
 
 
