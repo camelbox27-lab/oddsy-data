@@ -284,8 +284,19 @@
   },
   "UwCfSezo": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": 1.19,
+     "isb": 5.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 11,
     "2": 29
@@ -297,7 +308,11 @@
    "ilk_gol_dk": 9,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 26,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    1
+   ]
   },
   "Kzu56GXb": {
    "bahis": {},
