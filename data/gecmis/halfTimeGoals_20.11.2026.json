@@ -1,0 +1,194 @@
+[
+  {
+    "event_id": "dd0uMdrC",
+    "home_team": "Western Sydney Wanderers",
+    "away_team": "Adelaide United",
+    "league": "AUSTRALIEN A-League",
+    "saat": "11:40",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "ryV9h3It",
+    "home_team": "Kashima Antlers",
+    "away_team": "Shimizu S-Pulse",
+    "league": "JAPAN J1 League",
+    "saat": "13:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "GMlXnanI",
+    "home_team": "Kashiwa Reysol",
+    "away_team": "JEF United Chiba",
+    "league": "JAPAN J1 League",
+    "saat": "13:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "n9w0LD9s",
+    "home_team": "Vissel Kobe",
+    "away_team": "Mito HollyHock",
+    "league": "JAPAN J1 League",
+    "saat": "13:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "fFfHmObt",
+    "home_team": "East Bengal",
+    "away_team": "SC Delhi",
+    "league": "INDIEN ISL",
+    "saat": "14:30",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "MDf7lezS",
+    "home_team": "FC Jurong",
+    "away_team": "Balestier Khalsa",
+    "league": "SINGAPUR Premier League",
+    "saat": "14:30",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "pGmluhOh",
+    "home_team": "Majevica",
+    "away_team": "Zvijezda 09",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - RS",
+    "saat": "15:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "2ubPo2Th",
+    "home_team": "Bengaluru FC",
+    "away_team": "Mumbai City",
+    "league": "INDIEN ISL",
+    "saat": "17:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "htidwWh5",
+    "home_team": "Potkozarje",
+    "away_team": "Famos Vojkovici",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - RS",
+    "saat": "18:30",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "l4C81q3M",
+    "home_team": "Taborsko",
+    "away_team": "Slavia Prag B",
+    "league": "TSCHECHIEN Division 2",
+    "saat": "19:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "61KuD9xQ",
+    "home_team": "MFK Karviná",
+    "away_team": "Baník Ostrau B",
+    "league": "TSCHECHIEN Division 2",
+    "saat": "20:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "dCvCMTz8",
+    "home_team": "Arminia Bielefeld",
+    "away_team": "1. FC Magdeburg",
+    "league": "DEUTSCHLAND 2. Bundesliga",
+    "saat": "20:30",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "GYIK0O8O",
+    "home_team": "Kolding IF",
+    "away_team": "Aalborg BK",
+    "league": "DÄNEMARK 1. Division",
+    "saat": "21:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "vN2bdLh2",
+    "home_team": "TSV Havelse",
+    "away_team": "Viktoria Köln",
+    "league": "DEUTSCHLAND 3. Liga",
+    "saat": "21:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "Ueb0KAF7",
+    "home_team": "Molde FK",
+    "away_team": "FK Bodø/Glimt",
+    "league": "NORWEGEN Eliteserien",
+    "saat": "21:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "tO8YMHgB",
+    "home_team": "FC Burnley U21",
+    "away_team": "Fleetwood Town U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "pKcCFZoo",
+    "home_team": "Leeds United U21",
+    "away_team": "Charlton Athletic U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "Whsupmig",
+    "home_team": "Den Bosch",
+    "away_team": "VVV-Venlo",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "buqXo9Mt",
+    "home_team": "De Graafschap",
+    "away_team": "Maastricht",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "vJpmrRL5",
+    "home_team": "FC Volendam",
+    "away_team": "Jong Ajax Amsterdam",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "WIAQvDWA",
+    "home_team": "Vitesse Arnheim",
+    "away_team": "Jong AZ",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "QaQQKNm1",
+    "home_team": "Andorra",
+    "away_team": "CD Leganés",
+    "league": "SPANIEN La Liga2",
+    "saat": "22:30",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "G6MoOrne",
+    "home_team": "Athletic Bilbao",
+    "away_team": "Espanyol Barcelona",
+    "league": "SPANIEN La Liga",
+    "saat": "23:00",
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "4lEZN7fl",
+    "home_team": "FC Villarreal B",
+    "away_team": "Gimnàstic de Tarragona",
+    "league": "SPANIEN Primera RFEF - Group 2",
+    "saat": "23:00",
+    "tarih": "20.11.2026"
+  }
+]

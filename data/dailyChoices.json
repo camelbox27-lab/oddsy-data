@@ -1,122 +1,182 @@
 [
   {
-    "event_id": "buH5qeNq",
-    "home_team": "Thailand",
-    "away_team": "Tadschikistan",
-    "league": "WELT Kings Cup (Thailand)",
-    "saat": "15:30",
+    "event_id": "dd0uMdrC",
+    "home_team": "Western Sydney Wanderers",
+    "away_team": "Adelaide United",
+    "league": "AUSTRALIEN A-League",
+    "saat": "11:40",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.98,
-    "tarih": "17.11.2026"
+    "2_5_ust": 1.44,
+    "tarih": "20.11.2026"
   },
   {
-    "event_id": "lCEcKknf",
-    "home_team": "Katar",
-    "away_team": "Südkorea",
-    "league": "WELT Internationale Freundschaftsspiele",
-    "saat": "17:00",
+    "event_id": "ryV9h3It",
+    "home_team": "Kashima Antlers",
+    "away_team": "Shimizu S-Pulse",
+    "league": "JAPAN J1 League",
+    "saat": "13:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.8,
-    "tarih": "17.11.2026"
+    "2_5_ust": 1.85,
+    "tarih": "20.11.2026"
   },
   {
-    "event_id": "IVvTpVtB",
-    "home_team": "Vereinigte Arabische Emirate",
-    "away_team": "Syrien",
-    "league": "WELT Internationale Freundschaftsspiele",
-    "saat": "17:10",
+    "event_id": "GMlXnanI",
+    "home_team": "Kashiwa Reysol",
+    "away_team": "JEF United Chiba",
+    "league": "JAPAN J1 League",
+    "saat": "13:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.9,
-    "tarih": "17.11.2026"
+    "2_5_ust": 1.57,
+    "tarih": "20.11.2026"
   },
   {
-    "event_id": "OjAFPsvP",
-    "home_team": "Portugal U21",
-    "away_team": "Norwegen U21",
-    "league": "WELT Internationale Freundschaftsspiele",
-    "saat": "20:30",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.53,
-    "tarih": "17.11.2026"
-  },
-  {
-    "event_id": "MqkEuZ56",
-    "home_team": "Dominica",
-    "away_team": "Kaimaninseln",
-    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
-    "saat": "22:00",
+    "event_id": "n9w0LD9s",
+    "home_team": "Vissel Kobe",
+    "away_team": "Mito HollyHock",
+    "league": "JAPAN J1 League",
+    "saat": "13:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.75,
-    "tarih": "17.11.2026"
+    "tarih": "20.11.2026"
   },
   {
-    "event_id": "OlB6OzW7",
-    "home_team": "Saint Kitts und Nevis",
-    "away_team": "Bonaire",
-    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "event_id": "fFfHmObt",
+    "home_team": "East Bengal",
+    "away_team": "SC Delhi",
+    "league": "INDIEN ISL",
+    "saat": "14:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.48,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "MDf7lezS",
+    "home_team": "FC Jurong",
+    "away_team": "Balestier Khalsa",
+    "league": "SINGAPUR Premier League",
+    "saat": "14:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.4,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "pGmluhOh",
+    "home_team": "Majevica",
+    "away_team": "Zvijezda 09",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - RS",
+    "saat": "15:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.57,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "htidwWh5",
+    "home_team": "Potkozarje",
+    "away_team": "Famos Vojkovici",
+    "league": "BOSNIEN UND HERZEGOWINA Prva Liga - RS",
+    "saat": "18:30",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.7,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "61KuD9xQ",
+    "home_team": "MFK Karviná",
+    "away_team": "Baník Ostrau B",
+    "league": "TSCHECHIEN Division 2",
+    "saat": "20:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.4,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "vN2bdLh2",
+    "home_team": "TSV Havelse",
+    "away_team": "Viktoria Köln",
+    "league": "DEUTSCHLAND 3. Liga",
+    "saat": "21:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.36,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "Ueb0KAF7",
+    "home_team": "Molde FK",
+    "away_team": "FK Bodø/Glimt",
+    "league": "NORWEGEN Eliteserien",
+    "saat": "21:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.22,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "tO8YMHgB",
+    "home_team": "FC Burnley U21",
+    "away_team": "Fleetwood Town U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.36,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "pKcCFZoo",
+    "home_team": "Leeds United U21",
+    "away_team": "Charlton Athletic U21",
+    "league": "ENGLAND Premier League Cup",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.36,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "Whsupmig",
+    "home_team": "Den Bosch",
+    "away_team": "VVV-Venlo",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.33,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "buqXo9Mt",
+    "home_team": "De Graafschap",
+    "away_team": "Maastricht",
+    "league": "NIEDERLANDE Eerste Divisie",
+    "saat": "22:00",
+    "kategori": "2.5 Üst",
+    "2_5_ust": 1.48,
+    "tarih": "20.11.2026"
+  },
+  {
+    "event_id": "vJpmrRL5",
+    "home_team": "FC Volendam",
+    "away_team": "Jong Ajax Amsterdam",
+    "league": "NIEDERLANDE Eerste Divisie",
     "saat": "22:00",
     "kategori": "2.5 Üst",
     "2_5_ust": 1.25,
-    "tarih": "17.11.2026"
+    "tarih": "20.11.2026"
   },
   {
-    "event_id": "UmNXMNf3",
-    "home_team": "Saint Lucia",
-    "away_team": "Barbados",
-    "league": "NORD- & MITTELAMERIKA CONCACAF Nations League - Liga B",
+    "event_id": "WIAQvDWA",
+    "home_team": "Vitesse Arnheim",
+    "away_team": "Jong AZ",
+    "league": "NIEDERLANDE Eerste Divisie",
     "saat": "22:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.53,
-    "tarih": "17.11.2026"
+    "2_5_ust": 1.4,
+    "tarih": "20.11.2026"
   },
   {
-    "event_id": "C2RkhOHN",
-    "home_team": "South Shields FC",
-    "away_team": "Harborough",
-    "league": "ENGLAND National League Nord",
-    "saat": "22:45",
+    "event_id": "G6MoOrne",
+    "home_team": "Athletic Bilbao",
+    "away_team": "Espanyol Barcelona",
+    "league": "SPANIEN La Liga",
+    "saat": "23:00",
     "kategori": "2.5 Üst",
-    "2_5_ust": 1.5,
-    "tarih": "17.11.2026"
-  },
-  {
-    "event_id": "pS3Vhq86",
-    "home_team": "Dänemark",
-    "away_team": "Norwegen",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
-    "kategori": "2.5 Üst",
-    "2_5_ust": 1.44,
-    "tarih": "17.11.2026"
-  },
-  {
-    "event_id": "f9alBZCk",
-    "home_team": "Swansea City U21",
-    "away_team": "Gillingham FC U21",
-    "league": "ENGLAND Premier League Cup",
-    "saat": "22:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.83,
-    "tarih": "17.11.2026"
-  },
-  {
-    "event_id": "r5fP3Eqf",
-    "home_team": "Luton Town",
-    "away_team": "Peterborough United",
-    "league": "ENGLAND EFL Trophy",
-    "saat": "22:00",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 1.73,
-    "tarih": "17.11.2026"
-  },
-  {
-    "event_id": "x20Nf5wf",
-    "home_team": "Wales",
-    "away_team": "Portugal",
-    "league": "EUROPA UEFA Nations League - Liga A",
-    "saat": "22:45",
-    "kategori": "3.5 Üst",
-    "3_5_ust": 2.2,
-    "tarih": "17.11.2026"
+    "2_5_ust": 1.8,
+    "tarih": "20.11.2026"
   }
 ]
