@@ -60,7 +60,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 52
    },
@@ -387,7 +387,15 @@
   "jRJhvnP9": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 12
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 8,
+   "ilk_gol_dk_kesin": true
   },
   "pOTao8Y2": {
    "bahis": {
@@ -1467,7 +1475,7 @@
   "23:00": 1167
  },
  "liste_son": {
-  "4QL1DTtS": "da",
+  "4QL1DTtS": "2y",
   "Iaxyg5LH": "bitti",
   "hrUIXgq9": "bitti",
   "vN2bdLh2": "bitti",
