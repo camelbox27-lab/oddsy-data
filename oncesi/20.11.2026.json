@@ -187,7 +187,12 @@
     "ev": "Heracles Almelo",
     "dep": "Jong PSV Eindhoven",
     "lig": "NIEDERLANDE Eerste Divisie",
-    "oran": 3.25
+    "oran": 3.25,
+    "acilis": [
+     1.13,
+     7.0,
+     13.0
+    ]
    },
    {
     "kod": "zZPQYkxo",
@@ -195,7 +200,12 @@
     "ev": "Bayern München",
     "dep": "1. FC Köln",
     "lig": "DEUTSCHLAND Bundesliga",
-    "oran": 2.75
+    "oran": 2.75,
+    "acilis": [
+     1.06,
+     12.0,
+     23.0
+    ]
    },
    {
     "kod": "f70hE276",
@@ -203,7 +213,12 @@
     "ev": "FC Porto",
     "dep": "Paredes",
     "lig": "PORTUGAL Taça de Portugal",
-    "oran": 4.5
+    "oran": 4.5,
+    "acilis": [
+     1.07,
+     9.0,
+     21.0
+    ]
    }
   ],
   "iyms": [
@@ -216,6 +231,11 @@
     "iyms": "1/0",
     "eslesme": 60,
     "gorulme": 4,
+    "acilis": [
+     2.38,
+     3.4,
+     2.63
+    ],
     "oran": 13.0
    },
    {
@@ -227,6 +247,11 @@
     "iyms": "2/0",
     "eslesme": 38,
     "gorulme": 5,
+    "acilis": [
+     1.8,
+     3.3,
+     3.8
+    ],
     "oran": 15.0
    },
    {
@@ -238,6 +263,11 @@
     "iyms": "1/0",
     "eslesme": 153,
     "gorulme": 7,
+    "acilis": [
+     2.0,
+     3.3,
+     3.25
+    ],
     "oran": 13.0
    },
    {
@@ -249,6 +279,11 @@
     "iyms": "1/0",
     "eslesme": 240,
     "gorulme": 13,
+    "acilis": [
+     1.91,
+     3.4,
+     3.6
+    ],
     "oran": 13.0
    },
    {
@@ -260,8 +295,23 @@
     "iyms": "1/0",
     "eslesme": 135,
     "gorulme": 8,
+    "acilis": [
+     2.15,
+     3.4,
+     3.25
+    ],
     "oran": 13.0
    }
+  ],
+  "mesaj_id": [
+   1111,
+   1112,
+   1113,
+   1114,
+   1115,
+   1116,
+   1117,
+   1118
   ]
  }
 }
