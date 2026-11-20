@@ -321,7 +321,15 @@
   "dA7XukDM": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 7
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 4,
+   "ilk_gol_dk_kesin": true
   },
   "SClcdAc3": {
    "bahis": {},
@@ -750,7 +758,9 @@
   "Iaxyg5LH": [
    "ust25"
   ],
-  "vN2bdLh2": [],
+  "vN2bdLh2": [
+   "ust25"
+  ],
   "Ueb0KAF7": [],
   "4QL1DTtS": [],
   "vJpmrRL5": [],
