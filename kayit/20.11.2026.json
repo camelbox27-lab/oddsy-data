@@ -216,10 +216,21 @@
        "isb": 3.0,
        "buy": 3.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      0
+     ],
+     "dk": 45,
+     "xg": 2.12,
+     "isb": 7.0,
+     "buy": 4.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 40
    },
@@ -227,7 +238,11 @@
     "1": 8
    },
    "ilk_gol_dk": 40,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    1,
+    0
+   ]
   },
   "Eo4iZPw9": {
    "bahis": {},
@@ -277,10 +292,25 @@
        "isb": 0.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 1.0,
+     "buy": null
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "UwCfSezo": {
    "bahis": {},
@@ -359,7 +389,7 @@
   "Ueb0KAF7": "once",
   "Eo4iZPw9": "once",
   "G6MoOrne": "once",
-  "Wjdnf1ed": "1y"
+  "Wjdnf1ed": "da"
  },
  "liste_kazanan": {
   "Wjdnf1ed": [],
