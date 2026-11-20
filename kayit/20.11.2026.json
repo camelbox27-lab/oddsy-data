@@ -238,13 +238,17 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 11
+    "1": 11,
+    "2": 29
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 9,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 26,
+   "iki_gol_dk_kesin": true
   },
   "Kzu56GXb": {
    "bahis": {},
