@@ -525,6 +525,16 @@ def main():
         if not (sur["alti"] or sur["iyms"]):
             print("Bugun surprize uyan baslamamis mac yok.")
             return 0
+        # Bugun daha once gonderilmis surpriz mesajlari varsa once silinir
+        # (yeniden gonderimde kanalda iki kopya kalmasin).
+        try:
+            ak0 = canli_tarama.Kayit(gun, "oncesi")
+            ak0.oku()
+            eski_id = ((ak0.veri.get("surpriz") or {}).get("mesaj_id")) or []
+            silinen = sum(tg.sil(token, chat, i) for i in eski_id if i)
+            print(f"[surpriz] eski mesajlar: {silinen}/{len(eski_id)} silindi", flush=True)
+        except Exception as e:
+            print(f"UYARI: eski surpriz mesajlari silinemedi: {e}", flush=True)
         try:
             surpriz_gonder(token, chat, sur, gun)
         except tg.ChatBulunamadi as e:

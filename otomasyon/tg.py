@@ -172,3 +172,13 @@ def foto_albumu(token, chat_id, yollar, aciklama=None):
             print(f"  [tg] album gonderilemedi (deneme {deneme + 1}): {e}", flush=True)
             time.sleep(3)
     raise RuntimeError("album gonderilemedi")
+
+
+def sil(token, chat_id, mesaj_id):
+    """Botun kendi mesajini siler (48 saat icinde). Basarisizsa False."""
+    try:
+        c = _istek(token, "deleteMessage", {"chat_id": chat_id, "message_id": str(mesaj_id)})
+        return bool(c.get("ok"))
+    except Exception as e:
+        print(f"  [tg] {mesaj_id} silinemedi: {e}", flush=True)
+        return False
