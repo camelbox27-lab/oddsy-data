@@ -126,7 +126,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 14,
     "2": 48
@@ -171,7 +171,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 8,
     "2": 26
@@ -217,11 +217,12 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 4
+    "2": 8
    },
    "ilk_gol_dk": 21,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 30
+   "iki_gol_dk": 30,
+   "iki_gol_dk_kesin": true
   },
   "jRJhvnP9": {
    "bahis": {},
@@ -593,7 +594,7 @@
  "liste_son": {
   "4QL1DTtS": "once",
   "Iaxyg5LH": "1y",
-  "hrUIXgq9": "da",
+  "hrUIXgq9": "2y",
   "vN2bdLh2": "1y",
   "vJpmrRL5": "once",
   "nqlet5jI": "once",
