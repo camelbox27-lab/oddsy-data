@@ -681,7 +681,7 @@
      "buy": 2.0
     }
    },
-   "son": "2y",
+   "son": "iptal",
    "gol_gorulen": {
     "1": 26
    },
@@ -1422,7 +1422,7 @@
      "buy": 5.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 33,
     "2": 39
@@ -1638,7 +1638,9 @@
    "ust25"
   ],
   "4QL1DTtS": [],
-  "vJpmrRL5": [],
+  "vJpmrRL5": [
+   "ust25"
+  ],
   "nqlet5jI": [
    "ust25"
   ],
