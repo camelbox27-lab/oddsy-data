@@ -178,5 +178,90 @@
   ],
   "toplam": 3.26
  },
- "sonuclandi": false
+ "sonuclandi": false,
+ "surpriz": {
+  "alti": [
+   {
+    "kod": "Kdn3vqLU",
+    "saat": "22:00",
+    "ev": "Heracles Almelo",
+    "dep": "Jong PSV Eindhoven",
+    "lig": "NIEDERLANDE Eerste Divisie",
+    "oran": 3.25
+   },
+   {
+    "kod": "zZPQYkxo",
+    "saat": "22:30",
+    "ev": "Bayern München",
+    "dep": "1. FC Köln",
+    "lig": "DEUTSCHLAND Bundesliga",
+    "oran": 2.75
+   },
+   {
+    "kod": "f70hE276",
+    "saat": "23:45",
+    "ev": "FC Porto",
+    "dep": "Paredes",
+    "lig": "PORTUGAL Taça de Portugal",
+    "oran": 4.5
+   }
+  ],
+  "iyms": [
+   {
+    "kod": "Q7dwQL0e",
+    "saat": "20:00",
+    "ev": "Piast Gliwice",
+    "dep": "Korona Kielce",
+    "lig": "POLEN Ekstraklasa",
+    "iyms": "1/0",
+    "eslesme": 60,
+    "gorulme": 4,
+    "oran": 13.0
+   },
+   {
+    "kod": "UwCfSezo",
+    "saat": "20:00",
+    "ev": "Iğdır FK",
+    "dep": "Ümraniyespor",
+    "lig": "TÜRKEI 1. Lig",
+    "iyms": "2/0",
+    "eslesme": 38,
+    "gorulme": 5,
+    "oran": 15.0
+   },
+   {
+    "kod": "htg3zTzp",
+    "saat": "22:00",
+    "ev": "EA Guingamp",
+    "dep": "Rodez AF",
+    "lig": "FRANKREICH Ligue 2",
+    "iyms": "1/0",
+    "eslesme": 153,
+    "gorulme": 7,
+    "oran": 13.0
+   },
+   {
+    "kod": "QaQQKNm1",
+    "saat": "22:30",
+    "ev": "Andorra",
+    "dep": "CD Leganés",
+    "lig": "SPANIEN La Liga2",
+    "iyms": "1/0",
+    "eslesme": 240,
+    "gorulme": 13,
+    "oran": 13.0
+   },
+   {
+    "kod": "pOTao8Y2",
+    "saat": "22:45",
+    "ev": "ES Troyes AC",
+    "dep": "AC Le Havre",
+    "lig": "FRANKREICH Ligue 1",
+    "iyms": "1/0",
+    "eslesme": 135,
+    "gorulme": 8,
+    "oran": 13.0
+   }
+  ]
+ }
 }
