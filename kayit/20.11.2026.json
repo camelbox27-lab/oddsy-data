@@ -38,7 +38,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -486,7 +486,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 6,
     "2": 21
@@ -782,7 +782,7 @@
    "bahis": {
     "ms45": {
      "id": 1163,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "0-3"
     }
@@ -954,10 +954,12 @@
      "dk": 45,
      "xg": 0.98,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 3,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 26
    },
@@ -1000,10 +1002,12 @@
      "dk": 45,
      "xg": 1.01,
      "isb": 7.0,
-     "buy": 4.0
+     "buy": 4.0,
+     "ms": 6,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 22,
     "2": 28
@@ -1368,7 +1372,7 @@
    "bahis": {
     "iy05": {
      "id": 1170,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 4,
      "skor": "0-0"
     }
@@ -1394,10 +1398,25 @@
        "isb": 2.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 0.87,
+     "isb": 5.0,
+     "buy": 2.0
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "QaQQKNm1": {
    "bahis": {
@@ -1637,11 +1656,11 @@
   "Iaxyg5LH": "bitti",
   "hrUIXgq9": "bitti",
   "vN2bdLh2": "bitti",
-  "vJpmrRL5": "2y",
-  "nqlet5jI": "2y",
+  "vJpmrRL5": "bitti",
+  "nqlet5jI": "bitti",
   "Ueb0KAF7": "bitti",
   "Eo4iZPw9": "2y",
-  "G6MoOrne": "1y",
+  "G6MoOrne": "da",
   "Wjdnf1ed": "bitti"
  },
  "liste_kazanan": {
