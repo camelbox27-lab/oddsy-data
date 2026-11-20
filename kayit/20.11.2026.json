@@ -397,7 +397,8 @@
    "ilk_gol_dk_kesin": true,
    "_ozet_dk": 20,
    "_ozet_tek": true,
-   "iki_gol_dk": 23
+   "iki_gol_dk": 23,
+   "iki_gol_dk_kesin": true
   },
   "SClcdAc3": {
    "bahis": {},
@@ -535,6 +536,12 @@
       },
       "25": {
        "dk": 25,
+       "xg": 0.74,
+       "isb": 0.0,
+       "buy": 1.0
+      },
+      "30": {
+       "dk": 30,
        "xg": 0.74,
        "isb": 0.0,
        "buy": 1.0
@@ -682,6 +689,12 @@
       "25": {
        "dk": 25,
        "xg": 0.4,
+       "isb": 1.0,
+       "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.42,
        "isb": 1.0,
        "buy": 0.0
       }
