@@ -115,3 +115,60 @@ def chat_adaylari(token):
           flush=True)
     for cid, ad in gorulen.items():
         print(f"    {cid}   {ad}", flush=True)
+
+
+def foto_albumu(token, chat_id, yollar, aciklama=None):
+    """PNG'leri tek album olarak gonderir (en fazla 10). message_id listesi doner.
+    aciklama (HTML) ilk fotografin altina yazilir."""
+    import uuid
+    from pathlib import Path
+    yollar = [Path(y) for y in yollar][:10]
+    if not yollar:
+        return []
+    sinir = uuid.uuid4().hex
+    parcalar, medya = [], []
+    for i, y in enumerate(yollar):
+        ad = f"f{i}"
+        m = {"type": "photo", "media": f"attach://{ad}"}
+        if i == 0 and aciklama:
+            m.update(caption=aciklama, parse_mode="HTML")
+        medya.append(m)
+        parcalar.append((ad, y.name, y.read_bytes()))
+    alanlar = {"chat_id": str(chat_id), "media": json.dumps(medya, ensure_ascii=False)}
+    if len(yollar) == 1:   # tek fotografta sendMediaGroup kabul edilmez
+        alanlar = {"chat_id": str(chat_id), "photo": "attach://f0"}
+        if aciklama:
+            alanlar.update(caption=aciklama, parse_mode="HTML")
+        alanlar["photo"] = None
+    govde = b""
+    for k, v in alanlar.items():
+        if v is None:
+            continue
+        govde += (f"--{sinir}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n").encode()
+    for ad, dosya, veri in parcalar:
+        alan = "photo" if len(yollar) == 1 else ad
+        govde += (f"--{sinir}\r\nContent-Disposition: form-data; name=\"{alan}\"; filename=\"{dosya}\"\r\n"
+                  f"Content-Type: image/png\r\n\r\n").encode() + veri + b"\r\n"
+    govde += f"--{sinir}--\r\n".encode()
+    metod = "sendPhoto" if len(yollar) == 1 else "sendMediaGroup"
+    for deneme in range(3):
+        try:
+            istek = urllib.request.Request(API.format(token=token, metod=metod), data=govde,
+                                           headers={"Content-Type": f"multipart/form-data; boundary={sinir}"})
+            with urllib.request.urlopen(istek, timeout=120) as c:
+                sonuc = json.loads(c.read().decode()).get("result")
+            sonuc = sonuc if isinstance(sonuc, list) else [sonuc]
+            return [x.get("message_id") for x in sonuc if x]
+        except urllib.error.HTTPError as e:
+            g = e.read().decode(errors="replace")[:300]
+            if e.code == 429:
+                try:
+                    time.sleep(int(json.loads(g)["parameters"]["retry_after"]) + 1)
+                except Exception:
+                    time.sleep(5)
+                continue
+            raise RuntimeError(f"Telegram {e.code}: {g}")
+        except Exception as e:
+            print(f"  [tg] album gonderilemedi (deneme {deneme + 1}): {e}", flush=True)
+            time.sleep(3)
+    raise RuntimeError("album gonderilemedi")

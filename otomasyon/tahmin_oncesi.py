@@ -433,6 +433,31 @@ def surpriz_mesaji(sur, gun):
     return tg.parcala(satirlar)
 
 
+def surpriz_gonder(token, chat, sur, gun):
+    """Surprizleri kart albumu olarak gonderir; kart uretilemezse yazili mesaj.
+    Gonderilen mesaj numaralarini sur["mesaj_id"]'ye yazar (sonradan silmek icin)."""
+    if not (sur.get("alti") or sur.get("iyms")):
+        return
+    try:
+        import tempfile
+        import kart
+        sayfalar = []
+        for i, m in enumerate(sur.get("iyms") or []):
+            sayfalar.append((f"iyms{i}", kart.iyms_html(m, surpriz.ornekler(m["acilis"], m["iyms"]), f"{gun:%d.%m.%Y}")))
+        for i, m in enumerate(sur.get("alti") or []):
+            sayfalar.append((f"alti{i}", kart.alti_html(m, surpriz.ornekler(m["acilis"]), f"{gun:%d.%m.%Y}")))
+        yollar = kart.png_yap(sayfalar, tempfile.mkdtemp(prefix="kart_"))
+        aciklama = (f"<b>💥 GÜNÜN SÜRPRİZLERİ</b>\n<i>{tg.kacir(tr_isim.tarih(f'{gun:%d.%m.%Y}'))}</i>")
+        sur["mesaj_id"] = tg.foto_albumu(token, chat, yollar, aciklama)
+        print(f"[surpriz] {len(yollar)} kart album olarak gonderildi", flush=True)
+        return
+    except tg.ChatBulunamadi:
+        raise
+    except Exception as e:
+        print(f"UYARI: surpriz kartlari gonderilemedi, yazili gonderiliyor: {e}", flush=True)
+    sur["mesaj_id"] = [tg.gonder(token, chat, p) for p in surpriz_mesaji(sur, gun)]
+
+
 def kupon_mesaji(k):
     satirlar = [
         "<b>\U0001f3ab GÜNÜN KUPONU</b>",
@@ -473,12 +498,11 @@ def main():
     # gonderilir; arsivde surpriz yoksa yazilir.
     if os.environ.get("SADECE_SURPRIZ") == "1":
         sur = surprizleri_hazirla(gun)
-        parca = surpriz_mesaji(sur, gun)
-        if not parca:
+        if not (sur["alti"] or sur["iyms"]):
             print("Bugun surprize uyan baslamamis mac yok.")
             return 0
         try:
-            tg.hepsini_gonder(token, chat, parca)
+            surpriz_gonder(token, chat, sur, gun)
         except tg.ChatBulunamadi as e:
             print(f"HATA: {e}")
             return 1
@@ -560,7 +584,7 @@ def main():
     sur = None
     if not sadece_eksik:
         sur = surprizleri_hazirla(gun)
-        parcalar += surpriz_mesaji(sur, gun)
+    liste_parcalari, parcalar = parcalar, []
     k = None
     kupon_gitti = False
     if sadece_eksik:
@@ -591,6 +615,15 @@ def main():
             tg.hepsini_gonder(token, chat, canli_parcalari)
             canli_kayit.veri["ozet_gonderildi"] = True
             canli_kayit.yaz()
+        if liste_parcalari:
+            tg.hepsini_gonder(token, chat, liste_parcalari)
+        if sur:
+            try:
+                surpriz_gonder(token, chat, sur, gun)
+            except tg.ChatBulunamadi:
+                raise
+            except Exception as e:
+                print(f"UYARI: surprizler gonderilemedi: {e}", flush=True)
         if parcalar:
             tg.hepsini_gonder(token, chat, parcalar)
     except tg.ChatBulunamadi as e:

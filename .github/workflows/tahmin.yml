@@ -73,6 +73,16 @@ jobs:
         if: steps.kapi.outputs.calis == 'true'
         run: pip install --quiet requests
 
+      # Surpriz kartlari HTML'den PNG'ye Chromium ile cevrilir. Sunucuda
+      # Google Chrome kurulu geliyor; yoksa Playwright'in Chromium'u indirilir.
+      # Basarisiz olursa surprizler yazili mesaj olarak gider.
+      - name: Kart araclari
+        if: steps.kapi.outputs.calis == 'true'
+        continue-on-error: true
+        run: |
+          pip install --quiet playwright
+          command -v google-chrome || python -m playwright install chromium
+
       - name: bet365 verisini hazirla
         if: steps.kapi.outputs.calis == 'true'
         run: bash otomasyon/bet365_hazirla.sh
