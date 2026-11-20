@@ -98,3 +98,38 @@ def ornekler(acilis, iyms_=None, adet=5, tutan=3):
     secilen += diger[:adet - len(secilen)]
     secilen.sort(key=lambda x: x[0], reverse=True)
     return [dict(zip(("tarih", "lig", "ev", "dep", "iy", "ms", "iyms"), x)) for x in secilen]
+
+
+def alti_gol(maclar):
+    """maclar: [(bet365 kaydi, mac)] -- lig filtreli, baslamamis."""
+    aday = []
+    for r, m in maclar:
+        ms0, u55 = _oran(r, "MS0"), _oran(r, "UST55")
+        if ms0 is None or ms0 < ALTI_BERABERLIK_MIN or u55 is None:
+            continue
+        aday.append({**{k: m[k] for k in ("kod", "saat", "ev", "dep", "lig")}, "oran": u55,
+                     "acilis": [_oran(r, f"MS{t}", " A") for t in "102"]})
+    aday.sort(key=lambda m: (m["oran"], m["saat"]))
+    return sorted(aday[:ALTI_SAYI], key=lambda m: m["saat"])
+
+
+def iyms(maclar):
+    g = gecmis()
+    aday = []
+    for r, m in maclar:
+        k = tuple(_oran(r, f"MS{t}", " A") for t in "102")
+        if None in k or k not in g:
+            continue
+        h = g[k]
+        toplam = sum(h.values())
+        sur = {c: h[c] for c in IYMS_IZINLI if h[c]}
+        if toplam < ESLESME_MIN or not sur:
+            continue
+        c = max(sur, key=lambda x: (sur[x], -IYMS_IZINLI.index(x)))
+        if sur[c] < SURPRIZ_MIN:
+            continue
+        aday.append({**{k_: m[k_] for k_ in ("kod", "saat", "ev", "dep", "lig")},
+                     "iyms": c, "eslesme": toplam, "gorulme": sur[c], "acilis": list(k),
+                     "oran": _oran(r, "IYMS " + c.replace("/", "E"))})
+    aday.sort(key=lambda m: (-m["eslesme"], -m["gorulme"]))
+    return sorted(aday[:IYMS_SAYI], key=lambda m: m["saat"])
