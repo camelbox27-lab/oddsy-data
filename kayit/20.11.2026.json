@@ -32,14 +32,21 @@
    "son": "once"
   },
   "dCvCMTz8": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1129,
+     "durum": "acik",
+     "dk": 5,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "hrUIXgq9": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "vN2bdLh2": {
    "bahis": {},
@@ -306,7 +313,7 @@
  "liste_son": {
   "4QL1DTtS": "once",
   "Iaxyg5LH": "once",
-  "hrUIXgq9": "once",
+  "hrUIXgq9": "1y",
   "vN2bdLh2": "once",
   "vJpmrRL5": "once",
   "nqlet5jI": "once",
@@ -316,6 +323,7 @@
   "Wjdnf1ed": "1y"
  },
  "liste_kazanan": {
-  "Wjdnf1ed": []
+  "Wjdnf1ed": [],
+  "hrUIXgq9": []
  }
 }
