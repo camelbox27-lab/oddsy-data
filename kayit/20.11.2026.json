@@ -224,9 +224,10 @@
     "1": 40
    },
    "gol_deneme": {
-    "1": 4
+    "1": 8
    },
-   "ilk_gol_dk": 40
+   "ilk_gol_dk": 40,
+   "ilk_gol_dk_kesin": true
   },
   "Eo4iZPw9": {
    "bahis": {},
