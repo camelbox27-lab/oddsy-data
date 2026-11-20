@@ -22,6 +22,12 @@
        "xg": 0.53,
        "isb": 2.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.69,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -179,7 +185,7 @@
   "zZPQYkxo": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "dCvCMTz8": {
    "bahis": {
@@ -669,6 +675,12 @@
        "xg": 0.69,
        "isb": 1.0,
        "buy": 0.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 0.86,
+       "isb": 2.0,
+       "buy": 0.0
       }
      }
     }
@@ -880,7 +892,7 @@
   "QaQQKNm1": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "0hPeVk2E": {
    "bahis": {},
@@ -1078,6 +1090,8 @@
   ],
   "4QL1DTtS": [],
   "vJpmrRL5": [],
-  "nqlet5jI": []
+  "nqlet5jI": [
+   "ust25"
+  ]
  }
 }
