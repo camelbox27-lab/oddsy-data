@@ -29,6 +29,7 @@ on:
           - eksik     # yalnizca gitmemis olanlar: dunun raporlari, bugunun kuponu
           - kupon     # yalnizca bugunun kuponu (yeniden), arsivdeki kuponu degistirir
           - liste     # yalnizca bugunun listesi (yeniden), arsive eklenir
+          - surpriz   # yalnizca bugunun surprizleri (6+ gol, IY/MS)
       gun:
         description: "Tarama gunu GG.AA.YYYY (yalnizca tarama kendini yeniden tetiklediginde)"
         required: false
@@ -41,7 +42,7 @@ permissions:
 
 jobs:
   oncesi:
-    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi' || inputs.hangisi == 'eksik' || inputs.hangisi == 'gunluk' || inputs.hangisi == 'kupon' || inputs.hangisi == 'liste'
+    if: github.event_name == 'schedule' || inputs.hangisi == 'oncesi' || inputs.hangisi == 'eksik' || inputs.hangisi == 'gunluk' || inputs.hangisi == 'kupon' || inputs.hangisi == 'liste' || inputs.hangisi == 'surpriz'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     concurrency:
@@ -89,6 +90,7 @@ jobs:
           SADECE_EKSIK: ${{ inputs.hangisi == 'eksik' && '1' || '0' }}
           SADECE_KUPON: ${{ inputs.hangisi == 'kupon' && '1' || '0' }}
           SADECE_LISTE: ${{ inputs.hangisi == 'liste' && '1' || '0' }}
+          SADECE_SURPRIZ: ${{ inputs.hangisi == 'surpriz' && '1' || '0' }}
         run: python otomasyon/tahmin_oncesi.py
 
   canli:

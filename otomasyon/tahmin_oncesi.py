@@ -17,7 +17,9 @@ Yalnizca otomasyon/ligler.py'deki ligler (majör ligler ve alt ligleri;
 kadin, altyapi, rezerv yok). Kurallar birbirinden bagimsizdir: bir mac ikisine birden uyarsa iki
 listede de gorunur. Mesajda oran yazilmaz (Wondiyo kanalindaki gibi).
 
-En sonda gunun kuponu (otomasyon/kupon.py) ayni gruba gonderilir:
+Ardindan gunun surprizleri (otomasyon/surpriz.py): 6+ gol (beraberlik
+5.00+, en olasi 3) ve IY/MS surprizi (gecmis acilis oran eslesmesi, en
+fazla 5). En sonda gunun kuponu (otomasyon/kupon.py) ayni gruba gonderilir:
 1 x 3.5 Üst, 1 x İY 1.5 Üst, 2 x 2.5 Üst, listelerden en dusuk oranlilar.
 
 SONUCLANDIRMA: gonderilen liste (kupon dahil) 'canli-kayit' dalinda
@@ -41,6 +43,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import canli_tarama                  # noqa: E402  (kayit dali + skor yardimcilari)
 import kupon as kupon_modulu         # noqa: E402
+import surpriz                       # noqa: E402
 from ligler import lig_uygun         # noqa: E402
 import tg                            # noqa: E402
 import tr_isim                       # noqa: E402
@@ -262,6 +265,35 @@ def sonuc_mesaji(arsiv, kaynak, skor, gun, toplam=None):
             kd = "\u2705 KAZANDI"
         ozet.append(f"\U0001f3ab Kupon: <b>{kd}</b> \u00b7 {kupon.get('toplam', 0):.2f}")
 
+    sur = arsiv.get("surpriz") or {}
+    for anahtar, baslik, kisa, isaret in (("alti", "🎲 6+ GOL", "6+ Gol", "🎲"),
+                                          ("iyms", "🔮 İY/MS SÜRPRİZİ", "İY/MS", "🔮")):
+        maclar = sur.get(anahtar) or []
+        if not maclar:
+            continue
+        detay += ["", f"<b>{baslik}</b>"]
+        tutan = biten = 0
+        for m in maclar:
+            sk = skor.get(m.get("kod"))
+            ev = tg.kacir(tr_isim.takim(m["ev"]))
+            dep = tg.kacir(tr_isim.takim(m["dep"]))
+            etiket = "" if anahtar == "alti" else f" · {m['iyms']}"
+            if not sk:
+                detay.append(f"\u26aa <code>  \u2013  </code>  {ev} \u2013 {dep}{etiket}")
+                continue
+            e, d_ = sk["ms"]
+            ie, id_ = sk["iy"]
+            if anahtar == "alti":
+                tuttu, goster = e + d_ >= 6, f"{e}-{d_}"
+            else:
+                sg = lambda x, y: "1" if x > y else "2" if x < y else "0"
+                tuttu = f"{sg(ie, id_)}/{sg(e, d_)}" == m["iyms"]
+                goster = f"{ie}-{id_} / {e}-{d_}"
+            biten += 1
+            tutan += tuttu
+            detay.append(f"{TUTTU if tuttu else TUTMADI} <code>{goster}</code>  {ev} \u2013 {dep}{etiket}")
+        ozet.append(f"{isaret} {kisa}: <b>{tutan}/{biten}</b>")
+
     if not ozet:
         return []
     satirlar = ["<b>\U0001f4ca D\u00dcN\u00dcN TERC\u0130HLER\u0130</b>",
@@ -346,7 +378,7 @@ def canli_ozet(gun, toplam=None):
     return satirlar + detay, k
 
 
-def bugunu_arsivle(gun, t, k_kupon):
+def bugunu_arsivle(gun, t, k_kupon, sur=None):
     """Gonderilen listeyi arsive yazar; ayni gun tekrar basilirsa birlestirir."""
     k = canli_tarama.Kayit(gun, "oncesi")
     k.oku()
@@ -361,9 +393,45 @@ def bugunu_arsivle(gun, t, k_kupon):
         # ilk gonderilen kupon gecerli; sonradan basmak kuponu degistirmez
         "kupon": eski.get("kupon") or (
             {"maclar": k_kupon["maclar"], "toplam": k_kupon["toplam"]} if k_kupon else None),
+        # ilk gonderilen surprizler gecerli
+        "surpriz": eski.get("surpriz") or sur,
         "sonuclandi": False,
     }
     k.yaz()
+
+
+def surprizleri_hazirla(gun):
+    maclar = _maclar(gun) or []
+    sur = {"alti": [], "iyms": []}
+    try:
+        sur["alti"] = surpriz.alti_gol(maclar)
+    except Exception as e:
+        print(f"UYARI: 6+ gol surprizi cikarilamadi: {e}", flush=True)
+    try:
+        sur["iyms"] = surpriz.iyms(maclar)
+    except Exception as e:
+        print(f"UYARI: IY/MS surprizi cikarilamadi: {e}", flush=True)
+    print(f"[surpriz] 6+ gol: {len(sur['alti'])} mac | IY/MS: {len(sur['iyms'])} mac", flush=True)
+    return sur
+
+
+def surpriz_mesaji(sur, gun):
+    if not (sur["alti"] or sur["iyms"]):
+        return []
+    satirlar = ["<b>💥 GÜNÜN SÜRPRİZLERİ</b>",
+                f"<i>{tg.kacir(tr_isim.tarih(f'{gun:%d.%m.%Y}'))}</i>"]
+    if sur["alti"]:
+        satirlar += ["", "<b>🎲 6+ GOL · Maç sonucu 5.5 Üst</b>"]
+        for m in sur["alti"]:
+            satirlar.append(f"<code>{m['saat']}</code>  {tg.kacir(tr_isim.takim(m['ev']))} – "
+                            f"{tg.kacir(tr_isim.takim(m['dep']))}")
+    if sur["iyms"]:
+        satirlar += ["", "<b>🔮 İY/MS SÜRPRİZİ</b>"]
+        for m in sur["iyms"]:
+            satirlar.append(f"<code>{m['saat']}</code>  {tg.kacir(tr_isim.takim(m['ev']))} – "
+                            f"{tg.kacir(tr_isim.takim(m['dep']))} · <b>{m['iyms']}</b>")
+            satirlar.append(f"        <i>aynı açılış oranlı {m['eslesme']} maçta {m['gorulme']} kez</i>")
+    return tg.parcala(satirlar)
 
 
 def kupon_mesaji(k):
@@ -402,6 +470,29 @@ def main():
         return 1
     print(f"2.5 Ust: {len(t['ust25'])} mac | 3.5 Ust / IY 1.5 Ust: {len(t['ust35'])} mac",
           flush=True)
+    # SADECE_SURPRIZ=1: yalnizca bugunun surprizleri (baslamamis maclar)
+    # gonderilir; arsivde surpriz yoksa yazilir.
+    if os.environ.get("SADECE_SURPRIZ") == "1":
+        sur = surprizleri_hazirla(gun)
+        parca = surpriz_mesaji(sur, gun)
+        if not parca:
+            print("Bugun surprize uyan baslamamis mac yok.")
+            return 0
+        try:
+            tg.hepsini_gonder(token, chat, parca)
+        except tg.ChatBulunamadi as e:
+            print(f"HATA: {e}")
+            return 1
+        ak = canli_tarama.Kayit(gun, "oncesi")
+        ak.oku()
+        if "ust25" in ak.veri:
+            ak.veri["surpriz"] = sur
+            ak.yaz()
+        else:
+            bugunu_arsivle(gun, t, None, sur)
+        print("OK: surprizler gonderildi.")
+        return 0
+
     # SADECE_LISTE=1: yalnizca bugunun listesi (baslamamis maclar) yeniden
     # gonderilir ve arsive eklenir; raporlar ve kupon gitmez.
     if os.environ.get("SADECE_LISTE") == "1":
@@ -467,6 +558,10 @@ def main():
 
     # 2) Bugunun listesi + kupon
     parcalar = [] if sadece_eksik else tercih_mesaji(t, gun)
+    sur = None
+    if not sadece_eksik:
+        sur = surprizleri_hazirla(gun)
+        parcalar += surpriz_mesaji(sur, gun)
     k = None
     kupon_gitti = False
     if sadece_eksik:
@@ -513,7 +608,7 @@ def main():
                 ak.veri["kupon"] = {"maclar": k["maclar"], "toplam": k["toplam"]}
                 ak.yaz()
         else:
-            bugunu_arsivle(gun, t, k if (k and k.get("maclar")) else None)
+            bugunu_arsivle(gun, t, k if (k and k.get("maclar")) else None, sur)
     except Exception as e:
         print(f"UYARI: arsivlenemedi: {e}", flush=True)
     print("OK: tercihler gonderildi.")
