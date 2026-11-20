@@ -192,10 +192,12 @@
      "dk": 45,
      "xg": 1.7,
      "isb": 2.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "da",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 51
    },
@@ -206,7 +208,7 @@
    "ilk_gol_dk_kesin": true,
    "iy": [
     1,
-    0
+    1
    ]
   }
  },
