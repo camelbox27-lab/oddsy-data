@@ -185,7 +185,15 @@
   "zZPQYkxo": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 14
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 12,
+   "ilk_gol_dk_kesin": true
   },
   "dCvCMTz8": {
    "bahis": {
@@ -428,13 +436,17 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 29
+    "1": 29,
+    "2": 44
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 27,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 43,
+   "iki_gol_dk_kesin": true
   },
   "4zirm6Kk": {
    "bahis": {},
