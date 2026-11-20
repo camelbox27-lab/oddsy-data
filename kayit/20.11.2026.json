@@ -241,7 +241,9 @@
    ]
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "20:00": 1127
+ },
  "liste_son": {
   "4QL1DTtS": "once",
   "Iaxyg5LH": "once",
