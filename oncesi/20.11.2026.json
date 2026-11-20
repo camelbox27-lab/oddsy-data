@@ -192,7 +192,60 @@
      1.13,
      7.0,
      13.0
-    ]
+    ],
+    "ornek": [
+     {
+      "tarih": "2016-04-08",
+      "lig": "NETHERLANDS EERSTE DIVISIE",
+      "ev": "NAC Breda",
+      "dep": "Waalwijk",
+      "iy": "0 - 0",
+      "ms": "1-1",
+      "iyms": "0/0"
+     },
+     {
+      "tarih": "2013-07-24",
+      "lig": "EUROPE CHAMPIONS LEAGUE",
+      "ev": "Partizan (Srb)",
+      "dep": "Shirak (Arm)",
+      "iy": "0 - 0",
+      "ms": "0-0",
+      "iyms": "0/0"
+     },
+     {
+      "tarih": "2011-07-19",
+      "lig": "EUROPE CHAMPIONS LEAGUE",
+      "ev": "HJK (Fin)",
+      "dep": "Bangor City (Wal)",
+      "iy": "10 - 0",
+      "ms": "10-0",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2010-11-14",
+      "lig": "RUSSIA PREMIER LEAGUE",
+      "ev": "Zenit",
+      "dep": "FK Rostov",
+      "iy": "1 - 0",
+      "ms": "5-0",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2008-11-22",
+      "lig": "AUSTRIA T",
+      "ev": "Salzburg",
+      "dep": "Kapfenberg",
+      "iy": "2 - 5",
+      "ms": "2-5",
+      "iyms": "2/2"
+     }
+    ],
+    "goster": {
+     "ev": "Heracles Almelo",
+     "dep": "Jong PSV Eindhoven",
+     "lig": "Hollanda · Eerste Divisie",
+     "bayrak": "🇳🇱"
+    }
    },
    {
     "kod": "zZPQYkxo",
@@ -205,7 +258,33 @@
      1.06,
      12.0,
      23.0
-    ]
+    ],
+    "ornek": [
+     {
+      "tarih": "2020-10-24",
+      "lig": "Ligue 1",
+      "ev": "Paris SG",
+      "dep": "Dijon",
+      "iy": "2-0",
+      "ms": "4-0",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2018-02-04",
+      "lig": "Eredivisie",
+      "ev": "Ajax",
+      "dep": "NAC Breda",
+      "iy": "2-1",
+      "ms": "3-1",
+      "iyms": "1/1"
+     }
+    ],
+    "goster": {
+     "ev": "Bayern Münih",
+     "dep": "1. FC Köln",
+     "lig": "Almanya · Bundesliga",
+     "bayrak": "🇩🇪"
+    }
    },
    {
     "kod": "f70hE276",
@@ -218,7 +297,60 @@
      1.07,
      9.0,
      21.0
-    ]
+    ],
+    "ornek": [
+     {
+      "tarih": "2019-08-15",
+      "lig": "EUROPE EUROPA LEAGUE",
+      "ev": "Frankfurt (Ger)",
+      "dep": "Vaduz (Lie)",
+      "iy": "1 - 0",
+      "ms": "1-0",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2019-08-01",
+      "lig": "EUROPE EUROPA LEAGUE",
+      "ev": "Partizan (Srb)",
+      "dep": "Connah's Q. (Wal)",
+      "iy": "0 - 0",
+      "ms": "3-0",
+      "iyms": "0/1"
+     },
+     {
+      "tarih": "2017-10-24",
+      "lig": "NETHERLANDS KNVB BEKER",
+      "ev": "Zwolle",
+      "dep": "Kozakken Boys",
+      "iy": "1 - 0",
+      "ms": "2-2",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2016-07-12",
+      "lig": "EUROPE CHAMPIONS LEAGUE",
+      "ev": "Salzburg (Aut)",
+      "dep": "FK Liepaja (Lat)",
+      "iy": "0 - 0",
+      "ms": "1-0",
+      "iyms": "0/1"
+     },
+     {
+      "tarih": "2014-07-10",
+      "lig": "EUROPE EUROPA LEAGUE",
+      "ev": "Buducnost (Mne)",
+      "dep": "Folgore (San)",
+      "iy": "1 - 0",
+      "ms": "3-0",
+      "iyms": "1/1"
+     }
+    ],
+    "goster": {
+     "ev": "FC Porto",
+     "dep": "Paredes",
+     "lig": "Portekiz · Taça de Portugal",
+     "bayrak": "🇵🇹"
+    }
    }
   ],
   "iyms": [
@@ -236,7 +368,60 @@
      3.4,
      2.63
     ],
-    "oran": 13.0
+    "oran": 13.0,
+    "ornek": [
+     {
+      "tarih": "2024-07-28",
+      "lig": "SWEDEN SUPERETTAN",
+      "ev": "Sundsvall",
+      "dep": "Trelleborg",
+      "iy": "1 - 1",
+      "ms": "2-1",
+      "iyms": "0/1"
+     },
+     {
+      "tarih": "2024-07-06",
+      "lig": "FINLAND VEIKKAUSLIIGA",
+      "ev": "Ilves",
+      "dep": "HJK",
+      "iy": "2 - 0",
+      "ms": "3-0",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2023-04-05",
+      "lig": "FINLAND VEIKKAUSLIIGA",
+      "ev": "Mariehamn",
+      "dep": "Ilves",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2017-05-21",
+      "lig": "NORWAY ELITESERIEN",
+      "ev": "Tromsø",
+      "dep": "Strømsgodset",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2016-02-13",
+      "lig": "AUSTRALIA A",
+      "ev": "Melbourne City",
+      "dep": "Melbourne Victory",
+      "iy": "2 - 1",
+      "ms": "2-2",
+      "iyms": "1/0"
+     }
+    ],
+    "goster": {
+     "ev": "Piast Gliwice",
+     "dep": "Korona Kielce",
+     "lig": "Polonya · Ekstraklasa",
+     "bayrak": "🇵🇱"
+    }
    },
    {
     "kod": "UwCfSezo",
@@ -252,7 +437,60 @@
      3.3,
      3.8
     ],
-    "oran": 15.0
+    "oran": 15.0,
+    "ornek": [
+     {
+      "tarih": "2010-05-09",
+      "lig": "BRAZIL SÉRIE B",
+      "ev": "Guaratingueta",
+      "dep": "Duque De Caxias",
+      "iy": "3 - 0",
+      "ms": "3-1",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2010-05-08",
+      "lig": "BRAZIL SÉRIE B",
+      "ev": "America MG",
+      "dep": "Bragantino",
+      "iy": "0 - 0",
+      "ms": "0-0",
+      "iyms": "0/0"
+     },
+     {
+      "tarih": "2008-09-20",
+      "lig": "CHILE PRIMERA DIVISION",
+      "ev": "Antofagasta",
+      "dep": "U. Espanola",
+      "iy": "0 - 1",
+      "ms": "1-1",
+      "iyms": "2/0"
+     },
+     {
+      "tarih": "2008-08-24",
+      "lig": "COLOMBIA LIGA POSTOBON",
+      "ev": "Atl. Nacional",
+      "dep": "Dep. Cali",
+      "iy": "0 - 1",
+      "ms": "1-1",
+      "iyms": "2/0"
+     },
+     {
+      "tarih": "2008-08-17",
+      "lig": "CHILE PRIMERA DIVISION",
+      "ev": "S. Morning",
+      "dep": "Nublense",
+      "iy": "0 - 1",
+      "ms": "2-2",
+      "iyms": "2/0"
+     }
+    ],
+    "goster": {
+     "ev": "Iğdır FK",
+     "dep": "Ümraniyespor",
+     "lig": "Türkiye · 1. Lig",
+     "bayrak": "🇹🇷"
+    }
    },
    {
     "kod": "htg3zTzp",
@@ -268,7 +506,60 @@
      3.3,
      3.25
     ],
-    "oran": 13.0
+    "oran": 13.0,
+    "ornek": [
+     {
+      "tarih": "2023-04-24",
+      "lig": "POLAND DIVISION 1",
+      "ev": "S. Rzeszow",
+      "dep": "Sandecja",
+      "iy": "3 - 0",
+      "ms": "3-0",
+      "iyms": "1/1"
+     },
+     {
+      "tarih": "2020-11-08",
+      "lig": "POLAND DIVISION 1",
+      "ev": "Tychy",
+      "dep": "Puszcza",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2020-08-12",
+      "lig": "BRAZIL SERIE B",
+      "ev": "Brasil de Pelotas",
+      "dep": "Ponte Preta",
+      "iy": "0 - 0",
+      "ms": "1-1",
+      "iyms": "0/0"
+     },
+     {
+      "tarih": "2015-07-26",
+      "lig": "CHILE PRIMERA DIVISION",
+      "ev": "S. Wanderers",
+      "dep": "Arica",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2015-07-13",
+      "lig": "FINLAND VEIKKAUSLIIGA",
+      "ev": "Inter Turku",
+      "dep": "Mariehamn",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     }
+    ],
+    "goster": {
+     "ev": "EA Guingamp",
+     "dep": "Rodez AF",
+     "lig": "Fransa · Ligue 2",
+     "bayrak": "🇫🇷"
+    }
    },
    {
     "kod": "QaQQKNm1",
@@ -284,7 +575,60 @@
      3.4,
      3.6
     ],
-    "oran": 13.0
+    "oran": 13.0,
+    "ornek": [
+     {
+      "tarih": "2024-08-22",
+      "lig": "EUROPE CONFERENCE LEAGUE",
+      "ev": "Mlada Boleslav (Cze)",
+      "dep": "Paks (Hun)",
+      "iy": "0 - 0",
+      "ms": "2-2",
+      "iyms": "0/0"
+     },
+     {
+      "tarih": "2024-08-15",
+      "lig": "EUROPE CONFERENCE LEAGUE",
+      "ev": "Tromsø (Nor)",
+      "dep": "Kilmarnock (Sco)",
+      "iy": "0 - 1",
+      "ms": "0-1",
+      "iyms": "2/2"
+     },
+     {
+      "tarih": "2024-04-01",
+      "lig": "SWITZERLAND SUPER LEAGUE",
+      "ev": "St. Gallen",
+      "dep": "Luzern",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2017-07-26",
+      "lig": "EUROPE CHAMPIONS LEAGUE",
+      "ev": "Club Brugge (Bel)",
+      "dep": "Basaksehir (Tur)",
+      "iy": "2 - 0",
+      "ms": "3-3",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2017-07-20",
+      "lig": "EUROPE EUROPA LEAGUE",
+      "ev": "HJK (Fin)",
+      "dep": "Shkendija (Mkd)",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     }
+    ],
+    "goster": {
+     "ev": "Andorra",
+     "dep": "CD Leganés",
+     "lig": "İspanya · La Liga2",
+     "bayrak": "🇪🇸"
+    }
    },
    {
     "kod": "pOTao8Y2",
@@ -300,7 +644,60 @@
      3.4,
      3.25
     ],
-    "oran": 13.0
+    "oran": 13.0,
+    "ornek": [
+     {
+      "tarih": "2025-11-29",
+      "lig": "Championship",
+      "ev": "Wrexham",
+      "dep": "Blackburn",
+      "iy": "0-1",
+      "ms": "1-1",
+      "iyms": "2/0"
+     },
+     {
+      "tarih": "2025-11-26",
+      "lig": "Championship",
+      "ev": "Blackburn",
+      "dep": "QPR",
+      "iy": "0-0",
+      "ms": "0-1",
+      "iyms": "0/2"
+     },
+     {
+      "tarih": "2020-10-25",
+      "lig": "AUSTRIA TIPICO BUNDESLIGA",
+      "ev": "Tirol",
+      "dep": "Hartberg",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2019-10-06",
+      "lig": "Jupiler League",
+      "ev": "Antwerp",
+      "dep": "Standard",
+      "iy": "1-0",
+      "ms": "2-2",
+      "iyms": "1/0"
+     },
+     {
+      "tarih": "2019-04-09",
+      "lig": "SWEDEN SUPERETTAN",
+      "ev": "Västerås SK",
+      "dep": "Brage",
+      "iy": "1 - 0",
+      "ms": "1-1",
+      "iyms": "1/0"
+     }
+    ],
+    "goster": {
+     "ev": "ES Troyes AC",
+     "dep": "AC Le Havre",
+     "lig": "Fransa · Ligue 1",
+     "bayrak": "🇫🇷"
+    }
    }
   ],
   "mesaj_id": [
