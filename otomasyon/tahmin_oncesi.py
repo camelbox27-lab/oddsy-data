@@ -411,6 +411,18 @@ def surprizleri_hazirla(gun):
         sur["iyms"] = surpriz.iyms(maclar)
     except Exception as e:
         print(f"UYARI: IY/MS surprizi cikarilamadi: {e}", flush=True)
+    # Site (ana sayfa 'Gunun One Cikanlari') ve kartlar icin: gecmis ornekler
+    # ve Turkce gosterim adlari arsive birlikte yazilir.
+    for anahtar in ("iyms", "alti"):
+        for m in sur[anahtar]:
+            try:
+                m["ornek"] = surpriz.ornekler(m["acilis"], m.get("iyms") if anahtar == "iyms" else None)
+            except Exception as e:
+                print(f"UYARI: ornek cikarilamadi: {e}", flush=True)
+                m["ornek"] = []
+            bayrak, lig = tr_isim.lig(m.get("lig", ""))
+            m["goster"] = {"ev": tr_isim.takim(m["ev"]), "dep": tr_isim.takim(m["dep"]),
+                           "lig": lig, "bayrak": bayrak}
     print(f"[surpriz] 6+ gol: {len(sur['alti'])} mac | IY/MS: {len(sur['iyms'])} mac", flush=True)
     return sur
 
@@ -443,9 +455,9 @@ def surpriz_gonder(token, chat, sur, gun):
         import kart
         sayfalar = []
         for i, m in enumerate(sur.get("iyms") or []):
-            sayfalar.append((f"iyms{i}", kart.iyms_html(m, surpriz.ornekler(m["acilis"], m["iyms"]), f"{gun:%d.%m.%Y}")))
+            sayfalar.append((f"iyms{i}", kart.iyms_html(m, m.get("ornek") or surpriz.ornekler(m["acilis"], m["iyms"]), f"{gun:%d.%m.%Y}")))
         for i, m in enumerate(sur.get("alti") or []):
-            sayfalar.append((f"alti{i}", kart.alti_html(m, surpriz.ornekler(m["acilis"]), f"{gun:%d.%m.%Y}")))
+            sayfalar.append((f"alti{i}", kart.alti_html(m, m.get("ornek") or surpriz.ornekler(m["acilis"]), f"{gun:%d.%m.%Y}")))
         yollar = kart.png_yap(sayfalar, tempfile.mkdtemp(prefix="kart_"))
         aciklama = (f"<b>💥 GÜNÜN SÜRPRİZLERİ</b>\n<i>{tg.kacir(tr_isim.tarih(f'{gun:%d.%m.%Y}'))}</i>")
         sur["mesaj_id"] = tg.foto_albumu(token, chat, yollar, aciklama)
