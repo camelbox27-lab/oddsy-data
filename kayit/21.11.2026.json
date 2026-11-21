@@ -89,7 +89,7 @@
   "hY2hFNNH": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "ny0pHqg5": {
    "bahis": {},
@@ -263,22 +263,22 @@
   "Awaw4CfB": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "6TfpKOp9": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "ttt3KXvh": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "4tdV5YPb": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "EZmHdUno": {
    "bahis": {},
@@ -699,7 +699,7 @@
   "06dBY65d": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "xlkjopk2": {
    "bahis": {},
@@ -833,13 +833,16 @@
    },
    "son": "1y",
    "gol_gorulen": {
-    "1": 23
+    "1": 23,
+    "2": 36
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 21,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 36
   },
   "SljzXKjl": {
    "bahis": {},
@@ -945,7 +948,7 @@
   "lz8KP5im": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "WplLTEhL": {
    "bahis": {},
@@ -1016,10 +1019,12 @@
      "dk": 45,
      "xg": null,
      "isb": 2.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 24
    },
@@ -1145,7 +1150,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 45
    },
@@ -1191,7 +1196,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 23,
     "2": 29
@@ -1232,7 +1237,15 @@
   "8tJwQ4Hr": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 4
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 2,
+   "ilk_gol_dk_kesin": true
   },
   "Yq8ZYa0D": {
    "bahis": {},
@@ -1252,7 +1265,7 @@
   "jBqor5Li": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "AFQeBOjU": {
    "bahis": {},
@@ -1406,7 +1419,7 @@
   "0KJkosFG": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "nyIcqLqT": {
    "bahis": {},
@@ -1517,7 +1530,7 @@
   "xO5dnHRG": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "dp4tjaSi": {
    "bahis": {},
@@ -1545,8 +1558,8 @@
   "K2q8Ytr2": "once",
   "G6zXl2Sr": "once",
   "0lsX9ji2": "da",
-  "Awaw4CfB": "once",
-  "ttt3KXvh": "once",
+  "Awaw4CfB": "1y",
+  "ttt3KXvh": "1y",
   "EZmHdUno": "once",
   "MuVKeqEE": "1y",
   "0lPbl16l": "once",
@@ -1583,8 +1596,8 @@
   "AFQeBOjU": "once",
   "SY3ztq5k": "once",
   "hzQmRLNp": "1y",
-  "0KJkosFG": "once",
-  "xO5dnHRG": "once",
+  "0KJkosFG": "1y",
+  "xO5dnHRG": "1y",
   "dp4tjaSi": "once",
   "IsiWzAPN": "once"
  },
@@ -1598,6 +1611,10 @@
   "MuVKeqEE": [],
   "YufEcSWp": [],
   "netqbtGr": [],
-  "hzQmRLNp": []
+  "hzQmRLNp": [],
+  "Awaw4CfB": [],
+  "ttt3KXvh": [],
+  "0KJkosFG": [],
+  "xO5dnHRG": []
  }
 }
