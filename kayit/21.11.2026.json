@@ -544,7 +544,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 2
+    "2": 4
    },
    "ilk_gol_dk": 4,
    "ilk_gol_dk_kesin": true,
@@ -851,7 +851,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 28
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 26,
+   "ilk_gol_dk_kesin": true
   },
   "CxCKSaCk": {
    "bahis": {},
