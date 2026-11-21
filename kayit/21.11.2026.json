@@ -401,10 +401,21 @@
        "isb": 2.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      1,
+      1
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 3.0,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 24,
     "2": 36
@@ -416,7 +427,11 @@
    "ilk_gol_dk": 20,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 34,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    1,
+    1
+   ]
   },
   "4tdV5YPb": {
    "bahis": {},
@@ -435,10 +450,21 @@
        "isb": 5.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 5.0,
+     "buy": null
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 27
    },
@@ -446,7 +472,11 @@
     "1": 1
    },
    "ilk_gol_dk": 23,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "EZmHdUno": {
    "bahis": {},
@@ -1639,10 +1669,12 @@
      "dk": 45,
      "xg": null,
      "isb": 10.0,
-     "buy": null
+     "buy": null,
+     "ms": 6,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 23,
     "2": 29
@@ -1759,10 +1791,21 @@
        "isb": 3.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": true
+    },
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": 0.86,
+     "isb": 4.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "gol_gorulen": {
     "1": 35
    },
@@ -1770,7 +1813,11 @@
     "1": 1
    },
    "ilk_gol_dk": 33,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "AFQeBOjU": {
    "bahis": {},
@@ -2194,7 +2241,7 @@
   "G6zXl2Sr": "once",
   "0lsX9ji2": "2y",
   "Awaw4CfB": "da",
-  "ttt3KXvh": "1y",
+  "ttt3KXvh": "da",
   "EZmHdUno": "once",
   "MuVKeqEE": "2y",
   "0lPbl16l": "once",
@@ -2241,7 +2288,9 @@
   "16:00": 7
  },
  "liste_kazanan": {
-  "0lsX9ji2": [],
+  "0lsX9ji2": [
+   "ust25"
+  ],
   "vBdxJ5Oh": [],
   "MuVKeqEE": [],
   "YufEcSWp": [],
