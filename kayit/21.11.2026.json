@@ -800,9 +800,10 @@
     "1": 23
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
-   "ilk_gol_dk": 23
+   "ilk_gol_dk": 23,
+   "ilk_gol_dk_kesin": true
   },
   "nk3yafBM": {
    "bahis": {},
