@@ -173,27 +173,27 @@
   "Cxt0z3Dk": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "SSCCdgUi": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "K2q8Ytr2": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "zgGKfXb4": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "G6zXl2Sr": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "KMZ1fO4L": {
    "bahis": {},
@@ -852,10 +852,12 @@
      "dk": 45,
      "xg": 1.48,
      "isb": 5.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 1,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "_ozet_dk": 20,
    "_ozet_gol": 0,
    "iy": [
@@ -932,10 +934,12 @@
      "dk": 45,
      "xg": 2.14,
      "isb": 3.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 6,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 6,
     "2": 25
@@ -1254,6 +1258,12 @@
        "xg": 0.97,
        "isb": 0.0,
        "buy": 1.0
+      },
+      "30": {
+       "dk": 30,
+       "xg": 1.12,
+       "isb": 1.0,
+       "buy": 1.0
       }
      }
     }
@@ -1317,7 +1327,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 3
+    "2": 4
    },
    "ilk_gol_dk": 8,
    "ilk_gol_dk_kesin": true,
@@ -2150,13 +2160,17 @@
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 19
+    "1": 19,
+    "2": 32
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 18,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 29,
+   "iki_gol_dk_kesin": true
   },
   "0n2rvNZ1": {
    "bahis": {},
@@ -2588,10 +2602,10 @@
   "viCcmYIE": "once",
   "AwZUUP2m": "once",
   "vBdxJ5Oh": "bitti",
-  "Cxt0z3Dk": "once",
-  "SSCCdgUi": "once",
-  "K2q8Ytr2": "once",
-  "G6zXl2Sr": "once",
+  "Cxt0z3Dk": "1y",
+  "SSCCdgUi": "1y",
+  "K2q8Ytr2": "1y",
+  "G6zXl2Sr": "1y",
   "0lsX9ji2": "bitti",
   "Awaw4CfB": "2y",
   "ttt3KXvh": "2y",
@@ -2601,7 +2615,7 @@
   "YufEcSWp": "bitti",
   "rT6S6W9b": "once",
   "Q72FHmOG": "once",
-  "netqbtGr": "2y",
+  "netqbtGr": "bitti",
   "SlMwVsnd": "once",
   "S8CXjP8F": "once",
   "Uy1Bqs1k": "once",
@@ -2662,6 +2676,10 @@
   "dYHdwsEi": [],
   "S2MjMy7d": [],
   "SY3ztq5k": [],
-  "WSisyiXN": []
+  "WSisyiXN": [],
+  "Cxt0z3Dk": [],
+  "SSCCdgUi": [],
+  "K2q8Ytr2": [],
+  "G6zXl2Sr": []
  }
 }
