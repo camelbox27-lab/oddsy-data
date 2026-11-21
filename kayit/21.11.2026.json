@@ -977,7 +977,9 @@
    "son": "once"
   }
  },
- "liste_slot": {},
+ "liste_slot": {
+  "15:00": 1205
+ },
  "liste_son": {
   "MXWPYY3L": "once",
   "viCcmYIE": "once",
