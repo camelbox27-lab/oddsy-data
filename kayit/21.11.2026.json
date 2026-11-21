@@ -224,7 +224,7 @@
    },
    "gol_deneme": {
     "1": 8,
-    "2": 3
+    "2": 6
    },
    "ilk_gol_dk": 21,
    "ilk_gol_dk_kesin": true,
@@ -944,11 +944,12 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 6
+    "2": 8
    },
    "ilk_gol_dk": 5,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 9
+   "iki_gol_dk": 9,
+   "iki_gol_dk_kesin": true
   },
   "QZt0LVOi": {
    "bahis": {},
@@ -2181,6 +2182,12 @@
       },
       "25": {
        "dk": 25,
+       "xg": null,
+       "isb": 1.0,
+       "buy": null
+      },
+      "30": {
+       "dk": 30,
        "xg": null,
        "isb": 1.0,
        "buy": null
