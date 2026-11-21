@@ -405,6 +405,14 @@ def hatirlatma_mesaji(saat, maclar):
     return "\n".join(satirlar)
 
 
+def iy_kanal_mesaji(saat, maclar):
+    """@ilkyarigol kanali: yalnizca Ilk Yari 1.5 Ust maclari, 5 dk once."""
+    satirlar = [f"⏰ <b>{saat} MAÇLARI</b>", "<i>5 dakika sonra başlıyor</i>", "",
+                "🎯 <b>İLK YARI 1.5 ÜST</b>"]
+    satirlar += [_mac(e).replace("<b>", "").replace("</b>", "") for _, e in maclar]
+    return "\n".join(satirlar)
+
+
 # ------------------------------------------------------------ tarayici
 class Tarayici:
     def __init__(self, gun, token, chat, kayit, adaylar_):
@@ -413,6 +421,19 @@ class Tarayici:
         self.liste = {}
         self.kaynak = None           # xG gozlemi icin (main'de atanir)
         self.degisti = False
+        # Ayri "IY 1.5 Ust" kanali (@ilkyarigol, kendi botu). Anahtar yoksa kapali.
+        self.iy_token = os.environ.get("IYGOL_BOT_TOKEN", "").strip()
+        self.iy_chat = os.environ.get("IYGOL_CHAT", "").strip() or "@ilkyarigol"
+
+    def _iy_gonder(self, metin, yanit=None):
+        """IY kanalina gonderir; hata Oto-BOT taramasini durdurmaz."""
+        if not self.iy_token:
+            return None
+        try:
+            return tg.gonder(self.iy_token, self.iy_chat, metin, yanit)
+        except Exception as e:
+            print(f"  [iy-kanal] gonderilemedi: {e}", flush=True)
+            return None
 
     def _st(self, kod):
         return self.kayit.veri["maclar"].setdefault(kod, {"bahis": {}})
@@ -619,6 +640,19 @@ class Tarayici:
                 slotlar[saat] = self._gonder(hatirlatma_mesaji(saat, maclar))
                 self.degisti = True
                 print(f"  ⏰ {saat} hatirlatmasi ({len(maclar)} mac)", flush=True)
+        # IY 1.5 Ust kanali: ayni zamanlama, yalnizca iy15 maclari
+        if not self.iy_token:
+            return
+        iy_slot = self.kayit.veri.setdefault("iy_slot", {})
+        for saat, maclar in sorted(gruplar.items()):
+            iy = [(k, e) for k, e in maclar if "iy15" in e["bahisler"]]
+            if not iy or saat in iy_slot:
+                continue
+            bas = iy[0][1]["baslama"]
+            if bas - HATIRLAT <= simdi_dt <= bas + GEC_HATIRLAT:
+                iy_slot[saat] = self._iy_gonder(iy_kanal_mesaji(saat, iy))
+                self.degisti = True
+                print(f"  ⏰ [iy-kanal] {saat} ({len(iy)} mac)", flush=True)
 
     def liste_isle(self, kod, m, simdi):
         e = self.liste[kod]
@@ -649,6 +683,9 @@ class Tarayici:
             yanit = self.kayit.veri.get("liste_slot", {}).get(e["saat"])
             self._gonder(sonuc_mesaji(e, kisa, "kazandi", skor, an, liste=True),
                          yanit=yanit)
+            if b == "iy15" and self.kayit.veri.get("iy_slot", {}).get(e["saat"]):
+                self._iy_gonder(sonuc_mesaji(e, kisa, "kazandi", skor, an, liste=True),
+                                yanit=self.kayit.veri["iy_slot"][e["saat"]])
             kazanan.append(b)
             self.degisti = True
             print(f"  ✅ liste {kisa:10s} {e['ev']} - {e['dep']}", flush=True)
