@@ -1857,7 +1857,7 @@
    "bahis": {
     "ms45": {
      "id": 1298,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "3-0"
     }
@@ -3526,7 +3526,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 31
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 27,
+   "ilk_gol_dk_kesin": true
   },
   "tpbBMa9b": {
    "bahis": {
