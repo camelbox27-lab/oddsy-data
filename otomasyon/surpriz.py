@@ -1,10 +1,11 @@
 """Gunun surprizleri (Oto-BOT, mac oncesi akisinda kupondan once gider).
 
 1) 6+ GOL (Maç sonucu 5.5 Üst)
-   bet365 beraberlik orani 5.00 ve ustu olan maclar; en olasi 3 tanesi
-   (5.5 Ust orani en dusuk olanlar). Beraberlik orani yuksek = belirgin
-   favori + gol beklentisi yuksek. 12.10-20.11 verisinde beraberlik
-   4.50-8.00 kurali %16 tuttu, ortalama oran ~6.8.
+   bet365 beraberlik orani 5.00 ve ustu olan maclar arasindan, ayni ACILIS
+   1-X-2 oranli gecmis maclarda (en az ALTI_ESLESME_MIN mac) en az
+   ALTI_GORULME_MIN kez 6+ gol cikmis olanlar; 6+ orani en yuksek 3 mac.
+   (21.11: eslesmesi olmayan ya da hic 6+ gormemis maclar da secilip
+   kartta bos / tutmayan ornekle gidiyordu.) Uygun mac yoksa gonderilmez.
 
 2) İY/MS SÜRPRİZİ (sitedeki "Yapay Zeka Analiz" ile ayni mantik)
    Macin bet365 ACILIS 1-X-2 oranlariyla birebir ayni acilis oranli
@@ -27,6 +28,8 @@ LIGLER_JSON = KOK / "ligler_json"
 
 ALTI_BERABERLIK_MIN = 5.00
 ALTI_SAYI = 3
+ALTI_ESLESME_MIN = 8
+ALTI_GORULME_MIN = 2
 IYMS_IZINLI = ("1/0", "2/0", "1/2", "2/1")
 IYMS_SAYI = 5
 ESLESME_MIN = 20
@@ -92,7 +95,7 @@ def ornekler(acilis, iyms_=None, adet=5, tutan=3):
         ust = sorted((x for x in satir if ok(x)), key=lambda x: x[0], reverse=True)
     else:
         ok = lambda x: _gol(x[5]) >= 6
-        ust = sorted(satir, key=lambda x: (_gol(x[5]), x[0]), reverse=True)
+        ust = sorted((x for x in satir if ok(x)), key=lambda x: x[0], reverse=True)
     secilen = ust[:tutan]
     diger = sorted((x for x in satir if x not in secilen and not ok(x)), key=lambda x: x[0], reverse=True)
     secilen += diger[:adet - len(secilen)]
@@ -102,14 +105,20 @@ def ornekler(acilis, iyms_=None, adet=5, tutan=3):
 
 def alti_gol(maclar):
     """maclar: [(bet365 kaydi, mac)] -- lig filtreli, baslamamis."""
+    gecmis()
     aday = []
     for r, m in maclar:
         ms0, u55 = _oran(r, "MS0"), _oran(r, "UST55")
-        if ms0 is None or ms0 < ALTI_BERABERLIK_MIN or u55 is None:
+        if ms0 is None or ms0 < ALTI_BERABERLIK_MIN:
+            continue
+        acilis = [_oran(r, f"MS{t}", " A") for t in "102"]
+        satir = _ORNEK.get(tuple(acilis), [])
+        alti = sum(1 for x in satir if _gol(x[5]) >= 6)
+        if len(satir) < ALTI_ESLESME_MIN or alti < ALTI_GORULME_MIN:
             continue
         aday.append({**{k: m[k] for k in ("kod", "saat", "ev", "dep", "lig")}, "oran": u55,
-                     "acilis": [_oran(r, f"MS{t}", " A") for t in "102"]})
-    aday.sort(key=lambda m: (m["oran"], m["saat"]))
+                     "acilis": acilis, "eslesme": len(satir), "gorulme": alti})
+    aday.sort(key=lambda m: (-m["gorulme"] / m["eslesme"], -m["gorulme"], m["saat"]))
     return sorted(aday[:ALTI_SAYI], key=lambda m: m["saat"])
 
 

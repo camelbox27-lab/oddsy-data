@@ -408,7 +408,9 @@ def surprizleri_hazirla(gun):
     except Exception as e:
         print(f"UYARI: 6+ gol surprizi cikarilamadi: {e}", flush=True)
     try:
-        sur["iyms"] = surpriz.iyms(maclar)
+        # Ayni mac iki surprizde birden yer almasin (6+ gol oncelikli)
+        alti_kod = {m["kod"] for m in sur["alti"]}
+        sur["iyms"] = surpriz.iyms([(r, m) for r, m in maclar if m["kod"] not in alti_kod])
     except Exception as e:
         print(f"UYARI: IY/MS surprizi cikarilamadi: {e}", flush=True)
     # Site (ana sayfa 'Gunun One Cikanlari') ve kartlar icin: gecmis ornekler
