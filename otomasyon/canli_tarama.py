@@ -421,8 +421,11 @@ class Tarayici:
         self.liste = {}
         self.kaynak = None           # xG gozlemi icin (main'de atanir)
         self.degisti = False
-        # Ayri "IY 1.5 Ust" kanali (@ilkyarigol, kendi botu). Anahtar yoksa kapali.
-        self.iy_token = os.environ.get("IYGOL_BOT_TOKEN", "").strip()
+        # Ayri "IY 1.5 Ust" kanali (@ilkyarigol). Kendi botunun anahtari
+        # (IYGOL_BOT_TOKEN) yoksa Oto-BOT'un botu kullanilir; kanalda mesajlar
+        # kanal adiyla gorunur, bu botun kanalda yonetici olmasi yeterli.
+        self.iy_token = (os.environ.get("IYGOL_BOT_TOKEN", "").strip()
+                         or os.environ.get("TELEGRAM_BOT_TOKEN", "").strip())
         self.iy_chat = os.environ.get("IYGOL_CHAT", "").strip() or "@ilkyarigol"
 
     def _iy_gonder(self, metin, yanit=None):
