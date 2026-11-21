@@ -82,10 +82,12 @@
      "dk": 45,
      "xg": 0.85,
      "isb": 5.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "_ozet_dk": 20,
    "_ozet_gol": 0,
    "gol_gorulen": {
@@ -158,7 +160,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 24
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 21,
+   "ilk_gol_dk_kesin": true
   },
   "Cxt0z3Dk": {
    "bahis": {},
@@ -511,10 +521,12 @@
      "dk": 45,
      "xg": 2.07,
      "isb": 4.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 2,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 18
    },
@@ -599,10 +611,12 @@
      "dk": 45,
      "xg": 0.79,
      "isb": 3.0,
-     "buy": 1.0
+     "buy": 1.0,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "_ozet_dk": 20,
    "_ozet_gol": 0,
    "iy": [
@@ -770,10 +784,12 @@
      "dk": 45,
      "xg": 2.26,
      "isb": 5.0,
-     "buy": 3.0
+     "buy": 3.0,
+     "ms": 3,
+     "y2": 1
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 47,
     "2": 47
@@ -953,10 +969,12 @@
      "dk": 45,
      "xg": 2.02,
      "isb": 4.0,
-     "buy": 2.0
+     "buy": 2.0,
+     "ms": 2,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 9,
     "2": 21
@@ -1128,6 +1146,12 @@
      "olcum": {
       "20": {
        "dk": 20,
+       "xg": 0.13,
+       "isb": 1.0,
+       "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
        "xg": 0.13,
        "isb": 1.0,
        "buy": 0.0
@@ -1356,10 +1380,12 @@
      "dk": 45,
      "xg": null,
      "isb": 1.0,
-     "buy": null
+     "buy": null,
+     "ms": 1,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 13
    },
@@ -1727,6 +1753,12 @@
        "xg": 0.27,
        "isb": 1.0,
        "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.27,
+       "isb": 1.0,
+       "buy": 0.0
       }
      }
     }
@@ -1742,6 +1774,12 @@
      "olcum": {
       "20": {
        "dk": 20,
+       "xg": 0.03,
+       "isb": 1.0,
+       "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
        "xg": 0.03,
        "isb": 1.0,
        "buy": 0.0
@@ -2063,6 +2101,12 @@
        "xg": 0.44,
        "isb": 1.0,
        "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.47,
+       "isb": 1.0,
+       "buy": 0.0
       }
      }
     }
@@ -2143,10 +2187,12 @@
      "dk": 45,
      "xg": null,
      "isb": 4.0,
-     "buy": null
+     "buy": null,
+     "ms": 3,
+     "y2": 3
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "iy": [
     0,
     0
@@ -2461,13 +2507,14 @@
   "15:00": 1205,
   "15:30": 1208,
   "16:00": 1217,
-  "17:00": 1239
+  "17:00": 1239,
+  "17:30": 1246
  },
  "liste_son": {
   "MXWPYY3L": "once",
   "viCcmYIE": "once",
   "AwZUUP2m": "once",
-  "vBdxJ5Oh": "2y",
+  "vBdxJ5Oh": "bitti",
   "Cxt0z3Dk": "once",
   "SSCCdgUi": "once",
   "K2q8Ytr2": "once",
@@ -2476,7 +2523,7 @@
   "Awaw4CfB": "2y",
   "ttt3KXvh": "2y",
   "EZmHdUno": "once",
-  "MuVKeqEE": "2y",
+  "MuVKeqEE": "bitti",
   "0lPbl16l": "once",
   "YufEcSWp": "2y",
   "rT6S6W9b": "once",
@@ -2519,7 +2566,8 @@
  "iy_slot": {
   "15:30": 6,
   "16:00": 7,
-  "17:00": 9
+  "17:00": 9,
+  "17:30": 10
  },
  "liste_kazanan": {
   "0lsX9ji2": [
