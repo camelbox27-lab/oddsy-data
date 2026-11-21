@@ -2228,7 +2228,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 41
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 38,
+   "ilk_gol_dk_kesin": true
   },
   "SY3ztq5k": {
    "bahis": {},
@@ -2698,7 +2706,9 @@
   "Awaw4CfB": [
    "ust25"
   ],
-  "ttt3KXvh": [],
+  "ttt3KXvh": [
+   "ust25"
+  ],
   "0KJkosFG": [],
   "xO5dnHRG": [
    "iy15"
