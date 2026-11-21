@@ -8,9 +8,11 @@ kodu Flashscore'un kodu.
 KURALLAR (hepsi ayni maca ayri ayri uygulanabilir). Oran sarti YALNIZCA
 kural 1'de var; 2-3-4 orandan bagimsiz, butun maclara uygulanir.
   1) İY 0.5 Üst  -- beraberlik orani TAM OLARAK 3.50 4.00 4.10 4.33 4.50
-                    4.75 olan maclarda, 2-3. dakikada, skor 0-0 iken.
-                    Gol olmadigi surece 25. dakikaya kadar gonderilebilir
-                    (tarama gec baslarsa); 25'ten sonra gonderilmez.
+                    4.75 olan maclarda, 20. dakikada skor hala 0-0 ise
+                    (erken gonderimde oran cok dusuk). 20'den once gol
+                    olduysa mac pas gecilir. Gondermeden once mac ozetinden
+                    golun atilmadigi dogrulanir. Tarama gec baslarsa 25.
+                    dakikaya kadar gonderilebilir; 25'ten sonra gonderilmez.
   2) İY 1.5 Üst  -- ilk 5 dakikada gol olmussa; hemen degil, 20. dakikada
                     skor hala tek golse gonderilir (erken gonderimde oran
                     1.15-1.20 oluyor). 20'den once 2. gol gelirse gonderilmez.
@@ -89,7 +91,7 @@ BERABERLIK = [3.50, 4.00, 4.10, 4.33, 4.50, 4.75]
 
 from ligler import lig_uygun     # noqa: E402,F401  (canli + mac oncesi ortak)
 
-R1_BAS, R1_SON = 2, 25       # İY 0.5 Üst gonderim penceresi (dk)
+R1_BAS, R1_SON = 20, 25      # İY 0.5 Üst gonderim penceresi (dk)
 R2_BEKLE = 20                # kural 2 tahmini en erken bu dakikada (hala tek golse) gider
 R2_SON = 5                   # ilk gol en gec bu dakikada ATILMIS olmali (gercek dakika;
                              # tarama golu sonradan, ornegin 20'de gorse de tahmin gider)
@@ -503,7 +505,8 @@ class Tarayici:
 
             # Kural 1-3: yalnizca ilk yarida
             if (toplam == 0 and R1_BAS <= dk <= R1_SON
-                    and self.adaylar[kod]["beraberlik"] in BERABERLIK):
+                    and self.adaylar[kod]["beraberlik"] in BERABERLIK
+                    and "iy05" not in st["bahis"] and self._ozet_gol(kod, st, dk) in (None, 0)):
                 self.ac(kod, "iy05", dk, (ag, ah))
             if (toplam == 1 and st.get("ilk_gol_dk", 99) <= R2_SON and dk >= R2_BEKLE
                     and "iy15" not in st["bahis"] and self._tek_gol_mu(kod, st, dk)):
@@ -534,24 +537,30 @@ class Tarayici:
         elif f == "bitti":
             self.kapat(kod, "ms45", "kaybetti", (ag, ah), "Maç sonu")
 
-    def _tek_gol_mu(self, kod, st, dk):
-        """Skor akisi gec guncellenebilir; mac ozetinde ilk yarida ikinci gol
-        varsa tahmin gonderilmez. Ozet alinamazsa (dakikada bir denenir)
-        skor akisina guvenilir."""
+    def _ozet_gol(self, kod, st, dk):
+        """Mac ozetindeki ilk yari gol sayisi (dakikada en fazla bir istek).
+        Skor akisi gec guncellenebildigi icin tahmin gondermeden once bakilir.
+        Ozet alinamazsa None (skor akisina guvenilir)."""
         if self.kaynak is None:
-            return True
+            return None
         if st.get("_ozet_dk") == dk:
-            return st.get("_ozet_tek", True)
+            return st.get("_ozet_gol")
         st["_ozet_dk"] = dk
         try:
-            tek = len(ilk_yari_gol_dakikalari(self.kaynak, kod)) < 2
+            n = len(ilk_yari_gol_dakikalari(self.kaynak, kod))
         except Exception as e:
             print(f"[gol] {kod} ozet kontrol edilemedi: {e}", flush=True)
-            tek = True
-        if not tek:
+            n = None
+        st["_ozet_gol"] = n
+        return n
+
+    def _tek_gol_mu(self, kod, st, dk):
+        """IY 1.5 icin: ozette ilk yarida ikinci gol yoksa True."""
+        n = self._ozet_gol(kod, st, dk)
+        if n is not None and n >= 2:
             print(f"[gol] {kod} ozette 2. gol var (akis henuz gostermiyor), IY 1.5 gonderilmedi", flush=True)
-        st["_ozet_tek"] = tek
-        return tek
+            return False
+        return True
 
     def _gol_dk(self, kod, st, sira, dk, onceki=None):
         """(sira. golun dakikasi, kesin_mi).
