@@ -840,10 +840,25 @@
        "isb": 5.0,
        "buy": null
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 6.0,
+     "buy": null
     }
    },
-   "son": "1y"
+   "son": "da",
+   "iy": [
+    0,
+    0
+   ]
   },
   "MuVKeqEE": {
    "bahis": {},
@@ -2585,7 +2600,7 @@
   "Ch0xovNM": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "6ecUn0hA": {
    "bahis": {},
@@ -2977,7 +2992,7 @@
   "fyblPmIa": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "GOX8qI3E": {
    "bahis": {},
@@ -4911,7 +4926,7 @@
   "0lsX9ji2": "bitti",
   "Awaw4CfB": "bitti",
   "ttt3KXvh": "bitti",
-  "EZmHdUno": "1y",
+  "EZmHdUno": "da",
   "MuVKeqEE": "bitti",
   "0lPbl16l": "2y",
   "YufEcSWp": "bitti",
@@ -4923,14 +4938,14 @@
   "Uy1Bqs1k": "2y",
   "SEeHVy4l": "2y",
   "4EukpyJs": "2y",
-  "Ch0xovNM": "once",
+  "Ch0xovNM": "1y",
   "6ecUn0hA": "once",
   "Khzsze2n": "once",
   "WSisyiXN": "bitti",
   "dYHdwsEi": "bitti",
   "tMNkSG5j": "once",
   "AwXJXxrT": "once",
-  "fyblPmIa": "once",
+  "fyblPmIa": "1y",
   "CxCKSaCk": "1y",
   "YTHtzrKF": "once",
   "Mm6SNqMa": "once",
@@ -5009,10 +5024,16 @@
   "OI6Q108d": [
    "ust25"
   ],
-  "MXWPYY3L": [],
+  "MXWPYY3L": [
+   "ust25"
+  ],
   "EZmHdUno": [],
-  "CxCKSaCk": [],
+  "CxCKSaCk": [
+   "ust25"
+  ],
   "dp4tjaSi": [],
-  "tpbBMa9b": []
+  "tpbBMa9b": [],
+  "Ch0xovNM": [],
+  "fyblPmIa": []
  }
 }
