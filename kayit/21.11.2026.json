@@ -81,7 +81,7 @@
    },
    "gol_deneme": {
     "1": 3,
-    "2": 5
+    "2": 6
    },
    "ilk_gol_dk": 11,
    "ilk_gol_dk_kesin": true,
@@ -1450,7 +1450,8 @@
    },
    "ilk_gol_dk": 20,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 34
+   "iki_gol_dk": 34,
+   "iki_gol_dk_kesin": true
   },
   "Kr9Phov3": {
    "bahis": {},
@@ -3414,6 +3415,12 @@
       "20": {
        "dk": 20,
        "xg": 0.4,
+       "isb": 2.0,
+       "buy": 0.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.45,
        "isb": 2.0,
        "buy": 0.0
       }
