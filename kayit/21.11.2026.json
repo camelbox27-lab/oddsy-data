@@ -444,7 +444,7 @@
   "rucjTxjD": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "zFgrVbL0": {
    "bahis": {},
@@ -542,9 +542,16 @@
    "son": "once"
   },
   "SKb0CtxJ": {
-   "bahis": {},
+   "bahis": {
+    "iy05": {
+     "id": 1203,
+     "durum": "acik",
+     "dk": 2,
+     "skor": "0-0"
+    }
+   },
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "zRyBEB1k": {
    "bahis": {},
