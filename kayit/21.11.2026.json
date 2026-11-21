@@ -39,7 +39,7 @@
     "1": 11
    },
    "gol_deneme": {
-    "1": 1
+    "1": 2
    },
    "ilk_gol_dk": 11
   },
@@ -224,7 +224,7 @@
    },
    "gol_deneme": {
     "1": 8,
-    "2": 1
+    "2": 3
    },
    "ilk_gol_dk": 21,
    "ilk_gol_dk_kesin": true,
@@ -711,17 +711,28 @@
    "son": "1y"
   },
   "GOyJyOMr": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 1264,
+     "durum": "acik",
+     "dk": 14,
+     "skor": "1-1"
+    }
+   },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 6
+    "1": 6,
+    "2": 14
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 5,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 13,
+   "iki_gol_dk_kesin": true
   },
   "KhjmspaL": {
    "bahis": {},
@@ -883,17 +894,28 @@
    ]
   },
   "ANn91yYI": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 1265,
+     "durum": "acik",
+     "dk": 15,
+     "skor": "1-1"
+    }
+   },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 10
+    "1": 10,
+    "2": 15
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 7,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 12,
+   "iki_gol_dk_kesin": true
   },
   "rT6S6W9b": {
    "bahis": {},
@@ -922,7 +944,7 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 4
+    "2": 6
    },
    "ilk_gol_dk": 5,
    "ilk_gol_dk_kesin": true,
@@ -1244,7 +1266,15 @@
   "jX2xJbKr": {
    "bahis": {},
    "gozlem": {},
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 15
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 11,
+   "ilk_gol_dk_kesin": true
   },
   "dCEiFGJ7": {
    "bahis": {},
@@ -2212,17 +2242,28 @@
    "ilk_gol_dk_kesin": true
   },
   "UFgCP303": {
-   "bahis": {},
+   "bahis": {
+    "iy25": {
+     "id": 1266,
+     "durum": "acik",
+     "dk": 14,
+     "skor": "0-2"
+    }
+   },
    "gozlem": {},
    "son": "1y",
    "gol_gorulen": {
-    "1": 12
+    "1": 12,
+    "2": 14
    },
    "gol_deneme": {
-    "1": 1
+    "1": 1,
+    "2": 1
    },
    "ilk_gol_dk": 8,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iki_gol_dk": 12,
+   "iki_gol_dk_kesin": true
   },
   "OI6Q108d": {
    "bahis": {},
