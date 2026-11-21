@@ -33,10 +33,12 @@
      "dk": 45,
      "xg": 1.11,
      "isb": 4.0,
-     "buy": 0.0
+     "buy": 0.0,
+     "ms": 4,
+     "y2": 2
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 22,
     "2": 32
@@ -1491,10 +1493,12 @@
      "dk": 45,
      "xg": 3.42,
      "isb": 9.0,
-     "buy": 5.0
+     "buy": 5.0,
+     "ms": 4,
+     "y2": 0
     }
    },
-   "son": "2y",
+   "son": "bitti",
    "gol_gorulen": {
     "1": 9,
     "2": 19
@@ -2865,7 +2869,7 @@
   "tMNkSG5j": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "AwXJXxrT": {
    "bahis": {},
@@ -3572,7 +3576,7 @@
   "Mm6SNqMa": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "EcdJKwvB": {
    "bahis": {
@@ -3952,7 +3956,7 @@
   "8UW4zgO8": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "pvvYQuiC": {
    "bahis": {},
@@ -4427,12 +4431,12 @@
   "Yyn2xsCs": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "vHcHYbB6": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "6kpAzLtf": {
    "bahis": {},
@@ -4898,7 +4902,7 @@
   "2kLfT5Lq": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   },
   "tv9035Y9": {
    "bahis": {},
@@ -5329,7 +5333,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -5354,7 +5358,7 @@
   "20:00": 1325
  },
  "liste_son": {
-  "MXWPYY3L": "2y",
+  "MXWPYY3L": "bitti",
   "viCcmYIE": "once",
   "AwZUUP2m": "once",
   "vBdxJ5Oh": "bitti",
@@ -5382,12 +5386,12 @@
   "Khzsze2n": "once",
   "WSisyiXN": "bitti",
   "dYHdwsEi": "bitti",
-  "tMNkSG5j": "once",
+  "tMNkSG5j": "1y",
   "AwXJXxrT": "once",
   "fyblPmIa": "1y",
   "CxCKSaCk": "2y",
   "YTHtzrKF": "once",
-  "Mm6SNqMa": "once",
+  "Mm6SNqMa": "1y",
   "tpbBMa9b": "da",
   "4pEw80f5": "once",
   "Mw26BMo2": "once",
@@ -5396,14 +5400,14 @@
   "KMHn9rGM": "once",
   "xtcKNsVF": "once",
   "S2MjMy7d": "bitti",
-  "Yyn2xsCs": "once",
+  "Yyn2xsCs": "1y",
   "6kpAzLtf": "once",
   "AFQeBOjU": "once",
   "SY3ztq5k": "bitti",
   "hzQmRLNp": "bitti",
   "0KJkosFG": "bitti",
   "xO5dnHRG": "bitti",
-  "dp4tjaSi": "da",
+  "dp4tjaSi": "2y",
   "IsiWzAPN": "once"
  },
  "iy_slot": {
@@ -5481,6 +5485,9 @@
   "Ch0xovNM": [
    "iy15"
   ],
-  "fyblPmIa": []
+  "fyblPmIa": [],
+  "tMNkSG5j": [],
+  "Mm6SNqMa": [],
+  "Yyn2xsCs": []
  }
 }
