@@ -11,6 +11,12 @@
        "xg": 0.51,
        "isb": 3.0,
        "buy": 1.0
+      },
+      "25": {
+       "dk": 25,
+       "xg": 0.56,
+       "isb": 3.0,
+       "buy": 1.0
       }
      }
     }
@@ -4442,6 +4448,12 @@
        "xg": null,
        "isb": 2.0,
        "buy": null
+      },
+      "25": {
+       "dk": 25,
+       "xg": null,
+       "isb": 3.0,
+       "buy": null
       }
      }
     }
@@ -5320,7 +5332,8 @@
    },
    "ilk_gol_dk": 11,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 32
+   "iki_gol_dk": 32,
+   "iki_gol_dk_kesin": true
   },
   "hCN8cNbc": {
    "bahis": {
