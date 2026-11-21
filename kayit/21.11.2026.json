@@ -215,9 +215,10 @@
     "1": 21
    },
    "gol_deneme": {
-    "1": 7
+    "1": 8
    },
-   "ilk_gol_dk": 21
+   "ilk_gol_dk": 21,
+   "ilk_gol_dk_kesin": true
   },
   "SSCCdgUi": {
    "bahis": {},
