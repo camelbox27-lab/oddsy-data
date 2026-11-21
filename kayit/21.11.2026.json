@@ -3826,7 +3826,18 @@
   },
   "OhuOGjmL": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.8,
+       "isb": 3.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "CEHsMoP0": {
