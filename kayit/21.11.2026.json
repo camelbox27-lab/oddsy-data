@@ -81,11 +81,12 @@
    },
    "gol_deneme": {
     "1": 3,
-    "2": 7
+    "2": 8
    },
    "ilk_gol_dk": 11,
    "ilk_gol_dk_kesin": true,
-   "iki_gol_dk": 36
+   "iki_gol_dk": 36,
+   "iki_gol_dk_kesin": true
   },
   "6g2KDxyB": {
    "bahis": {},
