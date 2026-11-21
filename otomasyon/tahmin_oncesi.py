@@ -44,6 +44,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import canli_tarama                  # noqa: E402  (kayit dali + skor yardimcilari)
 import kupon as kupon_modulu         # noqa: E402
 import surpriz                       # noqa: E402
+import iy_kanal                      # noqa: E402
 from ligler import lig_uygun         # noqa: E402
 import tg                            # noqa: E402
 import tr_isim                       # noqa: E402
@@ -513,6 +514,9 @@ def main():
         tg.chat_adaylari(token)
         return 1
 
+    if os.environ.get("IY_TEST") == "1":
+        return iy_kanal.test()
+
     gun = dt.date.today()
     t = tercihler(gun)
     if t is None:
@@ -666,6 +670,12 @@ def main():
         print(f"HATA: {e}\nGirilen TELEGRAM_CHAT_ID_2 calismadi. Adaylar:")
         tg.chat_adaylari(token)
         return 1
+
+    # @ilkyarigol kanali: dunun IY 1.5 Ust sonuc raporu (bir kez)
+    try:
+        iy_kanal.rapor(dun, _skorlar)
+    except Exception as e:
+        print(f"UYARI: IY kanali raporu gonderilemedi: {e}", flush=True)
 
     # 3) Yarin sonuclandirilabilsin diye arsivle
     try:
