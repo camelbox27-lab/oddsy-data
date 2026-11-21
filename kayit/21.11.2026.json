@@ -1065,7 +1065,8 @@
   }
  },
  "liste_slot": {
-  "15:00": 1205
+  "15:00": 1205,
+  "15:30": 1208
  },
  "liste_son": {
   "MXWPYY3L": "once",
@@ -1120,7 +1121,9 @@
   "dp4tjaSi": "once",
   "IsiWzAPN": "once"
  },
- "iy_slot": {},
+ "iy_slot": {
+  "15:30": 6
+ },
  "liste_kazanan": {
   "0lsX9ji2": []
  }
