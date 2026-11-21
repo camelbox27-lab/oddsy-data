@@ -3837,7 +3837,7 @@
     },
     "ms45": {
      "id": 1355,
-     "durum": "acik",
+     "durum": "kazandi",
      "dk": null,
      "skor": "1-2"
     }
@@ -6392,7 +6392,7 @@
   "IsiWzAPN": {
    "bahis": {},
    "gozlem": {},
-   "son": "once"
+   "son": "1y"
   }
  },
  "liste_slot": {
@@ -6464,7 +6464,7 @@
   "0KJkosFG": "bitti",
   "xO5dnHRG": "bitti",
   "dp4tjaSi": "bitti",
-  "IsiWzAPN": "once"
+  "IsiWzAPN": "1y"
  },
  "iy_slot": {
   "15:30": 6,
@@ -6567,6 +6567,7 @@
   "KMHn9rGM": [
    "ust25"
   ],
-  "4pEw80f5": []
+  "4pEw80f5": [],
+  "IsiWzAPN": []
  }
 }
