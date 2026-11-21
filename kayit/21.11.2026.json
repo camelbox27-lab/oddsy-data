@@ -85,7 +85,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "_ozet_dk": 20,
    "_ozet_gol": 0,
    "gol_gorulen": {
@@ -408,7 +408,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 18
    },
@@ -496,7 +496,7 @@
      "buy": 1.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "_ozet_dk": 20,
    "_ozet_gol": 0,
    "iy": [
@@ -541,7 +541,7 @@
      "buy": 2.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -584,7 +584,7 @@
      "buy": 0.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -667,7 +667,7 @@
      "buy": 3.0
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 47,
     "2": 47
@@ -1108,7 +1108,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 23,
     "2": 36
@@ -1140,7 +1140,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 13
    },
@@ -1191,7 +1191,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1235,7 +1235,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 28,
     "2": 40
@@ -1652,7 +1652,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 35
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 33,
+   "ilk_gol_dk_kesin": true
   },
   "AFQeBOjU": {
    "bahis": {},
@@ -1751,7 +1759,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "iy": [
     0,
     0
@@ -1778,7 +1786,7 @@
      "buy": null
     }
    },
-   "son": "da",
+   "son": "2y",
    "gol_gorulen": {
     "1": 6,
     "2": 31
@@ -2013,7 +2021,7 @@
   "MXWPYY3L": "once",
   "viCcmYIE": "once",
   "AwZUUP2m": "once",
-  "vBdxJ5Oh": "da",
+  "vBdxJ5Oh": "2y",
   "Cxt0z3Dk": "once",
   "SSCCdgUi": "once",
   "K2q8Ytr2": "once",
@@ -2022,9 +2030,9 @@
   "Awaw4CfB": "1y",
   "ttt3KXvh": "1y",
   "EZmHdUno": "once",
-  "MuVKeqEE": "da",
+  "MuVKeqEE": "2y",
   "0lPbl16l": "once",
-  "YufEcSWp": "da",
+  "YufEcSWp": "2y",
   "rT6S6W9b": "once",
   "Q72FHmOG": "once",
   "netqbtGr": "da",
