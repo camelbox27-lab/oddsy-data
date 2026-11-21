@@ -588,13 +588,14 @@
    },
    "gol_deneme": {
     "1": 1,
-    "2": 7
+    "2": 8
    },
    "ilk_gol_dk": 4,
    "ilk_gol_dk_kesin": true,
    "_ozet_dk": 20,
    "_ozet_gol": 1,
-   "iki_gol_dk": 25
+   "iki_gol_dk": 25,
+   "iki_gol_dk_kesin": true
   },
   "0bIo5iDc": {
    "bahis": {
