@@ -325,12 +325,34 @@
   },
   "ttt3KXvh": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 21,
+       "xg": null,
+       "isb": 2.0,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "4tdV5YPb": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": null,
+       "isb": 3.0,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "EZmHdUno": {
@@ -633,7 +655,7 @@
    "bahis": {
     "iy05": {
      "id": 1213,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 20,
      "skor": "0-0"
     }
@@ -659,12 +681,27 @@
        "isb": 3.0,
        "buy": 1.0
       }
-     }
+     },
+     "sonuc": false
+    },
+    "da": {
+     "iy": [
+      0,
+      0
+     ],
+     "dk": 45,
+     "xg": 1.48,
+     "isb": 5.0,
+     "buy": 2.0
     }
    },
-   "son": "1y",
+   "son": "da",
    "_ozet_dk": 20,
-   "_ozet_gol": 0
+   "_ozet_gol": 0,
+   "iy": [
+    0,
+    0
+   ]
   },
   "KOIVW3Hq": {
    "bahis": {},
@@ -718,10 +755,27 @@
      "durum": "kazandi",
      "dk": 20,
      "skor": "0-1"
+    },
+    "ms45": {
+     "id": 1227,
+     "durum": "acik",
+     "dk": null,
+     "skor": "2-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      1
+     ],
+     "dk": 45,
+     "xg": 2.14,
+     "isb": 3.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 6,
     "2": 25
@@ -735,19 +789,34 @@
    "_ozet_dk": 20,
    "_ozet_gol": 1,
    "iki_gol_dk": 25,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    1
+   ]
   },
   "0bIo5iDc": {
    "bahis": {
     "iy25": {
      "id": 1215,
-     "durum": "acik",
+     "durum": "kaybetti",
      "dk": 21,
      "skor": "2-0"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      2,
+      0
+     ],
+     "dk": 45,
+     "xg": 2.02,
+     "isb": 4.0,
+     "buy": 2.0
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 9,
     "2": 21
@@ -759,7 +828,11 @@
    "ilk_gol_dk": 6,
    "ilk_gol_dk_kesin": true,
    "iki_gol_dk": 18,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    2,
+    0
+   ]
   },
   "pYz5y7zA": {
    "bahis": {},
@@ -850,7 +923,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 23
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 21,
+   "ilk_gol_dk_kesin": true
   },
   "xlkjopk2": {
    "bahis": {},
@@ -1013,8 +1094,19 @@
   },
   "SljzXKjl": {
    "bahis": {},
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      1
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 1.0,
+     "buy": null
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 13
    },
@@ -1022,7 +1114,11 @@
     "1": 1
    },
    "ilk_gol_dk": 10,
-   "ilk_gol_dk_kesin": true
+   "ilk_gol_dk_kesin": true,
+   "iy": [
+    0,
+    1
+   ]
   },
   "WI44xsTQ": {
    "bahis": {},
@@ -1624,8 +1720,19 @@
      "skor": "0-1"
     }
    },
-   "gozlem": {},
-   "son": "1y",
+   "gozlem": {
+    "da": {
+     "iy": [
+      0,
+      2
+     ],
+     "dk": 45,
+     "xg": null,
+     "isb": 6.0,
+     "buy": null
+    }
+   },
+   "son": "da",
    "gol_gorulen": {
     "1": 6,
     "2": 31
@@ -1639,7 +1746,11 @@
    "_ozet_dk": 20,
    "_ozet_gol": 1,
    "iki_gol_dk": 28,
-   "iki_gol_dk_kesin": true
+   "iki_gol_dk_kesin": true,
+   "iy": [
+    0,
+    2
+   ]
   },
   "KtIZlPFi": {
    "bahis": {},
@@ -1685,7 +1796,15 @@
      }
     }
    },
-   "son": "1y"
+   "son": "1y",
+   "gol_gorulen": {
+    "1": 24
+   },
+   "gol_deneme": {
+    "1": 1
+   },
+   "ilk_gol_dk": 19,
+   "ilk_gol_dk_kesin": true
   },
   "0KJkosFG": {
    "bahis": {
@@ -1862,7 +1981,7 @@
   "YufEcSWp": "da",
   "rT6S6W9b": "once",
   "Q72FHmOG": "once",
-  "netqbtGr": "1y",
+  "netqbtGr": "da",
   "SlMwVsnd": "once",
   "S8CXjP8F": "once",
   "Uy1Bqs1k": "once",
