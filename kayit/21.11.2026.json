@@ -787,7 +787,18 @@
   },
   "EZmHdUno": {
    "bahis": {},
-   "gozlem": {},
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": null,
+       "isb": 4.0,
+       "buy": null
+      }
+     }
+    }
+   },
    "son": "1y"
   },
   "MuVKeqEE": {
@@ -3819,9 +3830,29 @@
    "son": "1y"
   },
   "CEHsMoP0": {
-   "bahis": {},
-   "gozlem": {},
-   "son": "1y"
+   "bahis": {
+    "iy05": {
+     "id": 1294,
+     "durum": "acik",
+     "dk": 20,
+     "skor": "0-0"
+    }
+   },
+   "gozlem": {
+    "k5": {
+     "olcum": {
+      "20": {
+       "dk": 20,
+       "xg": 0.0,
+       "isb": 0.0,
+       "buy": 0.0
+      }
+     }
+    }
+   },
+   "son": "1y",
+   "_ozet_dk": 20,
+   "_ozet_gol": 0
   },
   "jRRGICI8": {
    "bahis": {},
